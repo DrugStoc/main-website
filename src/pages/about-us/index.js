@@ -1,0 +1,432 @@
+import React from 'react';
+import Link from 'next/link';
+import styled from 'styled-components';
+
+import AppCard from 'components/app-card';
+import { teams, investors } from './data';
+import { CoreValueSection } from './components/core-values';
+
+const AboutUs = () => {
+  return (
+    <div>
+      <Header>
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-6">
+              <h1>Why DrugStoc?</h1>
+              <h5>
+                Access to genuine Drugs in Emerging economies is broken,
+                DrugStoc wants to fix it.{' '}
+              </h5>
+              <p>
+                Africa records, on average, 100,000 deaths that arise from
+                <br />
+                counterfeit drug ailments annually, and Nigeria is responsible{' '}
+                <br />
+                for a large portion of that.
+              </p>
+              <Link href="/">
+                <button className="btn btn-drug-stoc">LEARN MORE</button>
+              </Link>
+              <p className="throphy">
+                <img
+                  src="images/about-us/throphy.svg"
+                  alt=""
+                  width="30"
+                  className="mr-2"
+                />{' '}
+                Winner, Nigeria Healthcare Excellence Awards
+              </p>
+            </div>
+          </div>
+          <img
+            src="/images/about-us/banner.png"
+            alt="Picture of the author"
+            loading="eager"
+            className="banner d-lg-block d-none"
+          />
+        </div>
+        <img
+          src="/images/landing/banner-dots.png"
+          alt="Banner dots"
+          aria-hidden="true"
+          className="header__banner-dots-right d-lg-block d-none"
+        />
+      </Header>
+      <WhatWeDo>
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-5">
+              <div className="card mb-5 mb-lg-0">
+                <div className="card-body">
+                  <h4>Our mission</h4>
+                  <img src="/images/about-us/rocket.svg" alt="" />
+                  <p>
+                    To Transform the Way Health Providers Interface With and
+                    Utilize the Pharmaceutical Market
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-5">
+              <div className="card">
+                <div className="card-body">
+                  <h4>Our Vision</h4>
+                  <img src="/images/about-us/binoculars.svg" alt="" />
+                  <p>
+                    By 2025, DrugStoc will be the largest last mile distributor
+                    of health commodities in Nigeria
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </WhatWeDo>
+      <WhatWeDo background="#fff">
+        <div className="container">
+          <div className="row what-we-do__intro justify-content-between align-items-center">
+            <div className="col-lg-6 pr-lg-0 mb-4 mb-lg-0">
+              <img src="/images/about-us/what-we-do.png" alt="What we do" />
+            </div>
+
+            <div className="col-lg-5 pl-lg-0">
+              <h3>What we do?</h3>
+              <p>
+                At DrugStoc, we combine the use of unmatched Pharma technology,
+                Analytics, Logistics, Supply Chain & Financing to unlock access
+                to medications in emerging Economies.
+              </p>
+              <br />
+              <p>
+                Today, we are the fastest growing tech enabled procurement
+                partner for Pharmaceutical & Consumer Health companies reaching
+                more than 3000 Pharmacies, Retailers, Hospitals, Clinics and
+                Medical Practitioners across 50 cities in Nigeria.
+              </p>
+              <Link href="/join" passHref>
+                <button className="btn btn-drug-stoc">JOIN US</button>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </WhatWeDo>
+      <CoreValueSection />
+      <TeamSection>
+        <div className="container">
+          <h2>Our Team</h2>
+          <h5>
+            We’re a team of Doctors, Entreprenuers, Pharmacists, Engineers,
+            Financial analysts and <br /> Innovators on a misson to healthcare
+          </h5>
+          <div className="row">
+            {teams.map(team => (
+              <div className="col-lg-3 col-md-4 col-6" key={team.image}>
+                <div className="team__card">
+                  <img src={team.image} alt={team.name} />
+                  <h4>{team.name}</h4>
+                  <p>{team.role}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </TeamSection>
+
+      <InvestSection>
+        <div className="container">
+          <h2>Who's backing us?</h2>
+          <h5>
+            DrugStoc is backed by some of the tech world’s most experienced and
+            knowledgable <br /> investors in the healthcare sector
+          </h5>
+          <div className="row">
+            {investors.map(investor => (
+              <div className="col-lg-3 col-md-4 col-6" key={investor.src}>
+                <div className="investor__card">
+                  <img src={investor.src} alt={investor.alt} />
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+        <TeamSection>
+          <div className="container">
+            <h2 className="blue">
+              Very ambitious? Passionate about Healthcare?
+            </h2>
+            <h5 className="mt-4 ">
+              Come work with us and do meaningful work with kind and smart
+              colleagues who’re passionate <br /> about changing the health care
+              systems across Africa{' '}
+            </h5>
+
+            <Link href="/careers">
+              <a className="btn btn-drug-stoc mt-4 m-auto text-center">
+                VISIT CAREERS PAGE
+              </a>
+            </Link>
+          </div>
+        </TeamSection>
+      </InvestSection>
+
+      <AppCard />
+    </div>
+  );
+};
+
+const Header = styled.header`
+  height: 710px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  background: #e2eef6;
+  @media (max-width: 992px) {
+    min-height: 600px;
+    display: block;
+    padding: 8rem 0 0;
+  }
+
+  h1 {
+    font-family: var(--font-primary);
+    font-weight: bold;
+    color: var(--text-black);
+    font-size: calc(var(--font-h1) + 2px);
+    line-height: 1.4;
+    margin-bottom: 1.8rem;
+
+    span {
+      color: var(--primary-green);
+    }
+  }
+  h5 {
+    font-family: var(--font-primary);
+    font-size: calc(var(--font-h4) + 1px);
+    color: #272d4e;
+    line-height: 32px;
+    margin-bottom: 15px;
+  }
+  p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: var(--font-h5);
+    color: var(--text-black);
+    line-height: 1.7;
+    &.throphy {
+      font-size: 14px;
+      position: relative;
+      top: 18%;
+      @media (max-width: 992px) {
+        margin-top: 3rem;
+        top: 0;
+      }
+    }
+  }
+  .banner {
+    width: 47%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    max-width: 50%;
+
+    height: calc(100% - 81px);
+
+    object-fit: cover;
+  }
+
+  button {
+    margin-top: 1.2rem;
+    padding: 13px 35px;
+    font-weight: 500;
+  }
+
+  .iso-section {
+    width: 95%;
+    margin-top: 3.1rem;
+  }
+
+  .header__banner-dots {
+    &-right {
+      right: 70px;
+      position: absolute;
+      height: 251px;
+      bottom: -170px;
+      z-index: 1;
+    }
+  }
+`;
+
+const WhatWeDo = styled.section`
+  padding: 8rem 0;
+  background: ${({ background }) =>
+    background || 'linear-gradient(171.41deg, #fcfefe 16.7%, #fcf9f5 84.35%)'};
+  @media (max-width: 992px) {
+    padding: 4rem 0;
+  }
+  .card {
+    background: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    border: none;
+    text-align: center;
+    padding: 2rem;
+    h4 {
+      font-style: normal;
+      font-weight: bold;
+      font-size: calc(var(--font-p) + 2px);
+      line-height: 1.7;
+      font-family: var(--font-primary);
+      text-align: center;
+      color: #000;
+    }
+    img {
+      height: 74px;
+      margin: 0.8rem 0;
+    }
+
+    p {
+      font-style: normal;
+      font-weight: normal;
+      font-size: calc(var(--font-p) + 3px);
+      /* or 32px */
+      text-align: center;
+      line-height: 1.78;
+      color: var(--text-black);
+    }
+  }
+  .what-we-do__intro {
+    @media (max-width: 992px) {
+      br {
+        display: none;
+      }
+    }
+    img {
+      width: 100%;
+      height: 430px;
+      object-fit: cover;
+      border-radius: 18px;
+    }
+
+    p {
+      font-style: normal;
+      font-weight: normal;
+      font-size: calc(var(--font-p) + 2px);
+      line-height: 1.85;
+      /* or 32px */
+
+      color: var(--text-black);
+      &:first-child {
+        margin-bottom: 2rem;
+      }
+    }
+    button {
+      margin-top: 1.2rem;
+      padding: 13px 30px;
+    }
+    h3 {
+      font-style: normal;
+      font-weight: bold;
+      font-size: calc(var(--font-h2) + 1px);
+      line-height: 1.4;
+      font-family: var(--font-primary);
+      color: var(--text-black);
+      margin-bottom: 2rem;
+    }
+  }
+`;
+
+const TeamSection = styled.section`
+  margin-top: 8rem;
+
+  @media (max-width: 992px) {
+    margin-top: 4rem;
+    br {
+      display: none;
+    }
+  }
+
+  a.text-center {
+    width: fit-content;
+    margin: auto;
+    display: block;
+  }
+  h2 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: calc(var(--font-h2) + 3px);
+    line-height: 1.6;
+    font-family: var(--font-primary);
+    text-align: center;
+    color: #000;
+    &.blue {
+      color: var(--primary-blue);
+    }
+  }
+  h5 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: calc(var(--font-p) + 3px);
+    line-height: 1.7;
+    /* or 32px */
+    text-align: center;
+    color: var(--text-black);
+    margin-bottom: 3rem;
+  }
+  .team__card,
+  .investor__card {
+    h4 {
+      font-style: normal;
+      font-weight: 500;
+      font-size: calc(var(--font-p) + 2px);
+      /* or 32px */
+      text-align: center;
+      color: var(--text-black);
+      margin-bottom: 0.3rem;
+    }
+    p {
+      font-style: normal;
+      font-weight: normal;
+      font-size: calc(var(--font-p) + 0px);
+      /* or 32px */
+      text-align: center;
+      color: var(--text-black);
+      margin-bottom: 3rem;
+    }
+
+    img {
+      height: 120px;
+      width: 120px;
+      display: block;
+      margin: auto;
+      margin-bottom: 1.2rem;
+      @media (max-width: 992px) {
+        height: 100px;
+        width: 100px;
+      }
+    }
+  }
+
+  .investor__card {
+    img {
+      height: 53px;
+      width: 100%;
+      display: block;
+      margin: auto;
+      margin-bottom: 4rem;
+      @media (max-width: 992px) {
+        height: 34px !important;
+      }
+    }
+  }
+`;
+
+const InvestSection = styled(TeamSection)`
+  background: linear-gradient(
+    333.35deg,
+    #ffe3ca -10.45%,
+    rgba(255, 255, 255, 0.5) 91.81%
+  );
+  padding: 8rem 0;
+`;
+export default AboutUs;

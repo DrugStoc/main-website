@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/*!
+* EzeWholeSale (https://ezewholesale.com/)
+* Copyright 2020
+* Licensed under MIT
+*/
+@import 'base/base';
+
+/* ------------------------------- Crossplatform reset ------------------------------- */
+@import 'base/normalize';
+
+/* ------------------------------- Platfrom Base ------------------------------- */
+@import 'app';
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css');

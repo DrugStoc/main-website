@@ -1,0 +1,7 @@
+__tests__/
+serviceWorker.js
+etl/
+/node_modules
+/documentation
+/coverage
+/client-core/dist
