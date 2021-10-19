@@ -108,13 +108,15 @@ const Home = () => {
               <ISO className="iso-section" aria-hidden="true" data-aos="zoom-out-up" />
             </div>
           </div>
-          <div className="banner d-lg-block d-none" data-aos="zoom-out-up">
+          <div className="banner d-lg-block d-none">
             <Image
               src="/images/landing/banner.png"
               alt="Picture of the author"
               height={814}
               width={866.27}
               layout="intrinsic"
+              data-aos="fade-left"
+              data-aos-offset="0"
             />
           </div>
         </div>
@@ -156,7 +158,7 @@ const Home = () => {
                 className="d-block mb-3 mb-lg-0"
                 width="670"
                 height="562.9"
-                data-aos="zoom-in-up"
+                data-aos="fade-up"
 
               />
             </div>
@@ -168,22 +170,22 @@ const Home = () => {
                 products in one place.
               </p>
               <ul className="row">
-                <li className="col-lg-6 ">
+                <li className="col-lg-6 " data-aos="fade-right">
                   <p>Essential medicines</p>
                 </li>
-                <li className="col-lg-6 ">
+                <li className="col-lg-6 " data-aos="fade-right">
                   <p>Generics</p>
                 </li>
-                <li className="col-lg-6 ">
+                <li className="col-lg-6 " data-aos="fade-right">
                   <p>Specialty Drugs</p>
                 </li>
-                <li className="col-lg-6 ">
+                <li className="col-lg-6 " data-aos="fade-right">
                   <p>Medical consumables</p>
                 </li>
-                <li className="col-lg-6 ">
+                <li className="col-lg-6 " data-aos="fade-right">
                   <p>Rare Drugs</p>
                 </li>
-                <li className="col-lg-6 ">
+                <li className="col-lg-6 " data-aos="fade-right">
                   <p>Small medical devices</p>
                 </li>
               </ul>
@@ -207,22 +209,22 @@ const Home = () => {
                 while we ensure you never run out of Stock.
               </p>
               <ul className="row">
-                <li className="col-lg-6 ">
+                <li className="col-lg-6 " data-aos="fade-right">
                   <p>DrugStoc Credit</p>
                 </li>
-                <li className="col-lg-6 ">
+                <li className="col-lg-6 " data-aos="fade-right">
                   <p>Point of Sale (POS)</p>
                 </li>
-                <li className="col-lg-6 ">
+                <li className="col-lg-6 " data-aos="fade-right">
                   <p>Invoicing</p>
                 </li>
-                <li className="col-lg-6 ">
+                <li className="col-lg-6 " data-aos="fade-right">
                   <p>Smart Account Reconciliation</p>
                 </li>
-                <li className="col-lg-6 ">
+                <li className="col-lg-6 " data-aos="fade-right">
                   <p>Virtual Wallet</p>
                 </li>
-                <li className="col-lg-6 ">
+                <li className="col-lg-6 " data-aos="fade-right">
                   <p>Business Growth Manager</p>
                 </li>
               </ul>
@@ -251,8 +253,7 @@ const Home = () => {
           <div className="row align-items-center">
             <div className="col-lg-7">
               <Image
-                data-aos="fade-up"
-
+                data-aos="zoom-in"
                 src="/images/landing/personalized/personalized-2.png"
                 alt=" Forward thinking solutions"
                 className="d-block mb-3 mb-lg-0"
@@ -269,22 +270,22 @@ const Home = () => {
                 on delivering outstanding service to your patients
               </p>
               <ul className="row">
-                <li className="col-lg-6 ">
+                <li className="col-lg-6 " data-aos="fade-right">
                   <p>24/7 service delivery</p>
                 </li>
-                <li className="col-lg-6 ">
+                <li className="col-lg-6 " data-aos="fade-right">
                   <p>ISO 9001-2015 Certified </p>
                 </li>
-                <li className="col-lg-6 ">
+                <li className="col-lg-6 " data-aos="fade-right">
                   <p>7000 + Products</p>
                 </li>
-                <li className="col-lg-6 ">
+                <li className="col-lg-6 " data-aos="fade-right">
                   <p>Dedicated Customer support</p>
                 </li>
-                <li className="col-lg-6 ">
+                <li className="col-lg-6 " data-aos="fade-right">
                   <p>PCN Certified</p>
                 </li>
-                <li className="col-lg-6 ">
+                <li className="col-lg-6 " data-aos="fade-right">
                   <p>Anti-counterfeit Supply Chain</p>
                 </li>
               </ul>
@@ -300,7 +301,7 @@ const Home = () => {
       <LinearSection>
         <PersonalizedSolutionSection>
           <div className="container">
-            <h3 className="text-left text-lg-center">
+            <h3 className="text-left text-lg-center" data-aos="fade-up">
               Preferred Procurement Partner <br /> for Health Care Providers
             </h3>
             <Carousel
@@ -347,14 +348,14 @@ const Home = () => {
         </PersonalizedSolutionSection>
         <ProvidersSection>
           <div className="container">
-            <h3>Trusted by Leading Healthcare Providers</h3>
-            <h5>
+            <h3 data-aos="fade-up">Trusted by Leading Healthcare Providers</h3>
+            <h5 data-aos="fade-up">
               3000+ leading healthcare providers trust our seamless procurement{' '}
               <br /> and supply chain solutions
             </h5>
             <div className="row align-items-center">
               {providers.map((pt, i) => (
-                <div className="col-lg-2 col-3 mb-3 mb-lg-0" key={i}>
+                <div className="col-lg-2 col-3 mb-3 mb-lg-0" key={i} data-aos="fade-up">
                   <img src={pt.src} alt={pt.alt} />
                 </div>
               ))}
@@ -1107,7 +1108,7 @@ const ImpactSection = styled.section`
 `;
 
 const ArticleSection = styled.section`
-  margin-top: 10rem;
+  margin-top: 7rem;
   margin-bottom: 6rem;
   @media (max-width: 992px) {
     margin-top: 4rem;

@@ -114,7 +114,7 @@ const Header = styled.header`
     font-size: calc(var(--font-h1) + 2px);
     line-height: 1.4;
     margin-bottom: 1.8rem;
-    margin-top: 10rem;
+    margin-top: 7rem;
 
     text-align: center;
     @media (max-width: 992px) {

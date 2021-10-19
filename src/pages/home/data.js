@@ -127,29 +127,68 @@ export const providers = [
 
 export const clients = [
   {
-    name: 'EMMANUEL JOY',
-    role: 'CEO, VAS Pharmacy',
+    name: 'Ageless Pharmacy',
+    role: '',
     message:
-      '“We have worked with DrugStoc for 3 years and it’s been an amazing experience. DrugStoc team cares deeply about the growth of our business“ Looking back, our partnership with DrugStoc is one of my best decisions.“',
+      '“It\'s been fantastic, products added to cart dissapears if you exit for more than an hour.“',
     image:
       'https://images.pexels.com/photos/4407897/pexels-photo-4407897.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
   },
   {
-    name: 'EMMANUEL JOY',
-    role: 'CEO, VAS Pharmacy',
+    name: 'Salawat Pharmacy',
+    role: '',
     message:
-      '“it’s been an amazing experience. DrugStoc team cares deeply about the growth of our business“ DrugStoc is one of my best decisions.“',
+      '“Nice experience so far.“',
     image:
       'https://images.pexels.com/photos/2661255/pexels-photo-2661255.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
   },
   {
-    name: 'EMMANUEL JOY',
-    role: 'CEO, VAS Pharmacy',
+    name: 'New Standard Pharmacy',
+    role: '',
     message:
-      '“We have worked with DrugStoc for 3 years and it’s been an amazing experience. DrugStoc team cares deeply about the growth of our business“ Looking back, our partnership with DrugStoc is one of my best decisions.“',
+      '“I give the  DRUGSTOC app a five 🌟🌟🌟🌟🌟. It\'s an excellent app.  I\'m so proud of the DRUGSTOC app.“',
     image:
       'https://images.pexels.com/photos/3785079/pexels-photo-3785079.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
   },
+    {
+    name: 'Pharmaprea Pharmacy',
+    role: '',
+    message:
+      '“It’s great. Makes ordering of drugs very easy.“',
+    image:
+      'https://images.pexels.com/photos/2661255/pexels-photo-2661255.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
+  },
+    {
+    name: 'Salawat Pharmacy',
+    role: '',
+    message:
+      '“It\'s okay,and easy to use.“',
+    image:
+      'https://images.pexels.com/photos/2661255/pexels-photo-2661255.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
+  },
+   {
+    name: 'Honey Health Pharmarcy',
+    role:'',
+    message:'" Well, for now, I think it\'s still the best wholesale App I  have come across with a friendly stock price.App is Easy to use,It also covers a wider range of available products." '
+  },
+    {
+    name: 'Clich Pharmacy',
+    role: '',
+    message:
+      '“The app is fantastic.“',
+    image:
+      'https://images.pexels.com/photos/2661255/pexels-photo-2661255.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
+  },
+  {
+    name: 'Lade Hospital',
+    role: '',
+    message: '"I enjoy the prompt delivery and the competitive pricing."'
+  },
+  {
+    name: 'Agape Link Pharmacy',
+    message:'"The updated version of the app is an improved version of the previous version and more user friendly.t gives fair idea of items in stock."'
+  }
+ 
 ];
 
 

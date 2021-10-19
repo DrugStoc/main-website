@@ -194,7 +194,7 @@ export const Header = styled.header`
   @media (max-width: 992px) {
     min-height: 500px;
     display: block;
-    padding: 10rem 0 3rem;
+    padding: 7rem 0 3rem;
   }
   .container {
     position: relative;

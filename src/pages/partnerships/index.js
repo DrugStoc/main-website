@@ -217,7 +217,7 @@ const PartnershipsSection = styled.section`
     color: #000;
     margin-bottom: 4rem;
   }
-  margin-top: 10rem;
+  margin-top: 7rem;
   @media (max-width: 992px) {
     br {
       display: none;
@@ -295,7 +295,7 @@ const ProvidersSection = styled.section`
   );
   padding: 8rem 0;
   text-align: center;
-  margin-top: 10rem;
+  margin-top: 7rem;
 
   @media (max-width: 992px) {
     margin-top: 4rem;

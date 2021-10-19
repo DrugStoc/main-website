@@ -227,7 +227,7 @@ const MarketInsightSection = styled.section`
     color: #000;
     margin-bottom: 4rem;
   }
-  margin-top: 10rem;
+  margin-top: 7rem;
   @media (max-width: 992px) {
     margin-top: 4rem;
     br {
@@ -297,7 +297,7 @@ const MarketInsightSection = styled.section`
 
 const AccessBlurbSection = styled(BenefitSection)`
   background: #fee6c6;
-  margin-top: 10rem;
+  margin-top: 7rem;
   @media (max-width: 992px) {
     margin-top: 4rem;
   }
