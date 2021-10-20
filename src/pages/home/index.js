@@ -897,7 +897,7 @@ const ClientsSection = styled.section`
     }
   }
   .card-details-carousel-holder{
-    min-height: 130px;
+    min-height: 100px;
   }
 
   h3 {
@@ -925,7 +925,7 @@ const ClientsSection = styled.section`
     font-weight: 600;
     font-size: calc(var(--font-h5) + 3px);
     line-height: 2.2;
-    color: var(--blue);
+    color:var(--text-dark);
     margin-bottom: 0;
     @media (max-width: 992px) {
       margin-top: 2rem;

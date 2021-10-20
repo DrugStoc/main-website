@@ -94,6 +94,7 @@ export default class MyDocument extends Document {
           <Main />
           <NextScript />
         </body>
+        <script type="text/javascript" async="" src="//code.tidio.co/ogocxh3zcgb4cdykhwgct7zwamm62w9e.js"></script>
       </Html>
     );
   }
