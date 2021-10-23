@@ -62,8 +62,8 @@ const AboutUs = () => {
                   <h4>Our mission</h4>
                   <img src="/images/about-us/rocket.svg" alt="" />
                   <p>
-                    To Transform the Way Health Providers Interface With and
-                    Utilize the Pharmaceutical Market
+                  To Empower Healthcare Providers for a Healthier Africa
+
                   </p>
                 </div>
               </div>
@@ -74,8 +74,7 @@ const AboutUs = () => {
                   <h4>Our Vision</h4>
                   <img src="/images/about-us/binoculars.svg" alt="" />
                   <p>
-                    By 2025, DrugStoc will be the largest last mile distributor
-                    of health commodities in Nigeria
+                  To Revolutionise the Way Healthcare Providers Interface with Pharmaceutical Markets
                   </p>
                 </div>
               </div>

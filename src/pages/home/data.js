@@ -33,42 +33,42 @@ export const personalized = [
   {
     title: 'For Chain Pharmacies',
     details:
-      'Supercharge your chain pharmacies with our end to end procurement and supply chain solutions.',
+      'Centralise your procurement and have products delivered to your branches.',
     link: '/phamarcies',
     icon: <MdOutlineLocalPharmacy size={50} />,
   },
   {
     title: 'For Community Pharmacies',
     details:
-      'Provide cognitive services to your community by leveraging on our seamless pharma solutions.',
+      'Discover product alternatives that fit your community’s needs.',
     link: '/phamarcies',
     icon: <RiCommunityFill size={50} />,
   },
   {
     title: 'For Hospitals & Clinics',
     details:
-      'Focus on giving your patients the best care. Leave the hassles of providing medicines to to us.',
+      'Automate your essential products for top-up services.',
     link: '/phamarcies',
     icon: <RiHospitalLine size={50} />,
   },
   {
     title: 'For Doctor & Specialists',
     details:
-      'Provide exceptional services to your patients with our procurement solutions for your business.',
+      'Source rare medications and costly inventory as you need it with our same day delivery.',
     link: '/phamarcies',
     icon: <DoctorSvg size={50} />,
   },
   {
     title: 'For Government Health facilities',
     details:
-      'Provide pharmaceutical and cognitive services to your community by leveraging on our seamless pharma solutions.',
+      'Improve patient outcomes and costs with DrugStoc Solutions.',
     link: '/phamarcies',
     icon: <RiGovernmentLine size={50} />,
   },
   {
     title: 'For Health Maintenance Organization (HMO)',
     details:
-      'Supercharge your chain pharmacies with our end to end procurement and supply chain solutions for your business.',
+      'Reduce re-admission rates and improve on your service delivery.',
     link: '/phamarcies',
     icon: <MdOutlineHealthAndSafety size={50} />,
   },

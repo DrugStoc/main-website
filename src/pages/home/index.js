@@ -141,6 +141,9 @@ const Home = () => {
                   </div>
                 ))}
               </div>
+              <p style={{paddingTop:'2rem'}}>We work with more than 400 Pharmaceutical Manufacturers to deliver anti 
+countefeit drugs to last mile patients
+</p>
             </div>
           </div>
         </div>
@@ -229,9 +232,8 @@ const Home = () => {
                 </li>
               </ul>
               <p>
-                We provide you with everything you need to run and scale your
-                practice or pharmacy business. It’s that simple, that’s the
-                DrugStoc magic!
+              We provide you with everything you need to run and scale your practice or pharmacy business. Talk to us today on how we can grow your practice together.
+
               </p>
             </div>
             <div className="col-lg-7 order-lg-2 order-1">
@@ -265,9 +267,7 @@ const Home = () => {
             <div className="col-lg-5">
               <h4 >Exceptional Service & Procurement Partner</h4>
               <p>
-                Automate your entire procurement and service delivery to your
-                patient. We Support you at every stage of the way. Only focus
-                on delivering outstanding service to your patients
+              DrugStoc is a hassle-free procurement platform to source all the medications, consumables, and small medical devices needed for your practice. Find quality at the click of a button. 
               </p>
               <ul className="row">
                 <li className="col-lg-6 " data-aos="fade-right">
@@ -290,8 +290,7 @@ const Home = () => {
                 </li>
               </ul>
               <p>
-                At DrugStoc, we are constantly and tirelessly seeking ways to
-                improve your access to pharmaceutical products and services.
+              Our team of pharmacists, doctors, and procurement specialists understand your needs and work tirelessly to manage your cost and product availability.
               </p>
             </div>
           </div>
@@ -348,7 +347,7 @@ const Home = () => {
         </PersonalizedSolutionSection>
         <ProvidersSection>
           <div className="container">
-            <h3 data-aos="fade-up">Trusted by Leading Healthcare Providers</h3>
+            <h3 data-aos="fade-up">Trusted by The Best Healthcare Providers</h3>
             <h5 data-aos="fade-up">
               3000+ leading healthcare providers trust our seamless procurement{' '}
               <br /> and supply chain solutions
@@ -413,21 +412,21 @@ const Home = () => {
               <h4>
                 <img src="/images/landing/impact/9m.svg" alt="" /> 9M+
               </h4>
-              <h5>Prescriptions Depensed Through our Partners Annually</h5>
+              <h5>Prescriptions of our products dispensed through our clients annually</h5>
             </div>
 
             <div className="col-lg-3 mb-3 mb-lg-0" data-aos="fade-up">
               <h4>
                 <img src="/images/landing/impact/3k.svg" alt="" /> 3000+
               </h4>
-              <h5>Healthcare Providers Across 50 Cities Trust Us</h5>
+              <h5>Prescriptions of our products dispensed through our clients annually</h5>
             </div>
 
             <div className="col-lg-3 mb-3 mb-lg-0" data-aos="fade-up">
               <h4>
                 <img src="/images/landing/impact/70k.svg" alt="" /> 7000+
               </h4>
-              <h5>SKUs of Genuine Medicines and Medical Devices</h5>
+              <h5>SKUs of genuine medicines and medical devices</h5>
             </div>
 
             <div className="col-lg-3 mb-3 mb-lg-0" data-aos="fade-up">
@@ -435,7 +434,7 @@ const Home = () => {
                 <img src="/images/landing/impact/20m.svg" alt="" /> 20M+
               </h4>
               <h5>
-                Happy Patients Served via Our Anti Counterfeit Supply Chain
+              Patients protected from counterfeit products to date 
               </h5>
             </div>
           </div>

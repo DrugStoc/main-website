@@ -22,10 +22,11 @@ const Partnerships = () => {
               <h1>We partner with mission driven organizations </h1>
 
               <p>
-                To build an inclusive pharma supply chain , DrugStoc understands
-                a need to <br /> work and collborate with mission driven
-                organizations with similar vision to increase access to <br />
-                affordable and genuine medications in emerging Economies.
+              To build an inclusive supply chain in healthcare, DrugStoc understands the need to 
+              work
+ <br /> and collaborate with mission driven organisations with a similar vision to increase access to 
+
+ <br /> affordable and genuine medications in emerging Economies. 
               </p>
             </div>
             <div className="col-lg-5">
