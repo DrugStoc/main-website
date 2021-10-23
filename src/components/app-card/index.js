@@ -24,9 +24,9 @@ const AppCard = () => {
                   <br /> on your Phone
                 </h3>
                 <p data-aos="fade-down">
-                  Download the app to manage your orders, keep track of the
-                  order progress and much more. Never miss our amazing discount
-                  offers
+                Download the app to manage your orders, keep track of the order progress and much more. Discover products and take advantage of promotional discounts on the go. 
+ 
+
                 </p>
                 <div className="d-flex flex-wrap justify-content-center justify-content-lg-start">
                   <a

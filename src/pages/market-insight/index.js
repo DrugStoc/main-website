@@ -78,8 +78,7 @@ const MarketInsight = () => {
                 </li>
                 <li className="col-lg-12 ">
                   <p>
-                    Design and execute surveys and research projects to obtain
-                    valuable information about your target audience
+                  Customise your insights to solve your growth challenges
                   </p>
                 </li>
               </ul>
@@ -94,17 +93,14 @@ const MarketInsight = () => {
           <div className="row align-items-center justify-content-between mt-4">
             <div className="col-lg-5">
               <p>
-                Leaverage on our unique market insights to positively tranform
-                your business. With over 4000 + Network of healthcare providers,
-                Make your products readiliy available to healthcare providers
-                that need them.
+              Leverage on our unique market insights to positively transform your business. From growing your pharmacy sales, to benchmarking market prices for retailers and interested organisations, to providing insight to design your next marketing campaign, we are here to help you navigate the chaos. We work with:
               </p>
               <ul className="row">
                 <li className="col-lg-12 ">
                   <p>Consumer Health Companies</p>
                 </li>
                 <li className="col-lg-12 ">
-                  <p>Distrubutors</p>
+                  <p>Wholesalers</p>
                 </li>
                 <li className="col-lg-12 ">
                   <p>Government instititutions</p>
@@ -115,6 +111,7 @@ const MarketInsight = () => {
                 <li className="col-lg-12 ">
                   <p>Retailers</p>
                 </li>
+                
               </ul>
             </div>
             <div className="col-lg-6">
