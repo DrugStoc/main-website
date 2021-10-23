@@ -62,8 +62,9 @@ const AboutUs = () => {
                   <h4>Our mission</h4>
                   <img src="/images/about-us/rocket.svg" alt="" />
                   <p>
-                  To Empower Healthcare Providers for a Healthier Africa
-
+                    To Empower Healthcare Providers for a Healthier Africa
+                    <br />
+                    <br />
                   </p>
                 </div>
               </div>
@@ -74,7 +75,7 @@ const AboutUs = () => {
                   <h4>Our Vision</h4>
                   <img src="/images/about-us/binoculars.svg" alt="" />
                   <p>
-                  To Revolutionise the Way Healthcare Providers Interface with Pharmaceutical Markets
+                    To Revolutionise the Way Healthcare Providers Interface with Pharmaceutical Markets
                   </p>
                 </div>
               </div>
@@ -92,16 +93,12 @@ const AboutUs = () => {
             <div className="col-lg-5 pl-lg-0">
               <h3>What we do?</h3>
               <p>
-                At DrugStoc, we combine the use of unmatched Pharma technology,
-                Analytics, Logistics, Supply Chain & Financing to unlock access
-                to medications in emerging Economies.
+                At DrugStoc, we combine the use of unmatched technology, supply chain innovation, financial solutions, and product knowledge to unlock access to medications in emerging Economies.
+
               </p>
               <br />
               <p>
-                Today, we are the fastest growing tech enabled procurement
-                partner for Pharmaceutical & Consumer Health companies reaching
-                more than 3000 Pharmacies, Retailers, Hospitals, Clinics and
-                Medical Practitioners across 50 cities in Nigeria.
+                Today, we are the fastest growing tech enabled procurement partner for Pharmaceutical & Consumer Health companies reaching thousands of Pharmacies, Retailers, Hospitals, Clinics and Medical Practitioners across Nigeria.
               </p>
               <Link href="/join" passHref>
                 <button className="btn btn-drug-stoc">JOIN US</button>
@@ -152,7 +149,7 @@ const AboutUs = () => {
         <TeamSection>
           <div className="container">
             <h2 className="blue">
-              Very ambitious? Passionate about Healthcare?
+              Ambitious? Passionate about Healthcare?
             </h2>
             <h5 className="mt-4 ">
               Come work with us and do meaningful work with kind and smart

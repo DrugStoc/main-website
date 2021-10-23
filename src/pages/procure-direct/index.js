@@ -16,12 +16,10 @@ const ProcureDirect = () => {
           <div className="row align-items-center">
             <div className="col-lg-7">
               <h5 className="badge">PROCURE DIRECT</h5>
-              <h1>Never run out of medications for your patients</h1>
+              <h1>Never run out of medication for your patients</h1>
 
               <p>
-                With Procure direct, your drug supply chain can be much more
-                .Get pharmaceutical products delivered to your health system or
-                hospital or pharmacy on time.
+                Revolutionize how you discover and order products for your practice. Get quality pharmaceutical products delivered to your facility or practice on time.
               </p>
 
               <div className="d-flex flex-wrap">
@@ -73,12 +71,9 @@ const ProcureDirect = () => {
                 Anti-counterfeit <br /> Supply Chain
               </h3>
               <p>
-                Our bullet proof supply chain is end to end traceable and
-                trackable all the way from the Manufacturer’s warehouse to your
-                patient ensuring zero room for counterfeit drugs to contaminate
-                your requested products.
+                Our supply chain is end to end traceable and trackable leaving no room for substandard or counterfeit products to contaminate your purchases.
               </p>
-              <p>Our quality service systems are ISO 9001-2015 certified.</p>
+              <p>Our quality service systems are ISO 9001-2015 certified for Good Distribution Practice and Quality Management Systems. </p>
             </div>
           </div>
         </div>
@@ -88,12 +83,10 @@ const ProcureDirect = () => {
           <div className="row align-items-center justify-content-between">
             <div className="col-lg-5 order-2 order-lg-1">
               <h3>
-                7000+ Products , <br /> 24- Hour Delivery service
+                7000+ Products , <br /> 24/7 Hour Delivery service
               </h3>
               <p>
-                Join the DrugStoc family and get access to over 7000+ products
-                at the touch of a button. We deliver within 24 hours all orders
-                purchased on our platform within Lagos.
+                Join the DrugStoc family and get access to over 7000+ products in the palm of your hand. We deliver within 24 hours all orders purchased on our platform within Lagos. All our products are long-dated to help you manage your expiry.
               </p>
             </div>{' '}
             <div className="col-lg-5 order-1 order-lg-2">
@@ -121,13 +114,10 @@ const ProcureDirect = () => {
                 Flexible Financing <br /> Options
               </h3>
               <p>
-                Join the DrugStoc Blue buyer program and access flexible Credit
-                options. Keep your shelves well stock while we help manage your
-                end to end inventory with a seamless payment plans
+                Keep your shelves well stocked while we help manage your end to end inventory with a seamless payment plan.
               </p>
               <p>
-                You also get a Personalised account officer and Tech Support to
-                help you at every step of your way.
+                Gain access to a personalized purchasing officer to help you at every step of your way.
               </p>
             </div>
           </div>

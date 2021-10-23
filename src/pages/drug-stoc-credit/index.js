@@ -24,9 +24,7 @@ const DrugStocCredit = () => {
               </h1>
 
               <p>
-                With DrugStoc Credit, your drug supply chain can be much more.
-                Get uninterruted stock or finance to take your practice,
-                hospital or pharmacy to the next level.
+                With DrugStoc Credit, your drug supply chain can be much more. Get uninterruted stock or finance to take your practice, hospital or pharmacy to the next level.
               </p>
 
               <div className="d-flex flex-wrap">
@@ -74,10 +72,9 @@ const DrugStocCredit = () => {
               <div className="card">
                 <div className="card-body">
                   <img src="/images/careers/1.svg" alt="" />
-                  <h4>Up to 28 Credit Days</h4>
+                  <h4>Get Interest Free Credit</h4>
                   <p>
-                    Get up to 24 calender days interest free loans. Get your
-                    business running without worry about your stock levels.
+                    Get your business running without worry about your stock levels.
                   </p>
                 </div>
               </div>
@@ -88,8 +85,7 @@ const DrugStocCredit = () => {
                   <img src="/images/careers/2.svg" alt="" />
                   <h4>No Deposit Required, No Collateral</h4>
                   <p>
-                    Enjoy an Easy Access to Instant Loans Now - Easy to Apply,
-                    No Long Form to Fill, and No Collateral Is Required.
+                    Enjoy Easy Access to Instant Loans Now - Easy to Apply, No Long Form to Fill, and No Collateral Is Required.
                   </p>
                 </div>
               </div>
@@ -100,15 +96,14 @@ const DrugStocCredit = () => {
                   <img src="/images/careers/3.svg" alt="" />
                   <h4>Flexible repayment Options</h4>
                   <p>
-                    You can get money you need for your healthcare business fast
-                    at great rates & flexible terms.
+                    Grow your practice by selecting from various repayment options available to you <br />
                   </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </ProcureSection>
+      </ProcureSection >
       <ProcureSection theme="#FFF8F0">
         <div className="container">
           <p className="text-center mb-3">How DrugStoc Credit works?</p>{' '}
@@ -134,9 +129,9 @@ const DrugStocCredit = () => {
                 <div>
                   <img alt="" src="/images/stoc-credit/list.svg" />
                   <p className="mb-0">
-                    <b>Apply Credit</b>
+                    <b>Request Credit</b>
                   </p>
-                  <p>Submit your application</p>
+                  <p>Submit your request on the App</p>
                 </div>
               </div>
             </div>
@@ -169,7 +164,7 @@ const DrugStocCredit = () => {
                   <p className="mb-0">
                     <b> Place an Order</b>
                   </p>
-                  <p>Get fast approval within 2 business hours.</p>
+                  <p>Purchase products and check out with the Pay Later option.</p>
                 </div>
               </div>
             </div>
@@ -179,9 +174,9 @@ const DrugStocCredit = () => {
           </a>
         </div>
       </ProcureSection>
-      <FAQSection faq={FAQ} theme="#FAFAFB" />
+      {/* <FAQSection faq={FAQ} theme="#FAFAFB" /> */}
       <AppCard />
-    </div>
+    </div >
   );
 };
 

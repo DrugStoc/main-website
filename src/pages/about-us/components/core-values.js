@@ -15,30 +15,32 @@ export const CoreValueSection = () => (
           <Accordion defaultActiveKey="0" flush>
             <div className="accordion__item">
               <CustomToggle eventKey="0" type="arrow">
-              Health Provider First
+                Health Provider First
               </CustomToggle>
 
               <Accordion.Collapse eventKey="0">
                 <p>
+
                 Being a healthcare workers is already a tough endeavour in our corner of the world. We can make it better by working together to get rid of counterfeit products and the hassles of getting quality medication to our healthcare providers.
+        Being a healthcare workers is already a tough endeavour in our corner of the world. We can make it better by working together to get rid of counterfeit products and the hassles of getting quality medication to our healthcare providers.
+
                 </p>
               </Accordion.Collapse>
             </div>
             <div className="accordion__item">
               <CustomToggle eventKey="1" type="arrow">
-                Insist on High Standards
+                Quality Matters
               </CustomToggle>
 
               <Accordion.Collapse eventKey="1">
                 <p>
-                  We believe that lowering barriers and creating access starts
-                  within our own walls. DrugStoc is centred on connection – to
-                  one another, to our investors, and to our clients.
+                  Quality is a culture. From the quality of the manufacturers we onboard, to international quality standards in storage and distribution, to the quality of our front facing access points and customer service desk; we work around the clock to uphold and improve on standards in our industry.
                 </p>
               </Accordion.Collapse>
             </div>
             <div className="accordion__item">
               <CustomToggle eventKey="2" type="arrow">
+
               Quality Matters
               </CustomToggle>
 
