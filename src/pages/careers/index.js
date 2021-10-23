@@ -15,13 +15,14 @@ const Careers = () => {
           <div className="row">
             <div className="col-lg-7">
               <h1>
-                Come do the things you have <br />
-                always wanted to do
+                Let your ideas be heard,  <br />let us  actuate Africa’s<br /> potential together
+                {/* Come do the things you have <br />
+                always wanted to do */}
               </h1>
               <p>
-                Join a team with that will unlock the well being of Africans.
+                Join a team that will unlock the well being of Africans,
                 <br />
-                One person, a time.
+                in our lifetime.
               </p>
               <p></p>
               <Link href="/">
@@ -48,15 +49,11 @@ const Careers = () => {
           <h2 className="blue">
             Together we will solve some
             <br />
-            of the biggest problems in <br />
-            pharma supply chain.
+            of the biggest challenges in healthcare
           </h2>
 
           <h5 className="mt-5">
-            So, let’s see where you fit in. Discover why the best and brightest
-            talents
-            <br /> from all walks of lives choose to work at DrugStoc. Join our
-            crew!
+            So let's see where you fit in. Discover why the brightest minds find home in working with us.
           </h5>
 
           <Link href="/careers" passHref>
@@ -71,7 +68,7 @@ const Careers = () => {
           />
         </div>
       </TeamSection>
-      <CoreValueSection />
+      {/* <CoreValueSection /> */}
       <BenefitSection>
         <div className="container">
           <h2>Benefits Of working with us</h2>
@@ -82,8 +79,7 @@ const Careers = () => {
                   <img src="/images/careers/1.svg" alt="" />
                   <h4>Health insurance</h4>
                   <p>
-                    Our comprehensive medical insurance covers a wide variety of
-                    needs
+                    Our comprehensive medical insurance covers you and your family
                   </p>
                 </div>
               </div>
@@ -94,8 +90,7 @@ const Careers = () => {
                   <img src="/images/careers/2.svg" alt="" />
                   <h4>Traction and scale</h4>
                   <p>
-                    Your opportunity to impact product, connect with customers,
-                    and help us scale is massive.
+                    Your opportunity to impact products, connect with customers, and help us scale is massive.
                   </p>
                 </div>
               </div>
@@ -106,8 +101,7 @@ const Careers = () => {
                   <img src="/images/careers/3.svg" alt="" />
                   <h4>Paid annual leave</h4>
                   <p>
-                    All team members have 20 days of paid annual leave, and are
-                    warmly encouraged to use them
+                    We offer flexible working hours for new parents.
                   </p>
                 </div>
               </div>
@@ -118,8 +112,7 @@ const Careers = () => {
                   <img src="/images/careers/4.svg" alt="" />
                   <h4>Learning and development</h4>
                   <p>
-                    With the fast pace of our environment, you’re sure to
-                    acquire new skills.
+                    With the fast pace of our environment, you’re sure to acquire new skills.
                   </p>
                 </div>
               </div>
@@ -130,8 +123,7 @@ const Careers = () => {
                   <img src="/images/careers/5.svg" alt="" />
                   <h4>Do what you love</h4>
                   <p>
-                    Life is too short to work on things you don’t love. Join us
-                    and do the things you love.
+                    Life is too short to work without purpose. Lets change Africa’s narrative together.
                   </p>
                 </div>
               </div>
@@ -142,8 +134,7 @@ const Careers = () => {
                   <img src="/images/careers/6.svg" alt="" />
                   <h4>Smart collegues</h4>
                   <p>
-                    All team members have 20 days of paid annual leave, and are
-                    warmly encouraged to use them
+                    Challenge yourself by exchanging ideas with the brightest minds in Africa.
                   </p>
                 </div>
               </div>

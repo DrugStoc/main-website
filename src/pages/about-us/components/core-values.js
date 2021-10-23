@@ -15,66 +15,56 @@ export const CoreValueSection = () => (
           <Accordion defaultActiveKey="0" flush>
             <div className="accordion__item">
               <CustomToggle eventKey="0" type="arrow">
-                Choose Transparency
+                Health Provider First
               </CustomToggle>
 
               <Accordion.Collapse eventKey="0">
                 <p>
-                  We believe that lowering barriers and creating access starts
-                  within our own walls. DrugStoc is centred on connection – to
-                  one another, to our investors, and to our clients.
+                  Being a healthcare workers is already a tough endeavour in our corner of the world. We can make it better by working together to get rid of counterfeit products and the hassles of getting quality medication to our healthcare providers.
                 </p>
               </Accordion.Collapse>
             </div>
             <div className="accordion__item">
               <CustomToggle eventKey="1" type="arrow">
-                Insist on High Standards
+                Quality Matters
               </CustomToggle>
 
               <Accordion.Collapse eventKey="1">
                 <p>
-                  We believe that lowering barriers and creating access starts
-                  within our own walls. DrugStoc is centred on connection – to
-                  one another, to our investors, and to our clients.
+                  Quality is a culture. From the quality of the manufacturers we onboard, to international quality standards in storage and distribution, to the quality of our front facing access points and customer service desk; we work around the clock to uphold and improve on standards in our industry.
                 </p>
               </Accordion.Collapse>
             </div>
             <div className="accordion__item">
               <CustomToggle eventKey="2" type="arrow">
-                Embrace the Mission
+                Fair Pricing
               </CustomToggle>
 
               <Accordion.Collapse eventKey="2">
                 <p>
-                  We believe that lowering barriers and creating access starts
-                  within our own walls. DrugStoc is centred on connection – to
-                  one another, to our investors, and to our clients.
+                  80% of healthcare is Nigeria is financed by out of pocket payments by the patient. We work on reducing the burden of these payments through various supply chain innovations.
                 </p>
               </Accordion.Collapse>
             </div>
             <div className="accordion__item">
               <CustomToggle eventKey="3" type="arrow">
-                Communicate Clearly
+                Rare and Speciality Medication Access
               </CustomToggle>
 
               <Accordion.Collapse eventKey="3">
                 <p>
-                  We believe that lowering barriers and creating access starts
-                  within our own walls. DrugStoc is centred on connection – to
-                  one another, to our investors, and to our clients.
+                  It takes several years for speciality items or new drug discoveries to make their way to the African market. This results in patients receiving outdated therapies due to the lack of availability of the product and forces the patient or provider to source the medication through international middlemen which increases the price anywhere from 2x to 64x the international market price. We find this outrageous.
                 </p>
               </Accordion.Collapse>
             </div>
             <div className="accordion__item">
               <CustomToggle eventKey="4" type="arrow">
-                Practice Kindness
+                Reduce the Brain Drain
               </CustomToggle>
 
               <Accordion.Collapse eventKey="4">
                 <p>
-                  We believe that lowering barriers and creating access starts
-                  within our own walls. DrugStoc is centred on connection – to
-                  one another, to our investors, and to our clients.
+                  Nigeria looses thousands of skilled health workers a year to other countries. We offer an avenue for financial independence by empowering them with financial and social entrepreneurship skills that reduce the necessity for the exodus.
                 </p>
               </Accordion.Collapse>
             </div>
