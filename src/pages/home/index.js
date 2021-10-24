@@ -166,36 +166,30 @@ countefeit drugs to last mile patients
               />
             </div>
             <div className="col-lg-5">
-              <h4>End to End Pharmacy Supply Chain Procurement</h4>
+              <h4>End-to-End Procurment Solutions</h4>
               <p>
-                Seamless & easy-to-use platform that let you manage and
-                procure all your medications, pharmaceutical and medical
-                products in one place.
+              Seamless & easy-to-use platform that lets health providers manage and procure all their pharmaceutical and medical products in one place. 
               </p>
               <ul className="row">
                 <li className="col-lg-6 " data-aos="fade-right">
-                  <p>Essential medicines</p>
+                  <p>7000+ Products</p>
                 </li>
                 <li className="col-lg-6 " data-aos="fade-right">
-                  <p>Generics</p>
+                  <p>Speciality Items</p>
                 </li>
                 <li className="col-lg-6 " data-aos="fade-right">
-                  <p>Specialty Drugs</p>
+                  <p>Medical Consumables</p>
                 </li>
                 <li className="col-lg-6 " data-aos="fade-right">
-                  <p>Medical consumables</p>
+                  <p>Rare Medication</p>
                 </li>
                 <li className="col-lg-6 " data-aos="fade-right">
-                  <p>Rare Drugs</p>
+                  <p>Small Medical Devices</p>
                 </li>
-                <li className="col-lg-6 " data-aos="fade-right">
-                  <p>Small medical devices</p>
-                </li>
+            
               </ul>
               <p>
-                Ominichannel and seamless platform that ensures all your
-                medications, medical products, consumables and small devices
-                are available at the click of a button.
+              Ominichannel access ensures that all health providers are empowered to make the best purchasing decision for their practice and patient. 
               </p>
             </div>
           </div>
@@ -219,7 +213,7 @@ countefeit drugs to last mile patients
                   <p>Point of Sale (POS)</p>
                 </li>
                 <li className="col-lg-6 " data-aos="fade-right">
-                  <p>Invoicing</p>
+                  <p>Inventory Automation</p>
                 </li>
                 <li className="col-lg-6 " data-aos="fade-right">
                   <p>Smart Account Reconciliation</p>
@@ -301,7 +295,7 @@ countefeit drugs to last mile patients
         <PersonalizedSolutionSection>
           <div className="container">
             <h3 className="text-left text-lg-center" data-aos="fade-up">
-              Preferred Procurement Partner <br /> for Health Care Providers
+              Preferred Procurement Partner <br /> for HealthCare Providers
             </h3>
             <Carousel
               interval={null}
@@ -368,7 +362,7 @@ countefeit drugs to last mile patients
 
       <ClientsSection>
         <div className="container">
-          <h3>See What Our Clients Are Saying</h3>
+          <h3>See What Our Clients Say About Us</h3>
           <h6>
             Our clients praise us for our great service and on-time delivery
           </h6>
@@ -419,7 +413,7 @@ countefeit drugs to last mile patients
               <h4>
                 <img src="/images/landing/impact/3k.svg" alt="" /> 3000+
               </h4>
-              <h5>Prescriptions of our products dispensed through our clients annually</h5>
+              <h5>Healthcare facilities trust us</h5>
             </div>
 
             <div className="col-lg-3 mb-3 mb-lg-0" data-aos="fade-up">

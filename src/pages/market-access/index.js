@@ -18,16 +18,15 @@ const MarketAccess = () => {
             <div className="col-lg-7">
               <h5 className="badge">MARKET ACCESS </h5>
               <h1>
-                Deliver better patient outcomes <br />
-                in minutes, not weeks.
+              Thinking about the African market? <br />
+              Get your products to your target audience 
               </h1>
 
               <p>
-                We use new-age, hybrid distribution model and channel partners
-                to <br />
-                create access for pharmaceutical products to the people who{' '}
+              We use data driven insights and a new-age hybrid distribution model to  <br />
+              create access for your products to the people who need it the most.{' '}
                 <br />
-                needs it the most.
+              
               </p>
             </div>
             <div className="col-lg-5">
@@ -51,7 +50,7 @@ const MarketAccess = () => {
       <MarketAccessSection theme="#fff">
         <div className="container">
           <p className="blue text-center mb-2">HOW MARKET ACCESS WORKS?</p>
-          <h2>For Pharmaceutical Companies</h2>
+          <h2>For Pharmaceutical Manufacturers</h2>
 
           <div className="row align-items-center justify-content-between mt-4">
             <div className="col-lg-6">
@@ -63,33 +62,30 @@ const MarketAccess = () => {
             </div>
             <div className="col-lg-5">
               <p>
-                Ominichannel and seamless platform that lets you manage and
-                procure all your medications and medical products in one place.
+              We provide end-to-end services to ensure that you have a reliable market access partner. These services include:
               </p>
               <ul className="row">
                 <li className="col-lg-6 ">
-                  <p>Essential medicines</p>
+                  <p>Regulatory Affairs</p>
                 </li>
                 <li className="col-lg-6 ">
-                  <p>Generics</p>
+                  <p>Registration Services </p>
                 </li>
                 <li className="col-lg-6 ">
-                  <p>Specialty Drugs</p>
+                  <p>Data Driven Pricing <br/>and Demand Data</p>
                 </li>
                 <li className="col-lg-6 ">
-                  <p>Medical consumables</p>
+                  <p>Track and Trace your Products Live</p>
                 </li>
                 <li className="col-lg-6 ">
-                  <p>Rare Drugs</p>
+                  <p>Distribution and <br/>Warehousing</p>
                 </li>
                 <li className="col-lg-6 ">
-                  <p>Small medical devices</p>
+                  <p> Marketting and Merchandising Services</p>
                 </li>
               </ul>
               <p>
-                Ominichannel and seamless platform that lets you manage and
-                procure all your medications, medical products, consumables and
-                devices.
+              Open up a new frontier with a reliable partner that prioritises quality and waste reduction. Solidify your presence within a growing market with immense potential. Let's get the conversation started. 
               </p>
             </div>
           </div>
@@ -98,16 +94,14 @@ const MarketAccess = () => {
       <AccessBlurbSection>
         <div className="container">
           <h2>Your medical products, simply delivered</h2>
+          <p>We specialise in: </p>
           <div className="row">
             <div className="col-md-6 col-lg-4">
               <div className="card">
                 <div className="card-body">
                   <img src="/images/careers/1.svg" alt="" />
-                  <h4>Rare Drugs</h4>
-                  <p>
-                    Our comprehensive medical insurance covers a wide variety of
-                    needs
-                  </p>
+                  <h4>Pharmacy Products</h4>
+                  
                 </div>
               </div>
             </div>
@@ -115,11 +109,8 @@ const MarketAccess = () => {
               <div className="card">
                 <div className="card-body">
                   <img src="/images/careers/2.svg" alt="" />
-                  <h4>Specialty drugs</h4>
-                  <p>
-                    Your opportunity to impact product, connect with customers,
-                    and help us scale is massive.
-                  </p>
+                  <h4>Small Medical Devices</h4>
+                 
                 </div>
               </div>
             </div>
@@ -127,11 +118,8 @@ const MarketAccess = () => {
               <div className="card">
                 <div className="card-body">
                   <img src="/images/careers/3.svg" alt="" />
-                  <h4>Medical Equipments</h4>
-                  <p>
-                    All team members have 20 days of paid annual leave, and are
-                    warmly encouraged to use them
-                  </p>
+                  <h4>Medical Consumables</h4>
+                 
                 </div>
               </div>
             </div>
@@ -139,11 +127,11 @@ const MarketAccess = () => {
               <div className="card">
                 <div className="card-body">
                   <img src="/images/careers/4.svg" alt="" />
-                  <h4>Vacccines</h4>
-                  <p>
+                  <h4>RDT’s</h4>
+                 {/* <p>
                     With the fast pace of our environment, you’re sure to
                     acquire new skills.
-                  </p>
+                 </p>*/}
                 </div>
               </div>
             </div>
@@ -151,11 +139,11 @@ const MarketAccess = () => {
               <div className="card">
                 <div className="card-body">
                   <img src="/images/careers/5.svg" alt="" />
-                  <h4>Consumables</h4>
-                  <p>
+                  <h4>Cold Chain Products </h4>
+                 {/* <p>
                     Life is too short to work on things you don’t love. Join us
                     and do the things you love.
-                  </p>
+                 </p>*/}
                 </div>
               </div>
             </div>
@@ -163,11 +151,11 @@ const MarketAccess = () => {
               <div className="card">
                 <div className="card-body">
                   <img src="/images/careers/6.svg" alt="" />
-                  <h4>Life saving & Emergency Medical supplies</h4>
-                  <p>
+                  <h4>Specialty Items in Tertiary Care</h4>
+                 {/*<p>
                     All team members have 20 days of paid annual leave, and are
                     warmly encouraged to use them
-                  </p>
+                 </p>*/}
                 </div>
               </div>
             </div>

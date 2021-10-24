@@ -71,7 +71,7 @@ const MarketInsight = () => {
                   <p>Identify the market potential for new drugs</p>
                 </li>
                 <li className="col-lg-12 ">
-                  <p>Pinpoint what is impacting sale</p>
+                  <p>Pinpoint what is impacting sales</p>
                 </li>
                 <li className="col-lg-12 ">
                   <p>Understand market perception about your products</p>
@@ -109,10 +109,11 @@ const MarketInsight = () => {
                   <p>Non Governmental Organizations</p>
                 </li>
                 <li className="col-lg-12 ">
-                  <p>Retailers</p>
+                  <p>Retailers Health Insurance Companies</p>
                 </li>
                 
               </ul>
+              <p>We worked with the wonderful people at Rippleworks to ensure the integrity of our data sets. Our data comply with F.A.I.R Standards.</p>
             </div>
             <div className="col-lg-6">
               <img

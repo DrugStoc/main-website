@@ -20,53 +20,51 @@ export const CoreValueSection = () => (
 
               <Accordion.Collapse eventKey="0">
                 <p>
-                Being a healthcare workers is already a tough endeavour in our corner of the world. We can make it better by working together to get rid of counterfeit products and the hassles of getting quality medication to our healthcare providers.
+                Being a healthcare workers is already a tough endeavour in our corner of the world. We can make it better by working together to get rid of counterfeit products and the hassles of getting quality medication to our healthcare providers. 
                 </p>
               </Accordion.Collapse>
             </div>
             <div className="accordion__item">
               <CustomToggle eventKey="1" type="arrow">
-                Insist on High Standards
-              </CustomToggle>
+               Quality Matters
+                </CustomToggle>
 
               <Accordion.Collapse eventKey="1">
                 <p>
-                  We believe that lowering barriers and creating access starts
-                  within our own walls. DrugStoc is centred on connection – to
-                  one another, to our investors, and to our clients.
+                Quality is a culture. From the quality of the manufacturers we onboard, to international quality standards in storage and distribution, to the quality of our front facing access points and customer service desk; we work around the clock to uphold and improve on standards in our industry. 
                 </p>
               </Accordion.Collapse>
             </div>
             <div className="accordion__item">
               <CustomToggle eventKey="2" type="arrow">
-              Quality Matters
+              Fair Pricing
               </CustomToggle>
 
               <Accordion.Collapse eventKey="2">
-                <p>
-                Quality is a culture. From the quality of the manufacturers we onboard, to international quality standards in storage and distribution, to the quality of our front facing access points and customer service desk; we work around the clock to uphold and improve on standards in our industry.
-                </p>
-              </Accordion.Collapse>
-            </div>
-            <div className="accordion__item">
-              <CustomToggle eventKey="3" type="arrow">
-                Fair pricing
-              </CustomToggle>
-
-              <Accordion.Collapse eventKey="3">
                 <p>
                 80% of healthcare is Nigeria is financed by out of pocket payments by the patient. We work on reducing the burden of these payments through various supply chain innovations. 
                 </p>
               </Accordion.Collapse>
             </div>
             <div className="accordion__item">
-              <CustomToggle eventKey="4" type="arrow">
+              <CustomToggle eventKey="3" type="arrow">
               Rare and Speciality Medication Access
+              </CustomToggle>
+
+              <Accordion.Collapse eventKey="3">
+                <p>
+                It takes several years for speciality items or new drug discoveries to make their way to the African market. This results in patients receiving outdated therapies due to the lack of availability of the product and forces the patient or provider to source the medication through international middlemen which increases the price anywhere from 2x to 64x the international market price. We find this outrageous. 
+                </p>
+              </Accordion.Collapse>
+            </div>
+            <div className="accordion__item">
+              <CustomToggle eventKey="4" type="arrow">
+              Reduce the Brain Drain
               </CustomToggle>
 
               <Accordion.Collapse eventKey="4">
                 <p>
-                It takes several years for speciality items or new drug discoveries to make their way to the African market. This results in patients receiving outdated therapies due to the lack of availability of the product and forces the patient or provider to source the medication through international middlemen which increases the price anywhere from 2x to 64x the international market price. We find this outrageous.
+                Nigeria looses thousands of skilled health workers a year to other countries. We offer an avenue for financial independence by empowering them with financial and social entrepreneurship skills that reduce the necessity for the exodus. 
                 </p>
               </Accordion.Collapse>
             </div>
