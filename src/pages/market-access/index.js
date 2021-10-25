@@ -47,7 +47,7 @@ const MarketAccess = () => {
       <MarketAccessSection theme="#fff">
         <div className="container">
           <p className="blue text-center mb-2">HOW MARKET ACCESS WORKS?</p>
-          <h2>For Pharmaceutical Companies</h2>
+          <h2>For Pharmaceutical Manufacturers</h2>
 
           <div className="row align-items-center justify-content-between mt-4">
             <div className="col-lg-6">
@@ -78,7 +78,7 @@ const MarketAccess = () => {
                   <p>Distribution and Warehousing</p>
                 </li>
                 <li className="col-lg-6 ">
-                  <p>Marketting and Merchandising Services</p>
+                  <p>Marketing and Merchandising Services</p>
                 </li>
               </ul>
               <p>

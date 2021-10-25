@@ -96,7 +96,8 @@ const DrugStocCredit = () => {
                   <img src="/images/careers/3.svg" alt="" />
                   <h4>Flexible repayment Options</h4>
                   <p>
-                    Grow your practice by selecting from various repayment options available to you <br />
+                    Grow your practice by selecting from various repayment options available to you
+
                   </p>
                 </div>
               </div>
@@ -164,7 +165,7 @@ const DrugStocCredit = () => {
                   <p className="mb-0">
                     <b> Place an Order</b>
                   </p>
-                  <p>Purchase products and check out with the Pay Later option.</p>
+                  <p>Purchase products and check out with the Pay Later option</p>
                 </div>
               </div>
             </div>
@@ -174,7 +175,7 @@ const DrugStocCredit = () => {
           </a>
         </div>
       </ProcureSection>
-      {/* <FAQSection faq={FAQ} theme="#FAFAFB" /> */}
+      {/*<FAQSection faq={FAQ} theme="#FAFAFB" />*/}
       <AppCard />
     </div >
   );

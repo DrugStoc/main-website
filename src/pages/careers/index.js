@@ -15,12 +15,12 @@ const Careers = () => {
           <div className="row">
             <div className="col-lg-7">
               <h1>
-                Let your ideas be heard,  <br />let us  actuate Africa’s<br /> potential together
-                {/* Come do the things you have <br />
-                always wanted to do */}
+                Let your ideas be heard,let us actuate Africa’s <br />
+                potential together
               </h1>
               <p>
-                Join a team that will unlock the well being of Africans,
+                Join a team that will unlock the well being of Africans, in our lifetime.
+
                 <br />
                 in our lifetime.
               </p>
@@ -49,11 +49,16 @@ const Careers = () => {
           <h2 className="blue">
             Together we will solve some
             <br />
-            of the biggest challenges in healthcare
+            of the biggest challenges <br />
+            in healthcare.
           </h2>
 
           <h5 className="mt-5">
-            So let's see where you fit in. Discover why the brightest minds find home in working with us.
+            So let's see where you fit in.
+
+
+            <br />  Discover why the brightest minds find home in working with us.
+
           </h5>
 
           <Link href="/careers" passHref>
@@ -99,7 +104,7 @@ const Careers = () => {
               <div className="card">
                 <div className="card-body">
                   <img src="/images/careers/3.svg" alt="" />
-                  <h4>Paid annual leave</h4>
+                  <h4>Young Family Friendly </h4>
                   <p>
                     We offer flexible working hours for new parents.
                   </p>
@@ -135,6 +140,8 @@ const Careers = () => {
                   <h4>Smart collegues</h4>
                   <p>
                     Challenge yourself by exchanging ideas with the brightest minds in Africa.
+
+
                   </p>
                 </div>
               </div>

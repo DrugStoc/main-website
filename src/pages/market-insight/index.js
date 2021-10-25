@@ -68,17 +68,17 @@ const MarketInsight = () => {
                   <p>Identify ways to lower costs and improve revenues</p>
                 </li>
                 <li className="col-lg-12 ">
-                  <p>Identify the market potential for new drugs</p>
+                  <p>Identify the market potential for new products</p>
                 </li>
                 <li className="col-lg-12 ">
-                  <p>Pinpoint what is impacting sale</p>
+                  <p>Pinpoint what is impacting sales</p>
                 </li>
                 <li className="col-lg-12 ">
                   <p>Understand market perception about your products</p>
                 </li>
                 <li className="col-lg-12 ">
                   <p>
-                  Customise your insights to solve your growth challenges
+                    Customise your insights to solve your growth challenges
                   </p>
                 </li>
               </ul>
@@ -93,7 +93,7 @@ const MarketInsight = () => {
           <div className="row align-items-center justify-content-between mt-4">
             <div className="col-lg-5">
               <p>
-              Leverage on our unique market insights to positively transform your business. From growing your pharmacy sales, to benchmarking market prices for retailers and interested organisations, to providing insight to design your next marketing campaign, we are here to help you navigate the chaos. We work with:
+                Leverage on our unique market insights to positively transform your business. From growing your pharmacy sales, to benchmarking market prices for retailers and interested organisations, to providing insight to design your next marketing campaign, we are here to help you navigate the chaos. We work with:
               </p>
               <ul className="row">
                 <li className="col-lg-12 ">
@@ -111,8 +111,11 @@ const MarketInsight = () => {
                 <li className="col-lg-12 ">
                   <p>Retailers</p>
                 </li>
-                
+                <li className="col-lg-12 ">
+                  <p>Health Insurance Companies</p>
+                </li>
               </ul>
+              <p>We worked with the wonderful people at Rippleworks to ensure the integrity of our data sets. Our data comply with F.A.I.R Standards.</p>
             </div>
             <div className="col-lg-6">
               <img
