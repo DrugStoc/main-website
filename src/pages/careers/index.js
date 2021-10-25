@@ -15,11 +15,11 @@ const Careers = () => {
           <div className="row">
             <div className="col-lg-7">
               <h1>
-              Let your ideas be heard,let us actuate Africa’s <br />
-               potential together
+                Let your ideas be heard,let us actuate Africa’s <br />
+                potential together
               </h1>
               <p>
-              Join a team that will unlock the well being of Africans, in our lifetime.
+                Join a team that will unlock the well being of Africans, in our lifetime.
 
                 <br />
                 One person, a time.
@@ -47,19 +47,18 @@ const Careers = () => {
       <TeamSection>
         <div className="container">
           <h2 className="blue">
-          Together we will solve some
-
+            Together we will solve some
             <br />
             of the biggest challenges <br />
             in healthcare.
           </h2>
 
           <h5 className="mt-5">
-          So let's see where you fit in.
- 
+            So let's see where you fit in.
 
-            <br />  Discover why the brightest minds find home in working with us. 
-            
+
+            <br />  Discover why the brightest minds find home in working with us.
+
           </h5>
 
           <Link href="/careers" passHref>
@@ -85,8 +84,8 @@ const Careers = () => {
                   <img src="/images/careers/1.svg" alt="" />
                   <h4>Health insurance</h4>
                   <p>
-                  Health Insurance 
-Our comprehensive medical insurance covers you and your family
+                    Health Insurance
+                    Our comprehensive medical insurance covers you and your family
 
                   </p>
                 </div>
@@ -98,7 +97,7 @@ Our comprehensive medical insurance covers you and your family
                   <img src="/images/careers/2.svg" alt="" />
                   <h4>Traction and scale</h4>
                   <p>
-                  Your opportunity to impact products, connect with customers, and help us scale is massive.
+                    Your opportunity to impact products, connect with customers, and help us scale is massive.
                   </p>
                 </div>
               </div>
@@ -109,7 +108,7 @@ Our comprehensive medical insurance covers you and your family
                   <img src="/images/careers/3.svg" alt="" />
                   <h4>Young Family Friendly </h4>
                   <p>
-                  We offer flexible working hours for new parents.
+                    We offer flexible working hours for new parents.
                   </p>
                 </div>
               </div>
@@ -120,7 +119,7 @@ Our comprehensive medical insurance covers you and your family
                   <img src="/images/careers/4.svg" alt="" />
                   <h4>Learning and development</h4>
                   <p>
-                  With the fast pace of our environment, you’re sure to acquire new skills.
+                    With the fast pace of our environment, you’re sure to acquire new skills.
 
                   </p>
                 </div>
@@ -132,7 +131,7 @@ Our comprehensive medical insurance covers you and your family
                   <img src="/images/careers/5.svg" alt="" />
                   <h4>Do what you love</h4>
                   <p>
-                  Life is too short to work without purpose. Lets change Africa’s narrative together. 
+                    Life is too short to work without purpose. Lets change Africa’s narrative together.
 
                   </p>
                 </div>
@@ -144,8 +143,8 @@ Our comprehensive medical insurance covers you and your family
                   <img src="/images/careers/6.svg" alt="" />
                   <h4>Smart collegues</h4>
                   <p>
-                  Challenge yourself by exchanging ideas with the brightest minds in Africa. 
- 
+                    Challenge yourself by exchanging ideas with the brightest minds in Africa.
+
 
                   </p>
                 </div>

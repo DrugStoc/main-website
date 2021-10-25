@@ -141,9 +141,9 @@ const Home = () => {
                   </div>
                 ))}
               </div>
-              <p style={{paddingTop:'2rem'}}>We work with more than 400 Pharmaceutical Manufacturers to deliver anti 
-countefeit drugs to last mile patients
-</p>
+              <p style={{ paddingTop: '2rem' }}>We work with more than 400 Pharmaceutical Manufacturers to deliver anti
+                countefeit drugs to last mile patients
+              </p>
             </div>
           </div>
         </div>
@@ -168,7 +168,7 @@ countefeit drugs to last mile patients
             <div className="col-lg-5">
               <h4>End-to-End Procurment Solutions</h4>
               <p>
-              Seamless & easy-to-use platform that lets health providers manage and procure all their pharmaceutical and medical products in one place. 
+                Seamless & easy-to-use platform that lets health providers manage and procure all their pharmaceutical and medical products in one place.
               </p>
               <ul className="row">
                 <li className="col-lg-6 " data-aos="fade-right">
@@ -176,6 +176,9 @@ countefeit drugs to last mile patients
                 </li>
                 <li className="col-lg-6 " data-aos="fade-right">
                   <p>Speciality Items</p>
+                </li>
+                <li className="col-lg-6 " data-aos="fade-right">
+                  <p>Trusted Brands</p>
                 </li>
                 <li className="col-lg-6 " data-aos="fade-right">
                   <p>Medical Consumables</p>
@@ -186,10 +189,9 @@ countefeit drugs to last mile patients
                 <li className="col-lg-6 " data-aos="fade-right">
                   <p>Small Medical Devices</p>
                 </li>
-            
               </ul>
               <p>
-              Ominichannel access ensures that all health providers are empowered to make the best purchasing decision for their practice and patient. 
+                Ominichannel access ensures that all health providers are empowered to make the best purchasing decision for their practice and patient.
               </p>
             </div>
           </div>
@@ -226,7 +228,7 @@ countefeit drugs to last mile patients
                 </li>
               </ul>
               <p>
-              We provide you with everything you need to run and scale your practice or pharmacy business. Talk to us today on how we can grow your practice together.
+                We provide you with everything you need to run and scale your practice or pharmacy business. Talk to us today on how we can grow your practice together.
 
               </p>
             </div>
@@ -244,6 +246,42 @@ countefeit drugs to last mile patients
           </div>
         </div>
       </SmartPaymentSection>
+      <ImpactSection>
+        <div className="container">
+          <h3>Our Impact</h3>
+          <div className="row">
+            <div className="col-lg-3 mb-3 mb-lg-0" data-aos="fade-up">
+              <h4>
+                <img src="/images/landing/impact/9m.svg" alt="" /> 9M+
+              </h4>
+              <h5>Prescriptions of our products dispensed through our clients annually</h5>
+            </div>
+
+            <div className="col-lg-3 mb-3 mb-lg-0" data-aos="fade-up">
+              <h4>
+                <img src="/images/landing/impact/3k.svg" alt="" /> 3000+
+              </h4>
+              <h5>Healthcare facilities trust us</h5>
+            </div>
+
+            <div className="col-lg-3 mb-3 mb-lg-0" data-aos="fade-up">
+              <h4>
+                <img src="/images/landing/impact/70k.svg" alt="" /> 7000+
+              </h4>
+              <h5>SKUs of genuine medicines and medical devices</h5>
+            </div>
+
+            <div className="col-lg-3 mb-3 mb-lg-0" data-aos="fade-up">
+              <h4>
+                <img src="/images/landing/impact/20m.svg" alt="" /> 20M+
+              </h4>
+              <h5>
+                Patients protected from counterfeit products to date
+              </h5>
+            </div>
+          </div>
+        </div>
+      </ImpactSection>
       <PersonalizedExtened>
         <div className="container">
           <div className="row align-items-center">
@@ -261,7 +299,7 @@ countefeit drugs to last mile patients
             <div className="col-lg-5">
               <h4 >Exceptional Service & Procurement Partner</h4>
               <p>
-              DrugStoc is a hassle-free procurement platform to source all the medications, consumables, and small medical devices needed for your practice. Find quality at the click of a button. 
+                DrugStoc is a hassle-free procurement platform to source all the medications, consumables, and small medical devices needed for your practice. Find quality at the click of a button.
               </p>
               <ul className="row">
                 <li className="col-lg-6 " data-aos="fade-right">
@@ -284,7 +322,7 @@ countefeit drugs to last mile patients
                 </li>
               </ul>
               <p>
-              Our team of pharmacists, doctors, and procurement specialists understand your needs and work tirelessly to manage your cost and product availability.
+                Our team of pharmacists, doctors, and procurement specialists understand your needs and work tirelessly to manage your cost and product availability.
               </p>
             </div>
           </div>
@@ -295,7 +333,7 @@ countefeit drugs to last mile patients
         <PersonalizedSolutionSection>
           <div className="container">
             <h3 className="text-left text-lg-center" data-aos="fade-up">
-              Preferred Procurement Partner <br /> for HealthCare Providers
+              Preferred Procurement Partner<br /> for HealthCare Providers
             </h3>
             <Carousel
               interval={null}
@@ -397,43 +435,6 @@ countefeit drugs to last mile patients
           </Carousel>
         </div>
       </ClientsSection>
-
-      <ImpactSection>
-        <div className="container">
-          <h3>Our Impact</h3>
-          <div className="row">
-            <div className="col-lg-3 mb-3 mb-lg-0" data-aos="fade-up">
-              <h4>
-                <img src="/images/landing/impact/9m.svg" alt="" /> 9M+
-              </h4>
-              <h5>Prescriptions of our products dispensed through our clients annually</h5>
-            </div>
-
-            <div className="col-lg-3 mb-3 mb-lg-0" data-aos="fade-up">
-              <h4>
-                <img src="/images/landing/impact/3k.svg" alt="" /> 3000+
-              </h4>
-              <h5>Healthcare facilities trust us</h5>
-            </div>
-
-            <div className="col-lg-3 mb-3 mb-lg-0" data-aos="fade-up">
-              <h4>
-                <img src="/images/landing/impact/70k.svg" alt="" /> 7000+
-              </h4>
-              <h5>SKUs of genuine medicines and medical devices</h5>
-            </div>
-
-            <div className="col-lg-3 mb-3 mb-lg-0" data-aos="fade-up">
-              <h4>
-                <img src="/images/landing/impact/20m.svg" alt="" /> 20M+
-              </h4>
-              <h5>
-              Patients protected from counterfeit products to date 
-              </h5>
-            </div>
-          </div>
-        </div>
-      </ImpactSection>
 
       <AppCard />
 
