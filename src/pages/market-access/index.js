@@ -69,16 +69,16 @@ const MarketAccess = () => {
                   <p>Registration Services</p>
                 </li>
                 <li className="col-lg-6 ">
-                  <p>Data Driven Pricing and Demand Data</p>
+                  <p>Data Driven Pricing and <br /> Demand Data</p>
                 </li>
                 <li className="col-lg-6 ">
-                  <p>Track and Trace your Products Live</p>
+                  <p>Track and Trace your <br /> Products Live</p>
                 </li>
                 <li className="col-lg-6 ">
-                  <p>Distribution and Warehousing</p>
+                  <p>Distribution and <br /> Warehousing</p>
                 </li>
                 <li className="col-lg-6 ">
-                  <p>Marketing and Merchandising Services</p>
+                  <p>Marketing and Merchandising <br /> Services</p>
                 </li>
               </ul>
               <p>
@@ -145,7 +145,7 @@ const MarketAccess = () => {
               <div className="card">
                 <div className="card-body">
                   <img src="/images/careers/5.svg" alt="" />
-                  <h4>Specialty Items in Tertiary Care</h4>
+                  <h4>RDT’s</h4>
                   {/* <p>
                     Life is too short to work on things you don’t love. Join us
                     and do the things you love.
@@ -168,19 +168,6 @@ const MarketAccess = () => {
           </div>
         </div>
       </AccessBlurbSection>
-
-
-
-
-      Small Medical Devices
-
-      Medical Consumables
-
-      RDT’s
-
-
-
-
       <AppCard />
     </div>
   );
