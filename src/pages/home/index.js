@@ -129,6 +129,25 @@ const Home = () => {
         />
       </Header>
 
+      <PartnerShipSection>
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-md-10 m-auto">
+              <h4 className="text-center " data-aos="fade-up">Trusted by Global Brands</h4>
+              <div className="row align-items-center">
+                {partners.map((pt, i) => (
+                  <div className="col-lg col-4 mb-3 mb-lg-0" key={i}>
+                    <img src={pt.src} alt={pt.alt} />
+                  </div>
+                ))}
+              </div>
+              <p style={{ paddingTop: '2rem', textAlign: 'center' }}>We work with more than 400 Pharmaceutical Manufacturers to deliver anti-counterfeit medication to the last mile.
+              </p>
+            </div>
+          </div>
+        </div>
+      </PartnerShipSection>
+
       <PersonalizedExtened>
         <div className="container">
           <div className="row align-items-center">
@@ -176,25 +195,7 @@ const Home = () => {
         </div>
       </PersonalizedExtened>
 
-      <PartnerShipSection>
-        <div className="container">
-          <div className="row align-items-center">
-            <div className="col-md-10 m-auto">
-              <h4 className="text-center " data-aos="fade-up">Trusted by Global Brands</h4>
-              <div className="row align-items-center">
-                {partners.map((pt, i) => (
-                  <div className="col-lg col-4 mb-3 mb-lg-0" key={i}>
-                    <img src={pt.src} alt={pt.alt} />
-                  </div>
-                ))}
-              </div>
-              <p style={{ paddingTop: '2rem' }}>We work with more than 400 Pharmaceutical Manufacturers to deliver anti
-                countefeit drugs to last mile patients
-              </p>
-            </div>
-          </div>
-        </div>
-      </PartnerShipSection>
+
       <PersonalizedExtened>
         <div className="container" data-aos="fade-up">
           <h3>
