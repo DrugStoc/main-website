@@ -8,6 +8,9 @@ import styled from 'styled-components';
 import AppCard from 'components/app-card';
 import { BenefitSection } from 'pages/careers';
 import { Header } from 'pages/procure-direct';
+import Link from 'next/dist/client/link'; 
+
+
 
 const MarketAccess = () => {
   return (
@@ -127,7 +130,7 @@ const MarketAccess = () => {
               <div className="card">
                 <div className="card-body">
                   <img src="/images/careers/4.svg" alt="" />
-                  <h4>RDT’s</h4>
+                  <h4>Rapid Diagnostic Tests</h4>
                  {/* <p>
                     With the fast pace of our environment, you’re sure to
                     acquire new skills.
@@ -161,8 +164,13 @@ const MarketAccess = () => {
             </div>
           </div>
         </div>
+       
       </AccessBlurbSection>
 
+      <Link href="/call to action" passHref>
+                <button style={{marginLeft:'40%',marginTop:'2rem'}}className="btn btn-drug-stoc">marketaccess@drugsto.com</button>
+                </Link>
+               
       <AppCard />
     </div>
   );

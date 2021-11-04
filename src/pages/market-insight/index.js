@@ -8,6 +8,7 @@ import styled from 'styled-components';
 import AppCard from 'components/app-card';
 import { BenefitSection } from 'pages/careers';
 import { Header } from 'pages/procure-direct';
+import Link from 'next/dist/client/link'; 
 
 const MarketInsight = () => {
   return (
@@ -127,7 +128,11 @@ const MarketInsight = () => {
           </div>
         </div>
       </MarketInsightSection>
-      <AccessBlurbSection>
+
+      <Link href="/call to action" passHref>
+                <button style={{marginLeft:'40%',marginTop:'2rem'}}className="btn btn-drug-stoc">insights@drugstoc.com</button>
+                </Link>
+      {/*<AccessBlurbSection>
         <div className="container">
           <h2>Your medical products, simply delivered</h2>
           <div className="row">
@@ -205,7 +210,7 @@ const MarketInsight = () => {
             </div>
           </div>
         </div>
-      </AccessBlurbSection>
+      </AccessBlurbSection>*/}
 
       <AppCard />
     </div>

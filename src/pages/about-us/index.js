@@ -15,7 +15,7 @@ const AboutUs = () => {
             <div className="col-lg-6">
               <h1>Why DrugStoc?</h1>
               <h5>
-                Access to genuine Drugs in Emerging economies is broken,
+                Access to genuine medication in Emerging economies is broken,
                 DrugStoc wants to fix it.{' '}
               </h5>
               <p>
@@ -25,9 +25,7 @@ const AboutUs = () => {
                 <br />
                 for a large portion of that.
               </p>
-              <Link href="/">
-                <button className="btn btn-drug-stoc">LEARN MORE</button>
-              </Link>
+              
               <p className="throphy">
                 <img
                   src="images/about-us/throphy.svg"
@@ -35,7 +33,7 @@ const AboutUs = () => {
                   width="30"
                   className="mr-2"
                 />{' '}
-                Winner, Nigeria Healthcare Excellence Awards
+                Winner, Nigeria Healthcare Excellence Awards 2019 & 2021
               </p>
             </div>
           </div>
@@ -59,7 +57,7 @@ const AboutUs = () => {
             <div className="col-lg-5">
               <div className="card mb-5 mb-lg-0">
                 <div className="card-body">
-                  <h4>Our mission</h4>
+                  <h4>Our Mission</h4>
                   <img src="/images/about-us/rocket.svg" alt="" />
                   <p>
                   To Empower Healthcare Providers for a Healthier Africa
@@ -74,7 +72,7 @@ const AboutUs = () => {
                   <h4>Our Vision</h4>
                   <img src="/images/about-us/binoculars.svg" alt="" />
                   <p>
-                  To Revolutionise the Way Healthcare Providers Interface with Pharmaceutical Markets
+                  To Revolutionise the Way Healthcare Providers Interface with the Pharmaceutical Markets
                   </p>
                 </div>
               </div>
@@ -99,9 +97,9 @@ const AboutUs = () => {
               <p>
               Today, we are the fastest growing tech enabled procurement partner for Pharmaceutical & Consumer Health companies reaching thousands of Pharmacies, Retailers, Hospitals, Clinics and Medical Practitioners across Nigeria. 
               </p>
-              <Link href="/join" passHref>
+              {/*<Link href="/join" passHref>
                 <button className="btn btn-drug-stoc">JOIN US</button>
-              </Link>
+  </Link>*/}
             </div>
           </div>
         </div>
@@ -109,10 +107,10 @@ const AboutUs = () => {
       <CoreValueSection />
       <TeamSection>
         <div className="container">
-          <h2>Our Team</h2>
+          <h2>Connect With Us</h2>
           <h5>
             We’re a team of Doctors, Entreprenuers, Pharmacists, Engineers,
-            Financial analysts and <br /> Innovators on a misson to healthcare
+            Financial analysts and <br /> Innovators on a misson to change healthcare
           </h5>
           <div className="row">
             {teams.map(team => (
