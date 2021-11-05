@@ -72,13 +72,13 @@ const MarketAccess = () => {
                   <p>Regulatory Affairs</p>
                 </li>
                 <li className="col-lg-6 ">
-                  <p>Registration Services </p>
+                  <p>Registration Services</p>
                 </li>
                 <li className="col-lg-6 ">
                   <p>Data Driven Pricing <br />and Demand Data</p>
                 </li>
                 <li className="col-lg-6 ">
-                  <p>Track and Trace your Products Live</p>
+                  <p>Track and Trace your <br /> Products Live</p>
                 </li>
                 <li className="col-lg-6 ">
                   <p>Distribution and <br />Warehousing</p>
@@ -97,14 +97,13 @@ const MarketAccess = () => {
       <AccessBlurbSection>
         <div className="container">
           <h2>Your medical products, simply delivered</h2>
-          <p>We specialise in: </p>
+          <p style={{ textAlign: 'center', marginBottom: '50px' }}> We specialise in: </p>
           <div className="row">
             <div className="col-md-6 col-lg-4">
               <div className="card">
                 <div className="card-body">
                   <img src="/images/careers/1.svg" alt="" />
                   <h4>Pharmacy Products</h4>
-
                 </div>
               </div>
             </div>
@@ -134,7 +133,7 @@ const MarketAccess = () => {
                   {/* <p>
                     With the fast pace of our environment, you’re sure to
                     acquire new skills.
-                 </p>*/}
+                  </p> */}
                 </div>
               </div>
             </div>
@@ -146,7 +145,7 @@ const MarketAccess = () => {
                   {/* <p>
                     Life is too short to work on things you don’t love. Join us
                     and do the things you love.
-                 </p>*/}
+                  </p> */}
                 </div>
               </div>
             </div>
@@ -158,7 +157,7 @@ const MarketAccess = () => {
                   {/*<p>
                     All team members have 20 days of paid annual leave, and are
                     warmly encouraged to use them
-                 </p>*/}
+                  </p> */}
                 </div>
               </div>
             </div>
@@ -266,8 +265,10 @@ const AccessBlurbSection = styled(BenefitSection)`
   @media (max-width: 992px) {
     margin-top: 4rem;
   }
-  h2 {
+  h2{
     color: #000;
+    margin: 50px;
+    text-align: center ;
   }
 `;
 

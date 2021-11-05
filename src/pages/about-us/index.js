@@ -61,7 +61,6 @@ const AboutUs = () => {
                   <img src="/images/about-us/rocket.svg" alt="" />
                   <p>
                     To Empower Healthcare Providers for a Healthier Africa
-
                   </p>
                 </div>
               </div>
@@ -145,7 +144,7 @@ const AboutUs = () => {
         <TeamSection>
           <div className="container">
             <h2 className="blue">
-              Very ambitious? Passionate about Healthcare?
+              Ambitious? Passionate about Healthcare?
             </h2>
             <h5 className="mt-4 ">
               Come work with us and do meaningful work with kind and smart

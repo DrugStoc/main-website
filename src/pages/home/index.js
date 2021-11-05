@@ -160,13 +160,61 @@ const Home = () => {
                   </div>
                 ))}
               </div>
-              <p style={{ paddingTop: '2rem' }}>We work with more than 400 Pharmaceutical Manufacturers to deliver anti
-                countefeit drugs to last mile patients
+              <p style={{ paddingTop: '2rem', textAlign: 'center' }}>We work with more than 400 Pharmaceutical Manufacturers to deliver anti-counterfeit medication to the last mile.
               </p>
             </div>
           </div>
         </div>
       </PartnerShipSection>
+
+      <PersonalizedExtened>
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-lg-7">
+              <Image
+                data-aos="zoom-in"
+                src="/images/landing/personalized/personalized-2.png"
+                alt=" Forward thinking solutions"
+                className="d-block mb-3 mb-lg-0"
+                width="670"
+                layout="intrinsic"
+                height="595.06"
+              />
+            </div>
+            <div className="col-lg-5">
+              <h4 >Exceptional Service & Procurement Partner</h4>
+              <p>
+                DrugStoc is a hassle-free procurement platform to source all the medications, consumables, and small medical devices needed for your practice. Find quality at the click of a button.
+              </p>
+              <ul className="row">
+                <li className="col-lg-6 " data-aos="fade-right">
+                  <p>24/7 service delivery</p>
+                </li>
+                <li className="col-lg-6 " data-aos="fade-right">
+                  <p>ISO 9001-2015 Certified </p>
+                </li>
+                <li className="col-lg-6 " data-aos="fade-right">
+                  <p>7000 + Products</p>
+                </li>
+                <li className="col-lg-6 " data-aos="fade-right">
+                  <p>Dedicated Customer support</p>
+                </li>
+                <li className="col-lg-6 " data-aos="fade-right">
+                  <p>PCN Certified</p>
+                </li>
+                <li className="col-lg-6 " data-aos="fade-right">
+                  <p>Anti-counterfeit Supply Chain</p>
+                </li>
+              </ul>
+              <p>
+                Our team of pharmacists, doctors, and procurement specialists understand your needs and work tirelessly to manage your cost and product availability.
+              </p>
+            </div>
+          </div>
+        </div>
+      </PersonalizedExtened>
+
+
       <PersonalizedExtened>
         <div className="container" data-aos="fade-up">
           <h3>
@@ -301,52 +349,7 @@ const Home = () => {
           </div>
         </div>
       </ImpactSection>
-      <PersonalizedExtened>
-        <div className="container">
-          <div className="row align-items-center">
-            <div className="col-lg-7">
-              <Image
-                data-aos="zoom-in"
-                src="/images/landing/personalized/personalized-2.png"
-                alt=" Forward thinking solutions"
-                className="d-block mb-3 mb-lg-0"
-                width="670"
-                layout="intrinsic"
-                height="595.06"
-              />
-            </div>
-            <div className="col-lg-5">
-              <h4 >Exceptional Service & Procurement Partner</h4>
-              <p>
-                DrugStoc is a hassle-free procurement platform to source all the medications, consumables, and small medical devices needed for your practice. Find quality at the click of a button.
-              </p>
-              <ul className="row">
-                <li className="col-lg-6 " data-aos="fade-right">
-                  <p>24/7 service delivery</p>
-                </li>
-                <li className="col-lg-6 " data-aos="fade-right">
-                  <p>ISO 9001-2015 Certified </p>
-                </li>
-                <li className="col-lg-6 " data-aos="fade-right">
-                  <p>7000 + Products</p>
-                </li>
-                <li className="col-lg-6 " data-aos="fade-right">
-                  <p>Dedicated Customer support</p>
-                </li>
-                <li className="col-lg-6 " data-aos="fade-right">
-                  <p>PCN Certified</p>
-                </li>
-                <li className="col-lg-6 " data-aos="fade-right">
-                  <p>Anti-counterfeit Supply Chain</p>
-                </li>
-              </ul>
-              <p>
-                Our team of pharmacists, doctors, and procurement specialists understand your needs and work tirelessly to manage your cost and product availability.
-              </p>
-            </div>
-          </div>
-        </div>
-      </PersonalizedExtened>
+
 
       <LinearSection>
         <PersonalizedSolutionSection>

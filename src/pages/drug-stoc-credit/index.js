@@ -24,9 +24,7 @@ const DrugStocCredit = () => {
               </h1>
 
               <p>
-                With DrugStoc Credit, your drug supply chain can be much more.
-                Get uninterruted stock or finance to take your practice,
-                hospital or pharmacy to the next level.
+                With DrugStoc Credit, your drug supply chain can be much more. Get uninterruted stock or finance to take your practice, hospital or pharmacy to the next level.
               </p>
 
               <div className="d-flex flex-wrap">
@@ -76,7 +74,7 @@ const DrugStocCredit = () => {
                   <img src="/images/careers/1.svg" alt="" />
                   <h4>Get Interest Free Credit</h4>
                   <p>
-                  Get your business running without worry about your stock levels.
+                    Get your business running without worry about your stock levels.
                   </p>
                 </div>
               </div>
@@ -87,7 +85,7 @@ const DrugStocCredit = () => {
                   <img src="/images/careers/2.svg" alt="" />
                   <h4>No Deposit Required, No Collateral</h4>
                   <p>
-                  Enjoy Easy Access to Instant Loans Now - Easy to Apply, No Long Form to Fill, and No Collateral Is Required.
+                    Enjoy Easy Access to Instant Loans Now - Easy to Apply, No Long Form to Fill, and No Collateral Is Required.
                   </p>
                 </div>
               </div>
@@ -98,7 +96,7 @@ const DrugStocCredit = () => {
                   <img src="/images/careers/3.svg" alt="" />
                   <h4>Flexible repayment Options</h4>
                   <p>
-                  Grow your practice by selecting from various repayment options available to you
+                    Grow your practice by selecting from various repayment options available to you
 
                   </p>
                 </div>
@@ -106,7 +104,7 @@ const DrugStocCredit = () => {
             </div>
           </div>
         </div>
-      </ProcureSection>
+      </ProcureSection >
       <ProcureSection theme="#FFF8F0">
         <div className="container">
           <p className="text-center mb-3">How DrugStoc Credit works?</p>{' '}
@@ -179,7 +177,7 @@ const DrugStocCredit = () => {
       </ProcureSection>
       {/*<FAQSection faq={FAQ} theme="#FAFAFB" />*/}
       <AppCard />
-    </div>
+    </div >
   );
 };
 

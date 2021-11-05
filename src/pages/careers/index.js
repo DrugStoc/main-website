@@ -22,7 +22,7 @@ const Careers = () => {
                 Join a team that will unlock the well being of Africans, in our lifetime.
 
                 <br />
-                One person, a time.
+                in our lifetime.
               </p>
               <p></p>
               <Link href="#open-positions">
@@ -73,7 +73,7 @@ const Careers = () => {
           />
         </div>
       </TeamSection>
-      <CoreValueSection />
+      {/* <CoreValueSection /> */}
       <BenefitSection>
         <div className="container">
           <h2>Benefits Of working with us</h2>
@@ -84,9 +84,7 @@ const Careers = () => {
                   <img src="/images/careers/1.svg" alt="" />
                   <h4>Health insurance</h4>
                   <p>
-                    Health Insurance
                     Our comprehensive medical insurance covers you and your family
-
                   </p>
                 </div>
               </div>
@@ -120,7 +118,6 @@ const Careers = () => {
                   <h4>Learning and development</h4>
                   <p>
                     With the fast pace of our environment, you’re sure to acquire new skills.
-
                   </p>
                 </div>
               </div>
@@ -132,7 +129,6 @@ const Careers = () => {
                   <h4>Do what you love</h4>
                   <p>
                     Life is too short to work without purpose. Lets change Africa’s narrative together.
-
                   </p>
                 </div>
               </div>
