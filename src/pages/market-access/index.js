@@ -8,7 +8,7 @@ import styled from 'styled-components';
 import AppCard from 'components/app-card';
 import { BenefitSection } from 'pages/careers';
 import { Header } from 'pages/procure-direct';
-import Link from 'next/dist/client/link'; 
+import Link from 'next/dist/client/link';
 
 
 
@@ -21,15 +21,15 @@ const MarketAccess = () => {
             <div className="col-lg-7">
               <h5 className="badge">MARKET ACCESS </h5>
               <h1>
-              Thinking about the African market? <br />
-              Get your products to your target audience 
+                Thinking about the African market? <br />
+                Get your products to your target audience
               </h1>
 
               <p>
-              We use data driven insights and a new-age hybrid distribution model to  <br />
-              create access for your products to the people who need it the most.{' '}
+                We use data driven insights and a new-age hybrid distribution model to  <br />
+                create access for your products to the people who need it the most.{' '}
                 <br />
-              
+
               </p>
             </div>
             <div className="col-lg-5">
@@ -65,7 +65,7 @@ const MarketAccess = () => {
             </div>
             <div className="col-lg-5">
               <p>
-              We provide end-to-end services to ensure that you have a reliable market access partner. These services include:
+                We provide end-to-end services to ensure that you have a reliable market access partner. These services include:
               </p>
               <ul className="row">
                 <li className="col-lg-6 ">
@@ -75,20 +75,20 @@ const MarketAccess = () => {
                   <p>Registration Services </p>
                 </li>
                 <li className="col-lg-6 ">
-                  <p>Data Driven Pricing <br/>and Demand Data</p>
+                  <p>Data Driven Pricing <br />and Demand Data</p>
                 </li>
                 <li className="col-lg-6 ">
                   <p>Track and Trace your Products Live</p>
                 </li>
                 <li className="col-lg-6 ">
-                  <p>Distribution and <br/>Warehousing</p>
+                  <p>Distribution and <br />Warehousing</p>
                 </li>
                 <li className="col-lg-6 ">
-                  <p> Marketting and Merchandising Services</p>
+                  <p> Marketing and Merchandising <br /> Services</p>
                 </li>
               </ul>
               <p>
-              Open up a new frontier with a reliable partner that prioritises quality and waste reduction. Solidify your presence within a growing market with immense potential. Let's get the conversation started. 
+                Open up a new frontier with a reliable partner that prioritises quality and waste reduction. Solidify your presence within a growing market with immense potential. Let's get the conversation started.
               </p>
             </div>
           </div>
@@ -104,7 +104,7 @@ const MarketAccess = () => {
                 <div className="card-body">
                   <img src="/images/careers/1.svg" alt="" />
                   <h4>Pharmacy Products</h4>
-                  
+
                 </div>
               </div>
             </div>
@@ -113,7 +113,7 @@ const MarketAccess = () => {
                 <div className="card-body">
                   <img src="/images/careers/2.svg" alt="" />
                   <h4>Small Medical Devices</h4>
-                 
+
                 </div>
               </div>
             </div>
@@ -122,7 +122,7 @@ const MarketAccess = () => {
                 <div className="card-body">
                   <img src="/images/careers/3.svg" alt="" />
                   <h4>Medical Consumables</h4>
-                 
+
                 </div>
               </div>
             </div>
@@ -131,7 +131,7 @@ const MarketAccess = () => {
                 <div className="card-body">
                   <img src="/images/careers/4.svg" alt="" />
                   <h4>Rapid Diagnostic Tests</h4>
-                 {/* <p>
+                  {/* <p>
                     With the fast pace of our environment, you’re sure to
                     acquire new skills.
                  </p>*/}
@@ -143,7 +143,7 @@ const MarketAccess = () => {
                 <div className="card-body">
                   <img src="/images/careers/5.svg" alt="" />
                   <h4>Cold Chain Products </h4>
-                 {/* <p>
+                  {/* <p>
                     Life is too short to work on things you don’t love. Join us
                     and do the things you love.
                  </p>*/}
@@ -155,7 +155,7 @@ const MarketAccess = () => {
                 <div className="card-body">
                   <img src="/images/careers/6.svg" alt="" />
                   <h4>Specialty Items in Tertiary Care</h4>
-                 {/*<p>
+                  {/*<p>
                     All team members have 20 days of paid annual leave, and are
                     warmly encouraged to use them
                  </p>*/}
@@ -164,13 +164,13 @@ const MarketAccess = () => {
             </div>
           </div>
         </div>
-       
+
       </AccessBlurbSection>
 
-      <Link href="/call to action" passHref>
-                <button style={{marginLeft:'40%',marginTop:'2rem'}}className="btn btn-drug-stoc">marketaccess@drugsto.com</button>
-                </Link>
-               
+      <Link href="mailto:marketaccess@drugsto.com">
+        <button style={{ marginLeft: '40%', marginTop: '2rem' }} className="btn btn-drug-stoc"> Send an Email</button>
+      </Link>
+
       <AppCard />
     </div>
   );

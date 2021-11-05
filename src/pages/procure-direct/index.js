@@ -19,7 +19,7 @@ const ProcureDirect = () => {
               <h1>Never run out of medications for your patients</h1>
 
               <p>
-              Revolutionize how you discover and order products for your practice. Get quality pharmaceutical products delivered to your facility or practice on time. 
+                Revolutionize how you discover and order products for your practice. Get quality pharmaceutical products delivered to your facility or practice on time.
 
               </p>
 
@@ -72,9 +72,9 @@ const ProcureDirect = () => {
                 Anti-counterfeit <br /> Supply Chain
               </h3>
               <p>
-              Our supply chain is end to end traceable and trackable leaving no room for substandard or counterfeit products to contaminate your purchases.
+                Our supply chain is end to end traceable and trackable leaving no room for substandard or counterfeit products to contaminate your purchases.
               </p>
-              <p>Our quality service systems are ISO 9001-2015 certified for Good Distribution Practice and Quality Management Systems. </p>
+              <p>Our quality service systems are ISO 9001-2015 Certified for Good Distribution Practice and Quality Management Systems. </p>
             </div>
           </div>
         </div>
@@ -87,7 +87,7 @@ const ProcureDirect = () => {
                 7000+ Products , <br /> 24/7 Delivery Services
               </h3>
               <p>
-              Join the DrugStoc family and get access to over 7000+ products in the palm of your hand. We deliver within 24 hours all orders purchased on our platform within Lagos. All our products are long-dated to help you manage your expiry. 
+                Join the DrugStoc family and get access to over 7000+ products in the palm of your hand. We deliver within 24 hours all orders purchased on our platform within Lagos. All our products are long-dated to help you manage your expiry.
 
               </p>
             </div>{' '}
@@ -116,10 +116,10 @@ const ProcureDirect = () => {
                 Flexible Financing <br /> Options
               </h3>
               <p>
-              Keep your shelves well-stocked while we help manage your end-to-end inventory with a seamless payment plan. 
+                Keep your shelves well-stocked while we help manage your end-to-end inventory with a seamless payment plan.
               </p>
               <p>
-              Gain access to a personalized purchasing officer to help you at every step of your way.
+                Gain access to a personalized purchasing officer to help you at every step of your way.
               </p>
             </div>
           </div>

@@ -21,12 +21,12 @@ const NavbarLayout = () => {
   const style =
     userScrolledUp || isStaticBg
       ? {
-          // boxShadow: '0 2px 15px #0000000d',
-          borderBottom: '1px solid #ececec',
-          backdropFilter: 'saturate(3.5) blur(14px)',
-          background: '#fff',
-          boxShadow: '1px 0px 10px #00000008',
-        }
+        // boxShadow: '0 2px 15px #0000000d',
+        borderBottom: '1px solid #ececec',
+        backdropFilter: 'saturate(3.5) blur(14px)',
+        background: '#fff',
+        boxShadow: '1px 0px 10px #00000008',
+      }
       : {};
   return (
     <div>
@@ -66,14 +66,14 @@ const NavbarLayout = () => {
                   <a className="nav-link"> Careers</a>
                 </NavDropdown.Item>
 
-                <NavDropdown.Item
+                {/* <NavDropdown.Item
                   href="/contact"
                   as={NavLink}
                   passHref
                   activeClassName="active"
                 >
                   <a className="nav-link">Contact</a>
-                </NavDropdown.Item>
+                </NavDropdown.Item> */}
               </NavDropdown>
               <NavDropdown
                 title="Solutions"

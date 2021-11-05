@@ -25,7 +25,7 @@ const AboutUs = () => {
                 <br />
                 for a large portion of that.
               </p>
-              
+
               <p className="throphy">
                 <img
                   src="images/about-us/throphy.svg"
@@ -60,7 +60,7 @@ const AboutUs = () => {
                   <h4>Our Mission</h4>
                   <img src="/images/about-us/rocket.svg" alt="" />
                   <p>
-                  To Empower Healthcare Providers for a Healthier Africa
+                    To Empower Healthcare Providers for a Healthier Africa
 
                   </p>
                 </div>
@@ -72,7 +72,7 @@ const AboutUs = () => {
                   <h4>Our Vision</h4>
                   <img src="/images/about-us/binoculars.svg" alt="" />
                   <p>
-                  To Revolutionise the Way Healthcare Providers Interface with the Pharmaceutical Markets
+                    To Revolutionise the Way Healthcare Providers Interface with the Pharmaceutical Markets
                   </p>
                 </div>
               </div>
@@ -90,12 +90,12 @@ const AboutUs = () => {
             <div className="col-lg-5 pl-lg-0">
               <h3>What we do?</h3>
               <p>
-              At DrugStoc, we combine the use of unmatched technology, supply chain innovation, financial solutions, and product knowledge to unlock access to medications in emerging Economies.
+                At DrugStoc, we combine the use of unmatched technology, supply chain innovation, financial solutions, and product knowledge to unlock access to medications in emerging Economies.
 
               </p>
               <br />
               <p>
-              Today, we are the fastest growing tech enabled procurement partner for Pharmaceutical & Consumer Health companies reaching thousands of Pharmacies, Retailers, Hospitals, Clinics and Medical Practitioners across Nigeria. 
+                Today, we are the fastest growing tech enabled procurement partner for Pharmaceutical & Consumer Health companies reaching thousands of Pharmacies, Retailers, Hospitals, Clinics and Medical Practitioners across Nigeria.
               </p>
               {/*<Link href="/join" passHref>
                 <button className="btn btn-drug-stoc">JOIN US</button>
@@ -112,14 +112,13 @@ const AboutUs = () => {
             We’re a team of Doctors, Entreprenuers, Pharmacists, Engineers,
             Financial analysts and <br /> Innovators on a misson to change healthcare
           </h5>
-          <div className="row">
+          <div className="row icons__container">
             {teams.map(team => (
-              <div className="col-lg-3 col-md-4 col-6" key={team.image}>
-                <div className="team__card">
-                  <img src={team.image} alt={team.name} />
+              <div className="col-lg-4 col-md-4 col-6" key={team.image}>
+                <a href={team.link} target="_blank" referrerPolicy="no-referrer" className="team__card">
+                  <h4>{team.image} </h4>
                   <h4>{team.name}</h4>
-                  <p>{team.role}</p>
-                </div>
+                </a>
               </div>
             ))}
           </div>
@@ -330,6 +329,10 @@ const WhatWeDo = styled.section`
 `;
 
 const TeamSection = styled.section`
+.icons__container{
+  max-width: 700px;
+  margin:auto;
+}
   margin-top: 8rem;
 
   @media (max-width: 992px) {
@@ -365,6 +368,14 @@ const TeamSection = styled.section`
     text-align: center;
     color: var(--text-black);
     margin-bottom: 3rem;
+  }
+
+  .team__card{
+    margin: auto;
+
+    h4{
+      color: var(--primary-blue) !important;
+    }
   }
   .team__card,
   .investor__card {

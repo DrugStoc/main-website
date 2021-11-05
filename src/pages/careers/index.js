@@ -25,7 +25,7 @@ const Careers = () => {
                 One person, a time.
               </p>
               <p></p>
-              <Link href="/">
+              <Link href="#open-positions">
                 <button className="btn btn-drug-stoc">SEE OPENINGS</button>
               </Link>
             </div>
@@ -153,8 +153,8 @@ const Careers = () => {
           </div>
         </div>
       </BenefitSection>
-      <OpenPositions>
-        <div className="container">
+      <OpenPositions id="open-positions">
+        <div className="container" >
           <h2>Open Positions</h2>
           <p>
             There are {jobs.length} open roles across all teams and locations
