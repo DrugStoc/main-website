@@ -5,6 +5,8 @@ import AppCard from 'components/app-card';
 import Link from 'next/link';
 import Image from 'next/image';
 import React, { useEffect, useState } from 'react';
+import { FaAppStore } from 'react-icons/fa'
+import { IoLogoGooglePlaystore } from 'react-icons/io5'
 // import ScrollAnimation from 'react-animate-on-scroll';
 import { Carousel } from 'react-bootstrap';
 import styled from 'styled-components';
@@ -87,15 +89,32 @@ const Home = () => {
                 Anti-Counterfeit Supply Chain for Healthcare Providers in
                 Emerging Economies
               </p>
-
-              <a
-                href="https://apps.apple.com/ng/app/drugstoc-mobile/id1467205425"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn btn-drug-stoc"
-              >
-                SIGN UP NOW
-              </a>
+              <div className="show-download-now">
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.drugstoc.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  data-aos="zoom-out-up"
+                >
+                  <img
+                    src="/images/landing/download/google-play-alt.svg"
+                    alt=""
+                    className="logo"
+                  />
+                </a>
+                <a
+                  href="https://apps.apple.com/ng/app/drugstoc-mobile/id1467205425"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  data-aos="zoom-out-up"
+                >
+                  <img
+                    src="/images/landing/download/app-store-alt.svg"
+                    alt=""
+                    className="logo"
+                  />
+                </a>
+              </div>
 
               <div className="d-flex  message__section">
                 <StackedAvatar width="100" />{' '}
@@ -516,6 +535,18 @@ const Header = styled.header`
   display: flex;
   align-items: center;
   position: relative;
+
+  .show-download-now{
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    a{
+      padding: 0;
+    }
+    img {
+      max-width: 150px ;
+    }
+  }
 
   @media (max-width: 992px) {
     min-height: 750px;

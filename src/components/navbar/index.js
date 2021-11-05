@@ -21,12 +21,12 @@ const NavbarLayout = () => {
   const style =
     userScrolledUp || isStaticBg
       ? {
-          // boxShadow: '0 2px 15px #0000000d',
-          borderBottom: '1px solid #ececec',
-          backdropFilter: 'saturate(3.5) blur(14px)',
-          background: '#fff',
-          boxShadow: '1px 0px 10px #00000008',
-        }
+        // boxShadow: '0 2px 15px #0000000d',
+        borderBottom: '1px solid #ececec',
+        backdropFilter: 'saturate(3.5) blur(14px)',
+        background: '#fff',
+        boxShadow: '1px 0px 10px #00000008',
+      }
       : {};
   return (
     <div>
@@ -66,14 +66,14 @@ const NavbarLayout = () => {
                   <a className="nav-link"> Careers</a>
                 </NavDropdown.Item>
 
-                <NavDropdown.Item
+                {/* <NavDropdown.Item
                   href="/contact"
                   as={NavLink}
                   passHref
                   activeClassName="active"
                 >
                   <a className="nav-link">Contact</a>
-                </NavDropdown.Item>
+                </NavDropdown.Item> */}
               </NavDropdown>
               <NavDropdown
                 title="Solutions"
@@ -211,42 +211,36 @@ const NavbarLayout = () => {
                     </div>
                     <div className="card-body right-card">
                       <h4>BY CLIENT CATEGORY</h4>
-                      <Link href="/">
-                        <a href="#" className="nav-link_">
-                          Chain Pharmacies
-                        </a>
-                      </Link>
-                      <Link href="/">
-                        <a href="#" className="nav-link_">
-                          Community Pharmacies
-                        </a>
-                      </Link>
-                      <Link href="/">
-                        <a href="#" className="nav-link_">
-                          Retail Pharmacies
-                        </a>
-                      </Link>
-                      <Link href="/">
-                        <a href="#" className="nav-link_">
-                          For Hospitals & Clinics
-                        </a>
-                      </Link>
-                      <Link href="/">
-                        <a href="#" className="nav-link_">
-                          For Licensed Medical Professionals
-                        </a>
-                      </Link>
 
-                      <Link href="/">
-                        <a href="#" className="nav-link_">
-                          For HMOs
-                        </a>
-                      </Link>
-                      <Link href="/">
-                        <a href="#" className="nav-link_">
-                          For Government Facilities
-                        </a>
-                      </Link>
+                      <a href="/procure-direct" className="nav-link_">
+                        Chain Pharmacies
+                      </a>
+
+                      <a href="/procure-direct" className="nav-link_">
+                        Community Pharmacies
+                      </a>
+
+
+                      <a href="/procure-direct" className="nav-link_">
+                        Retail Pharmacies
+                      </a>
+
+                      <a href="/procure-direct" className="nav-link_">
+                        For Hospitals & Clinics
+                      </a>
+
+                      <a href="/procure-direct" className="nav-link_">
+                        For Licensed Medical Professionals
+                      </a>
+
+                      <a href="/partnerships" className="nav-link_">
+                        For HMOs
+                      </a>
+
+                      <a href="/partnerships" className="nav-link_">
+                        For Government Facilities
+                      </a>
+
                     </div>
                   </div>
                 </div>

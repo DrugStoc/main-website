@@ -8,6 +8,9 @@ import styled from 'styled-components';
 import AppCard from 'components/app-card';
 import { BenefitSection } from 'pages/careers';
 import { Header } from 'pages/procure-direct';
+import Link from 'next/dist/client/link';
+
+
 
 const MarketAccess = () => {
   return (
@@ -18,12 +21,15 @@ const MarketAccess = () => {
             <div className="col-lg-7">
               <h5 className="badge">MARKET ACCESS </h5>
               <h1>
-                Thinking about the African market? Get your products to your target audience
+                Thinking about the African market? <br />
+                Get your products to your target audience
               </h1>
 
               <p>
-                We use data driven insights and a new-age hybrid distribution model to <br />
-                create access for your products to the people who need it the most.
+                We use data driven insights and a new-age hybrid distribution model to  <br />
+                create access for your products to the people who need it the most.{' '}
+                <br />
+
               </p>
             </div>
             <div className="col-lg-5">
@@ -69,16 +75,16 @@ const MarketAccess = () => {
                   <p>Registration Services</p>
                 </li>
                 <li className="col-lg-6 ">
-                  <p>Data Driven Pricing and <br /> Demand Data</p>
+                  <p>Data Driven Pricing <br />and Demand Data</p>
                 </li>
                 <li className="col-lg-6 ">
                   <p>Track and Trace your <br /> Products Live</p>
                 </li>
                 <li className="col-lg-6 ">
-                  <p>Distribution and <br /> Warehousing</p>
+                  <p>Distribution and <br />Warehousing</p>
                 </li>
                 <li className="col-lg-6 ">
-                  <p>Marketing and Merchandising <br /> Services</p>
+                  <p> Marketing and Merchandising <br /> Services</p>
                 </li>
               </ul>
               <p>
@@ -98,10 +104,6 @@ const MarketAccess = () => {
                 <div className="card-body">
                   <img src="/images/careers/1.svg" alt="" />
                   <h4>Pharmacy Products</h4>
-                  {/* <p>
-                    Our comprehensive medical insurance covers a wide variety of
-                    needs
-                  </p> */}
                 </div>
               </div>
             </div>
@@ -109,11 +111,8 @@ const MarketAccess = () => {
               <div className="card">
                 <div className="card-body">
                   <img src="/images/careers/2.svg" alt="" />
-                  <h4> Small Medical Devices</h4>
-                  {/* <p>
-                    Your opportunity to impact product, connect with customers,
-                    and help us scale is massive.
-                  </p> */}
+                  <h4>Small Medical Devices</h4>
+
                 </div>
               </div>
             </div>
@@ -121,11 +120,8 @@ const MarketAccess = () => {
               <div className="card">
                 <div className="card-body">
                   <img src="/images/careers/3.svg" alt="" />
-                  <h4>Medical Consumables </h4>
-                  {/* <p>
-                    All team members have 20 days of paid annual leave, and are
-                    warmly encouraged to use them
-                  </p> */}
+                  <h4>Medical Consumables</h4>
+
                 </div>
               </div>
             </div>
@@ -133,7 +129,7 @@ const MarketAccess = () => {
               <div className="card">
                 <div className="card-body">
                   <img src="/images/careers/4.svg" alt="" />
-                  <h4> Cold Chain Products </h4>
+                  <h4>Rapid Diagnostic Tests</h4>
                   {/* <p>
                     With the fast pace of our environment, you’re sure to
                     acquire new skills.
@@ -145,7 +141,7 @@ const MarketAccess = () => {
               <div className="card">
                 <div className="card-body">
                   <img src="/images/careers/5.svg" alt="" />
-                  <h4>RDT’s</h4>
+                  <h4>Cold Chain Products </h4>
                   {/* <p>
                     Life is too short to work on things you don’t love. Join us
                     and do the things you love.
@@ -158,7 +154,7 @@ const MarketAccess = () => {
                 <div className="card-body">
                   <img src="/images/careers/6.svg" alt="" />
                   <h4>Specialty Items in Tertiary Care</h4>
-                  {/* <p>
+                  {/*<p>
                     All team members have 20 days of paid annual leave, and are
                     warmly encouraged to use them
                   </p> */}
@@ -167,7 +163,13 @@ const MarketAccess = () => {
             </div>
           </div>
         </div>
+
       </AccessBlurbSection>
+
+      <Link href="mailto:marketaccess@drugsto.com">
+        <button style={{ marginLeft: '40%', marginTop: '2rem' }} className="btn btn-drug-stoc"> Send an Email</button>
+      </Link>
+
       <AppCard />
     </div>
   );

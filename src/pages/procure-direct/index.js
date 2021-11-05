@@ -74,7 +74,7 @@ const ProcureDirect = () => {
               <p>
                 Our supply chain is end to end traceable and trackable leaving no room for substandard or counterfeit products to contaminate your purchases.
               </p>
-              <p>Our quality service systems are ISO 9001-2015 certified for Good Distribution Practice and Quality Management Systems. </p>
+              <p>Our quality service systems are ISO 9001-2015 Certified for Good Distribution Practice and Quality Management Systems. </p>
             </div>
           </div>
         </div>
