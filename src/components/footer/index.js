@@ -76,31 +76,31 @@ const Footer = () => {
 
             <ul className="list-unstyled quick-links">
               <li>
-                <Link href="/pharmacy" as="/pharmacy">
+                <Link href="/procure-direct" as="/procure-direct">
                   <a aria-label="Navigate To For Pharmacy page">For Pharmacy</a>
                 </Link>
               </li>
               <li>
-                <Link href="/hospital" as="/hospital">
+                <Link href="/procure-direct" as="/procure-direct">
                   <a aria-label="Navigate To For Hospitals & Clinics page">
                     For Hospitals & Clinics
                   </a>
                 </Link>
               </li>
               <li>
-                <Link href="/lmp" as="/lmp">
+                <Link href="/procure-direct" as="/procure-direct">
                   <a aria-label="Navigate To For Licensed Medical Practitioners page">
                     For Licensed Medical Practitioners
                   </a>
                 </Link>
               </li>
               <li>
-                <Link href="/hmos" as="/hmos">
+                <Link href="/partnerships" as="/partnerships">
                   <a aria-label="Navigate To For HMOs page">For HMOs</a>
                 </Link>
               </li>
               <li>
-                <Link href="/government" as="/government">
+                <Link href="/partnerships" as="/partnerships">
                   <a aria-label="Navigate To For Government facilities page">
                     For Government facilities
                   </a>

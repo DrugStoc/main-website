@@ -540,7 +540,12 @@ const Header = styled.header`
     display: flex;
     width: fit-content;
     align-items: center;
+    gap: 20px;
     a{
+      border: 1px solid black;
+      padding: 8px;
+      border-radius: 20px;
+      overflow: hidden;
       padding: 0;
     }
     img {
