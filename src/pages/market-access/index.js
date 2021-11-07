@@ -102,7 +102,8 @@ const MarketAccess = () => {
             <div className="col-md-6 col-lg-4">
               <div className="card">
                 <div className="card-body">
-                  <img src="/images/careers/1.svg" alt="" />
+                  <img src="/images/careers/pharmacy-products.png" alt="" />
+                  {/* <img src="/images/careers/1.svg" alt="" /> */}
                   <h4>Pharmacy Products</h4>
                 </div>
               </div>
@@ -110,7 +111,8 @@ const MarketAccess = () => {
             <div className="col-md-6 col-lg-4">
               <div className="card">
                 <div className="card-body">
-                  <img src="/images/careers/2.svg" alt="" />
+                  <img src="/images/careers/small-device.png" alt="" />
+                  {/* <img src="/images/careers/2.svg" alt="" /> */}
                   <h4>Small Medical Devices</h4>
 
                 </div>
@@ -119,7 +121,8 @@ const MarketAccess = () => {
             <div className="col-md-6 col-lg-4">
               <div className="card">
                 <div className="card-body">
-                  <img src="/images/careers/3.svg" alt="" />
+                  {/* <img src="/images/careers/3.svg" alt="" /> */}
+                  <img src="/images/careers/medical-consumables.png" alt="" />
                   <h4>Medical Consumables</h4>
 
                 </div>
@@ -128,7 +131,8 @@ const MarketAccess = () => {
             <div className="col-md-6 col-lg-4">
               <div className="card">
                 <div className="card-body">
-                  <img src="/images/careers/4.svg" alt="" />
+                  {/* <img src="/images/careers/4.svg" alt="" /> */}
+                  <img src="/images/careers/rapid-test.png" alt="" />
                   <h4>Rapid Diagnostic Tests</h4>
                   {/* <p>
                     With the fast pace of our environment, you’re sure to
@@ -152,7 +156,8 @@ const MarketAccess = () => {
             <div className="col-md-6 col-lg-4">
               <div className="card">
                 <div className="card-body">
-                  <img src="/images/careers/6.svg" alt="" />
+                  <img src="/images/careers/specialty-item.png" alt="" />
+                  {/* <img src="/images/careers/6.svg" alt="" /> */}
                   <h4>Specialty Items in Tertiary Care</h4>
                   {/*<p>
                     All team members have 20 days of paid annual leave, and are
@@ -166,7 +171,7 @@ const MarketAccess = () => {
 
       </AccessBlurbSection>
 
-      <Link href="mailto:marketaccess@drugsto.com">
+      <Link href="mailto:marketaccess@drugstoc.com">
         <button style={{ marginLeft: '40%', marginTop: '2rem' }} className="btn btn-drug-stoc"> Send an Email</button>
       </Link>
 

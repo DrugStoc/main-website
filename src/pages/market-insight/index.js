@@ -28,7 +28,8 @@ const MarketInsight = () => {
             </div>
             <div className="col-lg-5">
               <img
-                src="/images/market-insight/banner.png"
+                src="/images/market-insight/market-insights.png"
+                // src="/images/market-insight/banner.png"
                 alt="Woman Smiling"
                 loading="eager"
                 className="w-100 d-lg-block d-none"
@@ -120,10 +121,13 @@ const MarketInsight = () => {
             </div>
             <div className="col-lg-6">
               <img
-                src="/images/market-access/section-2.png"
+                src="/images/market-access/stakeholder-image.png"
+                style={{ borderRadius: '20px' }}
                 alt=" Forward thinking solutions"
                 className="d-lg-block d-none w-100"
               />
+              {/* src="/images/market-access/section-2.png" */}
+
             </div>
           </div>
         </div>

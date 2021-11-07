@@ -150,12 +150,17 @@ const Careers = () => {
         </div>
       </BenefitSection>
       <OpenPositions id="open-positions">
-        <div className="container" >
-          <h2>Open Positions</h2>
+        <div className="container" style={{ textAlign: 'center' }}>
+          <h2> Interested ? Send us your resume.</h2>
+          <Link href="mailto:careers@drugstoc.com" style={{ margin: 'auto' }}>
+            <button className="btn btn-drug-stoc"> Send an Email</button>
+          </Link>
+
+          {/* <h2>Open Positions</h2>
           <p>
             There are {jobs.length} open roles across all teams and locations
-          </p>
-          <div className="row my-5">
+          </p> */}
+          {/* <div className="row my-5">
             <div className="col-lg-3">
               <input className="form-control" placeholder="Search" />
             </div>
@@ -205,7 +210,7 @@ const Careers = () => {
                 </tr>
               ))}
             </tbody>
-          </Table>
+          </Table> */}
         </div>
       </OpenPositions>
       <AppCard />
@@ -302,6 +307,11 @@ const TeamSection = styled.section`
     margin-top: 5rem;
     width: 90%;
   }
+  @media (max-width: 992px) {
+    h2.blue::after, h2.blue::after {
+     display: none ;
+    }
+}
   h2 {
     font-style: normal;
     font-weight: 600;
