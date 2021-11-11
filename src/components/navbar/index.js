@@ -21,12 +21,12 @@ const NavbarLayout = () => {
   const style =
     userScrolledUp || isStaticBg
       ? {
-        // boxShadow: '0 2px 15px #0000000d',
-        borderBottom: '1px solid #ececec',
-        backdropFilter: 'saturate(3.5) blur(14px)',
-        background: '#fff',
-        boxShadow: '1px 0px 10px #00000008',
-      }
+          // boxShadow: '0 2px 15px #0000000d',
+          borderBottom: '1px solid #ececec',
+          backdropFilter: 'saturate(3.5) blur(14px)',
+          background: '#fff',
+          boxShadow: '1px 0px 10px #00000008',
+        }
       : {};
   return (
     <div>
@@ -48,7 +48,10 @@ const NavbarLayout = () => {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              <NavDropdown title="Company" id="collasible-nav-dropdown">
+              <NavLink activeClassName="active" href="/about">
+                <a className="nav-link">About Us</a>
+              </NavLink>
+              {/* <NavDropdown title="Company" id="collasible-nav-dropdown">
                 <NavDropdown.Item
                   href="/about"
                   as={NavLink}
@@ -66,15 +69,15 @@ const NavbarLayout = () => {
                   <a className="nav-link"> Careers</a>
                 </NavDropdown.Item>
 
-                {/* <NavDropdown.Item
+                <NavDropdown.Item
                   href="/contact"
                   as={NavLink}
                   passHref
                   activeClassName="active"
                 >
                   <a className="nav-link">Contact</a>
-                </NavDropdown.Item> */}
-              </NavDropdown>
+                </NavDropdown.Item>
+              </NavDropdown> */}
               <NavDropdown
                 title="Solutions"
                 id="collasible-nav-dropdown"
@@ -220,7 +223,6 @@ const NavbarLayout = () => {
                         Community Pharmacies
                       </a>
 
-
                       <a href="/procure-direct" className="nav-link_">
                         Retail Pharmacies
                       </a>
@@ -240,7 +242,6 @@ const NavbarLayout = () => {
                       <a href="/partnerships" className="nav-link_">
                         For Government Facilities
                       </a>
-
                     </div>
                   </div>
                 </div>
@@ -260,7 +261,7 @@ const NavbarLayout = () => {
                 rel="nopener noreferrer"
                 className="nav-button"
               >
-                Shop
+                SHOP ON WEB
               </Nav.Link>
 
               <Dropdown>
