@@ -5,8 +5,8 @@ import AppCard from 'components/app-card';
 import Link from 'next/link';
 import Image from 'next/image';
 import React, { useEffect, useState } from 'react';
-import { FaAppStore } from 'react-icons/fa'
-import { IoLogoGooglePlaystore } from 'react-icons/io5'
+import { FaAppStore } from 'react-icons/fa';
+import { IoLogoGooglePlaystore } from 'react-icons/io5';
 // import ScrollAnimation from 'react-animate-on-scroll';
 import { Carousel } from 'react-bootstrap';
 import styled from 'styled-components';
@@ -14,9 +14,8 @@ import { clients, partners, personalized, providers } from './data';
 import StackedAvatar from '../../../public/images/landing/stacked-avatar.svg';
 import Stars from '../../../public/images/landing/stars.svg';
 import ISO from '../../../public/images/landing/iso.svg';
-import AOS from 'aos'
-import "aos/dist/aos.css";
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 /* -------------------------- Internal Dependencies ------------------------- */
 
@@ -35,8 +34,8 @@ const Home = () => {
 
   useEffect(() => {
     AOS.init({
-      duration: 300
-    })
+      duration: 300,
+    });
     const words = [
       'Pharmacies',
       'Hospitals &<br /> Clinics',
@@ -124,7 +123,11 @@ const Home = () => {
                 </div>
               </div>
 
-              <ISO className="iso-section" aria-hidden="true" data-aos="zoom-out-up" />
+              <ISO
+                className="iso-section"
+                aria-hidden="true"
+                data-aos="zoom-out-up"
+              />
             </div>
           </div>
           <div className="banner d-lg-block d-none">
@@ -152,7 +155,9 @@ const Home = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-md-10 m-auto">
-              <h4 className="text-center " data-aos="fade-up">Trusted by Global Brands</h4>
+              <h4 className="text-center " data-aos="fade-up">
+                Trusted by Global Brands
+              </h4>
               <div className="row align-items-center">
                 {partners.map((pt, i) => (
                   <div className="col-lg col-4 mb-3 mb-lg-0" key={i}>
@@ -160,60 +165,14 @@ const Home = () => {
                   </div>
                 ))}
               </div>
-              <p style={{ paddingTop: '2rem', textAlign: 'center' }}>We work with more than 400 Pharmaceutical Manufacturers to deliver anti-counterfeit medication to the last mile.
+              <p style={{ paddingTop: '2rem', textAlign: 'center' }}>
+                We work with more than 400 Pharmaceutical Manufacturers to
+                deliver anti-counterfeit medication to the last mile.
               </p>
             </div>
           </div>
         </div>
       </PartnerShipSection>
-
-      <PersonalizedExtened>
-        <div className="container">
-          <div className="row align-items-center">
-            <div className="col-lg-7">
-              <Image
-                data-aos="zoom-in"
-                src="/images/landing/personalized/personalized-2.png"
-                alt=" Forward thinking solutions"
-                className="d-block mb-3 mb-lg-0"
-                width="670"
-                layout="intrinsic"
-                height="595.06"
-              />
-            </div>
-            <div className="col-lg-5">
-              <h4 >Exceptional Service & Procurement Partner</h4>
-              <p>
-                DrugStoc is a hassle-free procurement platform to source all the medications, consumables, and small medical devices needed for your practice. Find quality at the click of a button.
-              </p>
-              <ul className="row">
-                <li className="col-lg-6 " data-aos="fade-right">
-                  <p>24/7 service delivery</p>
-                </li>
-                <li className="col-lg-6 " data-aos="fade-right">
-                  <p>ISO 9001-2015 Certified </p>
-                </li>
-                <li className="col-lg-6 " data-aos="fade-right">
-                  <p>7000 + Products</p>
-                </li>
-                <li className="col-lg-6 " data-aos="fade-right">
-                  <p>Dedicated Customer support</p>
-                </li>
-                <li className="col-lg-6 " data-aos="fade-right">
-                  <p>PCN Certified</p>
-                </li>
-                <li className="col-lg-6 " data-aos="fade-right">
-                  <p>Anti-counterfeit Supply Chain</p>
-                </li>
-              </ul>
-              <p>
-                Our team of pharmacists, doctors, and procurement specialists understand your needs and work tirelessly to manage your cost and product availability.
-              </p>
-            </div>
-          </div>
-        </div>
-      </PersonalizedExtened>
-
 
       <PersonalizedExtened>
         <div className="container" data-aos="fade-up">
@@ -229,13 +188,14 @@ const Home = () => {
                 width="670"
                 height="562.9"
                 data-aos="fade-up"
-
               />
             </div>
             <div className="col-lg-5">
               <h4>End-to-End Procurment Solutions</h4>
               <p>
-                Seamless & easy-to-use platform that lets health providers manage and procure all their pharmaceutical and medical products in one place.
+                Seamless & easy-to-use platform that lets health providers
+                manage and procure all their pharmaceutical and medical products
+                in one place.
               </p>
               <ul className="row">
                 <li className="col-lg-6 " data-aos="fade-right">
@@ -258,7 +218,9 @@ const Home = () => {
                 </li>
               </ul>
               <p>
-                Ominichannel access ensures that all health providers are empowered to make the best purchasing decision for their practice and patient.
+                Ominichannel access ensures that all health providers are
+                empowered to make the best purchasing decision for their
+                practice and patient.
               </p>
             </div>
           </div>
@@ -271,8 +233,8 @@ const Home = () => {
               <h4>Smart Payment Solutions & Inventory Financing </h4>
               <p>
                 Smartly scale your pharmacy business with our collateral free
-                loans. Focus on delivery exceptional services to patients
-                while we ensure you never run out of Stock.
+                loans. Focus on delivery exceptional services to patients while
+                we ensure you never run out of Stock.
               </p>
               <ul className="row">
                 <li className="col-lg-6 " data-aos="fade-right">
@@ -295,14 +257,14 @@ const Home = () => {
                 </li>
               </ul>
               <p>
-                We provide you with everything you need to run and scale your practice or pharmacy business. Talk to us today on how we can grow your practice together.
-
+                We provide you with everything you need to run and scale your
+                practice or pharmacy business. Talk to us today on how we can
+                grow your practice together.
               </p>
             </div>
             <div className="col-lg-7 order-lg-2 order-1">
               <img
                 data-aos="zoom-in-up"
-
                 src="/images/landing/personalized/payment-image.png"
                 alt=" Forward thinking solutions"
                 className="mb-3 mb-lg-0"
@@ -313,49 +275,63 @@ const Home = () => {
           </div>
         </div>
       </SmartPaymentSection>
-      <ImpactSection>
+      <PersonalizedExtened>
         <div className="container">
-          <h3>Our Impact</h3>
-          <div className="row">
-            <div className="col-lg-3 mb-3 mb-lg-0" data-aos="fade-up">
-              <h4>
-                <img src="/images/landing/impact/9m.svg" alt="" /> 9M+
-              </h4>
-              <h5>Prescriptions of our products dispensed through our clients annually</h5>
+          <div className="row align-items-center">
+            <div className="col-lg-7">
+              <Image
+                data-aos="zoom-in"
+                src="/images/landing/personalized/personalized-2.png"
+                alt=" Forward thinking solutions"
+                className="d-block mb-3 mb-lg-0"
+                width="670"
+                layout="intrinsic"
+                height="595.06"
+              />
             </div>
-
-            <div className="col-lg-3 mb-3 mb-lg-0" data-aos="fade-up">
-              <h4>
-                <img src="/images/landing/impact/3k.svg" alt="" /> 3000+
-              </h4>
-              <h5>Healthcare facilities trust us</h5>
-            </div>
-
-            <div className="col-lg-3 mb-3 mb-lg-0" data-aos="fade-up">
-              <h4>
-                <img src="/images/landing/impact/70k.svg" alt="" /> 7000+
-              </h4>
-              <h5>SKUs of genuine medicines and medical devices</h5>
-            </div>
-
-            <div className="col-lg-3 mb-3 mb-lg-0" data-aos="fade-up">
-              <h4>
-                <img src="/images/landing/impact/20m.svg" alt="" /> 20M+
-              </h4>
-              <h5>
-                Patients protected from counterfeit products to date
-              </h5>
+            <div className="col-lg-5">
+              <h4>Exceptional Service & Procurement Partner</h4>
+              <p>
+                DrugStoc is a hassle-free procurement platform to source all the
+                medications, consumables, and small medical devices needed for
+                your practice. Find quality at the click of a button.
+              </p>
+              <ul className="row">
+                <li className="col-lg-6 " data-aos="fade-right">
+                  <p>24/7 service delivery</p>
+                </li>
+                <li className="col-lg-6 " data-aos="fade-right">
+                  <p>ISO 9001-2015 Certified </p>
+                </li>
+                <li className="col-lg-6 " data-aos="fade-right">
+                  <p>7000 + Products</p>
+                </li>
+                <li className="col-lg-6 " data-aos="fade-right">
+                  <p>Dedicated Customer support</p>
+                </li>
+                <li className="col-lg-6 " data-aos="fade-right">
+                  <p>PCN Certified</p>
+                </li>
+                <li className="col-lg-6 " data-aos="fade-right">
+                  <p>Anti-counterfeit Supply Chain</p>
+                </li>
+              </ul>
+              <p>
+                Our team of pharmacists, doctors, and procurement specialists
+                understand your needs and work tirelessly to manage your cost
+                and product availability.
+              </p>
             </div>
           </div>
         </div>
-      </ImpactSection>
-
+      </PersonalizedExtened>
 
       <LinearSection>
         <PersonalizedSolutionSection>
           <div className="container">
             <h3 className="text-left text-lg-center" data-aos="fade-up">
-              Preferred Procurement Partner<br /> for HealthCare Providers
+              Preferred Procurement Partner
+              <br /> for HealthCare Providers
             </h3>
             <Carousel
               interval={null}
@@ -408,7 +384,11 @@ const Home = () => {
             </h5>
             <div className="row align-items-center">
               {providers.map((pt, i) => (
-                <div className="col-lg-2 col-3 mb-3 mb-lg-0" key={i} data-aos="fade-up">
+                <div
+                  className="col-lg-2 col-3 mb-3 mb-lg-0"
+                  key={i}
+                  data-aos="fade-up"
+                >
                   <img src={pt.src} alt={pt.alt} />
                 </div>
               ))}
@@ -426,37 +406,82 @@ const Home = () => {
           <h6>
             Our clients praise us for our great service and on-time delivery
           </h6>
-          <Carousel
-            indicators={false}
-            nextIcon={
-              <img
-                src="data:image/svg+xml,%0A%3Csvg width='34' height='16' viewBox='0 0 34 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M6.99719 7.00045H30.1662L24.5765 1.41068L25.9964 0.000732422L33.9961 8.00041L25.9964 16.0001L24.5865 14.5901L30.1662 9.00037H6.99719V7.00045Z' fill='black' fill-opacity='0.54'/%3E%3C/svg%3E%0A"
-                alt=""
-              />
-            }
-            prevIcon={
-              <img
-                src="data:image/svg+xml,%0A%3Csvg width='34' height='16' viewBox='0 0 34 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='arrow_back_24px'%3E%3Cpath id='icon/navigation/arrow_back_24px' d='M27.0028 7.00045H3.83375L9.42352 1.41068L8.00358 0.000732422L0.00390625 8.00041L8.00358 16.0001L9.41352 14.5901L3.83375 9.00037H27.0028V7.00045Z' fill='black' fill-opacity='0.54'/%3E%3C/g%3E%3C/svg%3E%0A"
-                alt=""
-              />
-            }
-          >
-            {clients.map((card, i) => (
-              <Carousel.Item key={i}>
-                <div className="row justify-content-md-center">
-                  <div className="col-lg-9">
-                    <h4 className="card-details-carousel-holder">{card.message}</h4>
-                    <div className="card-details">
-                      <h5>{card.name}</h5>
-                      <p>{card.role}</p>
+
+          <div>
+            <div>
+              <img src="/images/landing/client.png" />
+            </div>
+            <Carousel
+              indicators={false}
+              nextIcon={
+                <img
+                  src="data:image/svg+xml,%0A%3Csvg width='34' height='16' viewBox='0 0 34 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M6.99719 7.00045H30.1662L24.5765 1.41068L25.9964 0.000732422L33.9961 8.00041L25.9964 16.0001L24.5865 14.5901L30.1662 9.00037H6.99719V7.00045Z' fill='black' fill-opacity='0.54'/%3E%3C/svg%3E%0A"
+                  alt=""
+                />
+              }
+              prevIcon={
+                <img
+                  src="data:image/svg+xml,%0A%3Csvg width='34' height='16' viewBox='0 0 34 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='arrow_back_24px'%3E%3Cpath id='icon/navigation/arrow_back_24px' d='M27.0028 7.00045H3.83375L9.42352 1.41068L8.00358 0.000732422L0.00390625 8.00041L8.00358 16.0001L9.41352 14.5901L3.83375 9.00037H27.0028V7.00045Z' fill='black' fill-opacity='0.54'/%3E%3C/g%3E%3C/svg%3E%0A"
+                  alt=""
+                />
+              }
+            >
+              {clients.map((card, i) => (
+                <Carousel.Item key={i}>
+                  <div className="row justify-content-md-center">
+                    <div className="col-lg-9">
+                      <h4 className="card-details-carousel-holder">
+                        {card.message}
+                      </h4>
+                      <div className="card-details">
+                        <h5>{card.name}</h5>
+                        <p>{card.role}</p>
+                      </div>
                     </div>
                   </div>
-                </div>
-              </Carousel.Item>
-            ))}
-          </Carousel>
+                </Carousel.Item>
+              ))}
+            </Carousel>
+          </div>
         </div>
       </ClientsSection>
+      <ImpactSection>
+        <div className="container">
+          <h3>Our Impact</h3>
+          <div className="row">
+            <div className="col-lg-3 mb-3 mb-lg-0" data-aos="fade-up">
+              <h4>
+                <img src="/images/landing/impact/9m.svg" alt="" /> 9M+
+              </h4>
+              <h5>
+                Prescriptions of our products dispensed through our clients
+                annually
+              </h5>
+            </div>
+
+            <div className="col-lg-3 mb-3 mb-lg-0" data-aos="fade-up">
+              <h4>
+                <img src="/images/landing/impact/3k.svg" alt="" /> 3000+
+              </h4>
+              <h5>Healthcare facilities trust us</h5>
+            </div>
+
+            <div className="col-lg-3 mb-3 mb-lg-0" data-aos="fade-up">
+              <h4>
+                <img src="/images/landing/impact/70k.svg" alt="" /> 7000+
+              </h4>
+              <h5>SKUs of genuine medicines and medical devices</h5>
+            </div>
+
+            <div className="col-lg-3 mb-3 mb-lg-0" data-aos="fade-up">
+              <h4>
+                <img src="/images/landing/impact/20m.svg" alt="" /> 20M+
+              </h4>
+              <h5>Patients protected from counterfeit products to date</h5>
+            </div>
+          </div>
+        </div>
+      </ImpactSection>
 
       <AppCard />
 
@@ -536,20 +561,20 @@ const Header = styled.header`
   align-items: center;
   position: relative;
 
-  .show-download-now{
+  .show-download-now {
     display: flex;
     width: fit-content;
     align-items: center;
     gap: 20px;
-    a{
+    a {
       border: 1px solid black;
       padding: 8px;
-      border-radius: 10px;
+      border-radius: 8px;
       overflow: hidden;
       padding: 0;
     }
     img {
-      max-width: 150px ;
+      max-width: 150px;
     }
   }
 
@@ -694,7 +719,6 @@ const PersonalizedSolutionSection = styled.section`
     height: 70px;
     left: 47%;
     transform: translate(-50%, 0);
-    
   }
   .carousel-control-next {
     top: 100%;
@@ -702,8 +726,8 @@ const PersonalizedSolutionSection = styled.section`
     left: 53%;
     transform: translate(-50%, 0);
   }
-  h4{
-    margin-top: 20px ;
+  h4 {
+    margin-top: 20px;
   }
 
   margin-top: 2rem;
@@ -866,7 +890,7 @@ const SmartPaymentSection = styled(PersonalizedExtened)`
   background: #f5f9f9;
   padding: 2rem 0;
   @media (max-width: 992px) {
-    padding:2rem 0;
+    padding: 2rem 0;
   }
   ul {
     list-style-image: url("data:image/svg+xml,%0A%3Csvg width='30' height='30' viewBox='0 0 38 38' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='19' cy='19' r='19' fill='white'/%3E%3Cpath d='M15.2949 23.59L19.8749 19L15.2949 14.41L16.7049 13L22.7049 19L16.7049 25L15.2949 23.59Z' fill='%232C4DA7' stroke='%232C4DA7' stroke-width='2'/%3E%3C/svg%3E%0A");
@@ -929,7 +953,7 @@ const ClientsSection = styled.section`
       display: none;
     }
   }
-  .card-details-carousel-holder{
+  .card-details-carousel-holder {
     min-height: 100px;
   }
 
@@ -958,7 +982,7 @@ const ClientsSection = styled.section`
     font-weight: 600;
     font-size: calc(var(--font-h5) + 3px);
     line-height: 2.2;
-    color:var(--text-dark);
+    color: var(--text-dark);
     margin-bottom: 0;
     @media (max-width: 992px) {
       margin-top: 2rem;
