@@ -139,8 +139,8 @@ const CoreValues = styled.section`
     &-intro {
       background: var(--primary-blue);
       height: 100%;
-      max-width: 50%;
-      flex: 0 0 50%;
+      max-width: 60%;
+      flex: 0 0 60%;
       min-height: 360px;
       padding: 7rem 0;
       height: 100%;
@@ -158,16 +158,19 @@ const CoreValues = styled.section`
       }
     }
     &-image {
-      max-width: 50%;
-      flex: 0 0 50%;
+      display: flex;
+      align-items: flex-end;
+      max-width: 40%;
+      flex: 0 0 40%;
       height: 100%;
       @media (max-width: 992px) {
         display: none;
       }
       img {
         width: 100%;
-        height: 100%;
-        object-fit: cover;
+        /* height: 100%; */
+        /* object-fit: cover; */
+        object-fit: contain;
       }
     }
   }
