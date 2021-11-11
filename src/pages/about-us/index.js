@@ -58,9 +58,11 @@ const AboutUs = () => {
               <div className="card mb-5 mb-lg-0">
                 <div className="card-body">
                   <h4>Our Mission</h4>
-                  <img src="/images/about-us/rocket.svg" alt="" />
+                  <img src="/images/about-us/rocket.png" alt="" />
                   <p>
                     To Empower Healthcare Providers for a Healthier Africa
+                    <br />
+                    <br />
                   </p>
                 </div>
               </div>
@@ -69,7 +71,7 @@ const AboutUs = () => {
               <div className="card">
                 <div className="card-body">
                   <h4>Our Vision</h4>
-                  <img src="/images/about-us/binoculars.svg" alt="" />
+                  <img src="/images/about-us/vision.png" alt="" />
                   <p>
                     To Revolutionise the Way Healthcare Providers Interface with the Pharmaceutical Markets
                   </p>
@@ -113,11 +115,11 @@ const AboutUs = () => {
           </h5>
           <div className="row icons__container">
             {teams.map(team => (
-              <div className="col-lg-4 col-md-4 col-6" key={team.image}>
-                <a href={team.link} target="_blank" referrerPolicy="no-referrer" className="team__card">
-                  <h4>{team.image} </h4>
-                  <h4>{team.name}</h4>
-                </a>
+              <div className="col-lg-4 col-md-4 col-12 team__Card__holder" key={team.image}>
+                <button href={team.link} target="_blank" referrerPolicy="no-referrer" className="team__card">
+                  {team.image}
+                  <span>{team.name} </span>
+                </button>
               </div>
             ))}
           </div>
@@ -260,7 +262,6 @@ const WhatWeDo = styled.section`
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
     border-radius: 15px;
     border: none;
-    text-align: center;
     padding: 2rem;
     h4 {
       font-style: normal;
@@ -268,7 +269,6 @@ const WhatWeDo = styled.section`
       font-size: calc(var(--font-p) + 2px);
       line-height: 1.7;
       font-family: var(--font-primary);
-      text-align: center;
       color: #000;
     }
     img {
@@ -281,7 +281,6 @@ const WhatWeDo = styled.section`
       font-weight: normal;
       font-size: calc(var(--font-p) + 3px);
       /* or 32px */
-      text-align: center;
       line-height: 1.78;
       color: var(--text-black);
     }
@@ -336,6 +335,7 @@ const TeamSection = styled.section`
 
   @media (max-width: 992px) {
     margin-top: 4rem;
+    display: block;
     br {
       display: none;
     }
@@ -371,12 +371,42 @@ const TeamSection = styled.section`
 
   .team__card{
     margin: auto;
+    height:45px;
+    border-left: 100px;
+    background-color: var(--primary-blue);
+    width: 332px;
+    border:none;
+    color: white;
+    display:flex;
+    align-items: center;
+    border-radius: 100px;
+    padding-left: 20px;
+    span{
+      padding-left: 30px;
+    }
+    @media (max-width: 992px) {
+        justify-content: center !important;
+    padding: 15px;
+    gap: 20px;
+    width: fit-content;
 
-    h4{
-      color: var(--primary-blue) !important;
+        span{
+          padding-left: 0;
+        }
     }
   }
-  .team__card,
+
+  .team__Card__holder{
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    @media (max-width: 992px) {
+        display: block !important;
+    }
+  }
+
+  
   .investor__card {
     h4 {
       font-style: normal;

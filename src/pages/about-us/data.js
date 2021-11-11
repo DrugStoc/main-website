@@ -3,8 +3,8 @@ import { AiOutlineLinkedin } from 'react-icons/ai'
 import { IoLogoInstagram } from 'react-icons/io'
 
 
-const size = 50
-const fill = '#4c70d6'
+const size = 25
+const fill = 'white'
 export const teams = [
   // {
   //   name: 'Adham Yehia',
