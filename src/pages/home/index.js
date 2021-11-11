@@ -544,7 +544,7 @@ const Header = styled.header`
     a{
       border: 1px solid black;
       padding: 8px;
-      border-radius: 20px;
+      border-radius: 10px;
       overflow: hidden;
       padding: 0;
     }
