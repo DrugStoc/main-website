@@ -116,10 +116,12 @@ const AboutUs = () => {
           <div className="row icons__container">
             {teams.map(team => (
               <div className="col-lg-4 col-md-4 col-12 team__Card__holder" key={team.image}>
-                <button href={team.link} target="_blank" referrerPolicy="no-referrer" className="team__card">
-                  {team.image}
-                  <span>{team.name} </span>
-                </button>
+                <a href={team.link} target="_blank" referrerPolicy="no-referrer">
+                  <button className="team__card">
+                    {team.image}
+                    <span>{team.name} </span>
+                  </button>
+                </a>
               </div>
             ))}
           </div>
@@ -374,7 +376,7 @@ const TeamSection = styled.section`
     height:45px;
     border-left: 100px;
     background-color: var(--primary-blue);
-    width: 332px;
+    width: 200px;
     border:none;
     color: white;
     display:flex;
