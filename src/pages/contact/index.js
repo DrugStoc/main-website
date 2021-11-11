@@ -5,6 +5,28 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Contact = () => {
+
+  const jobOptions = [
+    'Quotation request',
+    'Order Additions or Subtractions',
+    'Invoice',
+    'Payment Reconciliation',
+    'Price',
+    'Proform a Request',
+    'Delivery',
+    'DrugStoc App',
+    'Stock availability'
+  ]
+
+  const jobDescriptions = [
+    'Pharmacist',
+    'Doctor',
+    'Nurse',
+    'Health Care Professional',
+    'Hospitals',
+    'NGO',
+    'Investor'
+  ]
   return (
     <div>
       <Header>
@@ -27,18 +49,20 @@ const Contact = () => {
                     <div className="row">
                       <div className="col-lg-12">
                         <select name="jobs" className="custom-select">
-                          <option selected>Enquiries</option>
-                          <option value="volvo">Volvo</option>
-                          <option value="fiat">Fiat</option>
-                          <option value="audi">Audi</option>
+                          <option selected disabled>Enquiries</option>
+                          {
+                            jobOptions.map((e, i) =>
+                              <option value={e} key={i}>{e}</option>
+                            )
+                          }
                         </select>
                       </div>
                       <div className="col-lg-12">
                         <select name="jobs" className="custom-select">
-                          <option selected>What best describe you?</option>
-                          <option value="volvo">Volvo</option>
-                          <option value="fiat">Fiat</option>
-                          <option value="audi">Audi</option>
+                          <option selected disabled>What best describe you? </option>
+                          {jobDescriptions.map((e, i) =>
+                            <option key={i} value={e}> {e} </option>
+                          )}
                         </select>
                       </div>
                       <div className="col-lg-6">

@@ -21,12 +21,12 @@ const NavbarLayout = () => {
   const style =
     userScrolledUp || isStaticBg
       ? {
-          // boxShadow: '0 2px 15px #0000000d',
-          borderBottom: '1px solid #ececec',
-          backdropFilter: 'saturate(3.5) blur(14px)',
-          background: '#fff',
-          boxShadow: '1px 0px 10px #00000008',
-        }
+        // boxShadow: '0 2px 15px #0000000d',
+        borderBottom: '1px solid #ececec',
+        backdropFilter: 'saturate(3.5) blur(14px)',
+        background: '#fff',
+        boxShadow: '1px 0px 10px #00000008',
+      }
       : {};
   return (
     <div>
@@ -42,7 +42,7 @@ const NavbarLayout = () => {
         <Container fluid>
           <Link href="/">
             <a className="navbar-brand">
-              <Logo viewBox="0 0 107 40" />
+              <img src="/logo.svg" />
             </a>
           </Link>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />

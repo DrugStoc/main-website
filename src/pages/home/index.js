@@ -131,14 +131,13 @@ const Home = () => {
             </div>
           </div>
           <div className="banner d-lg-block d-none">
-            <Image
+            <img
               src="/images/landing/banner.png"
               alt="Picture of the author"
-              height={814}
-              width={866.27}
               layout="intrinsic"
               data-aos="fade-left"
               data-aos-offset="0"
+              style={{ width: '95%' }}
             />
           </div>
         </div>
@@ -408,9 +407,6 @@ const Home = () => {
           </h6>
 
           <div>
-            <div>
-              <img src="/images/landing/client.png" />
-            </div>
             <Carousel
               indicators={false}
               nextIcon={
@@ -560,7 +556,7 @@ const Header = styled.header`
   display: flex;
   align-items: center;
   position: relative;
-
+  overflow: hidden ;
   .show-download-now {
     display: flex;
     width: fit-content;
@@ -653,7 +649,7 @@ const Header = styled.header`
       }
     }
     &-right {
-      right: -10px;
+      right: 20px;
       position: absolute;
       height: 300px;
       bottom: 200px;

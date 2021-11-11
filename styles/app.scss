@@ -214,3 +214,9 @@ body {
 #google_translate_element2 {
   display: none !important;
 }
+
+.banner.d-lg-block {
+  object-fit: contain;
+  width: 100%;
+  text-align: right;
+}
