@@ -323,6 +323,10 @@ const NavbarLayout = () => {
 };
 
 const NavbarWrapper = styled(Navbar)`
+
+.nav-button.nav-link.active{
+  color: white !important;
+}
   padding: 1rem !important;
   background: transparent;
   @media (max-width: 992px) {
@@ -505,7 +509,11 @@ const NavbarWrapper = styled(Navbar)`
       margin-top: 1.2rem;
       .nav-button {
         margin-right: 10px;
+       
       }
+      a:visited{
+          color: white;
+        }
       .dropdown-toggle {
         &:after {
           content: unset;

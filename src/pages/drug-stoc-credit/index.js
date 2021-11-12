@@ -28,14 +28,14 @@ const DrugStocCredit = () => {
               </p>
 
               <div className="d-flex flex-wrap">
-                <a href="#">
+                <a href="https://play.google.com/store/apps/details?id=com.drugstoc.app">
                   <img
                     src="/images/procure-direct/google-play-alt.svg"
                     alt=""
                     aria-hidden="true"
                   />
                 </a>
-                <a href="#">
+                <a href="https://apps.apple.com/ng/app/drugstoc-mobile/id1467205425">
                   <img
                     src="/images/procure-direct/app-store-alt.svg"
                     alt=""
@@ -71,7 +71,7 @@ const DrugStocCredit = () => {
             <div className="col-md-6 col-lg-4">
               <div className="card">
                 <div className="card-body">
-                  <img src="/images/careers/1.svg" alt="" />
+                  <img src="/images/careers/10.svg" alt="" />
                   <h4>Get Interest Free Credit</h4>
                   <p>
                     Get your business running without worry about your stock levels.
@@ -82,7 +82,7 @@ const DrugStocCredit = () => {
             <div className="col-md-6 col-lg-4">
               <div className="card">
                 <div className="card-body">
-                  <img src="/images/careers/2.svg" alt="" />
+                  <img src="/images/careers/30.svg" alt="" />
                   <h4>No Deposit Required, No Collateral</h4>
                   <p>
                     Enjoy Easy Access to Instant Loans Now - Easy to Apply, No Long Form to Fill, and No Collateral Is Required.
@@ -93,7 +93,7 @@ const DrugStocCredit = () => {
             <div className="col-md-6 col-lg-4">
               <div className="card">
                 <div className="card-body">
-                  <img src="/images/careers/3.svg" alt="" />
+                  <img src="/images/careers/40.svg" alt="" />
                   <h4>Flexible repayment Options</h4>
                   <p>
                     Grow your practice by selecting from various repayment options available to you

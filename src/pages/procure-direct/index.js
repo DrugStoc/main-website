@@ -20,18 +20,17 @@ const ProcureDirect = () => {
 
               <p>
                 Revolutionize how you discover and order products for your practice. Get quality pharmaceutical products delivered to your facility or practice on time.
-
               </p>
 
               <div className="d-flex flex-wrap">
-                <a href="#">
+                <a href="https://play.google.com/store/apps/details?id=com.drugstoc.app">
                   <img
                     src="/images/procure-direct/google-play-alt.svg"
                     alt=""
                     aria-hidden="true"
                   />
                 </a>
-                <a href="#">
+                <a href="https://apps.apple.com/ng/app/drugstoc-mobile/id1467205425">
                   <img
                     src="/images/procure-direct/app-store-alt.svg"
                     alt=""

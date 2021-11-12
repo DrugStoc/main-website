@@ -102,7 +102,7 @@ const MarketAccess = () => {
             <div className="col-md-6 col-lg-4">
               <div className="card">
                 <div className="card-body">
-                  <img src="/images/careers/pharmacy-products.png" alt="" />
+                  <img src="/images/careers/pharmacy-products.svg" alt="" />
                   {/* <img src="/images/careers/1.svg" alt="" /> */}
                   <h4>Pharmacy Products</h4>
                 </div>
@@ -111,7 +111,7 @@ const MarketAccess = () => {
             <div className="col-md-6 col-lg-4">
               <div className="card">
                 <div className="card-body">
-                  <img src="/images/careers/small-device.png" alt="" />
+                  <img src="/images/careers/small-device.svg" alt="" />
                   {/* <img src="/images/careers/2.svg" alt="" /> */}
                   <h4>Small Medical Devices</h4>
 
@@ -122,7 +122,7 @@ const MarketAccess = () => {
               <div className="card">
                 <div className="card-body">
                   {/* <img src="/images/careers/3.svg" alt="" /> */}
-                  <img src="/images/careers/medical-consumables.png" alt="" />
+                  <img src="/images/careers/medical-consumables.svg" alt="" />
                   <h4>Medical Consumables</h4>
 
                 </div>
@@ -132,7 +132,7 @@ const MarketAccess = () => {
               <div className="card">
                 <div className="card-body">
                   {/* <img src="/images/careers/4.svg" alt="" /> */}
-                  <img src="/images/careers/rapid-test.png" alt="" />
+                  <img src="/images/careers/rapid-test.svg" alt="" />
                   <h4>Rapid Diagnostic Tests</h4>
                   {/* <p>
                     With the fast pace of our environment, you’re sure to
@@ -144,7 +144,7 @@ const MarketAccess = () => {
             <div className="col-md-6 col-lg-4">
               <div className="card">
                 <div className="card-body">
-                  <img src="/images/careers/5.svg" alt="" />
+                  <img src="/images/careers/career-5.svg" alt="" />
                   <h4>Cold Chain Products </h4>
                   {/* <p>
                     Life is too short to work on things you don’t love. Join us
@@ -156,7 +156,7 @@ const MarketAccess = () => {
             <div className="col-md-6 col-lg-4">
               <div className="card">
                 <div className="card-body">
-                  <img src="/images/careers/specialty-item.png" alt="" />
+                  <img src="/images/careers/specialty-item.svg" alt="" />
                   {/* <img src="/images/careers/6.svg" alt="" /> */}
                   <h4>Specialty Items in Tertiary Care</h4>
                   {/*<p>
@@ -172,7 +172,7 @@ const MarketAccess = () => {
       </AccessBlurbSection>
 
       <Link href="mailto:marketaccess@drugstoc.com">
-        <button style={{ marginLeft: '40%', marginTop: '2rem' }} className="btn btn-drug-stoc"> Send an Email</button>
+        <span> Send us a Email <img src="/images/arrow.svg" /> </span>
       </Link>
 
       <AppCard />

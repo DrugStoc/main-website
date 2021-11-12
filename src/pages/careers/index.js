@@ -151,8 +151,8 @@ const Careers = () => {
       </BenefitSection>
       <OpenPositions id="open-positions">
         <div className="container" style={{ textAlign: 'center' }}>
-          <h2> Interested ? Send us your resume.</h2>
-          <Link href="mailto:careers@drugstoc.com" style={{ margin: 'auto' }}>
+          <h2 style={{ marginBottom: '70px' }}> Interested ? <br /> Send us your resume.</h2>
+          <Link href="mailto:careers@drugstoc.com" style={{ marginLeft: 'auto', marginRight: 'auto', }}>
             <button className="btn btn-drug-stoc"> Send an Email</button>
           </Link>
 

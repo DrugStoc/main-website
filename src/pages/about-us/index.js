@@ -106,27 +106,7 @@ const AboutUs = () => {
         </div>
       </WhatWeDo>
       <CoreValueSection />
-      <TeamSection>
-        <div className="container">
-          <h2>Connect With Us</h2>
-          <h5>
-            We’re a team of Doctors, Entreprenuers, Pharmacists, Engineers,
-            Financial analysts and <br /> Innovators on a misson to change healthcare
-          </h5>
-          <div className="row icons__container">
-            {teams.map(team => (
-              <div className="col-lg-4 col-md-4 col-12 team__Card__holder" key={team.image}>
-                <a href={team.link} target="_blank" referrerPolicy="no-referrer">
-                  <button className="team__card">
-                    {team.image}
-                    <span>{team.name} </span>
-                  </button>
-                </a>
-              </div>
-            ))}
-          </div>
-        </div>
-      </TeamSection>
+
 
       <InvestSection>
         <div className="container">
@@ -164,6 +144,27 @@ const AboutUs = () => {
           </div>
         </TeamSection>
       </InvestSection>
+      <TeamSection>
+        <div className="container">
+          <h2>Connect With Us</h2>
+          <h5>
+            We’re a team of Doctors, Entreprenuers, Pharmacists, Engineers,
+            Financial analysts and <br /> Innovators on a misson to change healthcare
+          </h5>
+          <div className="row icons__container">
+            {teams.map(team => (
+              <div className="col-lg-4 col-md-4 col-12 team__Card__holder" key={team.image}>
+                <a href={team.link} target="_blank" referrerPolicy="no-referrer">
+                  <button className="team__card">
+                    {team.image}
+                    <span>{team.name} </span>
+                  </button>
+                </a>
+              </div>
+            ))}
+          </div>
+        </div>
+      </TeamSection>
 
       <AppCard />
     </div>
@@ -334,6 +335,8 @@ const TeamSection = styled.section`
   margin:auto;
 }
   margin-top: 8rem;
+  margin-bottom: 8rem;
+
 
   @media (max-width: 992px) {
     margin-top: 4rem;
