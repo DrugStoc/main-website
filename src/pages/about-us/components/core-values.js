@@ -48,7 +48,7 @@ export const CoreValueSection = () => (
             </div>
             <div className="accordion__item">
               <CustomToggle eventKey="3" type="arrow">
-                Rare and Speciality Medication Access
+                Rare and Speciality <br /> Medication Access
               </CustomToggle>
 
               <Accordion.Collapse eventKey="3">
@@ -92,6 +92,7 @@ export const CustomToggle = ({ children, eventKey, callback }) => {
       type="button"
       className="accordion__button"
       onClick={decoratedOnClick}
+      style={{ textAlign: 'left' }}
     >
       {children}
 
