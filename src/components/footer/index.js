@@ -64,7 +64,7 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/rxinsights" as="/rx-insights">
+                <Link href="/rxinsights" as="/rx-insight">
                   <a aria-label="Navigate To RXInsights page">RXInsights</a>
                 </Link>
               </li>
