@@ -67,7 +67,7 @@ const Careers = () => {
             </button>
           </Link>
           <img
-            src="/images/careers/supply-chain.png"
+            src="/images/landing/image-5.png"
             alt=""
             className="banner"
           />
@@ -151,10 +151,10 @@ const Careers = () => {
       </BenefitSection>
       <OpenPositions id="open-positions">
         <div className="container" style={{ textAlign: 'center' }}>
-          <h2 style={{ marginBottom: '70px' }}> Interested ? <br /> Send us your resume.</h2>
-          <Link href="mailto:careers@drugstoc.com" style={{ marginLeft: 'auto', marginRight: 'auto', }}>
-            <button className="btn btn-drug-stoc"> Send an Email</button>
-          </Link>
+          <h2 style={{ marginBottom: '50px' }}> Interested ? <br /> Send us your resume.</h2>
+          <a href="mailto:careers@drugstoc.com" style={{ marginLeft: 'auto', marginRight: 'auto', }}>
+            Send an Email <img src="/images/arrow.svg" width="30" style={{ marginLeft: '10px' }} />
+          </a>
 
           {/* <h2>Open Positions</h2>
           <p>

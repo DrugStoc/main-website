@@ -121,12 +121,12 @@ const MarketInsight = () => {
             </div>
             <div className="col-lg-6">
               <img
-                src="/images/market-access/stakeholder-image.png"
+                src="/images/landing/image-4.png"
                 style={{ borderRadius: '20px' }}
                 alt=" Forward thinking solutions"
                 className="d-lg-block d-none w-100"
               />
-              {/* src="/images/market-access/section-2.png" */}
+              {/* src="/images/landing/image-4.png" */}
 
             </div>
           </div>
