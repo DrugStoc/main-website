@@ -181,7 +181,7 @@ const Home = () => {
           <div className="row align-items-center">
             <div className="col-lg-7">
               <img
-                src="/images/landing/personalized/personalized-banner.png"
+                src="/images/landing/image-1.png"
                 alt=" Forward thinking solutions"
                 className="d-block mb-3 mb-lg-0"
                 width="670"
@@ -264,7 +264,7 @@ const Home = () => {
             <div className="col-lg-7 order-lg-2 order-1">
               <img
                 data-aos="zoom-in-up"
-                src="/images/landing/personalized/payment-image.png"
+                src="/images/landing/image-2.png"
                 alt=" Forward thinking solutions"
                 className="mb-3 mb-lg-0"
                 width="670"

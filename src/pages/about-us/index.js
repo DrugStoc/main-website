@@ -62,7 +62,6 @@ const AboutUs = () => {
                   <p>
                     To Empower Healthcare Providers for a Healthier Africa
                     <br />
-                    <br />
                   </p>
                 </div>
               </div>
@@ -148,7 +147,7 @@ const AboutUs = () => {
         <div className="container">
           <h2>Connect With Us</h2>
           <h5>
-            We’re a team of Doctors, Entreprenuers, Pharmacists, Engineers,
+            We’re a team of Doctors, Pharmacists, Engineers,
             Financial analysts and <br /> Innovators on a misson to change healthcare
           </h5>
           <div className="row icons__container">
@@ -334,7 +333,7 @@ const TeamSection = styled.section`
   max-width: 700px;
   margin:auto;
 }
-  margin-top: 8rem;
+  margin-top: 6rem;
   margin-bottom: 8rem;
 
 

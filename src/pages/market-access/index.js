@@ -171,9 +171,11 @@ const MarketAccess = () => {
 
       </AccessBlurbSection>
 
-      <Link href="mailto:marketaccess@drugstoc.com">
-        <span> Send us a Email <img src="/images/arrow.svg" /> </span>
-      </Link>
+      <div style={{ textAlign: 'center', marginTop: '40px' }}>
+        <a href="mailto:marketaccess@drugstoc.com">
+          Send us a Email <img src="/images/arrow.svg" width="30" style={{ marginLeft: '10px' }} />
+        </a>
+      </div>
 
       <AppCard />
     </div>
