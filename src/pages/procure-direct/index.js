@@ -61,7 +61,7 @@ const ProcureDirect = () => {
           <div className="row align-items-center justify-content-between">
             <div className="col-lg-5">
               <img
-                src="/images/procure-direct/section-1.png"
+                src="/images/landing/supply.png"
                 alt=" Forward thinking solutions"
                 className="mb-3 mb-lg-0"
               />

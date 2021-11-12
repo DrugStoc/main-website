@@ -60,7 +60,7 @@ const Partnerships = () => {
                 </p>
                 <div className="row align-items-center">
                   {partners.map(pt => (
-                    <div className="col-lg col-3 mb-3 mb-lg-0" key={pt.src}>
+                    <div className="col-lg col-4 mb-3 mb-lg-0" key={pt.src}>
                       <img src={pt.src} alt={pt.alt} />
                     </div>
                   ))}
