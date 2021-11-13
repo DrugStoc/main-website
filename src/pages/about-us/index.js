@@ -55,7 +55,7 @@ const AboutUs = () => {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-5">
-              <div className="card mb-5 mb-lg-0">
+              <div className="card mb-5 mb-lg-0" style={{ height: '330px' }}>
                 <div className="card-body">
                   <h4>Our Mission</h4>
                   <img src="/images/about-us/rocket.png" alt="" />
@@ -67,7 +67,7 @@ const AboutUs = () => {
               </div>
             </div>
             <div className="col-lg-5">
-              <div className="card">
+              <div className="card" style={{ height: '330px' }}>
                 <div className="card-body">
                   <h4>Our Vision</h4>
                   <img src="/images/about-us/vision.png" alt="" />
