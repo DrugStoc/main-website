@@ -119,7 +119,8 @@ const Footer = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Plot 3 , Billing way, Oregun, Lagos
+                  {/* Plot 3 , Billing way, Oregun, Lagos */}
+                  Drugstoc Inc
                 </a>
               </li>
             </ul>
@@ -142,7 +143,7 @@ const Footer = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  01 894049494
+                  08036879999
                 </a>
               </li>
             </ul>

@@ -392,9 +392,9 @@ const Home = () => {
                 </div>
               ))}
             </div>
-            <Link href="/">
-              <button className="btn btn-drug-stoc">Get Started</button>
-            </Link>
+            {/* <Link href="/"> */}
+            {/* <button className="btn btn-drug-stoc">Get Started</button> */}
+            {/* </Link> */}
           </div>
         </ProvidersSection>
       </LinearSection>

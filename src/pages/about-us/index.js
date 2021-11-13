@@ -19,9 +19,9 @@ const AboutUs = () => {
                 DrugStoc wants to fix it.{' '}
               </h5>
               <p>
-                Africa records, on average, 100,000 deaths that arise from
+                Africa records 100,000 deaths that arise from
                 <br />
-                counterfeit drug ailments annually, and Nigeria is responsible{' '}
+                counterfeit drug ailments annually, and West Africa is responsible{' '}
                 <br />
                 for a large portion of that.
               </p>
@@ -72,7 +72,7 @@ const AboutUs = () => {
                   <h4>Our Vision</h4>
                   <img src="/images/about-us/vision.png" alt="" />
                   <p>
-                    To Revolutionise the Way Healthcare Providers Interface with the Pharmaceutical Markets
+                    To Revolutionise the Way Healthcare Providers Interface with the Pharmaceutical Market
                   </p>
                 </div>
               </div>
