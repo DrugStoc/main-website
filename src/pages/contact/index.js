@@ -15,7 +15,10 @@ const Contact = () => {
     'Proform a Request',
     'Delivery',
     'DrugStoc App',
-    'Stock availability'
+    'Stock availability',
+    'Management',
+    'Market Access',
+    'Registration'
   ]
 
   const jobDescriptions = [
@@ -25,7 +28,10 @@ const Contact = () => {
     'Health Care Professional',
     'Hospitals',
     'NGO',
-    'Investor'
+    'Partners',
+    'Pharmaceutical Company',
+    'FMCG',
+    'Government Representative'
   ]
   return (
     <div>
