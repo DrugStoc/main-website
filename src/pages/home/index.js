@@ -118,7 +118,7 @@ const Home = () => {
               <div className="d-flex  message__section">
                 <StackedAvatar width="100" />{' '}
                 <div className="ml-2">
-                  <Stars width="90" />{' '}
+                  <img src="/images/landing/stars.svg" width="90" />{' '}
                   <p>Highly Rated by 3000+ Healthcare Providers</p>
                 </div>
               </div>
@@ -190,7 +190,7 @@ const Home = () => {
               />
             </div>
             <div className="col-lg-5">
-              <h4>End-to-End Procurment Solutions</h4>
+              <h4>End-to-End Procurement Solutions</h4>
               <p>
                 Seamless & easy-to-use platform that lets health providers
                 manage and procure all their pharmaceutical and medical products
