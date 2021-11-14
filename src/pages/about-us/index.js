@@ -15,15 +15,12 @@ const AboutUs = () => {
             <div className="col-lg-6">
               <h1>Why DrugStoc?</h1>
               <h5>
-                Access to genuine medication in Emerging economies is broken,
+                Access to genuine medication in emerging economies is broken,
                 DrugStoc wants to fix it.{' '}
               </h5>
               <p>
-                Africa records 100,000 deaths that arise from{' '}
-                <br />
-                counterfeit drug ailments annually, and West Africa is responsible{' '}
-                <br />
-                for a large portion of that.
+                Africa records ~100,000 deaths from counterfeit and <br />
+                substandard medication a year due to unreliable <br /> supply chains.
               </p>
 
               <p className="throphy">

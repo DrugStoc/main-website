@@ -232,7 +232,7 @@ const Home = () => {
               <h4>Smart Payment Solutions & Inventory Financing </h4>
               <p>
                 Smartly scale your pharmacy business with our collateral free
-                loans. Focus on delivery exceptional services to patients while
+                loans. Focus on delivering exceptional services to patients while
                 we ensure you never run out of Stock.
               </p>
               <ul className="row">
@@ -306,7 +306,7 @@ const Home = () => {
                   <p>7000 + Products</p>
                 </li>
                 <li className="col-lg-6 " data-aos="fade-right">
-                  <p>Dedicated Customer support</p>
+                  <p>Dedicated Customer Support</p>
                 </li>
                 <li className="col-lg-6 " data-aos="fade-right">
                   <p>PCN Certified</p>

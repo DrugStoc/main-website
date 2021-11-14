@@ -86,8 +86,8 @@ const ProcureDirect = () => {
                 7000+ Products , <br /> 24/7 Delivery Services
               </h3>
               <p>
-                Join the DrugStoc family and get access to over 7000+ products in the palm of your hand. We deliver within 24 hours all orders purchased on our platform within Lagos. All our products are long-dated to help you manage your expiry.
-
+                {/* Join the DrugStoc family and get access to over 7000+ products in the palm of your hand. We deliver within 24 hours all orders purchased on our platform within Lagos. All our products are long-dated to help you manage your expiry. */}
+                Join the DrugStoc family and get access to over 7000+ products in the palm of your hand. We take orders 24/7 and have ExpressDelivery on all orders purchased in DrugStoc Coverage Zones. All our products are long-dated to help you manage your expiry.
               </p>
             </div>{' '}
             <div className="col-lg-5 order-1 order-lg-2">

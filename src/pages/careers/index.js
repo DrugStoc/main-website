@@ -303,8 +303,9 @@ const TeamSection = styled.section`
     width: 90%;
   }
   @media (max-width: 992px) {
-    h2.blue::after, h2.blue::after {
-     display: none ;
+    h2.blue::before {
+      margin-left: -1.3rem !important;
+      top: -5rem !important;
     }
 }
   h2 {
