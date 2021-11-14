@@ -110,20 +110,6 @@ const Footer = () => {
           </div>
 
           <div className="col-6 col-md ">
-            <h5>Address</h5>
-            <ul className="list-unstyled quick-links">
-              <li>
-                <a
-                  href="https://goo.gl/maps/nuNGr2W267ehHXwG7"
-                  aria-label="Navigate To Google maps"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {/* Plot 3 , Billing way, Oregun, Lagos */}
-                  Drugstoc Inc
-                </a>
-              </li>
-            </ul>
             <h5>Contact Us</h5>
             <ul className="list-unstyled quick-links">
               <li>
@@ -138,12 +124,12 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="tel:01894049494"
+                  href="tel:+234(0)1 7005571"
                   aria-label="Navigate To Google maps"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  08036879999
+                  +234(0)1 7005571
                 </a>
               </li>
             </ul>
@@ -192,8 +178,8 @@ const Footer = () => {
             </div>
           </div>
         </div>
-      </div>
-    </FooterWrapper>
+      </div >
+    </FooterWrapper >
   );
 };
 

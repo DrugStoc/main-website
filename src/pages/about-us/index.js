@@ -19,7 +19,7 @@ const AboutUs = () => {
                 DrugStoc wants to fix it.{' '}
               </h5>
               <p>
-                Africa records 100,000 deaths that arise from
+                Africa records 100,000 deaths that arise from{' '}
                 <br />
                 counterfeit drug ailments annually, and West Africa is responsible{' '}
                 <br />

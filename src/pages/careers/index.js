@@ -15,19 +15,14 @@ const Careers = () => {
           <div className="row">
             <div className="col-lg-7">
               <h1>
-                Let your ideas be heard,let us actuate Africa’s <br />
+                Let your ideas be heard, let us actuate Africa’s <br />
                 potential together
               </h1>
               <p>
-                Join a team that will unlock the well being of Africans, in our lifetime.
-
+                Join a team that will unlock the well being of Africans, in our lifetime.{' '}
                 <br />
-                in our lifetime.
               </p>
               <p></p>
-              <Link href="#open-positions">
-                <button className="btn btn-drug-stoc">SEE OPENINGS</button>
-              </Link>
             </div>
           </div>
           <img
@@ -47,7 +42,7 @@ const Careers = () => {
       <TeamSection>
         <div className="container">
           <h2 className="blue">
-            Together we will solve some
+            Together we will solve some {" "}
             <br />
             of the biggest challenges <br />
             in healthcare.
@@ -61,9 +56,9 @@ const Careers = () => {
 
           </h5>
 
-          <Link href="/careers" passHref>
+          <Link href="#open-positions" passHref>
             <button className="btn btn-drug-stoc m-auto d-block">
-              JOIN US
+              APPLY
             </button>
           </Link>
           <img
