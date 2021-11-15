@@ -114,7 +114,7 @@ const Footer = () => {
             <ul className="list-unstyled quick-links">
               <li>
                 <a
-                  href="https://goo.gl/maps/nuNGr2W267ehHXwG7"
+                  // href="https://goo.gl/maps/nuNGr2W267ehHXwG7"
                   aria-label="Navigate To Google maps"
                   target="_blank"
                   rel="noopener noreferrer"
