@@ -9,7 +9,7 @@ RUN yarn
 COPY . .
 
 # Building App as standalone to reduce docker image size (https://github.com/nuxt/nuxt.js/issues/4292)
-RUN yarn build --standalone
+RUN yarn build
 
 # Removing dev depedencies from node_modules
 RUN npm prune --production
