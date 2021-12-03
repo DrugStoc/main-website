@@ -569,6 +569,15 @@ const Home = () => {
                 <img src="/images/landing/articles/business_day.png" alt="" />
               </a>
             </div>
+            <div className="col-lg-3 col-6 mb-3 mt-3 mb-lg-0">
+              <a
+                href="https://nairametrics.com/2021/11/15/4-4-million-series-a-funding-to-boost-drugstoc-expansionary-drive/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="/images/landing/articles/nairametrics.jpeg" alt="" />
+              </a>
+            </div>
           </div>
         </div>
       </ArticleSection>
