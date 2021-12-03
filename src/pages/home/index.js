@@ -484,8 +484,8 @@ const Home = () => {
       <ArticleSection>
         <div className="container">
           <h3>As seen on</h3>
-          <div className="row align-items-center">
-            <div className="col-lg-3 col-6 mb-3 mb-lg-0">
+          <div className="row align-items-center justify-content-center">
+            <div className="col-lg-3 col-6 mb-3 mt-3 mb-lg-0">
               <a
                 href="https://www.bbc.co.uk/programmes/p088vk8g"
                 target="_blank"
@@ -494,7 +494,7 @@ const Home = () => {
                 <img src="/images/landing/articles/image-52.svg" alt="" />
               </a>
             </div>
-            <div className="col-lg-3 col-6 mb-3 mb-lg-0">
+            <div className="col-lg-3 col-6 mb-3 mt-3 mb-lg-0">
               <a
                 href="https://www.ft.com/content/feae3ea1-cbc4-4188-96bf-8de8d01257d3"
                 target="_blank"
@@ -503,7 +503,7 @@ const Home = () => {
                 <img src="/images/landing/articles/image-54.svg" alt="" />
               </a>
             </div>
-            <div className="col-lg-3 col-6 mb-3 mb-lg-0">
+            <div className="col-lg-3 col-6 mb-3 mt-3 mb-lg-0">
               <a
                 href="https://www.ft.com/content/feae3ea1-cbc4-4188-96bf-8de8d01257d3"
                 target="_blank"
@@ -512,13 +512,61 @@ const Home = () => {
                 <img src="/images/landing/articles/image-55.svg" alt="" />
               </a>
             </div>
-            <div className="col-lg-3 col-6 mb-3 mb-lg-0">
+            <div className="col-lg-3 col-6 mb-3 mt-3 mb-lg-0">
               <a
                 href="https://venturesafrica.com/10-healthcare-companies-and-startups-saving-lives-with-technology-in-nigeria/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <img src="/images/landing/articles/image-56.svg" alt="" />
+              </a>
+            </div>
+            <div className="col-lg-3 col-6 mb-3 mt-3 mb-lg-0">
+              <a
+                href="https://techcrunch.com/2021/11/14/nigerian-e-health-pharmaceutical-distribution-startup-drugstoc-secures-4-4-million-series-a-funding-embarks-on-expansion-drive/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="/images/landing/articles/tc.png" alt="" />
+              </a>
+            </div>
+            <div className="col-lg-3 col-6 mb-3 mt-3 mb-lg-0">
+              <a
+                href="https://finance.yahoo.com/news/nigerian-e-health-pharmaceutical-distribution-060017390.html?guccounter=1"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="/images/landing/articles/yahoo-finance.svg" alt="" />
+              </a>
+            </div>
+
+            <div className="col-lg-3 col-6 mb-3 mt-3 mb-lg-0">
+              <a
+                href="https://www.cnbcafrica.com/media/6282068335001/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="/images/landing/articles/CNBC.svg" alt="" />
+              </a>
+            </div>
+
+            <div className="col-lg-3 col-6 mb-3 mt-3 mb-lg-0">
+              <a
+                href="https://www.youtube.com/watch?v=jjyjF3SmQzA"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="/images/landing/articles/logo_arise.png" alt="" />
+              </a>
+            </div>
+
+            <div className="col-lg-3 col-6 mb-3 mt-3 mb-lg-0">
+              <a
+                href="https://businessday.ng/technology/article/drugstoc-raises-4-4m-to-deepen-access-to-health-products-in-africa/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="/images/landing/articles/business_day.png" alt="" />
               </a>
             </div>
           </div>
