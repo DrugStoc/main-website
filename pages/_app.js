@@ -5,6 +5,8 @@ import React from 'react';
 import App from 'next/app';
 import PropTypes from 'prop-types';
 import Head from 'next/head';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 /* --------------------------- Style Dependencies --------------------------- */
 import '../styles/index.scss';
@@ -28,6 +30,7 @@ class MyApp extends App {
           <meta content="width=device-width, initial-scale=1" name="viewport" />
         </Head>
         <Component {...pageProps} />
+        <ToastContainer />
       </>
     );
   }

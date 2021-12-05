@@ -48,7 +48,7 @@ const Careers = () => {
             in healthcare.
           </h2>
 
-          <h5 className="mt-5">
+          <h5 className="mt-5 pt-5">
             So let's see where you fit in.
 
 
@@ -71,7 +71,7 @@ const Careers = () => {
       {/* <CoreValueSection /> */}
       <BenefitSection>
         <div className="container">
-          <h2>Benefits Of working with us</h2>
+          <h2>Benefits of working with us</h2>
           <div className="row">
             <div className="col-md-6 col-lg-4">
               <div className="card">
@@ -306,6 +306,10 @@ const TeamSection = styled.section`
     h2.blue::before {
       margin-left: -1.3rem !important;
       top: -5rem !important;
+    }
+    h2.blue::after {
+      right: 10px !important;
+      top: 7rem !important;
     }
 }
   h2 {

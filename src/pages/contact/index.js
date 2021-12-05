@@ -1,8 +1,10 @@
 /* -------------------------------------------------------------------------- */
 /*                            External Dependencies                           */
 /* -------------------------------------------------------------------------- */
-import React from 'react';
+import React, { useState } from 'react';
 import styled from 'styled-components';
+import { toast } from 'react-toastify';
+import axios from 'axios';
 
 const Contact = () => {
 
@@ -33,6 +35,27 @@ const Contact = () => {
     'FMCG',
     'Government Representative'
   ]
+
+  const [loading, setLoading] = useState(false)
+
+  const contactFormUrl = (process.env.BACKENDURL ? process.env.BACKENDURL : 'http://localhost:5000') + '/contact-email'
+  // 'https://77d21g1x2j.execute-api.us-east-1.amazonaws.com/default/notification-service'
+
+  const submitForm = async (e) => {
+    setLoading(true)
+    e.preventDefault()
+    try {
+      const form = document.querySelector('form')
+      const data = Object.fromEntries(new FormData(form).entries());
+      console.log(data);
+      await axios.post(contactFormUrl, data)
+      toast('We will get right back to you!.')
+      form.reset()
+    } catch (error) {
+      toast.error('An error occured !')
+    }
+    setLoading(false)
+  }
   return (
     <div>
       <Header>
@@ -51,10 +74,10 @@ const Contact = () => {
             <div className="col-lg-9">
               <div className="card">
                 <div className="card-body">
-                  <form>
+                  <form onSubmit={submitForm}>
                     <div className="row">
                       <div className="col-lg-12">
-                        <select name="jobs" className="custom-select">
+                        <select name="enquiry" className="custom-select" required>
                           <option selected disabled>Enquiries</option>
                           {
                             jobOptions.map((e, i) =>
@@ -64,7 +87,7 @@ const Contact = () => {
                         </select>
                       </div>
                       <div className="col-lg-12">
-                        <select name="jobs" className="custom-select">
+                        <select name="occupation" className="custom-select" required>
                           <option selected disabled>What best describe you? </option>
                           {jobDescriptions.map((e, i) =>
                             <option key={i} value={e}> {e} </option>
@@ -75,38 +98,47 @@ const Contact = () => {
                         <input
                           type="text"
                           className="form-control"
+                          name="firstName"
                           placeholder="First Name"
+                          required
                         />
                       </div>
                       <div className="col-lg-6">
                         <input
                           type="text"
+                          name="lastName"
                           className="form-control"
                           placeholder="Last Name"
+                          required
                         />
                       </div>
                       <div className="col-lg-12">
                         <input
-                          type="text"
+                          type="number"
+                          name="phoneNumber"
                           className="form-control"
                           placeholder="Phone Number"
+                          required
                         />
                       </div>
                       <div className="col-lg-12">
                         <input
                           type="email"
+                          name="email"
                           className="form-control"
                           placeholder="Email"
+                          required
                         />
                       </div>
                       <div className="col-lg-12">
                         <textarea
+                          name="message"
                           className="form-control"
                           placeholder="Message"
                         ></textarea>
                       </div>
                       <div className="col-lg-12">
-                        <button className="btn btn-drug-stoc btn-block">
+                        <button className="btn btn-drug-stoc btn-block" disabled={loading}>
                           Submit
                         </button>
                       </div>

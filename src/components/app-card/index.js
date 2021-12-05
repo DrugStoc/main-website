@@ -16,16 +16,26 @@ const AppCard = () => {
       />
       <div className="container">
         <DownloadAppSection>
+
           <div className="container">
+            <MobileBanner>
+              <img
+                data-aos="fade-down"
+                src="/images/landing/download/banner.png"
+                alt=""
+              />
+            </MobileBanner>
+
             <div className="row">
+
               <div className="col-md-6">
                 <h3 data-aos="fade-down">
                   Download DrugStoc App
                   <br /> on your Phone
                 </h3>
                 <p data-aos="fade-down">
-                Download the app to manage your orders, keep track of the order progress and much more. Discover products and take advantage of promotional discounts on the go. 
- 
+                  Download the app to manage your orders, keep track of the order progress and much more. Discover products and take advantage of promotional discounts on the go.
+
 
                 </p>
                 <div className="d-flex flex-wrap justify-content-center justify-content-lg-start">
@@ -69,6 +79,18 @@ const AppCard = () => {
   );
 };
 
+const MobileBanner = styled.div`
+  display: none;
+  @media (max-width: 992px) {
+    display: block;
+    text-align: center;
+    margin-top: -146%;
+  }
+  img{
+    width: 100%;
+  }
+`;
+
 const DownloadAppSection = styled.section`
   margin-top: 6rem;
   //background: var(--primary-blue);
@@ -77,7 +99,16 @@ const DownloadAppSection = styled.section`
   display: flex;
   align-items: center;
   min-height: 435px;
+  .mobile-banner{
+    display: none;
+  }
   @media (max-width: 992px) {
+    h3 {
+      padding-top: 50px;
+    }
+    .mobile-banner{
+      display: none;
+    }
     padding: 3rem 1.5rem;
     margin-top: 4rem;
     text-align: center;
@@ -122,6 +153,9 @@ const DownloadAppSection = styled.section`
 `;
 
 const BackdropWrapper = styled.div`
+  @media (max-width: 992px) {
+    margin-top: 350px;
+  }
   background: var(--primary-blue);
   position: relative;
   .backdrop {
