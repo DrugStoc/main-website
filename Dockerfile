@@ -1,4 +1,4 @@
-FROM node:14-alpine as builder
+FROM node:14-alpine
 
 WORKDIR /app
 
@@ -13,12 +13,6 @@ RUN yarn build
 
 # Removing dev depedencies from node_modules
 RUN npm prune --production
-
-FROM node:14-alpine
-
-WORKDIR /app
-
-COPY --from=builder ./app/ ./
 
 EXPOSE 3000
 
