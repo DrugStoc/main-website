@@ -38,7 +38,7 @@ const Contact = () => {
 
   const [loading, setLoading] = useState(false)
 
-  const contactFormUrl = (process.env.BACKENDURL ? process.env.BACKENDURL : 'http://localhost:5000') + '/contact-email'
+  const contactFormUrl = (process.env.BACKENDURL ? process.env.BACKENDURL : 'https://email-service.drugstoc.com') + '/contact-email'
   // 'https://77d21g1x2j.execute-api.us-east-1.amazonaws.com/default/notification-service'
 
   const submitForm = async (e) => {

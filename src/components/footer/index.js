@@ -68,6 +68,11 @@ const Footer = () => {
                   <a aria-label="Navigate To RXInsights page">RXInsights</a>
                 </Link>
               </li>
+              <li>
+                <Link href="/terms-and-conditions" as="/terms-and-conditions">
+                  <a aria-label="Navigate To Terms and Condition Page">Terms and Conditions</a>
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -114,7 +119,7 @@ const Footer = () => {
             <ul className="list-unstyled quick-links">
               <li>
                 <a
-                  // href="https://goo.gl/maps/nuNGr2W267ehHXwG7"
+                  href="https://goo.gl/maps/nuNGr2W267ehHXwG7"
                   aria-label="Navigate To Google maps"
                   target="_blank"
                   rel="noopener noreferrer"
