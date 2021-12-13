@@ -84,7 +84,7 @@ const MobileBanner = styled.div`
   @media (max-width: 992px) {
     display: block;
     text-align: center;
-    margin-top: -146%;
+    margin-top: -145.5%;
   }
   img{
     width: 100%;
