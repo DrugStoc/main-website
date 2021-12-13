@@ -31,6 +31,11 @@ const Footer = () => {
                   <a aria-label="Navigate To Contact Page">Contact</a>
                 </Link>
               </li>
+              <li>
+                <Link href="/terms-and-conditions" as="/terms-and-conditions">
+                  <a aria-label="Navigate To Terms and Condition Page">Terms and Conditions</a>
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -66,11 +71,6 @@ const Footer = () => {
               <li>
                 <Link href="/rxinsights" as="/rx-insight">
                   <a aria-label="Navigate To RXInsights page">RXInsights</a>
-                </Link>
-              </li>
-              <li>
-                <Link href="/terms-and-conditions" as="/terms-and-conditions">
-                  <a aria-label="Navigate To Terms and Condition Page">Terms and Conditions</a>
                 </Link>
               </li>
             </ul>
