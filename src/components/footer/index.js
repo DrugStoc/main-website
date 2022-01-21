@@ -36,6 +36,11 @@ const Footer = () => {
                   <a aria-label="Navigate To Terms and Condition Page">Terms and Conditions</a>
                 </Link>
               </li>
+              <li>
+                <Link href="/privacy" as="/privacy-page">
+                  <a aria-label="Navigate To Pro">Privacy Page</a>
+                </Link>
+              </li>
             </ul>
           </div>
 
