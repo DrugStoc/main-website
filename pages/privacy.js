@@ -4,10 +4,10 @@
 import React from 'react';
 
 /* -------------------------- Internal Dependencies ------------------------- */
-import Privacy from 'pages/privacy-page';
+import Privacy from 'pages/privacy-policy';
 import Layout from 'components/layout';
 
-export default function PrivacyPage() {
+export default function PrivacyPolicy() {
     return (
         <Layout title="Privacy">
             <Privacy />

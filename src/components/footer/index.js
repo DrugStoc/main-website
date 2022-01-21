@@ -37,7 +37,7 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/privacy" as="/privacy-page">
+                <Link href="/privacy" as="/privacy-policy">
                   <a aria-label="Navigate To Pro">Privacy</a>
                 </Link>
               </li>
