@@ -9,7 +9,7 @@ import Layout from 'components/layout';
 
 export default function PrivacyPage() {
     return (
-        <Layout title="Privacy page">
+        <Layout title="Privacy">
             <Privacy />
         </Layout>
     );

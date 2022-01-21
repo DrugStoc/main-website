@@ -38,7 +38,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link href="/privacy" as="/privacy-page">
-                  <a aria-label="Navigate To Pro">Privacy Page</a>
+                  <a aria-label="Navigate To Pro">Privacy</a>
                 </Link>
               </li>
             </ul>
