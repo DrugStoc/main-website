@@ -33,7 +33,16 @@ const Footer = () => {
               </li>
               <li>
                 <Link href="/terms-and-conditions" as="/terms-and-conditions">
-                  <a aria-label="Navigate To Terms and Condition Page">Terms and Conditions</a>
+                  <a aria-label="Navigate To Terms and Condition Page">
+                    Terms and Conditions
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/return-policy" as="/return-policy">
+                  <a aria-label="Navigate To Terms and Condition Page">
+                    Return Policy
+                  </a>
                 </Link>
               </li>
               <li>
@@ -135,7 +144,6 @@ const Footer = () => {
               </li>
             </ul>
 
-
             <h5>Contact Us</h5>
             <ul className="list-unstyled quick-links">
               <li>
@@ -204,8 +212,8 @@ const Footer = () => {
             </div>
           </div>
         </div>
-      </div >
-    </FooterWrapper >
+      </div>
+    </FooterWrapper>
   );
 };
 
