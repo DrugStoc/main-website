@@ -44,8 +44,6 @@ export default class MyDocument extends Document {
           <meta name="language" content="English" />
           <meta name="google-site-verification" content="YxcXtu0Zz5s25clei5L1g6OQV_bZnLCSpAZhQILtpSk" />
           <meta name="mobile-web-app-capable" content="yes" />
-          <meta name="robots" content="index, nofollow" />
-          <meta name="apple-mobile-web-app-title" content="Eze" />
 
           <link rel="icon" href="/favicon.ico" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
