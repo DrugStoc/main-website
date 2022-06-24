@@ -10,7 +10,7 @@ import { useRouter } from 'next/router';
 /* -------------------------- Internal Dependencies ------------------------- */
 import NavLink from 'components/nav-link';
 import useScroll from 'utils/use-scroll';
-import Logo from '../../../public/images/logo.svg';
+import Logo from '../../../public/logo-v2.png';
 
 const NavbarLayout = () => {
   const router = useRouter();
