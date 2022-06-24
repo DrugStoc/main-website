@@ -42,7 +42,7 @@ const NavbarLayout = () => {
         <Container fluid>
           <Link href="/">
             <a className="navbar-brand">
-              <img src="/images/logo.svg" />
+              <img src="/logo-v3.png" />
             </a>
           </Link>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
