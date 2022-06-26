@@ -146,44 +146,9 @@ const Careers = () => {
       </BenefitSection>
       <OpenPositions id="open-positions">
         <div className="container" style={{ textAlign: 'center' }}>
-          <h2 style={{ marginBottom: '50px' }}> Interested ? <br /> Send us your resume.</h2>
-          <a href="mailto:careers@drugstoc.com" style={{ marginLeft: 'auto', marginRight: 'auto', }}>
-            Send an Email <img src="/images/arrow.svg" width="30" style={{ marginLeft: '10px' }} />
-          </a>
+          <h2 style={{ marginBottom: '50px' }}> Available Vacancies <br />     </h2>
 
-          {/* <h2>Open Positions</h2>
-          <p>
-            There are {jobs.length} open roles across all teams and locations
-          </p> */}
-          {/* <div className="row my-5">
-            <div className="col-lg-3">
-              <input className="form-control" placeholder="Search" />
-            </div>
-            <div className="col-lg-3">
-              <select name="jobs" className="custom-select">
-                <option selected>Teams</option>
-                <option value="volvo">Volvo</option>
-                <option value="fiat">Fiat</option>
-                <option value="audi">Audi</option>
-              </select>
-            </div>
-            <div className="col-lg-3">
-              <select name="jobs" className="custom-select">
-                <option selected>Location</option>
-                <option value="volvo">Volvo</option>
-                <option value="fiat">Fiat</option>
-                <option value="audi">Audi</option>
-              </select>
-            </div>
-            <div className="col-lg-3">
-              <select name="jobs" className="custom-select">
-                <option selected>Type</option>
-                <option value="volvo">Volvo</option>
-                <option value="fiat">Fiat</option>
-                <option value="audi">Audi</option>
-              </select>
-            </div>
-          </div>
+
           <Table striped responsive>
             <thead>
               <tr>
@@ -197,15 +162,28 @@ const Careers = () => {
               {jobs.map(job => (
                 <tr key={job.name}>
                   <td>
-                    <a href="#">{job.name}</a>
+                    <a  target="_blank"  href="/jobpage">{job.name}</a>
                   </td>
                   <td>{job.role}</td>
                   <td>{job.type}</td>
                   <td>{job.location}</td>
+                  <td>  <Link target="_blank"  href="/jobpage" >
+                    <a target="_blank">
+                    <button className="btn btn-drug-stoc m-auto d-block">
+VIEW MORE                    </button>
+                    </a>
+                  </Link></td>
+                <td>  <Link href="mailto:careers@drugstoc.com" >
+                    <button className="btn btn-drug-stoc m-auto d-block">
+                      APPLY
+                    </button>
+                </Link></td>
+
+
                 </tr>
               ))}
             </tbody>
-          </Table> */}
+          </Table>
         </div>
       </OpenPositions>
       <AppCard />
