@@ -170,7 +170,7 @@ const Careers = () => {
                   <td>  <Link target="_blank"  href="/jobpage" >
                     <a target="_blank">
                     <button className="btn btn-drug-stoc m-auto d-block">
-VIEW MORE                    </button>
+VIEW                  </button>
                     </a>
                   </Link></td>
                 <td>  <Link href="mailto:careers@drugstoc.com" >
