@@ -10,7 +10,7 @@ import { useRouter } from 'next/router';
 /* -------------------------- Internal Dependencies ------------------------- */
 import NavLink from 'components/nav-link';
 import useScroll from 'utils/use-scroll';
-import Logo from '../../../public/logo-v2.png';
+import Logo from '../../../public/drug.svg';
 
 const NavbarLayout = () => {
   const router = useRouter();
@@ -42,7 +42,7 @@ const NavbarLayout = () => {
         <Container fluid>
           <Link href="/">
             <a className="navbar-brand">
-              <img src="/drug.svg" />
+              <img src="/logo-v3.png" />
             </a>
           </Link>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
