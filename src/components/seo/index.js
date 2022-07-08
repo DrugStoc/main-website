@@ -13,12 +13,12 @@ const propTypes = {
 
 const SEO = ({
   title,
-  description = 'Tech-enabled supply chain for healthcare providers in emerging Economies',
+  description = 'DrugStoc is Africa\'s leading e-healthcare pharmaceutical distribution company specializing in anti-counterfeit pharmaceuticals, healthcare services, consumables, and medical devices',
   canonical = 'https://drugstoc.com',
 }) => {
   return (
     <Head>
-      <title>{title} | DrugStoc</title>
+      <title>{title} |DrugStoc | Anti Counterfeit Pharmaceuticals, Medical Devices, Consumables</title>
       <meta name="description" content={description} />
       <meta name="robots" content="index,follow" />
       <meta name="googlebot" content="index,follow" />
