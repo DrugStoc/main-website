@@ -93,7 +93,7 @@ const NavbarLayout = () => {
                     <a className="nav-link">Procure Direct</a>
                   </NavDropdown.Item>
                   <NavDropdown.Item
-                    href="/drugstoc-credit"
+                    href="/drugstocpay"
                     as={NavLink}
                     passHref
                     activeClassName="active"
