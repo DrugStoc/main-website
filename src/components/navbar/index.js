@@ -98,7 +98,7 @@ const NavbarLayout = () => {
                     passHref
                     activeClassName="active"
                   >
-                    <a className="nav-link">DrugStoc Credit</a>
+                    <a className="nav-link">DrugStoc Pay</a>
                   </NavDropdown.Item>
 
                   <NavDropdown.Item
