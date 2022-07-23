@@ -144,7 +144,7 @@ const NavbarLayout = () => {
                         </a>
                       </NavDropdown.Item>
                       <NavDropdown.Item
-                        href="/drugstoc-credit"
+                        href="/drugstocpay"
                         as={NavLink}
                         passHref
                         activeClassName="active"
@@ -153,7 +153,7 @@ const NavbarLayout = () => {
                           <div className="d-flex">
                             <img src="/images/navbar/4.svg" alt="" />
                             <div className="flex-content">
-                              <h4>DrugStoc Credit</h4>
+                              <h4>DrugStoc Pay</h4>
                               <p>
                                 Non collateral loans for healthcare Providers
                               </p>
