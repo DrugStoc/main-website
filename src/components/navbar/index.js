@@ -255,14 +255,13 @@ const NavbarLayout = () => {
               </NavLink>
             </Nav>
             <Nav className="ml-auto">
-               {/* <Nav.Link
-                href="https://shop.drugstoc.com"
+               <Nav.Link
+                href="https://app.drugstoc.com"
                 target="_blank"
                 rel="nopener noreferrer"
-                className="nav-button"
-              >
+                className="nav-button">
                 SHOP ON WEB
-              </Nav.Link>*/}
+              </Nav.Link>
 
               <Dropdown>
                 <Dropdown.Toggle className="toggle_blue">
