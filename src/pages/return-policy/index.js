@@ -15,15 +15,26 @@ export default function returnPolicy() {
               calling +234(0) 1 7005571.
             </p>
             <p>
-              The return policy is within 24 hours after delivery, call +234(0)
-              1 7005571 to request for return of goods.
+              To return a product, kindly contact Customer Service Rep. via call
+              – 01700557 or your designated sales representative within 48 hours
+              of receiving the product. A return officer will schedule a pickup
+              upon confirmation from any of our team.
             </p>
             <p>
-              We dont’t take back cold chain item or injections except it’s
-              returned on the spot. Returns will be rejected if they do not
-              match the exact batch delivered, are damaged, or the pack had been
-              tampered with by writing on or placing a price tag on it
+              Goods received cannot be returned after 72hours (3 days) of
+              delivery. Cold chain products, Injectibles and Controlled drugs
+              cannot be returned once received. They can only be returned
+              immediately at the point of supply.
             </p>
+            <p>
+              Drugstoc E-hub reserves the right to reject any returned item if:{' '}
+            </p>
+            <ul>
+              <li>Without a Goods Returned Notes </li>
+              <li>found damaged or compromised in any way,</li>
+              <li>it does not match the exact batch delivered</li>
+              <li>Tampered with using inks, tags etc</li>
+            </ul>
           </div>
         </div>
       </Container>
