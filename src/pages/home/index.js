@@ -188,7 +188,7 @@ const Home = () => {
               src="/images/landing/banner.png"
               alt="A Doctor Holding a Paper"
               layout="intrinsic"
-              data-aos="fade-left"
+              // data-aos="fade-left"
               data-aos-offset="0"
               style={{ width: '95%' }}
             />
