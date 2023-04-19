@@ -33,7 +33,7 @@ const SEO = ({
       <meta property="og:locale" content="en_US" />
       <meta
         property="og:image"
-        content="https://i.ibb.co/Tg2J839/Group-7149.png"
+        content="https://res.cloudinary.com/bizstak/image/upload/v1681939339/Group-7149_nupyov.png"
       />
       <meta
         property="og:image:alt"

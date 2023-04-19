@@ -1,23 +1,15 @@
-/* -------------------------------------------------------------------------- */
-/*                            External Dependencies                           */
-/* -------------------------------------------------------------------------- */
 import AppCard from 'components/app-card';
+import Head from 'next/head';
 import Link from 'next/link';
 import Image from 'next/image';
 import React, { useEffect, useState } from 'react';
-import { FaAppStore } from 'react-icons/fa';
-import { IoLogoGooglePlaystore } from 'react-icons/io5';
-// import ScrollAnimation from 'react-animate-on-scroll';
 import { Carousel } from 'react-bootstrap';
 import styled from 'styled-components';
 import { clients, partners, personalized, providers } from './data';
 import StackedAvatar from '../../../public/images/landing/stacked-avatar.svg';
-import Stars from '../../../public/images/landing/stars.svg';
 import ISO from '../../../public/images/landing/iso.svg';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-
-/* -------------------------- Internal Dependencies ------------------------- */
 
 const Home = () => {
   const [currentWord, setCurrentWord] = useState({
@@ -43,7 +35,6 @@ const Home = () => {
       'Healthcare <br /> Providers',
       'Government <br />Facilities',
     ];
-    // Function that executes every 2000 milliseconds
     const interval = setInterval(function () {
       setCurrentWord(prev => ({
         ...prev,
@@ -58,6 +49,63 @@ const Home = () => {
 
   return (
     <div>
+      <Head>
+        <title>
+          Anti-Counterfeit Supply Chain for Healthcare Providers in Emerging
+          Economies | Drugstoc
+        </title>
+        <meta
+          name="description"
+          content="Drugstoc provides Anti-Counterfeit Supply Chain solutions for Healthcare Providers in Emerging Economies. Download Drugstoc Mobile App for Android and iOS."
+        />
+        <meta
+          name="keywords"
+          content="healthcare, Africa, anti-counterfeit, pharmacies, hospitals, clinics, doctors, specialists"
+        />
+        <meta
+          name="author"
+          content="@bemijonathan, @filimapatrick, @jonathan, Jonathan Atiene, @LizztKate, Peter Odetayo, Steffanie, @techstackmedia"
+        />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://drugstoc.com/" />
+        <meta
+          property="og:title"
+          content="Empowering Pharmacies, Hospitals, Clinics, Doctors, and Specialists Toward a Healthier Africa"
+        />
+        <meta
+          property="og:description"
+          content="Anti-Counterfeit Supply Chain for Healthcare Providers in Emerging Economies"
+        />
+        <meta
+          property="og:image"
+          content="https://res.cloudinary.com/bizstak/image/upload/v1681940994/drugstoc-home_maw2dg.png"
+        />
+        <meta property="og:url" content="https://drugstoc.com/" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Empowering Pharmacies, Hospitals, Clinics, Doctors, and Specialists Toward a Healthier Africa"
+        />
+        <meta
+          name="twitter:description"
+          content="Anti-Counterfeit Supply Chain for Healthcare Providers in Emerging Economies"
+        />
+        <meta
+          name="twitter:image"
+          content="https://res.cloudinary.com/bizstak/image/upload/v1681940981/drugstoc-twitter_okreqx.png"
+        />
+        <meta name="twitter:image:width" content="1200" />
+        <meta name="twitter:image:height" content="675" />
+        <meta
+          name="twitter:image:alt"
+          content="Banner with text that says 'Empowering Health Care Providers Across Africa' "
+        />
+      </Head>
+
       <Header>
         <img
           src="/images/landing/banner-dots.png"
@@ -74,8 +122,9 @@ const Home = () => {
                   <>
                     <span
                       key={word}
-                      className={`animated ${index === 1 ? 'fadeInUp' : 'fadeInDown'
-                        }`}
+                      className={`animated ${
+                        index === 1 ? 'fadeInUp' : 'fadeInDown'
+                      }`}
                     >
                       {word}
                     </span>{' '}
@@ -97,7 +146,7 @@ const Home = () => {
                 >
                   <img
                     src="/images/landing/download/google-play-alt.svg"
-                    alt=""
+                    alt="google play"
                     className="logo"
                   />
                 </a>
@@ -109,7 +158,7 @@ const Home = () => {
                 >
                   <img
                     src="/images/landing/download/app-store-alt.svg"
-                    alt=""
+                    alt="app store"
                     className="logo"
                   />
                 </a>
@@ -118,7 +167,11 @@ const Home = () => {
               <div className="d-flex  message__section">
                 <StackedAvatar width="100" />{' '}
                 <div className="ml-2">
-                  <img src="/images/landing/stars.svg" width="90" />{' '}
+                  <img
+                    src="/images/landing/stars.svg"
+                    width="90"
+                    alt="stacked avatar pictures of doctors"
+                  />
                   <p>Highly Rated by 3000+ Healthcare Providers</p>
                 </div>
               </div>
@@ -133,7 +186,7 @@ const Home = () => {
           <div className="banner d-lg-block d-none">
             <img
               src="/images/landing/banner.png"
-              alt="Picture of the author"
+              alt="A Doctor Holding a Paper"
               layout="intrinsic"
               data-aos="fade-left"
               data-aos-offset="0"
@@ -149,7 +202,6 @@ const Home = () => {
           className="header__banner-dots-right d-lg-block d-none"
         />
       </Header>
-
       <PartnerShipSection>
         <div className="container">
           <div className="row align-items-center">
@@ -172,7 +224,6 @@ const Home = () => {
           </div>
         </div>
       </PartnerShipSection>
-
       <PersonalizedExtened>
         <div className="container" data-aos="fade-up">
           <h3>
@@ -232,8 +283,8 @@ const Home = () => {
               <h4>Smart Payment Solutions & Inventory Financing </h4>
               <p>
                 Smartly scale your pharmacy business with our collateral free
-                loans. Focus on delivering exceptional services to patients while
-                we ensure you never run out of Stock.
+                loans. Focus on delivering exceptional services to patients
+                while we ensure you never run out of Stock.
               </p>
               <ul className="row">
                 <li className="col-lg-6 " data-aos="fade-right">
@@ -324,7 +375,6 @@ const Home = () => {
           </div>
         </div>
       </PersonalizedExtened>
-
       <LinearSection>
         <PersonalizedSolutionSection>
           <div className="container">
@@ -337,14 +387,14 @@ const Home = () => {
               nextIcon={
                 <img
                   src="data:image/svg+xml,%0A%3Csvg width='56' height='55' viewBox='0 0 56 55' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg filter='url(%23filter0_d)'%3E%3Ccircle cx='28.0688' cy='24.0679' r='23.9321' fill='white'/%3E%3Ccircle cx='28.0688' cy='24.0679' r='23.5195' stroke='%234B70D6' stroke-opacity='0.3' stroke-width='0.825245'/%3E%3C/g%3E%3Cpath d='M25.7006 17.8784L24.2461 19.3329L28.9706 24.0678L24.2461 28.8026L25.7006 30.2571L31.8899 24.0678L25.7006 17.8784Z' fill='black' fill-opacity='0.54'/%3E%3Cdefs%3E%3Cfilter id='filter0_d' x='0.835738' y='0.135742' width='54.4662' height='54.4662' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'%3E%3CfeFlood flood-opacity='0' result='BackgroundImageFix'/%3E%3CfeColorMatrix in='SourceAlpha' type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0' result='hardAlpha'/%3E%3CfeOffset dy='3.30098'/%3E%3CfeGaussianBlur stdDeviation='1.65049'/%3E%3CfeColorMatrix type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0'/%3E%3CfeBlend mode='normal' in2='BackgroundImageFix' result='effect1_dropShadow'/%3E%3CfeBlend mode='normal' in='SourceGraphic' in2='effect1_dropShadow' result='shape'/%3E%3C/filter%3E%3C/defs%3E%3C/svg%3E%0A"
-                  alt=""
+                  alt="next icon"
                   loading="lazy"
                 />
               }
               prevIcon={
                 <img
                   src="data:image/svg+xml,%0A%3Csvg width='56' height='55' viewBox='0 0 56 55' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg filter='url(%23filter0_d)'%3E%3Ccircle cx='28.0698' cy='24.0679' r='23.9321' transform='rotate(180 28.0698 24.0679)' fill='white'/%3E%3Ccircle cx='28.0698' cy='24.0679' r='23.5195' transform='rotate(180 28.0698 24.0679)' stroke='%234B70D6' stroke-opacity='0.3' stroke-width='0.825245'/%3E%3C/g%3E%3Cpath d='M30.4381 30.2573L31.8926 28.8028L27.1681 24.068L31.8926 19.3331L30.4381 17.8786L24.2487 24.068L30.4381 30.2573Z' fill='black' fill-opacity='0.54'/%3E%3Cdefs%3E%3Cfilter id='filter0_d' x='0.837691' y='0.135742' width='54.4662' height='54.4662' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'%3E%3CfeFlood flood-opacity='0' result='BackgroundImageFix'/%3E%3CfeColorMatrix in='SourceAlpha' type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0' result='hardAlpha'/%3E%3CfeOffset dy='3.30098'/%3E%3CfeGaussianBlur stdDeviation='1.65049'/%3E%3CfeColorMatrix type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0'/%3E%3CfeBlend mode='normal' in2='BackgroundImageFix' result='effect1_dropShadow'/%3E%3CfeBlend mode='normal' in='SourceGraphic' in2='effect1_dropShadow' result='shape'/%3E%3C/filter%3E%3C/defs%3E%3C/svg%3E%0A"
-                  alt=""
+                  alt="previous icon"
                   loading="lazy"
                 />
               }
@@ -366,7 +416,6 @@ const Home = () => {
                 </div>
               </Carousel.Item>
             </Carousel>
-            {/*</ScrollAnimation>*/}
             <div className="d-lg-none d-block">
               {personalized.map((card, i) => (
                 <Card data={card} key={i} />
@@ -392,13 +441,10 @@ const Home = () => {
                 </div>
               ))}
             </div>
-            {/* <Link href="/"> */}
-            {/* <button className="btn btn-drug-stoc">Get Started</button> */}
-            {/* </Link> */}
+            
           </div>
         </ProvidersSection>
       </LinearSection>
-
       <ClientsSection>
         <div className="container">
           <h3>See What Our Clients Say About Us</h3>
@@ -412,13 +458,13 @@ const Home = () => {
               nextIcon={
                 <img
                   src="data:image/svg+xml,%0A%3Csvg width='34' height='16' viewBox='0 0 34 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M6.99719 7.00045H30.1662L24.5765 1.41068L25.9964 0.000732422L33.9961 8.00041L25.9964 16.0001L24.5865 14.5901L30.1662 9.00037H6.99719V7.00045Z' fill='black' fill-opacity='0.54'/%3E%3C/svg%3E%0A"
-                  alt=""
+                  alt="caurosel next icon"
                 />
               }
               prevIcon={
                 <img
                   src="data:image/svg+xml,%0A%3Csvg width='34' height='16' viewBox='0 0 34 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='arrow_back_24px'%3E%3Cpath id='icon/navigation/arrow_back_24px' d='M27.0028 7.00045H3.83375L9.42352 1.41068L8.00358 0.000732422L0.00390625 8.00041L8.00358 16.0001L9.41352 14.5901L3.83375 9.00037H27.0028V7.00045Z' fill='black' fill-opacity='0.54'/%3E%3C/g%3E%3C/svg%3E%0A"
-                  alt=""
+                  alt="caurosel previous icon"
                 />
               }
             >
@@ -447,7 +493,7 @@ const Home = () => {
           <div className="row">
             <div className="col-lg-3 mb-3 mb-lg-0" data-aos="fade-up">
               <h4>
-                <img src="/images/landing/impact/9m.svg" alt="" /> 9M+
+                <img src="/images/landing/impact/9m.svg" alt="drugs in a bottle icon" /> 9M+
               </h4>
               <h5>
                 Prescriptions of our products dispensed through our clients
@@ -457,30 +503,28 @@ const Home = () => {
 
             <div className="col-lg-3 mb-3 mb-lg-0" data-aos="fade-up">
               <h4>
-                <img src="/images/landing/impact/3k.svg" alt="" /> 3000+
+                <img src="/images/landing/impact/3k.svg" alt="patient pulse while receiving treatment icon" /> 3000+
               </h4>
               <h5>Healthcare facilities trust us</h5>
             </div>
 
             <div className="col-lg-3 mb-3 mb-lg-0" data-aos="fade-up">
               <h4>
-                <img src="/images/landing/impact/70k.svg" alt="" /> 7000+
+                <img src="/images/landing/impact/70k.svg" alt="first aid kit box/bag icon" /> 7000+
               </h4>
               <h5>SKUs of genuine medicines and medical devices</h5>
             </div>
 
             <div className="col-lg-3 mb-3 mb-lg-0" data-aos="fade-up">
               <h4>
-                <img src="/images/landing/impact/20m.svg" alt="" /> 20M+
+                <img src="/images/landing/impact/20m.svg" alt="hospital icon" /> 20M+
               </h4>
               <h5>Patients protected from counterfeit products to date</h5>
             </div>
           </div>
         </div>
       </ImpactSection>
-
       <AppCard />
-
       <ArticleSection>
         <div className="container">
           <h3>As seen on</h3>
@@ -491,7 +535,7 @@ const Home = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src="/images/landing/articles/image-52.svg" alt="" />
+                <img src="/images/landing/articles/image-52.svg" alt="bbc logo" />
               </a>
             </div>
             <div className="col-lg-3 col-6 mb-3 mt-3 mb-lg-0">
@@ -500,7 +544,7 @@ const Home = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src="/images/landing/articles/image-54.svg" alt="" />
+                <img src="/images/landing/articles/image-54.svg" alt="financial times logo" />
               </a>
             </div>
             <div className="col-lg-3 col-6 mb-3 mt-3 mb-lg-0">
@@ -509,7 +553,7 @@ const Home = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src="/images/landing/articles/image-55.svg" alt="" />
+                <img src="/images/landing/articles/image-55.svg" alt="techcabal logo" />
               </a>
             </div>
             <div className="col-lg-3 col-6 mb-3 mt-3 mb-lg-0">
@@ -518,7 +562,7 @@ const Home = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src="/images/landing/articles/image-56.svg" alt="" />
+                <img src="/images/landing/articles/image-56.svg" alt="ventures logo" />
               </a>
             </div>
             <div className="col-lg-3 col-6 mb-3 mt-3 mb-lg-0">
@@ -527,7 +571,7 @@ const Home = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src="/images/landing/articles/tc.png" alt="" />
+                <img src="/images/landing/articles/tc.png" alt="tc logo" />
               </a>
             </div>
             <div className="col-lg-3 col-6 mb-3 mt-3 mb-lg-0">
@@ -536,7 +580,7 @@ const Home = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src="/images/landing/articles/yahoo-finance.svg" alt="" />
+                <img src="/images/landing/articles/yahoo-finance.svg" alt="yahoo finance logo" />
               </a>
             </div>
 
@@ -546,7 +590,7 @@ const Home = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src="/images/landing/articles/CNBC.svg" alt="" />
+                <img src="/images/landing/articles/CNBC.svg" alt="cnbc logo" />
               </a>
             </div>
 
@@ -556,7 +600,7 @@ const Home = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src="/images/landing/articles/logo_arise.png" alt="" />
+                <img src="/images/landing/articles/logo_arise.png" alt="arise news logo" />
               </a>
             </div>
 
@@ -566,7 +610,7 @@ const Home = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src="/images/landing/articles/business_day.png" alt="" />
+                <img src="/images/landing/articles/business_day.png" alt="buiness day logo" />
               </a>
             </div>
             <div className="col-lg-3 col-6 mb-3 mt-3 mb-lg-0">
@@ -575,13 +619,12 @@ const Home = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src="/images/landing/articles/nairametrics.jpeg" alt="" />
+                <img src="/images/landing/articles/nairametrics.jpeg" alt="nairametrics logo" />
               </a>
             </div>
           </div>
         </div>
       </ArticleSection>
-      {/*</ScrollAnimation>*/}
     </div>
   );
 };
@@ -613,7 +656,7 @@ const Header = styled.header`
   display: flex;
   align-items: center;
   position: relative;
-  overflow: hidden ;
+  overflow: hidden;
   .show-download-now {
     display: flex;
     width: fit-content;
