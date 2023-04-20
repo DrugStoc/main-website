@@ -51,16 +51,15 @@ const Home = () => {
     <div>
       <Head>
         <title>
-          Anti-Counterfeit Supply Chain for Healthcare Providers in Emerging
-          Economies | Drugstoc
+          Anti-Counterfeit Supply Chain for Healthcare Providers | Drugstoc
         </title>
         <meta
           name="description"
-          content="Drugstoc provides Anti-Counterfeit Supply Chain solutions for Healthcare Providers in Emerging Economies. Download Drugstoc Mobile App for Android and iOS."
+          content="Drugstoc provides anti-counterfeit supply chain solutions for healthcare providers in emerging economies. Download the Drugstoc app for Android and iOS."
         />
         <meta
           name="keywords"
-          content="healthcare, Africa, anti-counterfeit, pharmacies, hospitals, clinics, doctors, specialists"
+          content="anti-counterfeit, healthcare, emerging economies, pharmacies, hospitals, clinics, doctors, specialists"
         />
         <meta
           name="author"
@@ -70,11 +69,11 @@ const Home = () => {
         <link rel="canonical" href="https://drugstoc.com/" />
         <meta
           property="og:title"
-          content="Empowering Pharmacies, Hospitals, Clinics, Doctors, and Specialists Toward a Healthier Africa"
+          content="Anti-Counterfeit Supply Chain for Healthcare Providers | Drugstoc"
         />
         <meta
           property="og:description"
-          content="Anti-Counterfeit Supply Chain for Healthcare Providers in Emerging Economies"
+          content="Drugstoc provides anti-counterfeit supply chain solutions for healthcare providers in emerging economies. Download the Drugstoc app for Android and iOS."
         />
         <meta
           property="og:image"
@@ -84,15 +83,14 @@ const Home = () => {
         <meta property="og:type" content="website" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
-
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Empowering Pharmacies, Hospitals, Clinics, Doctors, and Specialists Toward a Healthier Africa"
+          content="Anti-Counterfeit Supply Chain for Healthcare Providers | Drugstoc"
         />
         <meta
           name="twitter:description"
-          content="Anti-Counterfeit Supply Chain for Healthcare Providers in Emerging Economies"
+          content="Drugstoc provides anti-counterfeit supply chain solutions for healthcare providers in emerging economies. Download the Drugstoc app for Android and iOS."
         />
         <meta
           name="twitter:image"
@@ -102,7 +100,20 @@ const Home = () => {
         <meta name="twitter:image:height" content="675" />
         <meta
           name="twitter:image:alt"
-          content="Banner with text that says 'Empowering Health Care Providers Across Africa' "
+          content="Banner with text that says 'Empowering Health Care Providers Across Africa'"
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `
+          {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "url": "https://drugstoc.com/",
+            "logo": "https://res.cloudinary.com/bizstak/image/upload/v1681940994/drugstoc-home_maw2dg.png"
+          }
+        `,
+          }}
         />
       </Head>
 
@@ -187,7 +198,7 @@ const Home = () => {
             <img
               src="/images/landing/banner.png"
               alt="A Doctor Holding a Paper"
-              // layout="intrinsic"
+              layout="intrinsic"
               // data-aos="fade-left"
               // data-aos-offset="0"
               style={{ width: '95%' }}
@@ -441,7 +452,6 @@ const Home = () => {
                 </div>
               ))}
             </div>
-            
           </div>
         </ProvidersSection>
       </LinearSection>
@@ -493,7 +503,11 @@ const Home = () => {
           <div className="row">
             <div className="col-lg-3 mb-3 mb-lg-0" data-aos="fade-up">
               <h4>
-                <img src="/images/landing/impact/9m.svg" alt="drugs in a bottle icon" /> 9M+
+                <img
+                  src="/images/landing/impact/9m.svg"
+                  alt="drugs in a bottle icon"
+                />{' '}
+                9M+
               </h4>
               <h5>
                 Prescriptions of our products dispensed through our clients
@@ -503,21 +517,30 @@ const Home = () => {
 
             <div className="col-lg-3 mb-3 mb-lg-0" data-aos="fade-up">
               <h4>
-                <img src="/images/landing/impact/3k.svg" alt="patient pulse while receiving treatment icon" /> 3000+
+                <img
+                  src="/images/landing/impact/3k.svg"
+                  alt="patient pulse while receiving treatment icon"
+                />{' '}
+                3000+
               </h4>
               <h5>Healthcare facilities trust us</h5>
             </div>
 
             <div className="col-lg-3 mb-3 mb-lg-0" data-aos="fade-up">
               <h4>
-                <img src="/images/landing/impact/70k.svg" alt="first aid kit box/bag icon" /> 7000+
+                <img
+                  src="/images/landing/impact/70k.svg"
+                  alt="first aid kit box/bag icon"
+                />{' '}
+                7000+
               </h4>
               <h5>SKUs of genuine medicines and medical devices</h5>
             </div>
 
             <div className="col-lg-3 mb-3 mb-lg-0" data-aos="fade-up">
               <h4>
-                <img src="/images/landing/impact/20m.svg" alt="hospital icon" /> 20M+
+                <img src="/images/landing/impact/20m.svg" alt="hospital icon" />{' '}
+                20M+
               </h4>
               <h5>Patients protected from counterfeit products to date</h5>
             </div>
@@ -535,7 +558,10 @@ const Home = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src="/images/landing/articles/image-52.svg" alt="bbc logo" />
+                <img
+                  src="/images/landing/articles/image-52.svg"
+                  alt="bbc logo"
+                />
               </a>
             </div>
             <div className="col-lg-3 col-6 mb-3 mt-3 mb-lg-0">
@@ -544,7 +570,10 @@ const Home = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src="/images/landing/articles/image-54.svg" alt="financial times logo" />
+                <img
+                  src="/images/landing/articles/image-54.svg"
+                  alt="financial times logo"
+                />
               </a>
             </div>
             <div className="col-lg-3 col-6 mb-3 mt-3 mb-lg-0">
@@ -553,7 +582,10 @@ const Home = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src="/images/landing/articles/image-55.svg" alt="techcabal logo" />
+                <img
+                  src="/images/landing/articles/image-55.svg"
+                  alt="techcabal logo"
+                />
               </a>
             </div>
             <div className="col-lg-3 col-6 mb-3 mt-3 mb-lg-0">
@@ -562,7 +594,10 @@ const Home = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src="/images/landing/articles/image-56.svg" alt="ventures logo" />
+                <img
+                  src="/images/landing/articles/image-56.svg"
+                  alt="ventures logo"
+                />
               </a>
             </div>
             <div className="col-lg-3 col-6 mb-3 mt-3 mb-lg-0">
@@ -580,7 +615,10 @@ const Home = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src="/images/landing/articles/yahoo-finance.svg" alt="yahoo finance logo" />
+                <img
+                  src="/images/landing/articles/yahoo-finance.svg"
+                  alt="yahoo finance logo"
+                />
               </a>
             </div>
 
@@ -600,7 +638,10 @@ const Home = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src="/images/landing/articles/logo_arise.png" alt="arise news logo" />
+                <img
+                  src="/images/landing/articles/logo_arise.png"
+                  alt="arise news logo"
+                />
               </a>
             </div>
 
@@ -610,7 +651,10 @@ const Home = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src="/images/landing/articles/business_day.png" alt="buiness day logo" />
+                <img
+                  src="/images/landing/articles/business_day.png"
+                  alt="buiness day logo"
+                />
               </a>
             </div>
             <div className="col-lg-3 col-6 mb-3 mt-3 mb-lg-0">
@@ -619,7 +663,10 @@ const Home = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src="/images/landing/articles/nairametrics.jpeg" alt="nairametrics logo" />
+                <img
+                  src="/images/landing/articles/nairametrics.jpeg"
+                  alt="nairametrics logo"
+                />
               </a>
             </div>
           </div>
