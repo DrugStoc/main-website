@@ -51,11 +51,11 @@ const Home = () => {
     <div>
       <Head>
         <title>
-          Anti-Counterfeit Supply Chain for Healthcare Providers | Drugstoc
+          Home | Anti-Counterfeit Supply Chain for Healthcare Providers | Drugstoc
         </title>
         <meta
           name="description"
-          content="Drugstoc provides anti-counterfeit supply chain solutions for healthcare providers in emerging economies. Download the Drugstoc app for Android and iOS."
+          content="Get high-quality healthcare products, medicines, and supplies from Africa's leading e-healthcare pharmaceutical distribution company. Choose DrugStoc for safe, reliable, and innovative healthcare solutions."
         />
         <meta
           name="keywords"
@@ -90,7 +90,7 @@ const Home = () => {
         />
         <meta
           name="twitter:description"
-          content="Drugstoc provides anti-counterfeit supply chain solutions for healthcare providers in emerging economies. Download the Drugstoc app for Android and iOS."
+          content="Get high-quality healthcare products, medicines, and supplies from Africa's leading e-healthcare pharmaceutical distribution company. Choose DrugStoc for safe, reliable, and innovative healthcare solutions."
         />
         <meta
           name="twitter:image"
@@ -110,7 +110,7 @@ const Home = () => {
             "@context": "https://schema.org",
             "@type": "Organization",
             "url": "https://drugstoc.com/",
-            "logo": "https://res.cloudinary.com/bizstak/image/upload/v1681940994/drugstoc-home_maw2dg.png"
+            "logo": "https://res.cloudinary.com/bizstak/image/upload/v1681956861/drugstoc-logo_v08uia.png"
           }
         `,
           }}

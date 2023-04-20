@@ -7,6 +7,8 @@ import PropTypes from 'prop-types';
 import Head from 'next/head';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { DefaultSeo, NextSeo } from 'next-seo';
+import { useRouter } from 'next/router';
 
 /* --------------------------- Style Dependencies --------------------------- */
 import '../styles/index.scss';
@@ -21,6 +23,19 @@ const propTypes = {
   pageProps: PropTypes.oneOfType([PropTypes.object, PropTypes.array]),
 };
 
+const structuredData = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: 'DrugStoc',
+  url: 'https://www.drugstoc.com/',
+  logo: 'https://res.cloudinary.com/bizstak/image/upload/v1681956861/drugstoc-logo_v08uia.png',
+  sameAs: [
+    'https://www.facebook.com/drugstoc',
+    'https://twitter.com/drugstocng',
+    'https://instagram.com/drugstoc',
+  ],
+};
+
 class MyApp extends App {
   render() {
     const { Component, pageProps } = this.props;
@@ -29,6 +44,29 @@ class MyApp extends App {
         <Head>
           <meta content="width=device-width, initial-scale=1" name="viewport" />
         </Head>
+        <DefaultSeo
+          title="Anti-Counterfeit Supply Chain for Healthcare Providers | Drugstoc"
+          description="This is my website"
+          canonical="https://www.drugstoc.com/"
+          openGraph={{
+            type: 'website',
+            locale: 'en_US',
+            url: 'https://www.drugstoc.com/',
+            site_name: 'DrugStoc',
+          }}
+        />
+        <NextSeo
+          title="Drugstoc | Anti-Counterfeit Supply Chain for Healthcare Providers"
+          description="Get high-quality healthcare products, medicines, and supplies from Africa's leading e-healthcare pharmaceutical distribution company. Choose DrugStoc for safe, reliable, and innovative healthcare solutions."
+          canonical="https://www.drugstoc.com/"
+          openGraph={{
+            type: 'website',
+            locale: 'en_US',
+            url: 'https://www.drugstoc.com/',
+            site_name: 'DrugStoc',
+          }}
+          jsonld={structuredData}
+        />
         <Component {...pageProps} />
         <ToastContainer />
       </>
@@ -39,17 +77,13 @@ class MyApp extends App {
 MyApp.propTypes = propTypes;
 export default MyApp;
 
-
-
 // <!-- GTranslate: https://gtranslate.io/ -->
 // <a href="#" onclick="doGTranslate('en|en');return false;" title="English" class="gflag nturl" style="background-position:-0px -0px;"><img src="//gtranslate.net/flags/blank.png" height="16" width="16" alt="English" /></a><a href="#" onclick="doGTranslate('en|fr');return false;" title="French" class="gflag nturl" style="background-position:-200px -100px;"><img src="//gtranslate.net/flags/blank.png" height="16" width="16" alt="French" /></a><a href="#" onclick="doGTranslate('en|de');return false;" title="German" class="gflag nturl" style="background-position:-300px -100px;"><img src="//gtranslate.net/flags/blank.png" height="16" width="16" alt="German" /></a><a href="#" onclick="doGTranslate('en|it');return false;" title="Italian" class="gflag nturl" style="background-position:-600px -100px;"><img src="//gtranslate.net/flags/blank.png" height="16" width="16" alt="Italian" /></a><a href="#" onclick="doGTranslate('en|pt');return false;" title="Portuguese" class="gflag nturl" style="background-position:-300px -200px;"><img src="//gtranslate.net/flags/blank.png" height="16" width="16" alt="Portuguese" /></a><a href="#" onclick="doGTranslate('en|ru');return false;" title="Russian" class="gflag nturl" style="background-position:-500px -200px;"><img src="//gtranslate.net/flags/blank.png" height="16" width="16" alt="Russian" /></a><a href="#" onclick="doGTranslate('en|es');return false;" title="Spanish" class="gflag nturl" style="background-position:-600px -200px;"><img src="//gtranslate.net/flags/blank.png" height="16" width="16" alt="Spanish" /></a>
-
 
 // <br /><select onchange="doGTranslate(this);"><option value="">Select Language</option><option value="en|en">English</option><option value="en|ha">Hausa</option><option value="en|ig">Igbo</option><option value="en|yo">Yoruba</option></select><div id="google_translate_element2"></div>
 // <script type="text/javascript">
 // function googleTranslateElementInit2() {new google.translate.TranslateElement({pageLanguage: 'en',autoDisplay: false}, 'google_translate_element2');}
 // </script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit2"></script>
-
 
 // <script type="text/javascript">
 // /* <![CDATA[ */
