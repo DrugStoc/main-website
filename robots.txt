@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /private/
+Disallow: /login/
+Disallow: /signup/
+Disallow: /checkout/
+Disallow: /cart/
+Disallow: /thank-you/
+Disallow: /reset-password/
+Disallow: /forgot-password/
+Disallow: /search/
+Disallow: /404/
+
+Sitemap: https://drugstoc.com/sitemap.xml
