@@ -51,7 +51,8 @@ const Home = () => {
     <div>
       <Head>
         <title>
-          Home | Anti-Counterfeit Supply Chain for Healthcare Providers | Drugstoc
+          Home | Anti-Counterfeit Supply Chain for Healthcare Providers |
+          Drugstoc
         </title>
         <meta
           name="description"
@@ -63,7 +64,7 @@ const Home = () => {
         />
         <meta
           name="author"
-          content="@bemijonathan, @filimapatrick, @jonathan, Jonathan Atiene, @LizztKate, Peter Odetayo, Steffanie, @techstackmedia"
+          content="techstackmedia1, @LizztKate, Jonathan Atiene, filima patrick, techstackmedia"
         />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://drugstoc.com/" />
@@ -100,7 +101,7 @@ const Home = () => {
         <meta name="twitter:image:height" content="675" />
         <meta
           name="twitter:image:alt"
-          content="Banner with text that says 'Empowering Health Care Providers Across Africa'"
+          content="Empowering Health Care Providers Across Africa - A Doctor Holding a Paper"
         />
         <script
           type="application/ld+json"
