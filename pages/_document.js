@@ -114,6 +114,10 @@ export default class MyDocument extends Document {
           />
           <script
             async
+            src={`//code.tidio.co/${process.env.NEXT_PUBLIC_TIDIO_CHAT_CODE}.js`}
+          />
+          <script
+            async
             src="https://www.googletagmanager.com/gtag/js?id=G-ZNB75VJZBK"
           />
           <script
@@ -132,11 +136,6 @@ export default class MyDocument extends Document {
           <Main />
           <NextScript />
         </body>
-        <script
-          type="text/javascript"
-          async=""
-          src="//code.tidio.co/ogocxh3zcgb4cdykhwgct7zwamm62w9e.js"
-        ></script>
       </Html>
     );
   }
