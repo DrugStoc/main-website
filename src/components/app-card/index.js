@@ -16,7 +16,6 @@ const AppCard = () => {
       />
       <div className="container">
         <DownloadAppSection>
-
           <div className="container">
             <MobileBanner>
               <img
@@ -27,16 +26,15 @@ const AppCard = () => {
             </MobileBanner>
 
             <div className="row">
-
               <div className="col-md-6">
                 <h3 data-aos="fade-down">
                   Download DrugStoc App
                   <br /> on your Phone
                 </h3>
                 <p data-aos="fade-down">
-                  Download the app to manage your orders, keep track of the order progress and much more. Discover products and take advantage of promotional discounts on the go.
-
-
+                  Download the app to manage your orders, keep track of the
+                  order progress and much more. Discover products and take
+                  advantage of promotional discounts on the go.
                 </p>
                 <div className="d-flex flex-wrap justify-content-center justify-content-lg-start">
                   <a
@@ -68,7 +66,8 @@ const AppCard = () => {
             </div>
           </div>
           <img
-            data-aos="fade-left"
+            // data-aos="fade-left"
+            // data-aos-once="true"
             src="/images/landing/download/banner.png"
             alt=""
             className="banner d-lg-block d-none"
@@ -86,7 +85,7 @@ const MobileBanner = styled.div`
     text-align: center;
     margin-top: -145.5%;
   }
-  img{
+  img {
     width: 100%;
   }
 `;
@@ -99,14 +98,14 @@ const DownloadAppSection = styled.section`
   display: flex;
   align-items: center;
   min-height: 435px;
-  .mobile-banner{
+  .mobile-banner {
     display: none;
   }
   @media (max-width: 992px) {
     h3 {
       padding-top: 50px;
     }
-    .mobile-banner{
+    .mobile-banner {
       display: none;
     }
     padding: 3rem 1.5rem;
