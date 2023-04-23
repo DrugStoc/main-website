@@ -10,7 +10,6 @@ import SkipToMain from 'components/a11y/skip-to-main';
 import Footer from 'components/footer';
 import SEO from 'components/seo';
 import Navbar from 'components/navbar';
-import styled from 'styled-components';
 
 /* ---------------------------- Layout PropTypes ---------------------------- */
 const propTypes = {
