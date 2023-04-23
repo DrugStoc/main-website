@@ -737,7 +737,7 @@ const Header = styled.header`
   }
 
   @media (max-width: 992px) {
-    min-height: 750px;
+    min-height: 600px;
     display: block;
     height: auto;
     padding: 8rem 0 0;
@@ -1038,7 +1038,7 @@ const PersonalizedExtened = styled.section`
     }
     p {
       display: inline-block;
-      margin-left: 0.4rem;
+      margin-left: 0.37rem;
       vertical-align: middle;
     }
   }
