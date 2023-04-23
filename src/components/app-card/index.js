@@ -66,10 +66,9 @@ const AppCard = () => {
             </div>
           </div>
           <img
-            // data-aos="fade-left"
-            // data-aos-once="true"
+            data-aos="fade-left"
             src="/images/landing/download/banner.png"
-            alt=""
+            alt="a mobile view of DrugStoc app"
             className="banner d-lg-block d-none"
           />
         </DownloadAppSection>
