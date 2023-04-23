@@ -3,9 +3,8 @@
 /* -------------------------------------------------------------------------- */
 import React, { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
-import { useRouter, withRouter } from 'next/router';
-import AOS from 'aos'
-import BounceLoader from "react-spinners/BounceLoader"
+import { withRouter } from 'next/router';
+import AOS from 'aos';
 /* -------------------------- Internal Dependencies ------------------------- */
 import SkipToMain from 'components/a11y/skip-to-main';
 import Footer from 'components/footer';
@@ -34,7 +33,10 @@ const Layout = ({
 }) => {
   const loadTheme = () => localStorage.getItem('EZE_THEME', theme);
   const [theme, setTheme] = useState('dark');
-  const [spinner, setSpinner] = useState(true)
+  const [loaded, setLoaded] = useState(false);
+  useEffect(() => {
+    setLoaded(true);
+  }, []);
   const toggleTheme = mode => {
     setTheme(mode);
     localStorage.setItem('EZE_THEME', mode);
@@ -42,16 +44,10 @@ const Layout = ({
 
   useEffect(() => {
     AOS.init({
-      duration: 300
-    })
+      duration: 300,
+    });
     loadTheme() && setTheme(loadTheme());
   }, []);
-
-  const router = useRouter()
-
-  useEffect(() => {
-    setTimeout(() => setSpinner(false), 2000)
-  }, [router])
 
   return (
     <ThemeContext.Provider
@@ -62,30 +58,29 @@ const Layout = ({
     >
       <SEO title={title} canonical={canonical} />
       <SkipToMain content="main-content" />
-      {
-        spinner ? <SpinnerContainer>
-          <BounceLoader size={120} color={"#4c70d6"} />
-        </SpinnerContainer> :
-          <div>
-            {!noNav && <Navbar theme={theme} />}
-            <main className="margin__main" id="main-content">
-              {children}
-            </main>
-            {!noFooter && <Footer />}
-          </div>
-
-      }
+      <div>
+        {!noNav && <Navbar theme={theme} />}
+        {!loaded && (
+          <div
+            style={{
+              position: 'fixed',
+              top: 0,
+              left: 0,
+              width: '100vw',
+              height: '100vh',
+              backgroundColor: '#fff',
+              zIndex: 9999,
+            }}
+          />
+        )}
+        <main className="margin__main" id="main-content">
+          {children}
+        </main>
+        {!noFooter && <Footer />}
+      </div>
     </ThemeContext.Provider>
   );
 };
-
-const SpinnerContainer = styled.section`
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    width: 100vw;
-`
 
 Layout.propTypes = propTypes;
 
