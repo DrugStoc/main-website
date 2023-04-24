@@ -95,7 +95,6 @@ export default class MyDocument extends Document {
                 'https://twitter.com/drugstoc',
                 'https://www.linkedin.com/company/drugstoc',
                 'http://instagram.com/drugstoc,
-                'https://www.linkedin.com/company/drugstoc'
               ]
             }`,
             }}
