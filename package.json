@@ -9,6 +9,9 @@
     "lint": "next lint",
     "generate-sitemap": "next-sitemap"
   },
+  "engines": {
+    "node": "16.0.0"
+  },
   "dependencies": {
     "aimscroll": "^1.0.3",
     "aos": "^2.3.4",
