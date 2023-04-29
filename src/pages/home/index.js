@@ -10,6 +10,10 @@ import StackedAvatar from '../../../public/images/landing/stacked-avatar.svg';
 import ISO from '../../../public/images/landing/iso.svg';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import {
+  FacebookMetadata,
+  TwitterMetadata,
+} from 'components/meta/home';
 
 const Home = () => {
   const [currentWord, setCurrentWord] = useState({
@@ -64,45 +68,10 @@ const Home = () => {
         />
         <meta
           name="author"
-          content="techstackmedia1, @LizztKate, Jonathan Atiene, filima patrick, techstackmedia"
+          content="@LizztKate, Jonathan Atiene, filima patrick, @techstackmedia"
         />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://drugstoc.com/" />
-        <meta
-          property="og:title"
-          content="Anti-Counterfeit Supply Chain for Healthcare Providers | Drugstoc"
-        />
-        <meta
-          property="og:description"
-          content="Drugstoc provides anti-counterfeit supply chain solutions for healthcare providers in emerging economies. Download the Drugstoc app for Android and iOS."
-        />
-        <meta
-          property="og:image"
-          content="https://res.cloudinary.com/bizstak/image/upload/v1681940994/drugstoc-home_maw2dg.png"
-        />
-        <meta property="og:url" content="https://drugstoc.com/" />
-        <meta property="og:type" content="website" />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="630" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="Anti-Counterfeit Supply Chain for Healthcare Providers | Drugstoc"
-        />
-        <meta
-          name="twitter:description"
-          content="Get high-quality healthcare products, medicines, and supplies from Africa's leading e-healthcare pharmaceutical distribution company. Choose DrugStoc for safe, reliable, and innovative healthcare solutions."
-        />
-        <meta
-          name="twitter:image"
-          content="https://res.cloudinary.com/bizstak/image/upload/v1681940981/drugstoc-twitter_okreqx.png"
-        />
-        <meta name="twitter:image:width" content="1200" />
-        <meta name="twitter:image:height" content="675" />
-        <meta
-          name="twitter:image:alt"
-          content="Empowering Health Care Providers Across Africa - A Doctor Holding a Paper"
-        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -131,6 +100,8 @@ const Home = () => {
           }}
         />
       </Head>
+      <FacebookMetadata />
+      <TwitterMetadata />
 
       <Header>
         <img

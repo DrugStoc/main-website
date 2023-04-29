@@ -12,13 +12,20 @@ const propTypes = {
 };
 
 const SEO = ({
-  title,
-  description = 'DrugStoc is Africa\'s leading e-healthcare pharmaceutical distribution company specializing in anti-counterfeit pharmaceuticals, healthcare services, consumables, and medical devices',
+  // title,
+  // description = "DrugStoc is Africa's leading e-healthcare pharmaceutical distribution company specializing in anti-counterfeit pharmaceuticals, healthcare services, consumables, and medical devices",
   canonical = 'https://drugstoc.com',
 }) => {
   return (
     <Head>
-      <title>{title} |DrugStoc | Anti Counterfeit Pharmaceuticals, Medical Devices, Consumables</title>
+      <meta property="twitter:label1" value="Start buying on Drugstoc" />
+      <meta property="twitter:label2" value="Rating" />
+      <meta property="twitter:data2" value=":star::star::star::star::star:" />
+      <meta name="twitter:creator" content="github:bemijonathan, github:lizzykate, github:techstackmedia" />
+      <meta property="og:locale" content="en_US" />
+      <meta name="twitter:site" content="@drugstoc" />
+      <link rel="canonical" href={canonical} />
+      {/* <title>{title} |DrugStoc | Anti Counterfeit Pharmaceuticals, Medical Devices, Consumables</title>
       <meta name="description" content={description} />
       <meta name="robots" content="index,follow" />
       <meta name="googlebot" content="index,follow" />
@@ -46,7 +53,7 @@ const SEO = ({
       <meta property="twitter:label1" value="Start buying on Drugstoc" />
       <meta property="twitter:data1" value="https://drugstoc.com/contact" />
       <meta property="twitter:label2" value="Rating" />
-      <meta property="twitter:data2" value=":star::star::star::star::star:" />
+      <meta property="twitter:data2" value=":star::star::star::star::star:" /> */}
     </Head>
   );
 };
