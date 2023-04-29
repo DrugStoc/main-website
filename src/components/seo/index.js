@@ -14,7 +14,7 @@ const propTypes = {
 const SEO = ({
   // title,
   // description = "DrugStoc is Africa's leading e-healthcare pharmaceutical distribution company specializing in anti-counterfeit pharmaceuticals, healthcare services, consumables, and medical devices",
-  canonical = 'https://drugstoc.com',
+  // canonical = 'https://drugstoc.com',
 }) => {
   return (
     <Head>
@@ -24,13 +24,11 @@ const SEO = ({
       <meta name="twitter:creator" content="github:bemijonathan, github:lizzykate, github:techstackmedia" />
       <meta property="og:locale" content="en_US" />
       <meta name="twitter:site" content="@drugstoc" />
-      <link rel="canonical" href={canonical} />
       {/* <title>{title} |DrugStoc | Anti Counterfeit Pharmaceuticals, Medical Devices, Consumables</title>
       <meta name="description" content={description} />
       <meta name="robots" content="index,follow" />
       <meta name="googlebot" content="index,follow" />
       <link rel="canonical" href={canonical} />
-
       <meta property="og:type" content="website" />
       <meta property="og:url" content={canonical} />
       <meta property="og:title" content={title} />

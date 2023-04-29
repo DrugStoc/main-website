@@ -33,10 +33,6 @@ const TwitterMetadata = () => {
         content="Anti-Counterfeit Supply Chain for Healthcare Providers | Drugstoc"
       />
       <meta
-        name="twitter:description"
-        content="Get high-quality healthcare products, medicines, and supplies from Africa's leading e-healthcare pharmaceutical distribution company. Choose DrugStoc for safe, reliable, and innovative healthcare solutions."
-      />
-      <meta
         name="twitter:image"
         content="https://res.cloudinary.com/bizstak/image/upload/v1681940981/drugstoc-twitter_okreqx.png"
       />

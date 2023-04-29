@@ -8,7 +8,7 @@ import AOS from 'aos';
 /* -------------------------- Internal Dependencies ------------------------- */
 import SkipToMain from 'components/a11y/skip-to-main';
 import Footer from 'components/footer';
-import SEO from 'components/seo';
+// import SEO from 'components/seo';
 import Navbar from 'components/navbar';
 
 /* ---------------------------- Layout PropTypes ---------------------------- */
@@ -25,8 +25,8 @@ export const ThemeContext = React.createContext();
 
 const Layout = ({
   children,
-  title = 'DrugStoc',
-  canonical,
+  // title = 'DrugStoc',
+  // canonical,
   noFooter = false,
   noNav = false,
 }) => {
@@ -55,7 +55,7 @@ const Layout = ({
         theme,
       }}
     >
-      <SEO title={title} canonical={canonical} />
+      {/* <SEO title={title} canonical={canonical} /> */}
       <SkipToMain content="main-content" />
       <div>
         {!noNav && <Navbar theme={theme} />}

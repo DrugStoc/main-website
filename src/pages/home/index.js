@@ -10,10 +10,7 @@ import StackedAvatar from '../../../public/images/landing/stacked-avatar.svg';
 import ISO from '../../../public/images/landing/iso.svg';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import {
-  FacebookMetadata,
-  TwitterMetadata,
-} from 'components/meta/home';
+import { FacebookMetadata, TwitterMetadata } from 'components/meta/home';
 
 const Home = () => {
   const [currentWord, setCurrentWord] = useState({
@@ -59,10 +56,6 @@ const Home = () => {
           Drugstoc
         </title>
         <meta
-          name="description"
-          content="Get high-quality healthcare products, medicines, and supplies from Africa's leading e-healthcare pharmaceutical distribution company. Choose DrugStoc for safe, reliable, and innovative healthcare solutions."
-        />
-        <meta
           name="keywords"
           content="anti-counterfeit, healthcare, emerging economies, pharmacies, hospitals, clinics, doctors, specialists"
         />
@@ -71,7 +64,6 @@ const Home = () => {
           content="@LizztKate, Jonathan Atiene, filima patrick, @techstackmedia"
         />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://drugstoc.com/" />
         <script
           async
           src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GA_TRACKING_ID}`}
