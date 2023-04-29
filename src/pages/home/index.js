@@ -73,19 +73,6 @@ const Home = () => {
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://drugstoc.com/" />
         <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: `
-          {
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            "url": "https://drugstoc.com/",
-            "logo": "https://res.cloudinary.com/bizstak/image/upload/v1681956861/drugstoc-logo_v08uia.png"
-          }
-        `,
-          }}
-        />
-        <script
           async
           src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GA_TRACKING_ID}`}
         />
