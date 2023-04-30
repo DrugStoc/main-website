@@ -118,6 +118,3 @@ export default class MyDocument extends Document {
  * @see https://github.com/vercel/next.js/issues/18769
  * @see https://github.com/vercel/next.js/issues/15642#issuecomment-710747889 (the hacky fix)
  */
-function HackyFixFOUC() {
-  return <script>0</script>;
-}

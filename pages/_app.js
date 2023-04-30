@@ -1,10 +1,9 @@
 import React from 'react';
 import App from 'next/app';
 import PropTypes from 'prop-types';
-import Head from 'next/head';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import { DefaultSeo, NextSeo } from 'next-seo';
+import { DefaultSeo } from 'next-seo';
 import '../styles/index.scss';
 const propTypes = {
   Component: PropTypes.oneOfType([
