@@ -259,9 +259,9 @@ const Home = () => {
               </p>
             </div>
             <div className="col-lg-7 order-lg-2 order-1">
-              <Image
+              <img
                 data-aos="zoom-in-up"
-                src="/images/landing/image-2.png"
+                src="https://res.cloudinary.com/bizstak/image/upload/v1682826435/drugstoc-forward-think_gulqc3.png"
                 alt=" Forward thinking solutions"
                 className="mb-3 mb-lg-0"
                 width="670"
