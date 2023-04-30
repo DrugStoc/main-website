@@ -51,19 +51,19 @@ class MyApp extends App {
             type: 'website',
             locale: 'en_US',
             url: 'https://www.drugstoc.com/',
-            site_name: 'DrugStoc',
+            siteName: 'DrugStoc',
             images: [
               {
                 url: './drugstoc-v1.png',
                 width: 800,
                 height: 600,
-                alt: 'Default DrugStoc social media thumbnail at 800 x 600 dimension',
+                alt: 'Default DrugStoc social media thumbnail at 800 x 600 dimension (a female doctor writing on board the text "Empowering healthcare providers across africa")',
               },
               {
                 url: './drugstoc-v1.png',
                 width: 900,
                 height: 800,
-                alt: 'Default DrugStoc social media thumbnail at 900 x 600 dimension',
+                alt: 'Default DrugStoc social media thumbnail at 900 x 600 dimension (a female doctor writing on board the text "Empowering healthcare providers across africa")',
               },
               { url: './drugstoc-v3.jpg' },
               { url: './drugstoc.png' },
@@ -90,7 +90,7 @@ class MyApp extends App {
               type: 'video/mp4',
               width: 1280,
               height: 720,
-              alt: 'A brief demo video of how DrugStoc works',
+              alt: 'A brief demo video of how DrugStoc works based on its Anti-counterfeit supply chain for healthcare providers',
             },
             ...structuredData,
           }}

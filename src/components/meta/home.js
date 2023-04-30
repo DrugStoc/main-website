@@ -38,10 +38,10 @@ const HomeMetadata = () => {
               url: 'https://res.cloudinary.com/bizstak/image/upload/v1681940994/drugstoc-home_maw2dg.png',
               width: 1200,
               height: 630,
-              alt: 'Image description',
+              alt: 'DrugStoc social media thumbnail (open graph) at 1200 x 630 dimension',
             },
           ],
-          site_name: 'Drugstoc',
+          siteName: 'Drugstoc',
         }}
         twitter={{
           cardType: 'summary_large_image',
@@ -53,7 +53,7 @@ const HomeMetadata = () => {
             url: 'https://res.cloudinary.com/bizstak/image/upload/v1681940981/drugstoc-twitter_okreqx.png',
             width: 1200,
             height: 675,
-            alt: 'Image description',
+            alt: 'DrugStoc social media thumbnail (twitter card) at 1200 x 675 dimension',
           },
         }}
       />
