@@ -5,10 +5,12 @@ import styled from 'styled-components';
 import AppCard from 'components/app-card';
 import { teams, investors } from './data';
 import { CoreValueSection } from './components/core-values';
+import AboutMetadata from 'components/meta/about';
 
 const AboutUs = () => {
   return (
     <div>
+      <AboutMetadata />
       <Header>
         <div className="container">
           <div className="row">
@@ -20,7 +22,8 @@ const AboutUs = () => {
               </h5>
               <p>
                 Africa records ~100,000 deaths from counterfeit and <br />
-                substandard medication a year due to unreliable <br /> supply chains.
+                substandard medication a year due to unreliable <br /> supply
+                chains.
               </p>
 
               <p className="throphy">
@@ -69,7 +72,8 @@ const AboutUs = () => {
                   <h4>Our Vision</h4>
                   <img src="/images/about-us/vision.png" alt="" />
                   <p>
-                    To Revolutionise the Way Healthcare Providers Interface with the Pharmaceutical Market
+                    To Revolutionise the Way Healthcare Providers Interface with
+                    the Pharmaceutical Market
                   </p>
                 </div>
               </div>
@@ -87,12 +91,16 @@ const AboutUs = () => {
             <div className="col-lg-5 pl-lg-0">
               <h3>What we do?</h3>
               <p>
-                At DrugStoc, we combine the use of unmatched technology, supply chain innovation, financial solutions, and product knowledge to unlock access to medications in emerging Economies.
-
+                At DrugStoc, we combine the use of unmatched technology, supply
+                chain innovation, financial solutions, and product knowledge to
+                unlock access to medications in emerging Economies.
               </p>
               <br />
               <p>
-                Today, we are the fastest growing tech enabled procurement partner for Pharmaceutical & Consumer Health companies reaching thousands of Pharmacies, Retailers, Hospitals, Clinics and Medical Practitioners across Nigeria.
+                Today, we are the fastest growing tech enabled procurement
+                partner for Pharmaceutical & Consumer Health companies reaching
+                thousands of Pharmacies, Retailers, Hospitals, Clinics and
+                Medical Practitioners across Nigeria.
               </p>
               {/*<Link href="/join" passHref>
                 <button className="btn btn-drug-stoc">JOIN US</button>
@@ -102,7 +110,6 @@ const AboutUs = () => {
         </div>
       </WhatWeDo>
       <CoreValueSection />
-
 
       <InvestSection>
         <div className="container">
@@ -123,9 +130,7 @@ const AboutUs = () => {
         </div>
         <TeamSection>
           <div className="container">
-            <h2 className="blue">
-              Ambitious? Passionate about Healthcare?
-            </h2>
+            <h2 className="blue">Ambitious? Passionate about Healthcare?</h2>
             <h5 className="mt-4 ">
               Come work with us and do meaningful work with kind and smart
               colleagues who’re passionate <br /> about changing the health care
@@ -144,13 +149,20 @@ const AboutUs = () => {
         <div className="container">
           <h2>Connect With Us</h2>
           <h5>
-            We’re a team of Doctors, Pharmacists, Engineers,
-            Financial analysts and <br /> Innovators on a misson to change healthcare
+            We’re a team of Doctors, Pharmacists, Engineers, Financial analysts
+            and <br /> Innovators on a misson to change healthcare
           </h5>
           <div className="row icons__container">
             {teams.map(team => (
-              <div className="col-lg-4 col-md-4 col-12 team__Card__holder" key={team.image}>
-                <a href={team.link} target="_blank" referrerPolicy="no-referrer">
+              <div
+                className="col-lg-4 col-md-4 col-12 team__Card__holder"
+                key={team.image}
+              >
+                <a
+                  href={team.link}
+                  target="_blank"
+                  referrerPolicy="no-referrer"
+                >
                   <button className="team__card">
                     {team.image}
                     <span>{team.name} </span>
@@ -326,13 +338,12 @@ const WhatWeDo = styled.section`
 `;
 
 const TeamSection = styled.section`
-.icons__container{
-  max-width: 700px;
-  margin:auto;
-}
+  .icons__container {
+    max-width: 700px;
+    margin: auto;
+  }
   margin-top: 6rem;
   margin-bottom: 8rem;
-
 
   @media (max-width: 992px) {
     margin-top: 4rem;
@@ -370,44 +381,43 @@ const TeamSection = styled.section`
     margin-bottom: 3rem;
   }
 
-  .team__card{
+  .team__card {
     margin: auto;
-    height:45px;
+    height: 45px;
     border-left: 100px;
     background-color: var(--primary-blue);
     width: 200px;
-    border:none;
+    border: none;
     color: white;
-    display:flex;
+    display: flex;
     align-items: center;
     border-radius: 100px;
     padding-left: 20px;
-    span{
+    span {
       padding-left: 30px;
     }
     @media (max-width: 992px) {
-        justify-content: center !important;
-    padding: 15px;
-    gap: 20px;
-    width: fit-content;
+      justify-content: center !important;
+      padding: 15px;
+      gap: 20px;
+      width: fit-content;
 
-        span{
-          padding-left: 0;
-        }
+      span {
+        padding-left: 0;
+      }
     }
   }
 
-  .team__Card__holder{
+  .team__Card__holder {
     gap: 20px;
     display: flex;
     flex-wrap: wrap;
     margin-top: 40px;
     @media (max-width: 992px) {
-        display: block !important;
+      display: block !important;
     }
   }
 
-  
   .investor__card {
     h4 {
       font-style: normal;
