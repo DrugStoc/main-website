@@ -72,19 +72,23 @@ class MyApp extends App {
             siteName: 'DrugStoc',
             images: [
               {
-                url: '/drugstoc-v1.png',
+                url: 'https://res.cloudinary.com/bizstak/image/upload/v1682880062/drugstoc-v1_f7lpr6.png',
                 width: 800,
                 height: 600,
                 alt: 'Default DrugStoc social media thumbnail at 800 x 600 dimension (a female doctor writing on board the text "Empowering healthcare providers across africa")',
               },
               {
-                url: '/drugstoc-v1.png',
+                url: 'https://res.cloudinary.com/bizstak/image/upload/v1682879993/drugstoc-v2_bawcec.png',
                 width: 900,
                 height: 800,
                 alt: 'Default DrugStoc social media thumbnail at 900 x 600 dimension (a female doctor writing on board the text "Empowering healthcare providers across africa")',
               },
-              { url: '/drugstoc-v3.jpg' },
-              { url: '/drugstoc.png' },
+              {
+                url: 'https://res.cloudinary.com/bizstak/image/upload/v1682879879/drugstoc-v3_z9a4v3.jpg',
+              },
+              {
+                url: 'https://res.cloudinary.com/bizstak/image/upload/v1682879798/drugstoc_w0miox.png',
+              },
             ],
             description:
               "Get high-quality healthcare products, medicines, and supplies from Africa's leading e-healthcare pharmaceutical distribution company. Choose DrugStoc for safe, reliable, and innovative healthcare solutions.",
@@ -158,7 +162,7 @@ class MyApp extends App {
             href="/favicon-16x16.png"
           />
           <link rel="manifest" href="/site.webmanifest" />
-          <meta name="theme-color" content='#ffffff' />
+          <meta name="theme-color" content="#ffffff" />
         </DefaultSeo>
         <Component {...pageProps} />
         <ToastContainer />
