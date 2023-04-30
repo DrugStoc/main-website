@@ -10,7 +10,7 @@
     "generate-sitemap": "next-sitemap"
   },
   "engines": {
-    "node": "16.0.0"
+    "node": "16.20.0"
   },
   "dependencies": {
     "aimscroll": "^1.0.3",
