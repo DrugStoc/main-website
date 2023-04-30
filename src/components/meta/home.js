@@ -15,7 +15,7 @@ const HomeMetadata = () => {
             'Drugstoc provides anti-counterfeit supply chain solutions for healthcare providers in emerging economies. Download the Drugstoc app for Android and iOS.',
           images: [
             {
-              url: 'https://res.cloudinary.com/bizstak/image/upload/v1681940994/drugstoc-home_maw2dg.png',
+              url: '../../../pages/drugstoc-v3.jpg',
               width: 1200,
               height: 630,
               alt: 'Image description',
@@ -25,8 +25,7 @@ const HomeMetadata = () => {
         }}
         twitter={{
           cardType: 'summary_large_image',
-          handle:
-            '@LizztKate, Jonathan Atiene, filima patrick, @techstackmedia',
+          handle: '@DrugStocHQ',
           site: '@Drugstoc',
         }}
       />

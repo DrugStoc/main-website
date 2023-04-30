@@ -54,8 +54,8 @@ class MyApp extends App {
                 height: 800,
                 alt: 'Default DrugStoc social media thumbnail at 900 x 600 dimension',
               },
-              { url: './drugstoc.png' },
               { url: './drugstoc-v3.jpg' },
+              { url: './drugstoc.png' },
             ],
             description:
               "Get high-quality healthcare products, medicines, and supplies from Africa's leading e-healthcare pharmaceutical distribution company. Choose DrugStoc for safe, reliable, and innovative healthcare solutions.",
@@ -98,7 +98,6 @@ class MyApp extends App {
           <meta property="og:locale" content="en_US" />
           <meta name="twitter:site" content="@drugstoc" />
         </DefaultSeo>
-
         <Component {...pageProps} />
         <ToastContainer />
       </>

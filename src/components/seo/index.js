@@ -18,12 +18,6 @@ const SEO = ({
 }) => {
   return (
     <Head>
-      <meta property="twitter:label1" value="Start buying on Drugstoc" />
-      <meta property="twitter:label2" value="Rating" />
-      <meta property="twitter:data2" value=":star::star::star::star::star:" />
-      <meta name="twitter:creator" content="github:bemijonathan, github:lizzykate, github:techstackmedia" />
-      <meta property="og:locale" content="en_US" />
-      <meta name="twitter:site" content="@drugstoc" />
       {/* <title>{title} |DrugStoc | Anti Counterfeit Pharmaceuticals, Medical Devices, Consumables</title>
       <meta name="description" content={description} />
       <meta name="robots" content="index,follow" />
