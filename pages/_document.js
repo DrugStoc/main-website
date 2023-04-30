@@ -90,7 +90,6 @@ export default class MyDocument extends Document {
             async
             src={`//code.tidio.co/ogocxh3zcgb4cdykhwgct7zwamm62w9e.js`}
           />
-          {/* G-ZNB75VJZBK */}
           <script
             async
             src={`https://www.googletagmanager.com/gtag/js?id=G-ZNB75VJZBK`}
