@@ -145,6 +145,16 @@ class MyApp extends App {
           <meta name="twitter:site" content="@drugstoc" />
           <link rel="shortcut icon" href="/favicon.ico" />
           <link
+            rel="android-chrome-icon"
+            sizes="512x512"
+            href="/android-chrome-512x512.png"
+          />
+          <link
+            rel="android-chrome-icon"
+            sizes="192x192"
+            href="/android-chrome-192x192.png"
+          />
+          <link
             rel="apple-touch-icon"
             sizes="180x180"
             href="/apple-touch-icon.png"
