@@ -78,10 +78,6 @@ export default class MyDocument extends Document {
             as="style"
             href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
           />
-
-          <meta content="IE=edge" httpEquiv="X-UA-Compatible" />
-          <meta content="#0855ba" name="theme-color" />
-          <meta content="#0855ba" name="msapplication-TileColor" />
           {/* <script
             async
             src={`//code.tidio.co/${process.env.NEXT_PUBLIC_TIDIO_CHAT_CODE}.js`}

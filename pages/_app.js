@@ -35,6 +35,13 @@ class MyApp extends App {
       <>
         <DefaultSeo
           title="Anti-Counterfeit Supply Chain for Healthcare Providers | Drugstoc"
+          titleTemplate="%s | Drugstoc"
+          defaultTitle="Drugstoc"
+          themeColor="#ffffff"
+          dangerouslySetAllPagesToNoIndex={false}
+          dangerouslySetAllPagesToNoFollow={false}
+          description="Get high-quality healthcare products, medicines, and supplies from Africa's leading e-healthcare pharmaceutical distribution company. Choose DrugStoc for safe, reliable, and innovative healthcare solutions."
+          canonical="https://www.drugstoc.com/"
           keyword={[
             'top pharmaceutical distribution company',
             'best pharmaceutical distribution company in Nigeria',
@@ -46,7 +53,9 @@ class MyApp extends App {
             'pharmaceutical supply companies near lekki',
             'where to buy wholesale drugs in lagos',
           ]}
-          canonical="https://www.drugstoc.com/"
+          // facebook={{
+          //   appId: '1234567890',
+          // }}
           openGraph={{
             type: 'website',
             locale: 'en_US',
@@ -92,8 +101,53 @@ class MyApp extends App {
               height: 720,
               alt: 'A brief demo video of how DrugStoc works based on its Anti-counterfeit supply chain for healthcare providers',
             },
+            defaultOpenGraphImageWidth: 800,
+            defaultOpenGraphImageHeight: 600,
+            defaultOpenGraphVideoWidth: 1280,
+            defaultOpenGraphVideoHeight: 720,
             ...structuredData,
           }}
+          additionalMetaTags={[
+            { name: 'msapplication-TileColor', content: '#ffffff' },
+            {
+              name: 'keywords',
+              content:
+                'top pharmaceutical distribution company, best pharmaceutical distribution company in Nigeria, pharmaceutical company, pharmaceutical supply company lagos, anti-counterfeit supply chain, best pharmaceutical supply chain company, wholesale pharmacy in nigeria, medical devices, consumables, pharmaceutical wholesalers in lagos, pharmaceutical supply companies near lekki, where to buy wholesale drugs in lagos',
+            },
+          ]}
+          twitter={{
+            handle: '@drugstoc',
+            site: '@drugstoc',
+            cardType: 'summary_large_image',
+          }}
+          mobileAlternate={{
+            media: 'only screen and (max-width: 640px)',
+            href: 'https://m.drugstoc.com',
+          }}
+          languageAlternates={[
+            {
+              hrefLang: 'en',
+              href: 'https://www.drugstoc.com/',
+            },
+            {
+              hrefLang: 'fr',
+              href: 'https://fr.drugstoc.com/',
+            },
+            {
+              hrefLang: 'es',
+              href: 'https://es.drugstoc.com/',
+            },
+          ]}
+          additionalLinkTags={[
+            {
+              rel: 'icon',
+              href: '/favicon.ico',
+            },
+            {
+              rel: 'stylesheet',
+              href: 'https://fonts.googleapis.com/css?family=Montserrat:400,500,600&display=swap',
+            },
+          ]}
         >
           <meta content="width=device-width, initial-scale=1" name="viewport" />
           <meta property="twitter:label1" value="Start buying on Drugstoc" />
@@ -108,6 +162,35 @@ class MyApp extends App {
           />
           <meta property="og:locale" content="en_US" />
           <meta name="twitter:site" content="@drugstoc" />
+          {additionalMetaTags &&
+            additionalMetaTags.map((meta, i) => <meta key={i} {...meta} />)}
+          {additionalLinkTags &&
+            additionalLinkTags.map((link, i) => <link key={i} {...link} />)}
+          {languageAlternates &&
+            languageAlternates.map((alternate, i) => (
+              <link key={i} rel="alternate" {...alternate} />
+            ))}
+
+          <link rel="shortcut icon" href="/favicon.ico" />
+          <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="/apple-touch-icon.png"
+          />
+          <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="/favicon-32x32.png"
+          />
+          <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="/favicon-16x16.png"
+          />
+          <link rel="manifest" href="/site.webmanifest" />
+          <meta name="theme-color" content={themeColor || '#0855ba'} />
         </DefaultSeo>
         <Component {...pageProps} />
         <ToastContainer />
