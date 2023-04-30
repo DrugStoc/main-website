@@ -47,8 +47,8 @@ class MyApp extends App {
           titleTemplate="%s | Drugstoc"
           defaultTitle="Drugstoc"
           themeColor="#ffffff"
-          dangerouslySetAllPagesToNoIndex={false}
-          dangerouslySetAllPagesToNoFollow={false}
+          // dangerouslySetAllPagesToNoIndex={false}
+          // dangerouslySetAllPagesToNoFollow={false}
           description="Get high-quality healthcare products, medicines, and supplies from Africa's leading e-healthcare pharmaceutical distribution company. Choose DrugStoc for safe, reliable, and innovative healthcare solutions."
           canonical="https://www.drugstoc.com/"
           keyword={[
