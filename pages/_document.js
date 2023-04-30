@@ -82,14 +82,23 @@ export default class MyDocument extends Document {
           <meta content="IE=edge" httpEquiv="X-UA-Compatible" />
           <meta content="#0855ba" name="theme-color" />
           <meta content="#0855ba" name="msapplication-TileColor" />
-          <script
+          {/* <script
             async
             src={`//code.tidio.co/${process.env.NEXT_PUBLIC_TIDIO_CHAT_CODE}.js`}
-          />
+          /> */}
           <script
             async
-            src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GA_TRACKING_ID}`}
+            src={`//code.tidio.co/ogocxh3zcgb4cdykhwgct7zwamm62w9e.js`}
           />
+          {/* G-ZNB75VJZBK */}
+          <script
+            async
+            src={`https://www.googletagmanager.com/gtag/js?id=G-ZNB75VJZBK`}
+          />
+          {/* <script
+            async
+            src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GA_TRACKING_ID}`}
+          /> */}
           <script
             dangerouslySetInnerHTML={{
               __html: `
