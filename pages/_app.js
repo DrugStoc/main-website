@@ -72,19 +72,19 @@ class MyApp extends App {
             siteName: 'DrugStoc',
             images: [
               {
-                url: './drugstoc-v1.png',
+                url: '/drugstoc-v1.png',
                 width: 800,
                 height: 600,
                 alt: 'Default DrugStoc social media thumbnail at 800 x 600 dimension (a female doctor writing on board the text "Empowering healthcare providers across africa")',
               },
               {
-                url: './drugstoc-v1.png',
+                url: '/drugstoc-v1.png',
                 width: 900,
                 height: 800,
                 alt: 'Default DrugStoc social media thumbnail at 900 x 600 dimension (a female doctor writing on board the text "Empowering healthcare providers across africa")',
               },
-              { url: './drugstoc-v3.jpg' },
-              { url: './drugstoc.png' },
+              { url: '/drugstoc-v3.jpg' },
+              { url: '/drugstoc.png' },
             ],
             description:
               "Get high-quality healthcare products, medicines, and supplies from Africa's leading e-healthcare pharmaceutical distribution company. Choose DrugStoc for safe, reliable, and innovative healthcare solutions.",
@@ -103,8 +103,8 @@ class MyApp extends App {
               count: '50',
             },
             video: {
-              url: './drugstoc.mp4',
-              secure_url: './drugstoc.mp4',
+              url: '/drugstoc.mp4',
+              secure_url: '/drugstoc.mp4',
               type: 'video/mp4',
               width: 1280,
               height: 720,
