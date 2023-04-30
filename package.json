@@ -2,6 +2,9 @@
   "name": "drug-stoc",
   "version": "0.1.0",
   "private": true,
+  "resolutions": {
+    "openssl": ">=1.1.1"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
