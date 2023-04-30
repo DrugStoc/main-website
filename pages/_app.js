@@ -164,8 +164,8 @@ class MyApp extends App {
           />
           <meta property="og:locale" content="en_US" />
           <meta name="twitter:site" content="@drugstoc" />
-          {additionalMetaTags &&
-            additionalMetaTags.map((meta, i) => <meta key={i} {...meta} />)}
+          {/* {additionalMetaTags &&
+            additionalMetaTags.map((meta, i) => <meta key={i} {...meta} />)} */}
           {additionalLinkTags &&
             additionalLinkTags.map((link, i) => <link key={i} {...link} />)}
           {languageAlternates &&
