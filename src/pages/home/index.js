@@ -275,7 +275,7 @@ const Home = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-7">
-              <Image
+              <img
                 data-aos="zoom-in"
                 src="/images/landing/personalized/personalized-2.png"
                 alt=" Forward thinking solutions"
