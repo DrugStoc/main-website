@@ -82,27 +82,6 @@ export default class MyDocument extends Document {
           <meta content="IE=edge" httpEquiv="X-UA-Compatible" />
           <meta content="#0855ba" name="theme-color" />
           <meta content="#0855ba" name="msapplication-TileColor" />
-
-          <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html: `
-          {
-            "@context": "https://schema.org",
-            'name' : 'DrugStoc',
-            "@type": "Organization",
-            "url": "https://drugstoc.com/",
-            "logo": "https://res.cloudinary.com/bizstak/image/upload/v1681956861/drugstoc-logo_v08uia.png",
-            'sameAs' : [
-              'https://www.facebook.com/drugstoc',
-              'https://twitter.com/drugstoc',
-              'https://www.linkedin.com/company/drugstoc',
-              'http://instagram.com/drugstoc',
-            ]
-          }
-        `,
-            }}
-          />
           <script
             async
             src={`//code.tidio.co/${process.env.NEXT_PUBLIC_TIDIO_CHAT_CODE}.js`}

@@ -23,8 +23,9 @@ const structuredData = {
   logo: 'https://res.cloudinary.com/bizstak/image/upload/v1681956861/drugstoc-logo_v08uia.png',
   sameAs: [
     'https://www.facebook.com/drugstoc',
-    'https://twitter.com/drugstocng',
+    'https://twitter.com/DrugStocHQ',
     'https://instagram.com/drugstoc',
+    'https://www.linkedin.com/company/drugstoc',
   ],
 };
 

@@ -194,7 +194,7 @@ const Footer = () => {
                 <img src="/images/social/Linkedin.svg" />
               </a>
               <a
-                href="https://twitter.com/DrugStocNg"
+                href="https://twitter.com/DrugStocHQ"
                 aria-label="Navigate to Twitter"
                 target="_blank"
                 rel="noopener noreferrer"
