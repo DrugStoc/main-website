@@ -31,14 +31,6 @@ const structuredData = {
 class MyApp extends App {
   render() {
     const { Component, pageProps } = this.props;
-    // const additionalMetaTags = [
-    //   { name: 'msapplication-TileColor', content: '#ffffff' },
-    //   {
-    //     name: 'keywords',
-    //     content:
-    //       'top pharmaceutical distribution company, best pharmaceutical distribution company in Nigeria, pharmaceutical company, pharmaceutical supply company lagos, anti-counterfeit supply chain, best pharmaceutical supply chain company, wholesale pharmacy in nigeria, medical devices, consumables, pharmaceutical wholesalers in lagos, pharmaceutical supply companies near lekki, where to buy wholesale drugs in lagos',
-    //   },
-    // ];
 
     return (
       <>

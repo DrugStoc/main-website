@@ -178,7 +178,7 @@ const Home = () => {
           <div className="row align-items-center">
             <div className="col-lg-7">
               <Image
-                src="/images/landing/image-1.png"
+                src="https://res.cloudinary.com/bizstak/image/upload/v1682885007/Image-1_ofil2t.png"
                 alt=" Forward thinking solutions"
                 className="d-block mb-3 mb-lg-0"
                 width="670"
