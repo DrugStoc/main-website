@@ -116,7 +116,6 @@ class MyApp extends App {
             defaultOpenGraphVideoHeight: 720,
             ...structuredData,
           }}
-          // additionalMetaTags={additionalMetaTags}
           twitter={{
             handle: '@drugstoc',
             site: '@drugstoc',
@@ -126,30 +125,6 @@ class MyApp extends App {
             media: 'only screen and (max-width: 640px)',
             href: 'https://m.drugstoc.com',
           }}
-          languageAlternates={[
-            {
-              hrefLang: 'en',
-              href: 'https://www.drugstoc.com/',
-            },
-            {
-              hrefLang: 'fr',
-              href: 'https://fr.drugstoc.com/',
-            },
-            {
-              hrefLang: 'es',
-              href: 'https://es.drugstoc.com/',
-            },
-          ]}
-          additionalLinkTags={[
-            {
-              rel: 'icon',
-              href: '/favicon.ico',
-            },
-            {
-              rel: 'stylesheet',
-              href: 'https://fonts.googleapis.com/css?family=Montserrat:400,500,600&display=swap',
-            },
-          ]}
         >
           <meta content="width=device-width, initial-scale=1" name="viewport" />
           <meta property="twitter:label1" value="Start buying on Drugstoc" />
@@ -164,15 +139,6 @@ class MyApp extends App {
           />
           <meta property="og:locale" content="en_US" />
           <meta name="twitter:site" content="@drugstoc" />
-          {/* {additionalMetaTags &&
-            additionalMetaTags.map((meta, i) => <meta key={i} {...meta} />)} */}
-          {additionalLinkTags &&
-            additionalLinkTags.map((link, i) => <link key={i} {...link} />)}
-          {languageAlternates &&
-            languageAlternates.map((alternate, i) => (
-              <link key={i} rel="alternate" {...alternate} />
-            ))}
-
           <link rel="shortcut icon" href="/favicon.ico" />
           <link
             rel="apple-touch-icon"
@@ -193,7 +159,6 @@ class MyApp extends App {
           />
           <link rel="manifest" href="/site.webmanifest" />
           <meta name="theme-color" content={themeColor || '#ffffff'} />
-          {/* <meta name="theme-color" content={themeColor || '#0855ba'} /> */}
         </DefaultSeo>
         <Component {...pageProps} />
         <ToastContainer />
