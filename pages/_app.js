@@ -158,7 +158,7 @@ class MyApp extends App {
             href="/favicon-16x16.png"
           />
           <link rel="manifest" href="/site.webmanifest" />
-          <meta name="theme-color" content={themeColor || '#ffffff'} />
+          <meta name="theme-color" content='#ffffff' />
         </DefaultSeo>
         <Component {...pageProps} />
         <ToastContainer />
