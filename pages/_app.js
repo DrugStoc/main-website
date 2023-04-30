@@ -35,6 +35,17 @@ class MyApp extends App {
       <>
         <DefaultSeo
           title="Anti-Counterfeit Supply Chain for Healthcare Providers | Drugstoc"
+          keyword={[
+            'top pharmaceutical distribution company',
+            'best pharmaceutical distribution company in Nigeria',
+            'pharmaceutical company, pharmaceutical supply company lagos',
+            'anti-counterfeit supply chain',
+            'best pharmaceutical supply chain company',
+            ' wholesale pharmacy in nigeria',
+            'medical devices, consumables, pharmaceutical wholesalers in lagos',
+            'pharmaceutical supply companies near lekki',
+            'where to buy wholesale drugs in lagos',
+          ]}
           canonical="https://www.drugstoc.com/"
           openGraph={{
             type: 'website',

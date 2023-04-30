@@ -6,6 +6,27 @@ const HomeMetadata = () => {
       <NextSeo
         title="Home | Anti-Counterfeit Supply Chain for Healthcare Providers"
         description="Get high-quality healthcare products, medicines, and supplies from Africa's leading e-healthcare pharmaceutical distribution company. Choose DrugStoc for safe, reliable, and innovative healthcare solutions."
+        keyword={[
+          'Anti-counterfeit supply chain',
+          'Healthcare providers',
+          'Emerging economies',
+          'Pharmaceutical procurement',
+          'Medical products',
+          'Trusted brands',
+          'Medical consumables',
+          'Rare medication',
+          'Small medical devices',
+          'Inventory financing',
+          'Collateral-free loans',
+          'DrugStoc Credit',
+          'Last mile delivery',
+          'Global brands',
+          'Forward-thinking solutions',
+          'Seamless platform',
+          'Ominichannel access',
+          'Smart payment solutions',
+          'Patient services',
+        ]}
         openGraph={{
           url: 'https://drugstoc.com/',
           title:
