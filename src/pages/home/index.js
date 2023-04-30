@@ -1,5 +1,4 @@
 import AppCard from 'components/app-card';
-import Head from 'next/head';
 import Link from 'next/link';
 import Image from 'next/image';
 import React, { useEffect, useState } from 'react';
@@ -10,7 +9,8 @@ import StackedAvatar from '../../../public/images/landing/stacked-avatar.svg';
 import ISO from '../../../public/images/landing/iso.svg';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { FacebookMetadata, TwitterMetadata } from 'components/meta/home';
+import { NextSeo } from 'next-seo';
+import HomeMetadata from 'components/meta/home';
 
 const Home = () => {
   const [currentWord, setCurrentWord] = useState({
@@ -50,37 +50,7 @@ const Home = () => {
 
   return (
     <div>
-      <Head>
-        <title>
-          Home | Anti-Counterfeit Supply Chain for Healthcare Providers |
-          Drugstoc
-        </title>
-        <meta
-          name="keywords"
-          content="anti-counterfeit, healthcare, emerging economies, pharmacies, hospitals, clinics, doctors, specialists"
-        />
-        <meta
-          name="author"
-          content="@LizztKate, Jonathan Atiene, filima patrick, @techstackmedia"
-        />
-        <meta name="robots" content="index, follow" />
-        <script
-          async
-          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GA_TRACKING_ID}`}
-        />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', '${process.env.GA_TRACKING_ID}')
-            `,
-          }}
-        />
-      </Head>
-      <FacebookMetadata />
-      <TwitterMetadata />
+      <HomeMetadata />
 
       <Header>
         <img

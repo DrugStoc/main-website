@@ -1,53 +1,53 @@
-import React from 'react';
-import { Helmet } from 'react-helmet';
+import Head from 'next/head';
+import { NextSeo } from 'next-seo';
 
-const FacebookMetadata = () => {
+const HomeMetadata = () => {
   return (
-    <Helmet>
-      <meta
-        property="og:title"
-        content="Anti-Counterfeit Supply Chain for Healthcare Providers | Drugstoc"
+    <>
+      <NextSeo
+        title="Home | Anti-Counterfeit Supply Chain for Healthcare Providers | Drugstoc"
+        description="Get high-quality healthcare products, medicines, and supplies from Africa's leading e-healthcare pharmaceutical distribution company. Choose DrugStoc for safe, reliable, and innovative healthcare solutions."
+        openGraph={{
+          url: 'https://drugstoc.com/',
+          title:
+            'Anti-Counterfeit Supply Chain for Healthcare Providers | Drugstoc',
+          description:
+            'Drugstoc provides anti-counterfeit supply chain solutions for healthcare providers in emerging economies. Download the Drugstoc app for Android and iOS.',
+          images: [
+            {
+              url: 'https://res.cloudinary.com/bizstak/image/upload/v1681940994/drugstoc-home_maw2dg.png',
+              width: 1200,
+              height: 630,
+              alt: 'Image description',
+            },
+          ],
+          site_name: 'Drugstoc',
+        }}
+        twitter={{
+          cardType: 'summary_large_image',
+          handle:
+            '@LizztKate, Jonathan Atiene, filima patrick, @techstackmedia',
+          site: '@Drugstoc',
+        }}
       />
-      <meta
-        property="og:description"
-        content="Drugstoc provides anti-counterfeit supply chain solutions for healthcare providers in emerging economies. Download the Drugstoc app for Android and iOS."
-      />
-      <meta
-        property="og:image"
-        content="https://res.cloudinary.com/bizstak/image/upload/v1681940994/drugstoc-home_maw2dg.png"
-      />
-      <meta property="og:url" content="https://drugstoc.com/" />
-      <meta property="og:type" content="website" />
-      <meta property="og:image:width" content="1200" />
-      <meta property="og:image:height" content="630" />
-    </Helmet>
+      <Head>
+        <script
+          async
+          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GA_TRACKING_ID}`}
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${process.env.GA_TRACKING_ID}')
+            `,
+          }}
+        />
+      </Head>
+    </>
   );
 };
 
-const TwitterMetadata = () => {
-  return (
-    <Helmet>
-      <meta name="twitter:card" content="summary_large_image" />
-      <meta
-        name="twitter:title"
-        content="Anti-Counterfeit Supply Chain for Healthcare Providers | Drugstoc"
-      />
-      <meta
-        name="twitter:image"
-        content="https://res.cloudinary.com/bizstak/image/upload/v1681940981/drugstoc-twitter_okreqx.png"
-      />
-      <meta name="twitter:image:width" content="1200" />
-      <meta name="twitter:image:height" content="675" />
-      <meta
-        name="twitter:image:alt"
-        content="Empowering Health Care Providers Across Africa - A Doctor Holding a Paper"
-      />
-    </Helmet>
-  );
-};
-
-
-export {
-  FacebookMetadata,
-  TwitterMetadata,
-};
+export default HomeMetadata;

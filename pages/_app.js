@@ -1,6 +1,3 @@
-/* -------------------------------------------------------------------------- */
-/*                            External Dependencies                           */
-/* -------------------------------------------------------------------------- */
 import React from 'react';
 import App from 'next/app';
 import PropTypes from 'prop-types';
@@ -8,12 +5,7 @@ import Head from 'next/head';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { DefaultSeo, NextSeo } from 'next-seo';
-import { useRouter } from 'next/router';
-
-/* --------------------------- Style Dependencies --------------------------- */
 import '../styles/index.scss';
-
-/* ----------------------------- MyApp PropTypes ---------------------------- */
 const propTypes = {
   Component: PropTypes.oneOfType([
     PropTypes.element,
@@ -41,32 +33,72 @@ class MyApp extends App {
     const { Component, pageProps } = this.props;
     return (
       <>
-        <Head>
-          <meta content="width=device-width, initial-scale=1" name="viewport" />
-        </Head>
         <DefaultSeo
           title="Anti-Counterfeit Supply Chain for Healthcare Providers | Drugstoc"
-          description="This is my website"
           canonical="https://www.drugstoc.com/"
           openGraph={{
             type: 'website',
             locale: 'en_US',
             url: 'https://www.drugstoc.com/',
             site_name: 'DrugStoc',
-          }}
-        />
-        <NextSeo
-          title="Drugstoc | Anti-Counterfeit Supply Chain for Healthcare Providers"
-          description="Get high-quality healthcare products, medicines, and supplies from Africa's leading e-healthcare pharmaceutical distribution company. Choose DrugStoc for safe, reliable, and innovative healthcare solutions."
-          canonical="https://www.drugstoc.com/"
-          openGraph={{
-            type: 'website',
+            images: [
+              {
+                url: './drugstoc-v1.png',
+                width: 800,
+                height: 600,
+                alt: 'Default DrugStoc social media thumbnail at 800 x 600 dimension',
+              },
+              {
+                url: './drugstoc-v1.png',
+                width: 900,
+                height: 800,
+                alt: 'Default DrugStoc social media thumbnail at 900 x 600 dimension',
+              },
+              { url: './drugstoc.png' },
+              { url: './drugstoc-v3.jpg' },
+            ],
+            description:
+              "Get high-quality healthcare products, medicines, and supplies from Africa's leading e-healthcare pharmaceutical distribution company. Choose DrugStoc for safe, reliable, and innovative healthcare solutions.",
+            title:
+              'Anti-Counterfeit Supply Chain for Healthcare Providers | Drugstoc',
             locale: 'en_US',
-            url: 'https://www.drugstoc.com/',
-            site_name: 'DrugStoc',
+            type: 'website',
+            profile: {
+              firstName: 'DrugStoc',
+              lastName: '',
+              username: 'DrugStoc',
+              gender: 'Organization',
+            },
+            rating: {
+              average: '4.5',
+              count: '50',
+            },
+            video: {
+              url: './drugstoc.mp4',
+              secure_url: './drugstoc.mp4',
+              type: 'video/mp4',
+              width: 1280,
+              height: 720,
+              alt: 'A brief demo video of how DrugStoc works',
+            },
+            ...structuredData,
           }}
-          jsonld={structuredData}
-        />
+        >
+          <meta content="width=device-width, initial-scale=1" name="viewport" />
+          <meta property="twitter:label1" value="Start buying on Drugstoc" />
+          <meta property="twitter:label2" value="Rating" />
+          <meta
+            property="twitter:data2"
+            value=":star::star::star::star::star:"
+          />
+          <meta
+            name="twitter:creator"
+            content="github:bemijonathan, github:lizzykate, github:techstackmedia"
+          />
+          <meta property="og:locale" content="en_US" />
+          <meta name="twitter:site" content="@drugstoc" />
+        </DefaultSeo>
+
         <Component {...pageProps} />
         <ToastContainer />
       </>
