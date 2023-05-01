@@ -1,7 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
 import styled from 'styled-components';
-
 import AppCard from 'components/app-card';
 import { Table } from 'react-bootstrap';
 import { jobs } from './data';
@@ -20,8 +19,8 @@ const Careers = () => {
                 potential together
               </h1>
               <p>
-                Join a team that will unlock the well being of Africans, in our lifetime.{' '}
-                <br />
+                Join a team that will unlock the well being of Africans, in our
+                lifetime. <br />
               </p>
               <p></p>
             </div>
@@ -43,30 +42,21 @@ const Careers = () => {
       <TeamSection>
         <div className="container">
           <h2 className="blue">
-            Together we will solve some {" "}
-            <br />
+            Together we will solve some <br />
             of the biggest challenges <br />
             in healthcare.
           </h2>
 
           <h5 className="mt-5 pt-5">
             So let's see where you fit in.
-
-
-            <br />  Discover why the brightest minds find home in working with us.
-
+            <br /> Discover why the brightest minds find home in working with
+            us.
           </h5>
 
           <Link href="#open-positions" passHref>
-            <button className="btn btn-drug-stoc m-auto d-block">
-              APPLY
-            </button>
+            <button className="btn btn-drug-stoc m-auto d-block">APPLY</button>
           </Link>
-          <img
-            src="/images/landing/image-5.png"
-            alt=""
-            className="banner"
-          />
+          <img src="/images/landing/image-5.png" alt="" className="banner" />
         </div>
       </TeamSection>
       {/* <CoreValueSection /> */}
@@ -80,7 +70,8 @@ const Careers = () => {
                   <img src="/images/careers/1.svg" alt="" />
                   <h4>Health insurance</h4>
                   <p>
-                    Our comprehensive medical insurance covers you and your family
+                    Our comprehensive medical insurance covers you and your
+                    family
                   </p>
                 </div>
               </div>
@@ -91,7 +82,8 @@ const Careers = () => {
                   <img src="/images/careers/2.svg" alt="" />
                   <h4>Traction and scale</h4>
                   <p>
-                    Your opportunity to impact products, connect with customers, and help us scale is massive.
+                    Your opportunity to impact products, connect with customers,
+                    and help us scale is massive.
                   </p>
                 </div>
               </div>
@@ -101,9 +93,7 @@ const Careers = () => {
                 <div className="card-body">
                   <img src="/images/careers/3.svg" alt="" />
                   <h4>Young Family Friendly </h4>
-                  <p>
-                    We offer flexible working hours for new parents.
-                  </p>
+                  <p>We offer flexible working hours for new parents.</p>
                 </div>
               </div>
             </div>
@@ -113,7 +103,8 @@ const Careers = () => {
                   <img src="/images/careers/4.svg" alt="" />
                   <h4>Learning and development</h4>
                   <p>
-                    With the fast pace of our environment, you’re sure to acquire new skills.
+                    With the fast pace of our environment, you’re sure to
+                    acquire new skills.
                   </p>
                 </div>
               </div>
@@ -124,7 +115,8 @@ const Careers = () => {
                   <img src="/images/careers/5.svg" alt="" />
                   <h4>Do what you love</h4>
                   <p>
-                    Life is too short to work without purpose. Lets change Africa’s narrative together.
+                    Life is too short to work without purpose. Lets change
+                    Africa’s narrative together.
                   </p>
                 </div>
               </div>
@@ -135,9 +127,8 @@ const Careers = () => {
                   <img src="/images/careers/6.svg" alt="" />
                   <h4>Smart collegues</h4>
                   <p>
-                    Challenge yourself by exchanging ideas with the brightest minds in Africa.
-
-
+                    Challenge yourself by exchanging ideas with the brightest
+                    minds in Africa.
                   </p>
                 </div>
               </div>
@@ -147,8 +138,10 @@ const Careers = () => {
       </BenefitSection>
       <OpenPositions id="open-positions">
         <div className="container" style={{ textAlign: 'center' }}>
-          <h2 style={{ marginBottom: '50px' }}> Available Vacancies <br />     </h2>
-
+          <h2 style={{ marginBottom: '50px' }}>
+            {' '}
+            Available Vacancies <br />{' '}
+          </h2>
 
           <Table striped responsive>
             <thead>
@@ -163,24 +156,31 @@ const Careers = () => {
               {jobs.map(job => (
                 <tr key={job.name}>
                   <td>
-                    <a  target="_blank"  href="/jobpage">{job.name}</a>
+                    <a target="_blank" href="/jobpage">
+                      {job.name}
+                    </a>
                   </td>
                   <td>{job.role}</td>
                   <td>{job.type}</td>
                   <td>{job.location}</td>
-                  <td>  <Link target="_blank"  href="/jobpage" >
-                    <a target="_blank">
-                    <button className="btn btn-drug-stoc m-auto d-block">
-VIEW                  </button>
-                    </a>
-                  </Link></td>
-                <td>  <Link href="mailto:careers@drugstoc.com" >
-                    <button className="btn btn-drug-stoc m-auto d-block">
-                      APPLY
-                    </button>
-                </Link></td>
-
-
+                  <td>
+                    {' '}
+                    <Link target="_blank" href="/jobpage">
+                      <a target="_blank">
+                        <button className="btn btn-drug-stoc m-auto d-block">
+                          VIEW{' '}
+                        </button>
+                      </a>
+                    </Link>
+                  </td>
+                  <td>
+                    {' '}
+                    <Link href="mailto:careers@drugstoc.com">
+                      <button className="btn btn-drug-stoc m-auto d-block">
+                        APPLY
+                      </button>
+                    </Link>
+                  </td>
                 </tr>
               ))}
             </tbody>
@@ -290,7 +290,7 @@ const TeamSection = styled.section`
       right: 10px !important;
       top: 7rem !important;
     }
-}
+  }
   h2 {
     font-style: normal;
     font-weight: 600;
