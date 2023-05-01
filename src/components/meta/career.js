@@ -4,7 +4,7 @@ const CareerMetadata = () => {
   return (
     <>
       <NextSeo
-        title="Careers | DrugStoc: Join Our Team and Help Unlock Africa's Potential Together - Available Job Openings"
+        title="Careers | Join Our Team and Help Unlock Africa's Potential Together - Available Job Openings | DrugStoc"
         description="Unlock Africa's potential and solve healthcare challenges with a team of bright minds. Join us and enjoy comprehensive medical insurance, flexible working hours for new parents, learning and development opportunities, and more. Check out our available vacancies and apply now."
         keyword={[
           'Careers',
@@ -25,7 +25,7 @@ const CareerMetadata = () => {
         openGraph={{
           url: 'https://drugstoc.com/',
           title:
-            "Careers | DrugStoc: Join Our Team and Help Unlock Africa's Potential Together",
+            "Careers | Join Our Team and Help Unlock Africa's Potential Together - Available Job Openings | DrugStoc",
           description:
             "Unlock Africa's potential and solve healthcare challenges with a team of bright minds. Join us and enjoy comprehensive medical insurance, flexible working hours for new parents, learning and development opportunities, and more. Check out our available vacancies and apply now.",
           images: [
