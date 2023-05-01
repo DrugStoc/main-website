@@ -24,7 +24,7 @@ const AboutMetadata = () => {
           'innovators',
         ]}
         openGraph={{
-          url: 'https://drugstoc.com/',
+          url: 'https://drugstoc.com/about',
           title:
             'About Us | DrugStoc: Tech-Enabled Procurement Partner in Africa',
           description:
@@ -40,6 +40,7 @@ const AboutMetadata = () => {
           siteName: 'Drugstoc',
         }}
         twitter={{
+            url: 'https://drugstoc.com/about',
           cardType: 'summary_large_image',
           handle: '@DrugStocHQ',
           site: '@Drugstoc',

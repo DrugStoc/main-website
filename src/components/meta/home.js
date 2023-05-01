@@ -32,7 +32,7 @@ const HomeMetadata = () => {
           title:
             'Home | Anti-Counterfeit Supply Chain for Healthcare Providers | DrugStoc',
           description:
-            'Drugstoc provides anti-counterfeit supply chain solutions for healthcare providers in emerging economies. Download the Drugstoc app for Android and iOS.',
+            "Get high-quality healthcare products, medicines, and supplies from Africa's leading e-healthcare pharmaceutical distribution company. Choose DrugStoc for safe, reliable, and innovative healthcare solutions.",
           images: [
             {
               url: 'https://res.cloudinary.com/bizstak/image/upload/v1681940994/drugstoc-home_maw2dg.png',

@@ -23,7 +23,7 @@ const CareerMetadata = () => {
           'Africa',
         ]}
         openGraph={{
-          url: 'https://drugstoc.com/',
+          url: 'https://drugstoc.com/careers',
           title:
             "Careers | Join Our Team and Help Unlock Africa's Potential Together - Available Job Openings | DrugStoc",
           description:
@@ -39,6 +39,7 @@ const CareerMetadata = () => {
           siteName: 'Drugstoc',
         }}
         twitter={{
+          url: 'https://drugstoc.com/careers',
           cardType: 'summary_large_image',
           handle: '@DrugStocHQ',
           site: '@Drugstoc',

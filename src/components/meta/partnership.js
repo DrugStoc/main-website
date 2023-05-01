@@ -11,7 +11,7 @@ const PartnershipMetadata = () => {
           'mission-driven healthcare partnerships',
         ]}
         openGraph={{
-          url: 'https://drugstoc.com/',
+          url: 'https://drugstoc.com/partnerships',
           title:
             'Partnership | Inclusive Healthcare Supply Chain Partnerships | DrugStoc',
           description:
@@ -27,6 +27,7 @@ const PartnershipMetadata = () => {
           siteName: 'Drugstoc',
         }}
         twitter={{
+          url: 'https://drugstoc.com/partnerships',
           cardType: 'summary_large_image',
           handle: '@DrugStocHQ',
           site: '@Drugstoc',
