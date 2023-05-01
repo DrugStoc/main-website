@@ -10,10 +10,12 @@ import Link from 'next/link';
 import ScrollAnimation from 'react-animate-on-scroll';
 import { partners } from 'pages/home/data';
 import { investors } from 'pages/about-us/data';
+import PartnershipMetadata from 'components/meta/partnership';
 
 const Partnerships = () => {
   return (
     <div>
+      <PartnershipMetadata />
       <Header>
         <div className="container">
           <div className="row align-items-center">

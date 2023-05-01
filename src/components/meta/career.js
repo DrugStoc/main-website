@@ -33,7 +33,7 @@ const CareerMetadata = () => {
               url: 'https://res.cloudinary.com/bizstak/image/upload/v1682895328/drugstoc-careers-facebook_py2etw.jpg',
               width: 1200,
               height: 630,
-              alt: 'DrugStoc social media thumbnail (twitter card) at 1200 x 630 dimension for the careers page showing text "the leading pharmacy partner for healthcare providers in africa".',
+              alt: 'DrugStoc social media thumbnail (facebook open graph) at 1200 x 630 dimension for the careers page showing text "the leading pharmacy partner for healthcare providers in africa".',
             },
           ],
           siteName: 'Drugstoc',
