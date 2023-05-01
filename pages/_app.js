@@ -79,6 +79,7 @@ class MyApp extends App {
                 url: 'https://res.cloudinary.com/bizstak/image/upload/v1682879879/drugstoc-v3_z9a4v3.jpg',
                 width: 1200,
                 height: 630,
+                alt: 'DrugStoc social media thumbnail (facebook open graph) at 1200 x 630 dimension showing text "the leading pharmacy partner for healthcare providers in africa".',
               },
               {
                 url: 'https://res.cloudinary.com/bizstak/image/upload/v1682879798/drugstoc_w0miox.png',
