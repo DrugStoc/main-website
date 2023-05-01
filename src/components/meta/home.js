@@ -46,8 +46,6 @@ const HomeMetadata = () => {
         twitter={{
           title:
             'Home | Anti-Counterfeit Supply Chain for Healthcare Providers | DrugStoc',
-          title:
-            'Home | Anti-Counterfeit Supply Chain for Healthcare Providers | DrugStoc',
           image: {
             url: 'https://res.cloudinary.com/bizstak/image/upload/v1681940981/drugstoc-twitter_okreqx.png',
             width: 1200,
