@@ -4,7 +4,7 @@ const AboutMetadata = () => {
   return (
     <>
       <NextSeo
-        title="About Us | DrugStoc: Tech-Enabled Procurement Partner in Africa"
+        title="About Us | Tech-Enabled Procurement Partner in Africa"
         description="DrugStoc is a tech-enabled procurement partner for pharmaceutical and consumer health companies in Africa. They use technology, supply chain innovation, financial solutions, and product knowledge to increase access to medications. Their goal is to empower healthcare providers and revolutionize the way they interface with the pharmaceutical market. DrugStoc has won awards and is backed by experienced investors in the healthcare sector. The team is composed of doctors, pharmacists, engineers, financial analysts, and innovators. Visit their website to learn more and explore career opportunities."
         keyword={[
           'DrugStoc',
@@ -26,7 +26,7 @@ const AboutMetadata = () => {
         openGraph={{
           url: 'https://drugstoc.com/about',
           title:
-            'About Us | DrugStoc: Tech-Enabled Procurement Partner in Africa',
+            'About Us | Tech-Enabled Procurement Partner in Africa',
           description:
             'DrugStoc is a tech-enabled procurement partner for pharmaceutical and consumer health companies in Africa. They use technology, supply chain innovation, financial solutions, and product knowledge to increase access to medications. Their goal is to empower healthcare providers and revolutionize the way they interface with the pharmaceutical market. DrugStoc has won awards and is backed by experienced investors in the healthcare sector. The team is composed of doctors, pharmacists, engineers, financial analysts, and innovators. Visit their website to learn more and explore career opportunities.',
           images: [
@@ -42,7 +42,7 @@ const AboutMetadata = () => {
         twitter={{
           url: 'https://drugstoc.com/about',
           title:
-            'About Us | DrugStoc: Tech-Enabled Procurement Partner in Africa',
+            'About Us | Tech-Enabled Procurement Partner in Africa',
           description:
             'DrugStoc is a tech-enabled procurement partner for pharmaceutical and consumer health companies in Africa. They use technology, supply chain innovation, financial solutions, and product knowledge to increase access to medications. Their goal is to empower healthcare providers and revolutionize the way they interface with the pharmaceutical market. DrugStoc has won awards and is backed by experienced investors in the healthcare sector. The team is composed of doctors, pharmacists, engineers, financial analysts, and innovators. Visit their website to learn more and explore career opportunities.',
           image: {
