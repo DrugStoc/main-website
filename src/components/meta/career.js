@@ -44,7 +44,7 @@ const CareerMetadata = () => {
           handle: '@DrugStocHQ',
           site: '@Drugstoc',
           title:
-            'Careers | DrugStoc: Tech-Enabled Procurement Partner in Africa - Available Job Openings',
+            'Careers | Tech-Enabled Procurement Partner in Africa - Available Job Openings | DrugStoc',
           image: {
             url: 'https://res.cloudinary.com/bizstak/image/upload/v1682895340/drugstoc-careers-twitter_qkhbnm.jpg',
             width: 1200,
