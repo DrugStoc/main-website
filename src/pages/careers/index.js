@@ -3,13 +3,14 @@ import Link from 'next/link';
 import styled from 'styled-components';
 
 import AppCard from 'components/app-card';
-import { CoreValueSection } from 'pages/about-us/components/core-values';
 import { Table } from 'react-bootstrap';
 import { jobs } from './data';
+import CareerMetadata from 'components/meta/career';
 
 const Careers = () => {
   return (
     <div>
+      <CareerMetadata />
       <Header>
         <div className="container">
           <div className="row">
