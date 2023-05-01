@@ -44,9 +44,8 @@ const HomeMetadata = () => {
           siteName: 'Drugstoc',
         }}
         twitter={{
-          cardType: 'summary_large_image',
-          handle: '@DrugStocHQ',
-          site: '@Drugstoc',
+          title:
+            'Home | Anti-Counterfeit Supply Chain for Healthcare Providers | DrugStoc',
           title:
             'Home | Anti-Counterfeit Supply Chain for Healthcare Providers | DrugStoc',
           image: {

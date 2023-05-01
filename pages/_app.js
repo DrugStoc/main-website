@@ -113,8 +113,8 @@ class MyApp extends App {
             ...structuredData,
           }}
           twitter={{
-            handle: '@drugstoc',
-            site: '@drugstoc',
+            handle: '@DrugStocHQ',
+            site: '@Drugstoc',
             cardType: 'summary_large_image',
           }}
           mobileAlternate={{

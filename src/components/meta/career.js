@@ -40,9 +40,8 @@ const CareerMetadata = () => {
         }}
         twitter={{
           url: 'https://drugstoc.com/careers',
-          cardType: 'summary_large_image',
-          handle: '@DrugStocHQ',
-          site: '@Drugstoc',
+          description:
+            "Unlock Africa's potential and solve healthcare challenges with a team of bright minds. Join us and enjoy comprehensive medical insurance, flexible working hours for new parents, learning and development opportunities, and more. Check out our available vacancies and apply now.",
           title:
             'Careers | Tech-Enabled Procurement Partner in Africa - Available Job Openings | DrugStoc',
           image: {

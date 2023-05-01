@@ -28,9 +28,6 @@ const PartnershipMetadata = () => {
         }}
         twitter={{
           url: 'https://drugstoc.com/partnerships',
-          cardType: 'summary_large_image',
-          handle: '@DrugStocHQ',
-          site: '@Drugstoc',
           title:
             'Partnership | Inclusive Healthcare Supply Chain Partnerships | DrugStoc',
           image: {

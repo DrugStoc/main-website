@@ -40,12 +40,11 @@ const AboutMetadata = () => {
           siteName: 'Drugstoc',
         }}
         twitter={{
-            url: 'https://drugstoc.com/about',
-          cardType: 'summary_large_image',
-          handle: '@DrugStocHQ',
-          site: '@Drugstoc',
+          url: 'https://drugstoc.com/about',
           title:
             'About Us | DrugStoc: Tech-Enabled Procurement Partner in Africa',
+          description:
+            'DrugStoc is a tech-enabled procurement partner for pharmaceutical and consumer health companies in Africa. They use technology, supply chain innovation, financial solutions, and product knowledge to increase access to medications. Their goal is to empower healthcare providers and revolutionize the way they interface with the pharmaceutical market. DrugStoc has won awards and is backed by experienced investors in the healthcare sector. The team is composed of doctors, pharmacists, engineers, financial analysts, and innovators. Visit their website to learn more and explore career opportunities.',
           image: {
             url: 'https://res.cloudinary.com/bizstak/image/upload/v1682893568/drugstoc-about-twitter_epc0rs.jpg',
             width: 1200,
