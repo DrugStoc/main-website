@@ -60,7 +60,6 @@ class MyApp extends App {
           openGraph={{
             type: 'website',
             locale: 'en_US',
-            url: 'https://www.drugstoc.com/',
             siteName: 'DrugStoc',
             images: [
               {
