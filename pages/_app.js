@@ -77,9 +77,14 @@ class MyApp extends App {
               },
               {
                 url: 'https://res.cloudinary.com/bizstak/image/upload/v1682879879/drugstoc-v3_z9a4v3.jpg',
+                width: 1200,
+                height: 630,
               },
               {
                 url: 'https://res.cloudinary.com/bizstak/image/upload/v1682879798/drugstoc_w0miox.png',
+                width: 1200,
+                height: 630,
+                alt: 'Default DrugStoc social media thumbnail at 900 x 600 dimension (a female doctor writing on board the text "Empowering healthcare providers across africa")',
               },
             ],
             description:
