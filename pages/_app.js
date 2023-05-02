@@ -144,29 +144,29 @@ class MyApp extends App {
           <link
             rel="android-chrome-icon"
             sizes="512x512"
-            href="/android-chrome-512x512.png"
+            href="https://res.cloudinary.com/bizstak/image/upload/v1683030146/android-chrome-512x512_w3xryx.png"
           />
           <link
             rel="android-chrome-icon"
             sizes="192x192"
-            href="/android-chrome-192x192.png"
+            href="https://res.cloudinary.com/bizstak/image/upload/v1683030109/android-chrome-192x192_bvonuj.png"
           />
           <link
             rel="apple-touch-icon"
             sizes="180x180"
-            href="/apple-touch-icon.png"
+            href="https://res.cloudinary.com/bizstak/image/upload/v1683030192/apple-touch-icon_xtoy55.png"
           />
           <link
             rel="icon"
             type="image/png"
             sizes="32x32"
-            href="/favicon-32x32.png"
+            href="https://res.cloudinary.com/bizstak/image/upload/v1683030039/favicon-32x32_x3ykld.png"
           />
           <link
             rel="icon"
             type="image/png"
             sizes="16x16"
-            href="/favicon-16x16.png"
+            href="https://res.cloudinary.com/bizstak/image/upload/v1683030076/favicon-16x16_cpmedn.png"
           />
           <link rel="manifest" href="/site.webmanifest" />
           <meta name="theme-color" content="#ffffff" />
