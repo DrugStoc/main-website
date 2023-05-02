@@ -44,23 +44,18 @@ export default class MyDocument extends Document {
             content="YxcXtu0Zz5s25clei5L1g6OQV_bZnLCSpAZhQILtpSk"
           />
           <meta name="mobile-web-app-capable" content="yes" />
-
-          <link rel="icon" href="/favicon.ico" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
-
           <link
             rel="preload"
             as="style"
             href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
           />
-
           <link
             rel="stylesheet"
             href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
             media="print"
             onLoad="this.media='all'"
           />
-
           <link
             rel="preload"
             as="style"

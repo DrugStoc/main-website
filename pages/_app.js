@@ -49,7 +49,7 @@ class MyApp extends App {
             'pharmaceutical company, pharmaceutical supply company lagos',
             'anti-counterfeit supply chain',
             'best pharmaceutical supply chain company',
-            ' wholesale pharmacy in nigeria',
+            'wholesale pharmacy in nigeria',
             'medical devices, consumables, pharmaceutical wholesalers in lagos',
             'pharmaceutical supply companies near lekki',
             'where to buy wholesale drugs in lagos',
@@ -63,13 +63,13 @@ class MyApp extends App {
             siteName: 'DrugStoc',
             images: [
               {
-                url: 'https://res.cloudinary.com/bizstak/image/upload/v1682880062/drugstoc-v1_f7lpr6.png',
+                url: 'https://res.cloudinary.com/bizstak/image/upload/v1683021032/facebook-800-600_dnqztd.png',
                 width: 800,
                 height: 600,
                 alt: 'Default DrugStoc social media thumbnail at 800 x 600 dimension (a female doctor writing on board the text "Empowering healthcare providers across africa")',
               },
               {
-                url: 'https://res.cloudinary.com/bizstak/image/upload/v1682879993/drugstoc-v2_bawcec.png',
+                url: 'https://res.cloudinary.com/bizstak/image/upload/v1683020934/facebook-900-800_y62sde.png',
                 width: 900,
                 height: 800,
                 alt: 'Default DrugStoc social media thumbnail at 900 x 600 dimension (a female doctor writing on board the text "Empowering healthcare providers across africa")',
