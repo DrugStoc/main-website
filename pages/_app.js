@@ -54,9 +54,9 @@ class MyApp extends App {
             'pharmaceutical supply companies near lekki',
             'where to buy wholesale drugs in lagos',
           ]}
-          // facebook={{
-          //   appId: '1234567890',
-          // }}
+          facebook={{
+            appId: '932119468028545',
+          }}
           openGraph={{
             type: 'website',
             locale: 'en_US',
