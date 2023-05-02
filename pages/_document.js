@@ -87,6 +87,26 @@ export default class MyDocument extends Document {
             }}
           /> */}
           <script
+            async
+            defer
+            crossorigin="anonymous"
+            src="https://connect.facebook.net/en_US/sdk.js"
+          />
+          <script
+            type="text/javascript"
+            dangerouslySetInnerHTML={{
+              __html: `
+                window.fbAsyncInit = function() {
+                  FB.init({
+                    appId      : '932119468028545',
+                    xfbml      : true,
+                    version    : 'v11.0'
+                  });
+                };
+              `,
+            }}
+          />
+          <script
             dangerouslySetInnerHTML={{
               __html: `
             window.dataLayer = window.dataLayer || [];
