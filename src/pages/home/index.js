@@ -9,7 +9,6 @@ import StackedAvatar from '../../../public/images/landing/stacked-avatar.svg';
 import ISO from '../../../public/images/landing/iso.svg';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { NextSeo } from 'next-seo';
 import HomeMetadata from 'components/meta/home';
 
 const Home = () => {
@@ -177,8 +176,9 @@ const Home = () => {
           </h3>
           <div className="row align-items-center">
             <div className="col-lg-7">
-              <img
-                src="https://res.cloudinary.com/bizstak/image/upload/v1682885007/Image-1_ofil2t.png"
+              <Image
+                layout="responsive"
+                src="/images/landing/Image-1.png"
                 alt=" Forward thinking solutions"
                 className="d-block mb-3 mb-lg-0"
                 width="670"
@@ -259,7 +259,8 @@ const Home = () => {
               </p>
             </div>
             <div className="col-lg-7 order-lg-2 order-1">
-              <img
+              <Image
+                layout="responsive"
                 data-aos="zoom-in-up"
                 src="/images/landing/Image-2.png"
                 alt=" Forward thinking solutions"
@@ -275,13 +276,13 @@ const Home = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-7">
-              <img
+              <Image
+                layout="responsive"
                 data-aos="zoom-in"
                 src="/images/landing/personalized/personalized-2.png"
                 alt=" Forward thinking solutions"
                 className="d-block mb-3 mb-lg-0"
                 width="670"
-                layout="intrinsic"
                 height="595.06"
               />
             </div>
@@ -573,9 +574,12 @@ const Home = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img
+                <Image
+                  layout="responsive"
                   src="/images/landing/articles/logo_arise.png"
                   alt="arise news logo"
+                  width="auto"
+                  height="auto"
                 />
               </a>
             </div>
@@ -586,9 +590,12 @@ const Home = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img
+                <Image
+                  layout="responsive"
                   src="/images/landing/articles/business_day.png"
                   alt="buiness day logo"
+                  width="auto"
+                  height="auto"
                 />
               </a>
             </div>
@@ -598,9 +605,12 @@ const Home = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img
+                <Image
+                  layout="responsive"
                   src="/images/landing/articles/nairametrics.jpeg"
                   alt="nairametrics logo"
+                  width="auto"
+                  height="auto"
                 />
               </a>
             </div>

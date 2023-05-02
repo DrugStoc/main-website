@@ -183,7 +183,7 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src="/images/social/Instagram.svg" />
+                <img src="/images/social/Instagram.svg" alt="instagram icon" />
               </a>
               <a
                 href="  https://www.linkedin.com/company/drugstoc"
@@ -191,7 +191,7 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src="/images/social/Linkedin.svg" />
+                <img src="/images/social/Linkedin.svg" alt="linkedin icon" />
               </a>
               <a
                 href="https://twitter.com/DrugStocHQ"
@@ -199,7 +199,7 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src="/images/social/Twitter.svg" />
+                <img src="/images/social/Twitter.svg" alt="twitter icon" />
               </a>
               <a
                 href="https://www.facebook.com/drugstoc"
@@ -207,7 +207,7 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src="/images/social/Facebook.svg" />
+                <img src="/images/social/Facebook.svg" alt="facebook icon" />
               </a>
             </div>
           </div>

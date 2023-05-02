@@ -21,12 +21,12 @@ const NavbarLayout = () => {
   const style =
     userScrolledUp || isStaticBg
       ? {
-        // boxShadow: '0 2px 15px #0000000d',
-        borderBottom: '1px solid #ececec',
-        backdropFilter: 'saturate(3.5) blur(14px)',
-        background: '#fff',
-        boxShadow: '1px 0px 10px #00000008',
-      }
+          // boxShadow: '0 2px 15px #0000000d',
+          borderBottom: '1px solid #ececec',
+          backdropFilter: 'saturate(3.5) blur(14px)',
+          background: '#fff',
+          boxShadow: '1px 0px 10px #00000008',
+        }
       : {};
   return (
     <div>
@@ -42,7 +42,7 @@ const NavbarLayout = () => {
         <Container fluid>
           <Link href="/">
             <a className="navbar-brand">
-              <img src="/drug.svg" />
+              <img src="/drug.svg" alt="drugstoc logo" />
             </a>
           </Link>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -255,11 +255,12 @@ const NavbarLayout = () => {
               </NavLink>
             </Nav>
             <Nav className="ml-auto">
-               <Nav.Link
+              <Nav.Link
                 href="https://app.drugstoc.com"
                 target="_blank"
                 rel="nopener noreferrer"
-                className="nav-button">
+                className="nav-button"
+              >
                 SHOP ON WEB
               </Nav.Link>
 
@@ -322,10 +323,9 @@ const NavbarLayout = () => {
 };
 
 const NavbarWrapper = styled(Navbar)`
-
-.nav-button.nav-link.active{
-  color: white !important;
-}
+  .nav-button.nav-link.active {
+    color: white !important;
+  }
   padding: 1rem !important;
   background: transparent;
   @media (max-width: 992px) {
@@ -508,11 +508,10 @@ const NavbarWrapper = styled(Navbar)`
       margin-top: 1.2rem;
       .nav-button {
         margin-right: 10px;
-       
       }
-      a:visited{
-          color: white;
-        }
+      a:visited {
+        color: white;
+      }
       .dropdown-toggle {
         &:after {
           content: unset;
