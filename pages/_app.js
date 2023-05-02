@@ -84,7 +84,7 @@ class MyApp extends App {
                 url: 'https://res.cloudinary.com/bizstak/image/upload/v1683018234/drugstoc-facebook-home_y8q8sw.jpg',
                 width: 1200,
                 height: 630,
-                alt: 'Default DrugStoc social media thumbnail at 900 x 600 dimension (a female doctor writing on board the text "Empowering healthcare providers across africa")',
+                alt: 'Default DrugStoc social media thumbnail at 1200 x 600 dimension (a female doctor writing on board the text "Empowering healthcare providers across africa")',
               },
             ],
             description:
