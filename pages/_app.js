@@ -81,7 +81,7 @@ class MyApp extends App {
                 alt: 'DrugStoc social media thumbnail (facebook open graph) at 1200 x 630 dimension showing text "the leading pharmacy partner for healthcare providers in africa".',
               },
               {
-                url: 'https://res.cloudinary.com/bizstak/image/upload/v1682879798/drugstoc_w0miox.png',
+                url: 'https://res.cloudinary.com/bizstak/image/upload/v1683018234/drugstoc-facebook-home_y8q8sw.jpg',
                 width: 1200,
                 height: 630,
                 alt: 'Default DrugStoc social media thumbnail at 900 x 600 dimension (a female doctor writing on board the text "Empowering healthcare providers across africa")',

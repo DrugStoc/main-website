@@ -36,18 +36,6 @@ export default class MyDocument extends Document {
       <Html lang="en">
         <Head>
           {this.props.styleTags}
-          <meta
-            name="title"
-            content="DrugStoc | Anti Counterfeit Pharmaceuticals, Medical Devices & Consumables"
-          />
-          <meta
-            name="description"
-            content="DrugStoc is Africa's leading e-healthcare pharmaceutical distribution company. Our anti-counterfeit pharmaceuticals, healthcare services, medical supplies and equipment help address the challenges in the pharmaceutical supplychain."
-          />
-          <meta
-            name="keywords"
-            content="top pharmaceutical distribution company, best pharmaceutical distribution company in Nigeria, pharmaceutical company, pharmaceutical supply company lagos,anti-counterfeit supply chain, best pharmaceutical supply chain company, wholesale pharmacy in nigeria, medical devices, consumables, pharmaceutical wholesalers in lagos, pharmaceutical supply companies near lekki, where to buy wholesale drugs in lagos"
-          />
           <meta name="robots" content="index, follow" />
           <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
           <meta name="language" content="English" />

@@ -35,7 +35,7 @@ const HomeMetadata = () => {
             "Get high-quality healthcare products, medicines, and supplies from Africa's leading e-healthcare pharmaceutical distribution company. Choose DrugStoc for safe, reliable, and innovative healthcare solutions.",
           images: [
             {
-              url: 'https://res.cloudinary.com/bizstak/image/upload/v1681940994/drugstoc-home_maw2dg.png',
+              url: 'https://res.cloudinary.com/bizstak/image/upload/v1683018234/drugstoc-facebook-home_y8q8sw.jpg',
               width: 1200,
               height: 630,
               alt: 'DrugStoc social media thumbnail (facebook open graph) at 1200 x 630 dimension for the home page showing female doctor and the text "empowering healthcare providers across africa".',
@@ -47,7 +47,7 @@ const HomeMetadata = () => {
           title:
             'Home | Anti-Counterfeit Supply Chain for Healthcare Providers',
           image: {
-            url: 'https://res.cloudinary.com/bizstak/image/upload/v1681940981/drugstoc-twitter_okreqx.png',
+            url: 'https://res.cloudinary.com/bizstak/image/upload/v1683018219/drugstoc-twitter-home_akhnfk.jpg',
             width: 1200,
             height: 675,
             alt: 'DrugStoc social media thumbnail (twitter card) at 1200 x 675 dimension for the home page showing female doctor and the text "empowering healthcare providers across africa".',
