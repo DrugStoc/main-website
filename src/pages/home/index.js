@@ -1,8 +1,9 @@
 import AppCard from 'components/app-card';
 import Link from 'next/link';
 import Image from 'next/image';
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import { Carousel } from 'react-bootstrap';
+import { Transition } from 'react-transition-group';
 import styled from 'styled-components';
 import { clients, partners, personalized, providers } from './data';
 import StackedAvatar from '../../../public/images/landing/stacked-avatar.svg';
@@ -12,6 +13,7 @@ import 'aos/dist/aos.css';
 import HomeMetadata from 'components/meta/home';
 
 const Home = () => {
+  const transitionRef = useRef(null);
   const [currentWord, setCurrentWord] = useState({
     word: 'Pharmacies',
     currentIndex: 0,
@@ -64,14 +66,14 @@ const Home = () => {
               <h1 data-aos="zoom-out-up">
                 Empowering <br />
                 {currentWord.word.split('<br />').map((word, index) => (
-                    <span
-                      key={index}
-                      className={`animated ${
-                        index === 1 ? 'fadeInUp' : 'fadeInDown'
-                      }`}
-                    >
-                      {word}
-                    </span>
+                  <span
+                    key={index}
+                    className={`animated ${
+                      index === 1 ? 'fadeInUp' : 'fadeInDown'
+                    }`}
+                  >
+                    {word}
+                  </span>
                 ))}
                 <br />
                 Toward a Healthier Africa.
@@ -396,19 +398,19 @@ const Home = () => {
             Our clients praise us for our great service and on-time delivery
           </h6>
 
-          <div>
+          {/* <div>
             <Carousel
               indicators={false}
               nextIcon={
                 <img
                   src="data:image/svg+xml,%0A%3Csvg width='34' height='16' viewBox='0 0 34 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M6.99719 7.00045H30.1662L24.5765 1.41068L25.9964 0.000732422L33.9961 8.00041L25.9964 16.0001L24.5865 14.5901L30.1662 9.00037H6.99719V7.00045Z' fill='black' fill-opacity='0.54'/%3E%3C/svg%3E%0A"
-                  alt="caurosel next icon"
+                  alt="carousel next icon"
                 />
               }
               prevIcon={
                 <img
                   src="data:image/svg+xml,%0A%3Csvg width='34' height='16' viewBox='0 0 34 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='arrow_back_24px'%3E%3Cpath id='icon/navigation/arrow_back_24px' d='M27.0028 7.00045H3.83375L9.42352 1.41068L8.00358 0.000732422L0.00390625 8.00041L8.00358 16.0001L9.41352 14.5901L3.83375 9.00037H27.0028V7.00045Z' fill='black' fill-opacity='0.54'/%3E%3C/g%3E%3C/svg%3E%0A"
-                  alt="caurosel previous icon"
+                  alt="carousel previous icon"
                 />
               }
             >
@@ -425,10 +427,24 @@ const Home = () => {
                       </div>
                     </div>
                   </div>
+                  <Transition
+                    ref={transitionRef}
+                    timeout={500}
+                    onEnter={() => (transitionRef.current.style.opacity = 0)}
+                    onExiting={() => (transitionRef.current.style.opacity = 0)}
+                    onExited={() => (transitionRef.current.style.opacity = 1)}
+                    appear
+                    mountOnEnter
+                    unmountOnExit
+                  >
+                    <div ref={transitionRef}>
+                      <img src={card.image} alt={card.name} />
+                    </div>
+                  </Transition>
                 </Carousel.Item>
               ))}
             </Carousel>
-          </div>
+          </div> */}
         </div>
       </ClientsSection>
       <ImpactSection>
