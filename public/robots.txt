@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 Allow: /contact
 Allow: /partnerships
-Allow: /career
+Allow: /careers
 Allow: /procure-direct
 Allow: /drugstocpay
 Allow /market-access
