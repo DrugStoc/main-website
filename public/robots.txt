@@ -4,6 +4,7 @@ Allow: /
 Allow: /contact
 Allow: /partnerships
 Allow: /careers
+Allow: /about
 Allow: /procure-direct
 Allow: /drugstocpay
 Allow /market-access
