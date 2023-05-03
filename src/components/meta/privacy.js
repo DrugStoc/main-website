@@ -1,6 +1,6 @@
 import { NextSeo } from 'next-seo';
 
-const PMetadata = () => {
+const PrivacyMetadata = () => {
   return (
     <>
       <NextSeo
@@ -58,4 +58,4 @@ const PMetadata = () => {
   );
 };
 
-export default PMetadata;
+export default PrivacyMetadata;
