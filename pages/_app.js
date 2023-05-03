@@ -72,7 +72,7 @@ class MyApp extends App {
               //   url: 'https://res.cloudinary.com/bizstak/image/upload/v1683020934/facebook-900-800_y62sde.png',
               //   width: 900,
               //   height: 800,
-              //   alt: 'Default DrugStoc social media thumbnail at 900 x 600 dimension (a female doctor writing on board the text "Empowering healthcare providers across africa")',
+              //   alt: 'Default DrugStoc social media thumbnail at 900 x 800 dimension (a female doctor writing on board the text "Empowering healthcare providers across africa")',
               // },
               // {
               //   url: 'https://res.cloudinary.com/bizstak/image/upload/v1682879879/drugstoc-v3_z9a4v3.jpg',

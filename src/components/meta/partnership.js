@@ -17,18 +17,18 @@ const PartnershipMetadata = () => {
           description:
             'DrugStoc partners with mission-driven organizations to build an inclusive supply chain for affordable and genuine medications in emerging economies. We work with over 400 pharmaceutical companies to deliver anti-counterfeit drugs to last-mile patients. Contact us today to learn more',
           images: [
-            {
-              url: 'https://res.cloudinary.com/bizstak/image/upload/v1683144851/drugstoc-partnerships-800-600_quwndi.jpg',
-              width: 800,
-              height: 600,
-              alt: 'DrugStoc social media thumbnail (facebook open graph) at 800 x 600 dimension for the partnerships page showing text "we are transforming pharmaceutical procurement and healthcare practice in africa"',
-            },
-            {
-              url: 'https://res.cloudinary.com/bizstak/image/upload/v1683144838/drugstoc-partnerships-900-800_f7tsg0.jpg',
-              width: 900,
-              height: 800,
-              alt: 'DrugStoc social media thumbnail (facebook open graph) at 900 x 800 dimension for the partnerships page showing text "we are transforming pharmaceutical procurement and healthcare practice in africa"',
-            },
+            // {
+            //   url: 'https://res.cloudinary.com/bizstak/image/upload/v1683144851/drugstoc-partnerships-800-600_quwndi.jpg',
+            //   width: 800,
+            //   height: 600,
+            //   alt: 'DrugStoc social media thumbnail (facebook open graph) at 800 x 600 dimension for the partnerships page showing text "we are transforming pharmaceutical procurement and healthcare practice in africa"',
+            // },
+            // {
+            //   url: 'https://res.cloudinary.com/bizstak/image/upload/v1683144838/drugstoc-partnerships-900-800_f7tsg0.jpg',
+            //   width: 900,
+            //   height: 800,
+            //   alt: 'DrugStoc social media thumbnail (facebook open graph) at 900 x 800 dimension for the partnerships page showing text "we are transforming pharmaceutical procurement and healthcare practice in africa"',
+            // },
             {
               url: 'https://res.cloudinary.com/bizstak/image/upload/v1682949973/drugstoc-partnership-facebook_ksya8u.jpg',
               width: 1200,
