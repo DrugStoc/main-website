@@ -57,7 +57,7 @@ const CareerMetadata = () => {
           title:
             'Careers | Tech-Enabled Procurement Partner in Africa - Available Job Openings',
           image: {
-            url: 'https://res.cloudinary.com/bizstak/image/upload/v1682895340/drugstoc-careers-twitter_qkhbnm.jpg',
+            url: 'https://res.cloudinary.com/bizstak/image/upload/v1683150717/drugstoc-careers-twitter_w1f7lc.jpg',
             width: 1200,
             height: 675,
             alt: 'DrugStoc social media thumbnail (twitter card) at 1200 x 675 dimension for the careers page showing text "the leading pharmacy partner for healthcare providers in africa".',
