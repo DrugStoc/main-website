@@ -6,12 +6,12 @@ const AppCard = () => {
     <BackdropWrapper>
       <img
         src="/images/landing/download/backdrop1.png"
-        alt=""
+        alt="static ripple background"
         className="backdrop d-lg-block d-none"
       />
       <img
         src="/images/landing/download/backdrop2.png"
-        alt=""
+        alt="static ripple background"
         className="backdrop2 d-lg-block d-none"
       />
       <div className="container">
@@ -21,7 +21,7 @@ const AppCard = () => {
               <img
                 data-aos="fade-down"
                 src="/images/landing/download/banner.png"
-                alt=""
+                alt="drugstoc e-commerce mobile app"
               />
             </MobileBanner>
 
@@ -45,7 +45,7 @@ const AppCard = () => {
                   >
                     <img
                       src="/images/landing/download/google-play-alt.svg"
-                      alt=""
+                      alt="google play store icon"
                       className="logo"
                     />
                   </a>
@@ -57,7 +57,7 @@ const AppCard = () => {
                   >
                     <img
                       src="/images/landing/download/app-store-alt.svg"
-                      alt=""
+                      alt="app store icon"
                       className="logo"
                     />
                   </a>

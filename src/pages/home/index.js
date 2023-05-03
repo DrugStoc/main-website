@@ -646,7 +646,7 @@ const Card = ({ data }) => (
             Learn More{' '}
             <img
               src="data:image/svg+xml,%0A%3Csvg width='5' height='9' viewBox='0 0 5 9' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.06442 0.750035L0.183167 1.63129L3.04567 4.50004L0.183167 7.36879L1.06442 8.25004L4.81441 4.50004L1.06442 0.750035Z' fill='black' fill-opacity='0.54'/%3E%3C/svg%3E%0A"
-              alt=""
+              alt="arrow right icon"
               className="caret ml-1"
             />
           </a>
