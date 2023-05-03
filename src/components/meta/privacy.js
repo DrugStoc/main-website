@@ -28,9 +28,7 @@ const PMetadata = () => {
           'NITDA',
         ]}
         openGraph={{
-          url:
-            'https://drugstoc.com/privacy' ||
-            'https://drugstoc.com/privacy-policy',
+          url: 'https://drugstoc.com/privacy',
           title: 'Privacy |  Privacy Policy for Drugstoc Ehub Limited',
           description:
             'Drugstoc Ehub Ltd lawfully collects and processes your personal data in accordance with the Nigerian data protection regulation. You have rights to access, rectify, and delete your data, and we retain it for reasonable business needs or as required by law. Our privacy policy is transparent and ensures secure data processing.',
@@ -45,9 +43,7 @@ const PMetadata = () => {
           siteName: 'Drugstoc',
         }}
         twitter={{
-          url:
-            'https://drugstoc.com/privacy' ||
-            'https://drugstoc.com/privacy-policy',
+          url: 'https://drugstoc.com/privacy',
           title:
             'Partnerships | Inclusive Healthcare Supply Chain Partnerships',
           image: {
