@@ -1,4 +1,13 @@
+# *
 User-agent: *
+Allow: /
+Allow: /contacts
+Allow: /partnerships
+Allow: /careers
+Allow: /procure-direct
+Allow: /drugstocpay
+Allow /market-access
+Allow /rx-insight
 Disallow: /admin/
 Disallow: /login/
 Disallow: /signup/
@@ -13,4 +22,8 @@ Disallow: /404/
 User-agent: Twitterbot
 Disallow:
 
+# Host
+Host: https://drugstoc.com
+
+# Sitemaps
 Sitemap: https://drugstoc.com/sitemap.xml

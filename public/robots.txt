@@ -1,6 +1,13 @@
 # *
 User-agent: *
 Allow: /
+Allow: /contacts
+Allow: /partnerships
+Allow: /careers
+Allow: /procure-direct
+Allow: /drugstocpay
+Allow /market-access
+Allow /rx-insight
 Disallow: /admin/
 Disallow: /login/
 Disallow: /signup/
