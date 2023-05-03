@@ -209,6 +209,14 @@ const Footer = () => {
               >
                 <img src="/images/social/Facebook.svg" alt="facebook icon" />
               </a>
+              <a
+                href="https://youtube.com/@drugstoc"
+                aria-label="Navigate to Twitter"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img width={34} height={34} src="/images/social/youtube.svg" alt="youtube icon" />
+              </a>
             </div>
           </div>
         </div>
