@@ -7,10 +7,10 @@ Allow: /careers
 Allow: /about
 Allow: /procure-direct
 Allow: /drugstocpay
-Allow /market-access
-Allow /rx-insight
-Allow /privacy-policy
-Allow /privacy
+Allow: /market-access
+Allow: /rx-insight
+Allow: /privacy-policy
+Allow: /privacy
 Disallow: /admin/
 Disallow: /login/
 Disallow: /signup/
