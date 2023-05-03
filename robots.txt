@@ -1,7 +1,7 @@
 # *
 User-agent: *
 Allow: /
-Allow: /contacts
+Allow: /contact
 Allow: /partnerships
 Allow: /career
 Allow: /procure-direct
