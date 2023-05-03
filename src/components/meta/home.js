@@ -5,7 +5,7 @@ const HomeMetadata = () => {
     <>
       <NextSeo
         title="Home | Anti-Counterfeit Supply Chain for Healthcare Providers"
-        description="Get high-quality healthcare products, medicines, and supplies from Africa's leading e-healthcare pharmaceutical distribution company. Choose DrugStoc for safe, reliable, and innovative healthcare solutions."
+        description="Get high-quality healthcare products from Africa's leading e-healthcare pharmaceutical distributor. Choose DrugStoc for reliable, innovative solutions."
         keyword={[
           'Anti-counterfeit supply chain',
           'Healthcare providers',
@@ -32,7 +32,7 @@ const HomeMetadata = () => {
           title:
             'Home | Anti-Counterfeit Supply Chain for Healthcare Providers',
           description:
-            "Get high-quality healthcare products, medicines, and supplies from Africa's leading e-healthcare pharmaceutical distribution company. Choose DrugStoc for safe, reliable, and innovative healthcare solutions.",
+            "Get high-quality healthcare products from Africa's leading e-healthcare pharmaceutical distributor. Choose DrugStoc for reliable, innovative solutions.",
           images: [
             {
               url: 'https://res.cloudinary.com/bizstak/image/upload/v1683018234/drugstoc-facebook-home_y8q8sw.jpg',
