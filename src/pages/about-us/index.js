@@ -29,7 +29,7 @@ const AboutUs = () => {
               <p className="throphy">
                 <img
                   src="images/about-us/throphy.svg"
-                  alt=""
+                  alt="nhea logo"
                   width="30"
                   className="mr-2"
                 />{' '}
@@ -58,7 +58,7 @@ const AboutUs = () => {
               <div className="card mb-5 mb-lg-0" style={{ height: '330px' }}>
                 <div className="card-body">
                   <h4>Our Mission</h4>
-                  <img src="/images/about-us/rocket.png" alt="" />
+                  <img src="/images/about-us/rocket.png" alt="aircraft icon" />
                   <p>
                     To Empower Healthcare Providers for a Healthier Africa
                     <br />
@@ -70,7 +70,7 @@ const AboutUs = () => {
               <div className="card" style={{ height: '330px' }}>
                 <div className="card-body">
                   <h4>Our Vision</h4>
-                  <img src="/images/about-us/vision.png" alt="" />
+                  <img src="/images/about-us/vision.png" alt="telescope icon" />
                   <p>
                     To Revolutionise the Way Healthcare Providers Interface with
                     the Pharmaceutical Market
