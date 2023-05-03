@@ -10,6 +10,7 @@ Allow: /drugstocpay
 Allow /market-access
 Allow /rx-insight
 Allow /privacy-policy
+Allow /privacy
 Disallow: /admin/
 Disallow: /login/
 Disallow: /signup/

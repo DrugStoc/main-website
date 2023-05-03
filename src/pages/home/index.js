@@ -3,9 +3,9 @@ import Link from 'next/link';
 import Image from 'next/image';
 import React, { useEffect, useState, useRef } from 'react';
 import { Carousel } from 'react-bootstrap';
-import { Transition } from 'react-transition-group';
 import styled from 'styled-components';
 import { clients, partners, personalized, providers } from './data';
+import { Transition } from 'react-transition-group';
 import StackedAvatar from '../../../public/images/landing/stacked-avatar.svg';
 import ISO from '../../../public/images/landing/iso.svg';
 import AOS from 'aos';
@@ -32,10 +32,10 @@ const Home = () => {
     });
     const words = [
       'Pharmacies',
-      'Hospitals &<br /> Clinics',
-      'Doctors &<br /> Specialists',
-      'Healthcare <br /> Providers',
-      'Government <br />Facilities',
+      'Hospitals & Clinics',
+      'Doctors & Specialists',
+      'Healthcare Providers',
+      'Government Facilities',
     ];
     const interval = setInterval(function () {
       setCurrentWord(prev => ({
@@ -428,7 +428,6 @@ const Home = () => {
                     </div>
                   </div>
                   <Transition
-                    ref={transitionRef}
                     timeout={500}
                     onEnter={() => (transitionRef.current.style.opacity = 0)}
                     onExiting={() => (transitionRef.current.style.opacity = 0)}

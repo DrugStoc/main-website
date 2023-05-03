@@ -1,6 +1,6 @@
 import { NextSeo } from 'next-seo';
 
-const PrivacyMetadata = () => {
+const PMetadata = () => {
   return (
     <>
       <NextSeo
@@ -28,7 +28,9 @@ const PrivacyMetadata = () => {
           'NITDA',
         ]}
         openGraph={{
-          url: 'https://drugstoc.com/privacy-policy',
+          url:
+            'https://drugstoc.com/privacy' ||
+            'https://drugstoc.com/privacy-policy',
           title: 'Privacy |  Privacy Policy for Drugstoc Ehub Limited',
           description:
             'Drugstoc Ehub Ltd lawfully collects and processes your personal data in accordance with the Nigerian data protection regulation. You have rights to access, rectify, and delete your data, and we retain it for reasonable business needs or as required by law. Our privacy policy is transparent and ensures secure data processing.',
@@ -43,7 +45,9 @@ const PrivacyMetadata = () => {
           siteName: 'Drugstoc',
         }}
         twitter={{
-          url: 'https://drugstoc.com/privacy-policy',
+          url:
+            'https://drugstoc.com/privacy' ||
+            'https://drugstoc.com/privacy-policy',
           title:
             'Partnerships | Inclusive Healthcare Supply Chain Partnerships',
           image: {
@@ -58,4 +62,4 @@ const PrivacyMetadata = () => {
   );
 };
 
-export default PrivacyMetadata;
+export default PMetadata;

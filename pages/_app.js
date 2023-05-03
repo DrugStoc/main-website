@@ -62,24 +62,24 @@ class MyApp extends App {
             locale: 'en_US',
             siteName: 'DrugStoc',
             images: [
-              {
-                url: 'https://res.cloudinary.com/bizstak/image/upload/v1683021032/facebook-800-600_dnqztd.png',
-                width: 800,
-                height: 600,
-                alt: 'Default DrugStoc social media thumbnail at 800 x 600 dimension (a female doctor writing on board the text "Empowering healthcare providers across africa")',
-              },
-              {
-                url: 'https://res.cloudinary.com/bizstak/image/upload/v1683020934/facebook-900-800_y62sde.png',
-                width: 900,
-                height: 800,
-                alt: 'Default DrugStoc social media thumbnail at 900 x 600 dimension (a female doctor writing on board the text "Empowering healthcare providers across africa")',
-              },
-              {
-                url: 'https://res.cloudinary.com/bizstak/image/upload/v1682879879/drugstoc-v3_z9a4v3.jpg',
-                width: 1200,
-                height: 630,
-                alt: 'DrugStoc social media thumbnail (facebook open graph) at 1200 x 630 dimension showing text "the leading pharmacy partner for healthcare providers in africa".',
-              },
+              // {
+              //   url: 'https://res.cloudinary.com/bizstak/image/upload/v1683021032/facebook-800-600_dnqztd.png',
+              //   width: 800,
+              //   height: 600,
+              //   alt: 'Default DrugStoc social media thumbnail at 800 x 600 dimension (a female doctor writing on board the text "Empowering healthcare providers across africa")',
+              // },
+              // {
+              //   url: 'https://res.cloudinary.com/bizstak/image/upload/v1683020934/facebook-900-800_y62sde.png',
+              //   width: 900,
+              //   height: 800,
+              //   alt: 'Default DrugStoc social media thumbnail at 900 x 600 dimension (a female doctor writing on board the text "Empowering healthcare providers across africa")',
+              // },
+              // {
+              //   url: 'https://res.cloudinary.com/bizstak/image/upload/v1682879879/drugstoc-v3_z9a4v3.jpg',
+              //   width: 1200,
+              //   height: 630,
+              //   alt: 'DrugStoc social media thumbnail (facebook open graph) at 1200 x 630 dimension showing text "the leading pharmacy partner for healthcare providers in africa".',
+              // },
               {
                 url: 'https://res.cloudinary.com/bizstak/image/upload/v1683018234/drugstoc-facebook-home_y8q8sw.jpg',
                 width: 1200,
