@@ -9,14 +9,16 @@ export default function TermsAndConditions() {
       <Container>
         <div className="header">
           <div className="container">
-            <h3>
+            <h1 style={{ fontSize: '28px' }}>
               <u>THE PRIVACY POLICY FOR DRUGSTOC EHUB LIMITED</u>
-            </h3>
+            </h1>
             <div>
               {/* one  */}
               <ol>
                 <li>
-                  <h6>HOW WE COLLECT YOUR PERSONAL DATA</h6>
+                  <h2 style={{ fontSize: '16px', fontWeight: 'bold' }}>
+                    HOW WE COLLECT YOUR PERSONAL DATA
+                  </h2>
                   We collect your personal data when you:
                   <ol type="a">
                     <li>send us an email</li>
@@ -39,7 +41,9 @@ export default function TermsAndConditions() {
 
                 {/* two */}
                 <li>
-                  <h6>OUR LAWFUL BASES FOR PROCESSING YOUR PERSONAL DATA</h6>
+                  <h2 style={{ fontSize: '16px', fontWeight: 'bold' }}>
+                    OUR LAWFUL BASES FOR PROCESSING YOUR PERSONAL DATA
+                  </h2>
                   Processing of personal data means anything that is done with
                   your personal data such as deletion, erasure, disclosure,
                   profiling, download, transfer, modification, etc.
@@ -88,7 +92,9 @@ export default function TermsAndConditions() {
 
                 {/* three */}
                 <li>
-                  <h6>HOW LONG WE KEEP YOUR DATA </h6>
+                  <h2 style={{ fontSize: '16px', fontWeight: 'bold' }}>
+                    HOW LONG WE KEEP YOUR DATA{' '}
+                  </h2>
                   Unless we explain otherwise to you, we will hold your personal
                   information based on the following criteria:
                   <ol type="a">
@@ -116,7 +122,10 @@ export default function TermsAndConditions() {
 
                 {/* four */}
                 <li>
-                  <h6> YOUR DATA RIGHTS </h6>
+                  <h2 style={{ fontSize: '16px', fontWeight: 'bold' }}>
+                    {' '}
+                    YOUR DATA RIGHTS{' '}
+                  </h2>
                   Kindly note that you have the following rights:
                   <ol type="a">
                     <li>
@@ -206,7 +215,10 @@ export default function TermsAndConditions() {
                 {/* five */}
                 <li>
                   {' '}
-                  <h6> WHO WE SHARE YOUR PERSONAL INFORMATION WITH </h6>
+                  <h2 style={{ fontSize: '16px', fontWeight: 'bold' }}>
+                    {' '}
+                    WHO WE SHARE YOUR PERSONAL INFORMATION WITH{' '}
+                  </h2>
                   <p>
                     {' '}
                     We share your personal data with our affiliates, subsidiary
@@ -217,7 +229,9 @@ export default function TermsAndConditions() {
                 </li>
                 <li>
                   {' '}
-                  <h6> QUESTIONS REGARDING THIS PRIVACY POLICY </h6>
+                  <h2 style={{ fontSize: '16px', fontWeight: 'bold' }}>
+                    QUESTIONS REGARDING THIS PRIVACY POLICY{' '}
+                  </h2>
                   <p>
                     {' '}
                     If you have questions regarding this Privacy Policy, please
@@ -229,7 +243,9 @@ export default function TermsAndConditions() {
 
                 <li>
                   {' '}
-                  <h6>MISCELLANEOUS </h6>
+                  <h2 style={{ fontSize: '16px', fontWeight: 'bold' }}>
+                    MISCELLANEOUS{' '}
+                  </h2>
                   <p>
                     {' '}
                     We shall collect and treat your personal data in line with
@@ -241,7 +257,9 @@ export default function TermsAndConditions() {
 
                 <li>
                   {' '}
-                  <h6> REVISION TO THIS PRIVACY POLICY </h6>
+                  <h2 style={{ fontSize: '16px', fontWeight: 'bold' }}>
+                    REVISION TO THIS PRIVACY POLICY{' '}
+                  </h2>
                   <p>
                     Drugstoc reserves the right and prerogative to change or
                     modify this Privacy Policy at any time, with or without
@@ -256,7 +274,9 @@ export default function TermsAndConditions() {
 
                 <li>
                   {' '}
-                  <h6> COMMENCEMENT </h6>
+                  <h2 style={{ fontSize: '16px', fontWeight: 'bold' }}>
+                    COMMENCEMENT{' '}
+                  </h2>
                   <p>
                     This privacy policy is effective from the 1st day of January
                     2021.{' '}
