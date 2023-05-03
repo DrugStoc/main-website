@@ -1,9 +1,4 @@
-/* -------------------------------------------------------------------------- */
-/*                            External Dependencies                           */
-/* -------------------------------------------------------------------------- */
 import React from 'react';
-
-/* -------------------------- Internal Dependencies ------------------------- */
 import Home from 'pages/home';
 import Layout from 'components/layout';
 

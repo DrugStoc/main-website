@@ -9,6 +9,7 @@ Allow: /procure-direct
 Allow: /drugstocpay
 Allow /market-access
 Allow /rx-insight
+Allow /privacy-policy
 Disallow: /admin/
 Disallow: /login/
 Disallow: /signup/

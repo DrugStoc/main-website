@@ -64,16 +64,14 @@ const Home = () => {
               <h1 data-aos="zoom-out-up">
                 Empowering <br />
                 {currentWord.word.split('<br />').map((word, index) => (
-                  <>
                     <span
-                      key={word}
+                      key={index}
                       className={`animated ${
                         index === 1 ? 'fadeInUp' : 'fadeInDown'
                       }`}
                     >
                       {word}
-                    </span>{' '}
-                  </>
+                    </span>
                 ))}
                 <br />
                 Toward a Healthier Africa.
