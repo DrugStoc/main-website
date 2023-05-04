@@ -43,7 +43,9 @@ export default class MyDocument extends Document {
             content="YxcXtu0Zz5s25clei5L1g6OQV_bZnLCSpAZhQILtpSk"
           />
           <meta name="mobile-web-app-capable" content="yes" />
+          <meta name="article:tag" content="HTML" />
           <meta name="article:tag" content="Schema.org" />
+          <meta name="article:tag" content="SEO" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
           <link
             rel="preload"
@@ -87,6 +89,17 @@ export default class MyDocument extends Document {
             `,
             }}
           /> */}
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: JSON.stringify({
+                '@context': 'https://schema.org',
+                '@type': 'WebSite',
+                name: 'DrugStoc',
+                url: 'https://drugstoc.com',
+              }),
+            }}
+          />
           <script
             async
             crossorigin="anonymous"
