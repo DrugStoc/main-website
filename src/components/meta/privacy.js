@@ -4,7 +4,7 @@ const PrivacyMetadata = () => {
   return (
     <>
       <NextSeo
-        title="Privacy |  Privacy Policy for Drugstoc Ehub Limited"
+        title="Privacy Policy for Drugstoc Ehub Limited | DrugStoc Privacy"
         description="Drugstoc Ehub Ltd lawfully collects and processes your personal data in accordance with the Nigerian data protection regulation. You have rights to access, rectify, and delete your data, and we retain it for reasonable business needs or as required by law. Our privacy policy is transparent and ensures secure data processing."
         keyword={[
           'personal data',
@@ -29,7 +29,7 @@ const PrivacyMetadata = () => {
         ]}
         openGraph={{
           url: 'https://drugstoc.com/privacy',
-          title: 'Privacy |  Privacy Policy for Drugstoc Ehub Limited',
+          title: 'Privacy Policy for Drugstoc Ehub Limited | DrugStoc Privacy',
           description:
             'Drugstoc Ehub Ltd lawfully collects and processes your personal data in accordance with the Nigerian data protection regulation. You have rights to access, rectify, and delete your data, and we retain it for reasonable business needs or as required by law. Our privacy policy is transparent and ensures secure data processing.',
           images: [
@@ -44,8 +44,7 @@ const PrivacyMetadata = () => {
         }}
         twitter={{
           url: 'https://drugstoc.com/privacy',
-          title:
-            'Partnerships | Inclusive Healthcare Supply Chain Partnerships',
+          title: 'Privacy Policy for Drugstoc Ehub Limited | DrugStoc Privacy',
           image: {
             url: 'https://res.cloudinary.com/bizstak/image/upload/v1682949985/drugstoc-partnership-twitter_yi4cdj.jpg',
             width: 1200,

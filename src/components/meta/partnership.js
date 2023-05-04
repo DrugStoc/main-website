@@ -4,7 +4,7 @@ const PartnershipMetadata = () => {
   return (
     <>
       <NextSeo
-        title="Partnerships | Inclusive Healthcare Supply Chain Partnerships"
+        title="Inclusive Healthcare Supply Chain Partnerships | DrugStoc Partnerships"
         description="DrugStoc partners with mission-driven organizations to build an inclusive supply chain for affordable and genuine medications in emerging economies. We work with over 400 pharmaceutical companies to deliver anti-counterfeit drugs to last-mile patients. Contact us today to learn more"
         keyword={[
           'healthcare partnerships',
@@ -13,7 +13,7 @@ const PartnershipMetadata = () => {
         openGraph={{
           url: 'https://drugstoc.com/partnerships',
           title:
-            'Partnerships | Inclusive Healthcare Supply Chain Partnerships',
+            'Inclusive Healthcare Supply Chain Partnerships | DrugStoc Partnerships',
           description:
             'DrugStoc partners with mission-driven organizations to build an inclusive supply chain for affordable and genuine medications in emerging economies. We work with over 400 pharmaceutical companies to deliver anti-counterfeit drugs to last-mile patients. Contact us today to learn more',
           images: [
@@ -41,7 +41,7 @@ const PartnershipMetadata = () => {
         twitter={{
           url: 'https://drugstoc.com/partnerships',
           title:
-            'Partnerships | Inclusive Healthcare Supply Chain Partnerships',
+            'Inclusive Healthcare Supply Chain Partnerships | DrugStoc Partnerships',
           image: {
             url: 'https://res.cloudinary.com/bizstak/image/upload/v1682949985/drugstoc-partnership-twitter_yi4cdj.jpg',
             width: 1200,

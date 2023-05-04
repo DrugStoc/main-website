@@ -4,7 +4,7 @@ const HomeMetadata = () => {
   return (
     <>
       <NextSeo
-        title="Home | Anti-Counterfeit Supply Chain for Healthcare Providers"
+        title="Anti-Counterfeit Supply Chain for Healthcare Providers | DrugStoc Home"
         description="Get high-quality healthcare products from Africa's leading e-healthcare pharmaceutical distributor. Choose DrugStoc for reliable, innovative solutions."
         keyword={[
           'Anti-counterfeit supply chain',
@@ -30,7 +30,7 @@ const HomeMetadata = () => {
         openGraph={{
           url: 'https://drugstoc.com/',
           title:
-            'Home | Anti-Counterfeit Supply Chain for Healthcare Providers',
+            'Anti-Counterfeit Supply Chain for Healthcare Providers | DrugStoc Home',
           description:
             "Get high-quality healthcare products from Africa's leading e-healthcare pharmaceutical distributor. Choose DrugStoc for reliable, innovative solutions.",
           images: [
@@ -45,7 +45,7 @@ const HomeMetadata = () => {
         }}
         twitter={{
           title:
-            'Home | Anti-Counterfeit Supply Chain for Healthcare Providers',
+            'Anti-Counterfeit Supply Chain for Healthcare Providers | DrugStoc Home',
           image: {
             url: 'https://res.cloudinary.com/bizstak/image/upload/v1683018219/drugstoc-twitter-home_akhnfk.jpg',
             width: 1200,

@@ -35,7 +35,7 @@ class MyApp extends App {
     return (
       <>
         <DefaultSeo
-          title="Anti-Counterfeit Supply Chain for Healthcare Providers"
+          title="Anti-Counterfeit Supply Chain for Healthcare Providers | Drugstoc"
           // titleTemplate="%s | Drugstoc"
           defaultTitle="Drugstoc"
           themeColor="#ffffff"

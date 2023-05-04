@@ -4,7 +4,7 @@ const CareerMetadata = () => {
   return (
     <>
       <NextSeo
-        title="Careers | Join Our Team and Help Unlock Africa's Potential Together - Available Job Openings"
+        title="Join Our Team and Help Unlock Africa's Potential | DrugStoc Careers"
         description="Unlock Africa's potential and solve healthcare challenges with a team of bright minds. Join us and enjoy comprehensive medical insurance, flexible working hours for new parents, learning and development opportunities, and more. Check out our available vacancies and apply now."
         keyword={[
           'Careers',
@@ -25,7 +25,7 @@ const CareerMetadata = () => {
         openGraph={{
           url: 'https://drugstoc.com/careers',
           title:
-            "Careers | Join Our Team and Help Unlock Africa's Potential Together - Available Job Openings",
+            "Join Our Team and Help Unlock Africa's Potential | DrugStoc Careers",
           description:
             "Unlock Africa's potential and solve healthcare challenges with a team of bright minds. Join us and enjoy comprehensive medical insurance, flexible working hours for new parents, learning and development opportunities, and more. Check out our available vacancies and apply now.",
           images: [
@@ -55,7 +55,7 @@ const CareerMetadata = () => {
           description:
             "Unlock Africa's potential and solve healthcare challenges with a team of bright minds. Join us and enjoy comprehensive medical insurance, flexible working hours for new parents, learning and development opportunities, and more. Check out our available vacancies and apply now.",
           title:
-            'Careers | Tech-Enabled Procurement Partner in Africa - Available Job Openings',
+            "Join Our Team and Help Unlock Africa's Potential | DrugStoc Careers",
           image: {
             url: 'https://res.cloudinary.com/bizstak/image/upload/v1683150717/drugstoc-careers-twitter_w1f7lc.jpg',
             width: 1200,
