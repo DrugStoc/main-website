@@ -26,14 +26,14 @@ const ProcureDirect = () => {
                 <a href="https://play.google.com/store/apps/details?id=com.drugstoc.app">
                   <img
                     src="/images/procure-direct/google-play-alt.svg"
-                    alt=""
+                    alt="android play store icon"
                     aria-hidden="true"
                   />
                 </a>
                 <a href="https://apps.apple.com/ng/app/drugstoc-mobile/id1467205425">
                   <img
                     src="/images/procure-direct/app-store-alt.svg"
-                    alt=""
+                    alt="apple store icon"
                     aria-hidden="true"
                   />
                 </a>

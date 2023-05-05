@@ -107,7 +107,7 @@ const Partnerships = () => {
       <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut" duration={0.8}>
         <GetInTouch>
           <div className="d-block d-lg-flex flex-wrap justify-content-center">
-            <img src="/images/partnerships/section-2.png" alt="" />
+            <img src="/images/partnerships/section-2.png" alt="a contact support person at her office at DrugStoc wearing a black nose mask" />
             <div className="content">
               <div>
                 <h4>Get in touch</h4>

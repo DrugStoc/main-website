@@ -56,7 +56,7 @@ const Careers = () => {
           <Link href="#open-positions" passHref>
             <button className="btn btn-drug-stoc m-auto d-block">APPLY</button>
           </Link>
-          <img src="/images/landing/image-5.png" alt="" className="banner" />
+          <img src="/images/landing/image-5.png" alt="group photo for drugstoc" className="banner" />
         </div>
       </TeamSection>
       {/* <CoreValueSection /> */}
@@ -67,7 +67,7 @@ const Careers = () => {
             <div className="col-md-6 col-lg-4">
               <div className="card">
                 <div className="card-body">
-                  <img src="/images/careers/1.svg" alt="" />
+                  <img src="/images/careers/1.svg" alt="icon of a hand raising or suspending a heart in pulse" />
                   <h4>Health insurance</h4>
                   <p>
                     Our comprehensive medical insurance covers you and your
@@ -79,7 +79,7 @@ const Careers = () => {
             <div className="col-md-6 col-lg-4">
               <div className="card">
                 <div className="card-body">
-                  <img src="/images/careers/2.svg" alt="" />
+                  <img src="/images/careers/2.svg" alt="icon of an aircraft taking off" />
                   <h4>Traction and scale</h4>
                   <p>
                     Your opportunity to impact products, connect with customers,
@@ -91,7 +91,7 @@ const Careers = () => {
             <div className="col-md-6 col-lg-4">
               <div className="card">
                 <div className="card-body">
-                  <img src="/images/careers/3.svg" alt="" />
+                  <img src="/images/careers/3.svg" alt="icon of an open wallet" />
                   <h4>Young Family Friendly </h4>
                   <p>We offer flexible working hours for new parents.</p>
                 </div>
@@ -100,7 +100,7 @@ const Careers = () => {
             <div className="col-md-6 col-lg-4">
               <div className="card">
                 <div className="card-body">
-                  <img src="/images/careers/4.svg" alt="" />
+                  <img src="/images/careers/4.svg" alt="icon of a pie chart" />
                   <h4>Learning and development</h4>
                   <p>
                     With the fast pace of our environment, you’re sure to
@@ -112,7 +112,7 @@ const Careers = () => {
             <div className="col-md-6 col-lg-4">
               <div className="card">
                 <div className="card-body">
-                  <img src="/images/careers/5.svg" alt="" />
+                  <img src="/images/careers/5.svg" alt="icon of a hand raising or suspending two hearts" />
                   <h4>Do what you love</h4>
                   <p>
                     Life is too short to work without purpose. Lets change
@@ -124,7 +124,7 @@ const Careers = () => {
             <div className="col-md-6 col-lg-4">
               <div className="card">
                 <div className="card-body">
-                  <img src="/images/careers/6.svg" alt="" />
+                  <img src="/images/careers/6.svg" alt="icon of people in group" />
                   <h4>Smart collegues</h4>
                   <p>
                     Challenge yourself by exchanging ideas with the brightest

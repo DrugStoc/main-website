@@ -33,14 +33,14 @@ const DrugStocCredit = () => {
                 <a href="https://play.google.com/store/apps/details?id=com.drugstoc.app">
                   <img
                     src="/images/procure-direct/google-play-alt.svg"
-                    alt=""
+                    alt="android play store icon"
                     aria-hidden="true"
                   />
                 </a>
                 <a href="https://apps.apple.com/ng/app/drugstoc-mobile/id1467205425">
                   <img
                     src="/images/procure-direct/app-store-alt.svg"
-                    alt=""
+                    alt="apple icon"
                     aria-hidden="true"
                   />
                 </a>
@@ -75,7 +75,7 @@ const DrugStocCredit = () => {
             <div className="col-md-6 col-lg-4">
               <div className="card">
                 <div className="card-body">
-                  <img src="/images/careers/30.svg" alt="" />
+                  <img src="/images/careers/30.svg" alt="shield icon" />
                   <h4>No Deposit Required, No Collateral</h4>
                   <p>
                     Enjoy Easy Access to Instant Loans Now - Easy to Apply, No Long Form to Fill, and No Collateral Is Required.
@@ -86,7 +86,7 @@ const DrugStocCredit = () => {
             <div className="col-md-6 col-lg-4">
               <div className="card">
                 <div className="card-body">
-                  <img src="/images/careers/40.svg" alt="" />
+                  <img src="/images/careers/40.svg" alt="a closed wallet icon" />
                   <h4>Flexible repayment Options</h4>
                   <p>
                     Grow your practice by selecting from various repayment options available to you
@@ -113,7 +113,7 @@ const DrugStocCredit = () => {
           <div className="col-lg-4" style={{ marginLeft: "160px" }} >
             <img
                 src="/images/stoc-credit/credit.png"
-                alt=""
+                alt="drugstoc mobile ecommerce app ui"
             />
             </div>
           <a className="btn btn-drug-stoc mx-auto mt-5" href="#">

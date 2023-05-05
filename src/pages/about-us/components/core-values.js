@@ -72,7 +72,7 @@ export const CoreValueSection = () => (
         </div>
       </div>
       <div className="core__values-image">
-        <img src="/images/landing/image-3.png" alt="" />
+        <img src="/images/landing/image-3.png" alt="a nurse in blue smiling" />
       </div>
     </div>
   </CoreValues>
