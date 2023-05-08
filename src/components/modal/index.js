@@ -11,7 +11,6 @@ const Modal = () => {
   const [lastName, setLastName] = useState('');
   const [message, setMessage] = useState('');
   const [subscribed, setSubscribed] = useState(false);
-  const [err, setErr] = useState('')
 
   const handleScroll = () => {
     const scrollPosition = window.scrollY;
@@ -33,30 +32,28 @@ const Modal = () => {
     };
   }, []);
 
-  const handleSubmit = async event => {
-    event.preventDefault();
-
-    const formData = {
-      firstName,
-      lastName,
-      email,
-    };
+  const subscribeToNewsletter = async () => {
     try {
       const response = await axios.post(
         'https://newsletter-production-00b2.up.railway.app/user',
-        formData
+        {
+          email,
+          firstName,
+          lastName,
+        }
       );
-      setMessage(response.message);
-      localStorage.setItem('subscribed', true);
-      setSubscribed(true);
+      setMessage(response.data);
     } catch (error) {
-      setErr(error);
-      // Show error message or do something else
+      console.log(error);
     }
   };
 
-  console.log(err)
+  const handleSubmit = e => {
+    e.preventDefault();
+    subscribeToNewsletter();
+  };
 
+  console.log(message);
   return (
     <div>
       {!subscribed && (
@@ -95,9 +92,7 @@ const Modal = () => {
               onChange={e => setLastName(e.target.value)}
             />
 
-            <button type="submit" onClick={() => setShowModal(false)}>
-              Subscribe
-            </button>
+            <button type="submit">Subscribe</button>
             {/* <p>{message}</p> */}
           </form>
           {/* 
