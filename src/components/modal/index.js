@@ -11,6 +11,7 @@ const Modal = () => {
   const [lastName, setLastName] = useState('');
   const [message, setMessage] = useState('');
   const [subscribed, setSubscribed] = useState(false);
+  const [err, setError] = useState('');
 
   const handleScroll = () => {
     const scrollPosition = window.scrollY;
@@ -31,6 +32,16 @@ const Modal = () => {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setMessage('');
+      setError('');
+    }, 5000);
+
+    return () => {
+      clearTimeout(timer);
+    };
+  }, [message, err]);
 
   const subscribeToNewsletter = async () => {
     try {
@@ -42,9 +53,24 @@ const Modal = () => {
           lastName,
         }
       );
+      // console.log(response)
       setMessage(response.data);
     } catch (error) {
-      console.log(error);
+      if (error.response) {
+        // The request was made and the server responded with a status code
+        // that falls out of the range of 2xx
+        setError(error.response.data.message);
+        console.log(error.response.status);
+        console.log(error.response.headers);
+      } else if (error.request) {
+        // The request was made but no response was received
+        // `error.request` is an instance of XMLHttpRequest in the browser and an instance of
+        // http.ClientRequest in node.js
+        console.log(error.request);
+      } else {
+        // Something happened in setting up the request that triggered an Error
+        console.log('Error', error.message);
+      }
     }
   };
 
@@ -53,7 +79,6 @@ const Modal = () => {
     subscribeToNewsletter();
   };
 
-  console.log(message);
   return (
     <div>
       {!subscribed && (
@@ -93,7 +118,15 @@ const Modal = () => {
             />
 
             <button type="submit">Subscribe</button>
-            {/* <p>{message}</p> */}
+            {message.message !== 'Subscribed to newsletter successfully' ? (
+              <p style={{ color: 'red', position: 'relative', top: 10 }}>
+                {err}
+              </p>
+            ) : (
+              <p style={{ color: 'green', position: 'relative', top: 10 }}>
+                {message.message}
+              </p>
+            )}
           </form>
           {/* 
           <button className={styles.cancel} onClick={() => setShowModal(false)}>
