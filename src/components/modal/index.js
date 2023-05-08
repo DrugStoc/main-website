@@ -11,6 +11,7 @@ const Modal = () => {
   const [lastName, setLastName] = useState('');
   const [message, setMessage] = useState('');
   const [subscribed, setSubscribed] = useState(false);
+  const [err, setErr] = useState('')
 
   const handleScroll = () => {
     const scrollPosition = window.scrollY;
@@ -49,10 +50,12 @@ const Modal = () => {
       localStorage.setItem('subscribed', true);
       setSubscribed(true);
     } catch (error) {
-      console.error(error);
+      setErr(error);
       // Show error message or do something else
     }
   };
+
+  console.log(err)
 
   return (
     <div>
