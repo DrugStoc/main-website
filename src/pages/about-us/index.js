@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 import AppCard from 'components/app-card';
 import { teams, investors } from './data';
-import { CoreValueSection } from './components/core-values';
+import { CoreValueSection } from '../../components/components/core-values';
 import AboutMetadata from 'components/meta/about';
 
 const AboutUs = () => {
