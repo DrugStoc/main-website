@@ -34,6 +34,10 @@
   border-radius: 5px;
 }
 
+.modal input:focus-visible {
+  border: 1px solid #4c70d6;
+}
+
 .modal button {
   background-color: #0070f3;
   color: white;
