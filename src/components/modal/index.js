@@ -36,9 +36,9 @@ const Modal = () => {
     event.preventDefault();
 
     const formData = {
-      email,
       firstName,
       lastName,
+      email,
     };
     try {
       const response = await axios.post(
@@ -52,10 +52,6 @@ const Modal = () => {
       console.error(error);
       // Show error message or do something else
     }
-  };
-
-  const closeModal = () => {
-    setShowModal(false);
   };
 
   return (
@@ -99,7 +95,7 @@ const Modal = () => {
             <button type="submit" onClick={() => setShowModal(false)}>
               Subscribe
             </button>
-            <p>{message}</p>
+            {/* <p>{message}</p> */}
           </form>
           {/* 
           <button className={styles.cancel} onClick={() => setShowModal(false)}>

@@ -46,7 +46,12 @@ export default class MyDocument extends Document {
           <meta name="article:tag" content="HTML" />
           <meta name="article:tag" content="Schema.org" />
           <meta name="article:tag" content="SEO" />
-          <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+          <link
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossOrigin="anonymous"
+            as="font"
+          />
           <link
             rel="preload"
             as="style"
@@ -63,6 +68,14 @@ export default class MyDocument extends Document {
             as="style"
             href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
           />
+          <link
+            rel="preload"
+            href="https://widget-v4.tidiochat.com/fonts/mulish_SGhgqk3wotYKNnBQ.woff2"
+            as="font"
+            type="font/woff2"
+            crossorigin
+          />
+
           {/* <script
             async
             src={`//code.tidio.co/${process.env.NEXT_PUBLIC_TIDIO_CHAT_CODE}.js`}
