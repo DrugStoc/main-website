@@ -46,7 +46,7 @@ export default class MyDocument extends Document {
           <meta name="article:tag" content="HTML" />
           <meta name="article:tag" content="Schema.org" />
           <meta name="article:tag" content="SEO" />
-          <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
           <link
             rel="preload"
             as="style"
