@@ -59,7 +59,7 @@ const Modal = () => {
   };
 
   return (
-    <div onClick={closeModal}>
+    <div>
       {!subscribed && (
         <ReactModal isOpen={showModal} className={styles.modal}>
           <h2>Subscribe to our newsletter!</h2>
