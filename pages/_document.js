@@ -102,7 +102,7 @@ export default class MyDocument extends Document {
           />
           <script
             async
-            crossorigin="anonymous"
+            crossOrigin="anonymous"
             src="https://connect.facebook.net/en_US/sdk.js"
           />
           <script
