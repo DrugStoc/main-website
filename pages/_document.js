@@ -1,4 +1,4 @@
-// import Mailchimp from 'components/components/mailchimp/Mailchimp';
+import Mailchimp from 'components/components/mailchimp/Mailchimp';
 import Document, { Head, Main, NextScript, Html } from 'next/document';
 import React from 'react';
 import { ServerStyleSheet } from 'styled-components';
@@ -40,7 +40,7 @@ export default class MyDocument extends Document {
             name="google-site-verification"
             content="YxcXtu0Zz5s25clei5L1g6OQV_bZnLCSpAZhQILtpSk"
           />
-          {/* <Mailchimp /> */}
+
           <meta name="mobile-web-app-capable" content="yes" />
           <meta name="article:tag" content="HTML" />
           <meta name="article:tag" content="Schema.org" />
@@ -145,6 +145,7 @@ export default class MyDocument extends Document {
         <body>
           <Main />
           <NextScript />
+          {/* <Mailchimp /> */}
         </body>
       </Html>
     );
