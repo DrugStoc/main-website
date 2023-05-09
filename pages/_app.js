@@ -136,7 +136,7 @@ class MyApp extends App {
           />
           <meta
             name="twitter:creator"
-            content="github:bemijonathan, github:lizzykate, github:techstackmedia"
+            content="github:techstackmedia, github:bemijonathan, github:steffanie07"
           />
           <meta property="og:locale" content="en_US" />
           <meta name="twitter:site" content="@drugstoc" />
