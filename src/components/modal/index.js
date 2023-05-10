@@ -57,7 +57,7 @@ const Modal = () => {
         }
       );
       setMessage(response.data.message);
-      const API_KEY = '34cfc63e39f2e176697ab1bc14f2d2a3-us7';
+      const API_KEY = '08649d03f39bbb252e961698fad04d31-us7';
       const AUDIENCE_ID = '074d11784c';
 
       const data = {
@@ -96,8 +96,6 @@ const Modal = () => {
       }
     }
   };
-
-  console.log(message);
 
   const handleSubmit = e => {
     e.preventDefault();
