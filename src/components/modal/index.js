@@ -12,7 +12,7 @@ const Modal = () => {
   const [lastName, setLastName] = useState('');
   const [message, setMessage] = useState('');
   const [subscribed, setSubscribed] = useState(false);
-  const [err, setError] = useState('');
+  const [err, setErr] = useState('');
 
   const handleScroll = () => {
     const scrollPosition = window.scrollY;
@@ -37,7 +37,7 @@ const Modal = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setMessage('');
-      setError('');
+      setErr('');
     }, 5000);
 
     return () => {
@@ -88,11 +88,11 @@ const Modal = () => {
       setSubscribed(true);
     } catch (error) {
       if (error.response) {
-        setError(error.response.data.message);
+        setErr(error.response.data.message);
       } else if (error.request) {
-        console.log(error.request);
+        setErr(error.request);
       } else {
-        console.log('Error', error.message);
+        setErr(error.message);
       }
     }
   };

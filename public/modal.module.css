@@ -59,6 +59,10 @@
   outline: none;
 }
 
+.modal button:hover {
+  background-color: #0f3aaf;
+}
+
 .modal button.cancel {
   background-color: #ccc;
   color: #333;
@@ -76,13 +80,17 @@
 }
 
 @media (max-width: 528px) {
+  .modal h2 {
+    font-size: 20px;
+  }
   .modal {
     width: 95%;
   }
 }
 
-@media (max-width: 386px) {
-  .modal .icon {
-    right: 5px;
+@media (max-width: 374px) {
+  .modal img {
+    right: -12px;
+    top: -16px
   }
 }
