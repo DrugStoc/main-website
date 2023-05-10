@@ -126,58 +126,48 @@ const Modal = () => {
           {/* {err && <p className={styles.errorMessage}>{err}</p>} */}
           {!subscribed && (
             <form onSubmit={handleSubmit}>
-              <label htmlFor="email">
-                Email:
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  placeholder="Enter Email"
-                  value={email}
-                  autoComplete="Off"
-                  onChange={e => setEmail(e.target.value)}
-                  required
-                />
-              </label>
-              <label htmlFor="firstName">
-                First Name:
-                <input
-                  type="text"
-                  id="firstName"
-                  name="firstName"
-                  placeholder="Enter First Name"
-                  value={firstName}
-                  autoComplete="Off"
-                  onChange={e => setFirstName(e.target.value)}
-                  required
-                />
-              </label>
-              <label htmlFor="lastName">
-                Last Name:
-                <input
-                  type="text"
-                  id="lastName"
-                  name="lastName"
-                  placeholder="Enter Last Name"
-                  value={lastName}
-                  autoComplete="Off"
-                  onChange={e => setLastName(e.target.value)}
-                  required
-                />
-              </label>
-              <label htmlFor="lastName">
-                Phone Number:
-                <input
-                  type="text"
-                  id="phone"
-                  name="phone"
-                  placeholder="Enter Phone Number"
-                  value={phone}
-                  autoComplete="Off"
-                  onChange={e => setPhone(e.target.value)}
-                  required
-                />
-              </label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter Email"
+                value={email}
+                autoComplete="Off"
+                onChange={e => setEmail(e.target.value)}
+                required
+              />
+
+              <input
+                type="text"
+                id="firstName"
+                name="firstName"
+                placeholder="Enter First Name"
+                value={firstName}
+                autoComplete="Off"
+                onChange={e => setFirstName(e.target.value)}
+                required
+              />
+
+              <input
+                type="text"
+                id="lastName"
+                name="lastName"
+                placeholder="Enter Last Name"
+                value={lastName}
+                autoComplete="Off"
+                onChange={e => setLastName(e.target.value)}
+                required
+              />
+              <input
+                type="text"
+                id="phone"
+                name="phone"
+                placeholder="Enter Phone Number"
+                value={phone}
+                autoComplete="Off"
+                onChange={e => setPhone(e.target.value)}
+                required
+              />
               <button type="submit">Subscribe</button>
             </form>
           )}
