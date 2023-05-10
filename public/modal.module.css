@@ -2,7 +2,7 @@
   position: fixed;
   text-align: center;
   margin-top: 50px;
-  top: 50%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: #ffffff;
@@ -11,6 +11,7 @@
   border-radius: 5px;
   max-width: 500px;
   width: 100%;
+  z-index: 1;
   /* backdrop-filter: blur(10px);
   background-color: #000000a3 */
 }
@@ -20,10 +21,16 @@
   margin-bottom: 20px;
 }
 
-.modal img.icon {
+.modal form {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.modal img {
   position: absolute;
-  right: 10px;
-  top: 10px;
+  right: 0;
+  top: 0;
   cursor: pointer;
 }
 
@@ -32,28 +39,35 @@
   margin-bottom: 10px;
   padding: 10px;
   width: 100%;
-  border: 1px solid #ccc;
+  border: 2px solid #ccc;
   border-radius: 5px;
+  outline: none;
 }
 
 .modal input:focus-visible {
-  border: 1px solid #4c70d6;
+  border: 2px solid #4c70d6;
 }
 
 .modal button {
-  background-color: #0070f3;
+  background-color: #4c70d6;
   color: white;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   margin-top: 10px;
+  outline: none;
 }
 
 .modal button.cancel {
   background-color: #ccc;
   color: #333;
   margin-right: 10px;
+}
+
+.modal p.success {
+  color: green;
+  margin-top: 10px;
 }
 
 .modal p.error {

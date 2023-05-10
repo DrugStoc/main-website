@@ -76,7 +76,7 @@ const Home = () => {
                   </span>
                 ))}
                 <br />
-                Toward a Healthier Africa. 
+                Toward a Healthier Africa.
               </h1>
               <p data-aos="zoom-out-up">
                 Anti-Counterfeit Supply Chain for Healthcare Providers in
@@ -722,7 +722,6 @@ const Header = styled.header`
     position: absolute;
     right: 140px;
     bottom: -7px;
-    z-index: 1;
     max-width: 50%;
   }
 

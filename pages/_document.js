@@ -1,4 +1,3 @@
-import Mailchimp from 'components/components/mailchimp/Mailchimp';
 import Document, { Head, Main, NextScript, Html } from 'next/document';
 import React from 'react';
 import { ServerStyleSheet } from 'styled-components';
@@ -72,7 +71,7 @@ export default class MyDocument extends Document {
             href="https://widget-v4.tidiochat.com/fonts/mulish_SGhgqk3wotYKNnBQ.woff2"
             as="font"
             type="font/woff2"
-            crossorigin
+            crossOrigin
           />
 
           {/* <script
@@ -145,7 +144,6 @@ export default class MyDocument extends Document {
         <body>
           <Main />
           <NextScript />
-          {/* <Mailchimp /> */}
         </body>
       </Html>
     );
