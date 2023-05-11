@@ -54,11 +54,11 @@ const HomeMetadata = () => {
           },
         }}
       />
-      {/* <script
+      <script
         id="mcjs"
         async
         src="https://chimpstatic.com/mcjs-connected/js/users/d1ad5a4e3e54d7a6740cd73e7/426492d8395bb8848894a4ecf.js"
-      /> */}
+      />
     </>
   );
 };

@@ -7,7 +7,7 @@ ReactModal.setAppElement('#__next');
 const Modal = () => {
   const [showModal, setShowModal] = useState(false);
   const [email, setEmail] = useState('');
-  // const [phone, setPhone] = useState('');
+  const [phone, setPhone] = useState('');
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
   const [message, setMessage] = useState('');
@@ -53,11 +53,11 @@ const Modal = () => {
           email,
           firstName,
           lastName,
-          // phone,
+          phone,
         }
       );
       setMessage(response.data.message);
-      const API_KEY = '662b29b742752b496ac82d7012b61d54-us7';
+      const API_KEY = '1abeedccd1a35465e3ca919d7f547fd2-us7';
       const AUDIENCE_ID = '074d11784c';
 
       const data = {
@@ -66,7 +66,7 @@ const Modal = () => {
         merge_fields: {
           FNAME: firstName,
           LNAME: lastName,
-          // PHONE: phone,
+          PHONE: phone,
         },
       };
 
@@ -156,7 +156,7 @@ const Modal = () => {
                 onChange={e => setLastName(e.target.value)}
                 required
               />
-              {/* <input
+              <input
                 type="text"
                 id="phone"
                 name="phone"
@@ -165,7 +165,7 @@ const Modal = () => {
                 autoComplete="Off"
                 onChange={e => setPhone(e.target.value)}
                 required
-              /> */}
+              />
               <button type="submit">Subscribe</button>
             </form>
           )}
