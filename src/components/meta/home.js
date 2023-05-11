@@ -59,15 +59,6 @@ const HomeMetadata = () => {
         async
         src="https://chimpstatic.com/mcjs-connected/js/users/d1ad5a4e3e54d7a6740cd73e7/426492d8395bb8848894a4ecf.js"
       />
-      <style jsx>{`
-       
-
-        #mcjs {
-          width: 100%;
-          height: 310px;
-          max-width: 600px; /* set a maximum width */
-        }
-      `}</style>
     </>
   );
 };
