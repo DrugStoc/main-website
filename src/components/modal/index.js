@@ -57,7 +57,7 @@ const Modal = () => {
         }
       );
       setMessage(response.data.message);
-      const API_KEY = '3cfab5f2a3b5ce0e3ba78cc18598e59d-us7';
+      const API_KEY = '662b29b742752b496ac82d7012b61d54-us7';
       const AUDIENCE_ID = '074d11784c';
 
       const data = {
