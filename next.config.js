@@ -8,7 +8,6 @@ module.exports = withImages({
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
   },
   env: {
-    TIDIO_CHAT_CODE: process.env.TIDIO_CHAT_CODE,
     FACEBOOK_APP_ID: process.env.FACEBOOK_APP_ID,
     GOOGLE_SITE_VERIFICATION: process.env.GOOGLE_SITE_VERIFICATION,
     GA_TRACKING_ID: process.env.GA_TRACKING_ID,
