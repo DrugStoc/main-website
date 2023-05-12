@@ -31,6 +31,7 @@ export default class MyDocument extends Document {
   render() {
     const FACEBOOK_APP_ID = process.env.FACEBOOK_APP_ID;
     const TIDIO_CHAT_CODE = process.env.TIDIO_CHAT_CODE;
+    const GA_TRACKING_ID = process.env.GA_TRACKING_ID;
     return (
       <Html lang="en">
         <Head>
@@ -86,7 +87,7 @@ export default class MyDocument extends Document {
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', ${process.env.GA_TRACKING_ID})
+            gtag('config', ${GA_TRACKING_ID})
             `,
             }}
           />
