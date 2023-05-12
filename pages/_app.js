@@ -55,7 +55,7 @@ class MyApp extends App {
             'where to buy wholesale drugs in lagos',
           ]}
           facebook={{
-            appId: '932119468028545',
+            appId: process.env.FACEBOOK_APP_ID,
           }}
           openGraph={{
             type: 'website',

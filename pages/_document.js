@@ -29,6 +29,7 @@ export default class MyDocument extends Document {
   }
 
   render() {
+    const FACEBOOK_APP_ID = process.env.FACEBOOK_APP_ID
     return (
       <Html lang="en">
         <Head>
@@ -37,7 +38,7 @@ export default class MyDocument extends Document {
           <meta name="language" content="English" />
           <meta
             name="google-site-verification"
-            content="YxcXtu0Zz5s25clei5L1g6OQV_bZnLCSpAZhQILtpSk"
+            content={process.env.GOOGLE_SITE_VERIFICATION}
           />
 
           <meta name="mobile-web-app-capable" content="yes" />
@@ -73,33 +74,24 @@ export default class MyDocument extends Document {
             type="font/woff2"
             crossOrigin
           />
-
-          {/* <script
-            async
-            src={`//code.tidio.co/${process.env.NEXT_PUBLIC_TIDIO_CHAT_CODE}.js`}
-          /> */}
           <script
             async
-            src={`//code.tidio.co/ogocxh3zcgb4cdykhwgct7zwamm62w9e.js`}
+            src={`//code.tidio.co/${process.env.TIDIO_CHAT_CODE}.js`}
           />
           <script
-            async
-            src={`https://www.googletagmanager.com/gtag/js?id=G-K54ZBTBTQL`}
-          />
-          {/* <script
             async
             src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GA_TRACKING_ID}`}
-          /> */}
-          {/* <script
+          />
+          <script
             dangerouslySetInnerHTML={{
               __html: `
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', '${process.env.GA_TRACKING_ID}')
+            gtag('config', ${process.env.GA_TRACKING_ID})
             `,
             }}
-          /> */}
+          />
           <script
             type="application/ld+json"
             dangerouslySetInnerHTML={{
@@ -122,22 +114,12 @@ export default class MyDocument extends Document {
               __html: `
                 window.fbAsyncInit = function() {
                   FB.init({
-                    appId      : '932119468028545',
+                    appId      : ${FACEBOOK_APP_ID},
                     xfbml      : true,
                     version    : 'v11.0'
                   });
                 };
               `,
-            }}
-          />
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-K54ZBTBTQL')
-            `,
             }}
           />
         </Head>

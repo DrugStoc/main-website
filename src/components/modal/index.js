@@ -7,7 +7,7 @@ ReactModal.setAppElement('#__next');
 const Modal = () => {
   const [showModal, setShowModal] = useState(false);
   const [email, setEmail] = useState('');
-  const [phone, setPhone] = useState('');
+  // const [phone, setPhone] = useState('');
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
   const [message, setMessage] = useState('');
@@ -53,12 +53,12 @@ const Modal = () => {
           email,
           firstName,
           lastName,
-          phone,
+          // phone,
         }
       );
       setMessage(response.data.message);
-      const API_KEY = '1abeedccd1a35465e3ca919d7f547fd2-us7';
-      const AUDIENCE_ID = '074d11784c';
+      const API_KEY = process.env.MAILCHIMP_API_KEY;
+      const AUDIENCE_ID = process.env.MAILCHIMP_AUDIENCE_ID;
 
       const data = {
         email_address: email,
@@ -66,7 +66,7 @@ const Modal = () => {
         merge_fields: {
           FNAME: firstName,
           LNAME: lastName,
-          PHONE: phone,
+          // PHONE: phone,
         },
       };
 
@@ -78,7 +78,7 @@ const Modal = () => {
       };
 
       const mailchimpResponse = await axios.post(
-        `https://us7.api.mailchimp.com/3.0/lists/${AUDIENCE_ID}/members`,
+        `https://${process.env.DATA_CENTER}.api.mailchimp.com/3.0/lists/${AUDIENCE_ID}/members`,
         data,
         config
       );
@@ -87,13 +87,9 @@ const Modal = () => {
       localStorage.setItem('subscribed', true);
       setSubscribed(true);
     } catch (error) {
-      if (error.response) {
-        setErr(error.response.data.message);
-      } else if (error.request) {
-        setErr(error.request);
-      } else {
-        setErr(error.message);
-      }
+      error.message === 'Network Error'
+        ? setErr('')
+        : setErr(`${error.message}`);
     }
   };
 
@@ -101,7 +97,6 @@ const Modal = () => {
     e.preventDefault();
     subscribeToNewsletter();
   };
-
   return (
     <>
       {subscribed === false && (
@@ -156,7 +151,7 @@ const Modal = () => {
                 onChange={e => setLastName(e.target.value)}
                 required
               />
-              <input
+              {/* <input
                 type="text"
                 id="phone"
                 name="phone"
@@ -165,7 +160,7 @@ const Modal = () => {
                 autoComplete="Off"
                 onChange={e => setPhone(e.target.value)}
                 required
-              />
+              /> */}
               <button type="submit">Subscribe</button>
             </form>
           )}
