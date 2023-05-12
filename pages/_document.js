@@ -30,7 +30,7 @@ export default class MyDocument extends Document {
 
   render() {
     const FACEBOOK_APP_ID = process.env.FACEBOOK_APP_ID;
-    const TIDIO_CHAT_CODE = process.env.NEXT_PUBLIC_TIDIO_CHAT_CODE;
+    const TIDIO_CHAT_CODE = process.env.TIDIO_CHAT_CODE;
     return (
       <Html lang="en">
         <Head>
@@ -75,7 +75,7 @@ export default class MyDocument extends Document {
             type="font/woff2"
             crossOrigin
           />
-          <script async src={`//code.tidio.co/${TIDIO_CHAT_CODE}.js`} />
+          <script async src={`https://code.tidio.co/${TIDIO_CHAT_CODE}.js`} />
           <script
             async
             src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GA_TRACKING_ID}`}
