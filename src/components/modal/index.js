@@ -57,9 +57,10 @@ const Modal = () => {
         }
       );
       setMessage(response.data.message);
-      const API_KEY = process.env.MAILCHIMP_API_KEY;
-      const AUDIENCE_ID = process.env.MAILCHIMP_AUDIENCE_ID;
-      const DATA_CENTER = process.env.DATA_CENTER;
+      const API_KEY =
+        process.env.MAILCHIMP_API_KEY || 'fe919ff690e500f009af7bc7dd19d561-us7';
+      const AUDIENCE_ID = process.env.MAILCHIMP_AUDIENCE_ID || '074d11784c';
+      const DATA_CENTER = process.env.DATA_CENTER || 'us7';
 
       const data = {
         email_address: email,

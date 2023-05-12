@@ -29,10 +29,13 @@ export default class MyDocument extends Document {
   }
 
   render() {
-    const FACEBOOK_APP_ID = process.env.FACEBOOK_APP_ID;
-    const TIDIO_CHAT_CODE = process.env.TIDIO_CHAT_CODE;
-    const GA_TRACKING_ID = process.env.GA_TRACKING_ID;
-    const GOOGLE_SITE_VERIFICATION = process.env.GOOGLE_SITE_VERIFICATION;
+    const FACEBOOK_APP_ID = process.env.FACEBOOK_APP_ID || 932119468028545;
+    const TIDIO_CHAT_CODE =
+      process.env.TIDIO_CHAT_CODE || 'ogocxh3zcgb4cdykhwgct7zwamm62w9e';
+    const GA_TRACKING_ID = process.env.GA_TRACKING_ID || 'G-K54ZBTBTQL';
+    const GOOGLE_SITE_VERIFICATION =
+      process.env.GOOGLE_SITE_VERIFICATION ||
+      'YxcXtu0Zz5s25clei5L1g6OQV_bZnLCSpAZhQILtpSk';
     return (
       <Html lang="en">
         <Head>
