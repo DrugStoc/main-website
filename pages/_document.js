@@ -29,9 +29,10 @@ export default class MyDocument extends Document {
   }
 
   render() {
-    const FACEBOOK_APP_ID = process.env.FACEBOOK_APP_ID;
+    const FACEBOOK_APP_ID = `${process.env.FACEBOOK_APP_ID}`;
     const TIDIO_CHAT_CODE = process.env.TIDIO_CHAT_CODE;
     const GA_TRACKING_ID = process.env.GA_TRACKING_ID;
+    const GOOGLE_SITE_VERIFICATION = process.env.GOOGLE_SITE_VERIFICATION;
     return (
       <Html lang="en">
         <Head>
@@ -40,7 +41,7 @@ export default class MyDocument extends Document {
           <meta name="language" content="English" />
           <meta
             name="google-site-verification"
-            content={process.env.GOOGLE_SITE_VERIFICATION}
+            content={GOOGLE_SITE_VERIFICATION}
           />
 
           <meta name="mobile-web-app-capable" content="yes" />
@@ -79,7 +80,7 @@ export default class MyDocument extends Document {
           <script async src={`https://code.tidio.co/${TIDIO_CHAT_CODE}.js`} />
           <script
             async
-            src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GA_TRACKING_ID}`}
+            src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
           />
           <script
             dangerouslySetInnerHTML={{

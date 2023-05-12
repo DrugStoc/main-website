@@ -59,6 +59,7 @@ const Modal = () => {
       setMessage(response.data.message);
       const API_KEY = process.env.MAILCHIMP_API_KEY;
       const AUDIENCE_ID = process.env.MAILCHIMP_AUDIENCE_ID;
+      const DATA_CENTER = process.env.DATA_CENTER;
 
       const data = {
         email_address: email,
@@ -78,7 +79,7 @@ const Modal = () => {
       };
 
       const mailchimpResponse = await axios.post(
-        `https://${process.env.DATA_CENTER}.api.mailchimp.com/3.0/lists/${AUDIENCE_ID}/members`,
+        `https://${DATA_CENTER}.api.mailchimp.com/3.0/lists/${AUDIENCE_ID}/members`,
         data,
         config
       );

@@ -31,7 +31,7 @@ const structuredData = {
 class MyApp extends App {
   render() {
     const { Component, pageProps } = this.props;
-
+    const FACEBOOK_APP_ID = process.env.FACEBOOK_APP_ID;
     return (
       <>
         <DefaultSeo
@@ -55,7 +55,7 @@ class MyApp extends App {
             'where to buy wholesale drugs in lagos',
           ]}
           facebook={{
-            appId: process.env.FACEBOOK_APP_ID,
+            appId: FACEBOOK_APP_ID,
           }}
           openGraph={{
             type: 'website',
