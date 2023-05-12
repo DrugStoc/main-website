@@ -31,6 +31,7 @@ export default class MyDocument extends Document {
   render() {
     const FACEBOOK_APP_ID = process.env.FACEBOOK_APP_ID;
     const TIDIO_CHAT_CODE = process.env.TIDIO_CHAT_CODE;
+    console.log(FACEBOOK_APP_ID, TIDIO_CHAT_CODE)
     return (
       <Html lang="en">
         <Head>
