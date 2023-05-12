@@ -29,7 +29,7 @@ export default class MyDocument extends Document {
   }
 
   render() {
-    const FACEBOOK_APP_ID = `${process.env.FACEBOOK_APP_ID}`;
+    const FACEBOOK_APP_ID = process.env.FACEBOOK_APP_ID;
     const TIDIO_CHAT_CODE = process.env.TIDIO_CHAT_CODE;
     const GA_TRACKING_ID = process.env.GA_TRACKING_ID;
     const GOOGLE_SITE_VERIFICATION = process.env.GOOGLE_SITE_VERIFICATION;
@@ -114,7 +114,7 @@ export default class MyDocument extends Document {
               __html: `
                 window.fbAsyncInit = function() {
                   FB.init({
-                    appId      : ${FACEBOOK_APP_ID},
+                    appId      : '${FACEBOOK_APP_ID}',
                     xfbml      : true,
                     version    : 'v11.0'
                   });
