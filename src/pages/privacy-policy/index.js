@@ -1,5 +1,4 @@
 import PrivacyMetadata from 'components/meta/privacy';
-import React from 'react';
 import styled from 'styled-components';
 
 export default function TermsAndConditions() {

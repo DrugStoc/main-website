@@ -1,9 +1,3 @@
-/* -------------------------------------------------------------------------- */
-/*                            External Dependencies                           */
-/* -------------------------------------------------------------------------- */
-import React from 'react';
-
-/* -------------------------- Internal Dependencies ------------------------- */
 import ReturnPolicy from 'pages/return-policy';
 import Layout from 'components/layout';
 

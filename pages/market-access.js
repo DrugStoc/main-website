@@ -1,9 +1,3 @@
-/* -------------------------------------------------------------------------- */
-/*                            External Dependencies                           */
-/* -------------------------------------------------------------------------- */
-import React from 'react';
-
-/* -------------------------- Internal Dependencies ------------------------- */
 import MarketAccess from 'pages/market-access';
 import Layout from 'components/layout';
 

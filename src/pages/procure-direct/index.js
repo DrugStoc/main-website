@@ -1,9 +1,6 @@
-import React, { useContext } from 'react';
-import Link from 'next/link';
+import { useContext } from 'react';
 import styled from 'styled-components';
-
 import AppCard from 'components/app-card';
-
 import { Accordion, AccordionContext } from 'react-bootstrap';
 import { useAccordionToggle } from 'react-bootstrap/AccordionToggle';
 import { FAQ } from './data';
@@ -136,7 +133,7 @@ export const FAQSection = ({ faq, theme = '#F5F9F9' }) => (
       <h2>Your Frequently asked questions, answered.</h2>
       <div className="row justify-content-center">
         <div className="col-lg-10">
-          <Accordion defaultActiveKey="0" flush>
+          <Accordion defaultActiveKey="0" flush="true">
             {faq.map((e, i) => {
               return (<div className="accordion__item" key={i}>
                 <CustomToggle eventKey={i + 1} type="arrow">

@@ -1,27 +1,21 @@
-/* -------------------------------------------------------------------------- */
-/*                            External Dependencies                           */
-/* -------------------------------------------------------------------------- */
 import Link from 'next/link';
-import React from 'react';
 import { Container, Dropdown, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import styled from 'styled-components';
 import { useRouter } from 'next/router';
 
-/* -------------------------- Internal Dependencies ------------------------- */
 import NavLink from 'components/nav-link';
 import useScroll from 'utils/use-scroll';
-import Logo from '../../../public/drug.svg';
+import { useState } from 'react';
 
 const NavbarLayout = () => {
   const router = useRouter();
 
   const isStaticBg = ['/about', '/careers'].includes(router.pathname);
   const [userScrolledUp] = useScroll(10);
-  const [expand, setExpand] = React.useState(false);
+  const [expand, setExpand] = useState(false);
   const style =
     userScrolledUp || isStaticBg
       ? {
-          // boxShadow: '0 2px 15px #0000000d',
           borderBottom: '1px solid #ececec',
           backdropFilter: 'saturate(3.5) blur(14px)',
           background: '#fff',
@@ -51,33 +45,6 @@ const NavbarLayout = () => {
               <NavLink activeClassName="active" href="/about">
                 <a className="nav-link">About Us</a>
               </NavLink>
-              {/* <NavDropdown title="Company" id="collasible-nav-dropdown">
-                <NavDropdown.Item
-                  href="/about"
-                  as={NavLink}
-                  passHref
-                  activeClassName="active"
-                >
-                  <a className="nav-link">About Us</a>
-                </NavDropdown.Item>
-                <NavDropdown.Item
-                  href="/careers"
-                  as={NavLink}
-                  passHref
-                  activeClassName="active"
-                >
-                  <a className="nav-link"> Careers</a>
-                </NavDropdown.Item>
-
-                <NavDropdown.Item
-                  href="/contact"
-                  as={NavLink}
-                  passHref
-                  activeClassName="active"
-                >
-                  <a className="nav-link">Contact</a>
-                </NavDropdown.Item>
-              </NavDropdown> */}
               <NavDropdown
                 title="Solutions"
                 id="collasible-nav-dropdown"

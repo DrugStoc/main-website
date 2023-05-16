@@ -1,14 +1,6 @@
-/* -------------------------------------------------------------------------- */
-/*                            External Dependencies                           */
-/* -------------------------------------------------------------------------- */
-import React from 'react';
 import styled from 'styled-components';
-
-/* -------------------------- Internal Dependencies ------------------------- */
 import AppCard from 'components/app-card';
-import { BenefitSection } from 'pages/careers';
 import { Header } from 'pages/procure-direct';
-import Link from 'next/dist/client/link';
 
 const MarketInsight = () => {
   return (
@@ -29,7 +21,6 @@ const MarketInsight = () => {
             <div className="col-lg-5">
               <img
                 src="/images/market-insight/market-insights.svg"
-                // src="/images/market-insight/banner.png"
                 alt="Woman Smiling"
                 loading="eager"
                 className="w-100 d-lg-block d-none"
@@ -137,86 +128,7 @@ const MarketInsight = () => {
           Send an Email <img src="/images/arrow.svg" width="30" style={{ marginLeft: '10px' }} />
         </a>
       </div>
-      {/*<AccessBlurbSection>
-        <div className="container">
-          <h2>Your medical products, simply delivered</h2>
-          <div className="row">
-            <div className="col-md-6 col-lg-4">
-              <div className="card">
-                <div className="card-body">
-                  <img src="/images/careers/1.svg" alt="" />
-                  <h4>Rare Drugs</h4>
-                  <p>
-                    Our comprehensive medical insurance covers a wide variety of
-                    needs
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-6 col-lg-4">
-              <div className="card">
-                <div className="card-body">
-                  <img src="/images/careers/2.svg" alt="" />
-                  <h4>Specialty drugs</h4>
-                  <p>
-                    Your opportunity to impact product, connect with customers,
-                    and help us scale is massive.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-6 col-lg-4">
-              <div className="card">
-                <div className="card-body">
-                  <img src="/images/careers/3.svg" alt="" />
-                  <h4>Medical Equipments</h4>
-                  <p>
-                    All team members have 20 days of paid annual leave, and are
-                    warmly encouraged to use them
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-6 col-lg-4">
-              <div className="card">
-                <div className="card-body">
-                  <img src="/images/careers/4.svg" alt="" />
-                  <h4>Vacccines</h4>
-                  <p>
-                    With the fast pace of our environment, you’re sure to
-                    acquire new skills.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-6 col-lg-4">
-              <div className="card">
-                <div className="card-body">
-                  <img src="/images/careers/5.svg" alt="" />
-                  <h4>Consumables</h4>
-                  <p>
-                    Life is too short to work on things you don’t love. Join us
-                    and do the things you love.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-6 col-lg-4">
-              <div className="card">
-                <div className="card-body">
-                  <img src="/images/careers/6.svg" alt="" />
-                  <h4>Life saving & Emergency Medical supplies</h4>
-                  <p>
-                    All team members have 20 days of paid annual leave, and are
-                    warmly encouraged to use them
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </AccessBlurbSection>*/}
-
+      
       <AppCard />
     </div>
   );
@@ -302,17 +214,6 @@ const MarketInsightSection = styled.section`
       margin-left: 0.4rem;
       vertical-align: middle;
     }
-  }
-`;
-
-const AccessBlurbSection = styled(BenefitSection)`
-  background: #fee6c6;
-  margin-top: 7rem;
-  @media (max-width: 992px) {
-    margin-top: 4rem;
-  }
-  h2 {
-    color: #000;
   }
 `;
 

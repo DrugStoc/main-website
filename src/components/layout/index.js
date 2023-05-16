@@ -1,17 +1,11 @@
-/* -------------------------------------------------------------------------- */
-/*                            External Dependecies                            */
-/* -------------------------------------------------------------------------- */
-import React, { useEffect, useState } from 'react';
+import { createContext, useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 import { withRouter } from 'next/router';
 import AOS from 'aos';
-/* -------------------------- Internal Dependencies ------------------------- */
 import SkipToMain from 'components/a11y/skip-to-main';
 import Footer from 'components/footer';
-// import SEO from 'components/seo';
 import Navbar from 'components/navbar';
 
-/* ---------------------------- Layout PropTypes ---------------------------- */
 const propTypes = {
   children: PropTypes.oneOfType([PropTypes.node, PropTypes.element]),
   title: PropTypes.string,
@@ -21,12 +15,10 @@ const propTypes = {
   seo: PropTypes.object,
 };
 
-export const ThemeContext = React.createContext();
+export const ThemeContext = createContext();
 
 const Layout = ({
   children,
-  // title = 'DrugStoc',
-  // canonical,
   noFooter = false,
   noNav = false,
 }) => {

@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import { Component } from 'react';
 const omit = (obj, omitKey) =>
   Object.keys(obj).reduce((result, key) => {
     if (key !== omitKey) {
@@ -36,7 +36,6 @@ export default class Image extends Component {
           }}
           src={this.props.src}
         />
-        {/* eslint-disable-next-line jsx-a11y/alt-text */}
         {!highResImageLoaded && (
           <img
             {...filteredProps}

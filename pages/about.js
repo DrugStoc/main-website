@@ -1,9 +1,3 @@
-/* -------------------------------------------------------------------------- */
-/*                            External Dependencies                           */
-/* -------------------------------------------------------------------------- */
-import React from 'react';
-
-/* -------------------------- Internal Dependencies ------------------------- */
 import AboutUs from 'pages/about-us';
 import Layout from 'components/layout';
 

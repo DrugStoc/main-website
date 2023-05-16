@@ -1,13 +1,8 @@
-/* -------------------------------------------------------------------------- */
-/*                           External Dependencies                        */
-/* -------------------------------------------------------------------------- */
-
-import React, { Children } from 'react';
+import { Children, cloneElement } from 'react';
 import { withRouter } from 'next/router';
 import Link from 'next/link';
 import PropTypes from 'prop-types';
 
-/* -------------------------- NavLink PropTypes -------------------------- */
 const propTypes = {
 	router: PropTypes.any,
 	children: PropTypes.any,
@@ -39,7 +34,7 @@ const NavLink = ({ router, children, ...props }) => {
 
 	return (
 		<Link {...props} as={urlAs || asURL}>
-			{React.cloneElement(child, { className })}
+			{cloneElement(child, { className })}
 		</Link>
 	);
 };

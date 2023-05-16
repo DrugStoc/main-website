@@ -1,9 +1,3 @@
-/* -------------------------------------------------------------------------- */
-/*                            External Dependencies                           */
-/* -------------------------------------------------------------------------- */
-import React from 'react';
-
-/* -------------------------- Internal Dependencies ------------------------- */
 import TermsAndConditions from 'pages/terms-and-conditions';
 import Layout from 'components/layout';
 

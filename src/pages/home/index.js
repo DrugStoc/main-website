@@ -1,10 +1,10 @@
 import AppCard from 'components/app-card';
 import Link from 'next/link';
 import Image from 'next/image';
-import React, { useEffect, useState, useRef } from 'react';
+import { useEffect, useState, useRef } from 'react';
 import { Carousel } from 'react-bootstrap';
 import styled from 'styled-components';
-import { clients, partners, personalized, providers } from './data';
+import { partners, personalized, providers } from './data';
 import StackedAvatar from '../../../public/images/landing/stacked-avatar.svg';
 import ISO from '../../../public/images/landing/iso.svg';
 import AOS from 'aos';

@@ -1,5 +1,4 @@
 import Document, { Head, Main, NextScript, Html } from 'next/document';
-import React from 'react';
 import { ServerStyleSheet } from 'styled-components';
 
 export default class MyDocument extends Document {
@@ -77,7 +76,7 @@ export default class MyDocument extends Document {
             href="https://widget-v4.tidiochat.com/fonts/mulish_SGhgqk3wotYKNnBQ.woff2"
             as="font"
             type="font/woff2"
-            crossOrigin
+            crossOrigin={"anonymous"}
           />
           <script async src={`https://code.tidio.co/${TIDIO_CHAT_CODE}.js`} />
           <script

@@ -1,7 +1,4 @@
-/* -------------------------------------------------------------------------- */
-/*                            External Dependencies                           */
-/* -------------------------------------------------------------------------- */
-import React, { useContext } from 'react';
+import { useContext } from 'react';
 import styled from 'styled-components';
 import { Accordion, AccordionContext } from 'react-bootstrap';
 import { useAccordionToggle } from 'react-bootstrap/AccordionToggle';
@@ -12,7 +9,7 @@ export const CoreValueSection = () => (
       <div className="core__values-intro">
         <div className="container">
           <h2>Our Core Values</h2>
-          <Accordion defaultActiveKey="0" flush>
+          <Accordion defaultActiveKey="0" flush="true">
             <div className="accordion__item">
               <CustomToggle eventKey="0" type="arrow">
                 Health Provider First

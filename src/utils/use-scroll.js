@@ -1,10 +1,6 @@
-/* -------------------------------------------------------------------------- */
-/*                            External Dependencies                           */
-/* -------------------------------------------------------------------------- */
 import { useCallback, useLayoutEffect, useMemo, useState } from 'react';
 import PropTypes from 'prop-types';
 
-/* --------------------------- useScroll PropTypes -------------------------- */
 const propTypes = {
   scroll: PropTypes.number,
 };

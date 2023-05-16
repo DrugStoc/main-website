@@ -1,13 +1,5 @@
-/* -------------------------------------------------------------------------- */
-/*                            External Dependencies                           */
-/* -------------------------------------------------------------------------- */
-import React from 'react';
 import styled from 'styled-components';
-
-/* -------------------------- Internal Dependencies ------------------------- */
 import AppCard from 'components/app-card';
-import { FAQ } from './data';
-import { FAQSection } from 'pages/procure-direct';
 import { Header } from 'pages/procure-direct';
 
 const DrugStocCredit = () => {
@@ -121,7 +113,6 @@ const DrugStocCredit = () => {
           </a>
         </div>
       </ProcureSection>
-  {/*<FAQSection faq={FAQ} theme="#FAFAFB" />*/}
       <AppCard />
     </div>
 

@@ -1,11 +1,6 @@
-/* -------------------------------------------------------------------------- */
-/*                            External Dpendencies                            */
-/* -------------------------------------------------------------------------- */
-import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
-/* -------------------------- SkipToMain PropTypes -------------------------- */
 const propTypes = {
   content: PropTypes.string,
 };

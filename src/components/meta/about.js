@@ -29,18 +29,6 @@ const AboutMetadata = () => {
           description:
             'DrugStoc is a tech-enabled procurement partner for pharmaceutical and consumer health companies in Africa. They use technology, supply chain innovation, financial solutions, and product knowledge to increase access to medications. Their goal is to empower healthcare providers and revolutionize the way they interface with the pharmaceutical market. DrugStoc has won awards and is backed by experienced investors in the healthcare sector. The team is composed of doctors, pharmacists, engineers, financial analysts, and innovators. Visit their website to learn more and explore career opportunities.',
           images: [
-            // {
-            //   url: 'https://res.cloudinary.com/bizstak/image/upload/v1683144876/drugstoc-about-800-600_pieanf.jpg',
-            //   width: 800,
-            //   height: 600,
-            //   alt: 'DrugStoc social media thumbnail (facebook open graph) at 800 x 600 dimension showing text "the leading pharmacy partner for healthcare providers in africa".',
-            // },
-            // {
-            //   url: 'https://res.cloudinary.com/bizstak/image/upload/v1683144886/drugstoc-about-900-800_khca25.jpg',
-            //   width: 900,
-            //   height: 800,
-            //   alt: 'DrugStoc social media thumbnail (facebook open graph) at 900 x 800 dimension showing text "the leading pharmacy partner for healthcare providers in africa".',
-            // },
             {
               url: 'https://res.cloudinary.com/bizstak/image/upload/v1682893495/drugstoc-about-facebook_wbkqll.jpg',
               width: 1200,

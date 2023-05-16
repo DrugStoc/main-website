@@ -1,11 +1,4 @@
-/* -------------------------------------------------------------------------- */
-/*                            External Dependencies                           */
-/* -------------------------------------------------------------------------- */
-import React from 'react';
 import styled from 'styled-components';
-
-/* -------------------------- Internal Dependencies ------------------------- */
-
 import Link from 'next/link';
 import ScrollAnimation from 'react-animate-on-scroll';
 import { partners } from 'pages/home/data';
@@ -84,11 +77,7 @@ const Partnerships = () => {
             </h5>
 
             <div className="row align-items-center">
-              {/* {providers.map(pt => (
-                <div className="col-lg-2 col-4 mb-3 mb-lg-0" key={pt.src}>
-                  <img src={pt.src} alt={pt.alt} />
-                </div>
-              ))} */}
+             
               {investors.map(investor => (
                 <div className="col-lg-3 col-md-4 col-6" key={investor.src}>
                   <div className="investor__card">
@@ -98,9 +87,6 @@ const Partnerships = () => {
               ))}
             </div>
 
-            {/*<Link href="/">
-              <button className="btn btn-drug-stoc">Get Started</button>
-              </Link>*/}
           </div>
         </ProvidersSection>
       </ScrollAnimation>

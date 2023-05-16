@@ -1,14 +1,7 @@
-/* -------------------------------------------------------------------------- */
-/*                            External Dependencies                           */
-/* -------------------------------------------------------------------------- */
-import React from 'react';
 import styled from 'styled-components';
-
-/* -------------------------- Internal Dependencies ------------------------- */
 import AppCard from 'components/app-card';
 import { BenefitSection } from 'pages/careers';
 import { Header } from 'pages/procure-direct';
-import Link from 'next/dist/client/link';
 
 
 
@@ -154,10 +147,6 @@ const MarketAccess = () => {
                 <div className="card-body">
                   <img src="/images/careers/specialty-item.svg" alt="a pin with two wings" />
                   <h4>Specialty Items in Tertiary Care</h4>
-                  {/*<p>
-                    All team members have 20 days of paid annual leave, and are
-                    warmly encouraged to use them
-                  </p> */}
                 </div>
               </div>
             </div>

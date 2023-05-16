@@ -1,4 +1,3 @@
-import React from 'react';
 import Link from 'next/link';
 import styled from 'styled-components';
 
@@ -102,9 +101,7 @@ const AboutUs = () => {
                 thousands of Pharmacies, Retailers, Hospitals, Clinics and
                 Medical Practitioners across Nigeria.
               </p>
-              {/*<Link href="/join" passHref>
-                <button className="btn btn-drug-stoc">JOIN US</button>
-  </Link>*/}
+              
             </div>
           </div>
         </div>

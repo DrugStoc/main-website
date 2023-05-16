@@ -1,7 +1,4 @@
-/* -------------------------------------------------------------------------- */
-/*                            External Dependencies                           */
-/* -------------------------------------------------------------------------- */
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 const ErrorBoundary = ({ children }) => {
   const [error, setError] = useState(null);
@@ -15,7 +12,6 @@ const ErrorBoundary = ({ children }) => {
   }, [errorInfo, error]);
 
   if (errorInfo) {
-    // Error path
     return (
       <div>
         <h2>Something went wrong.</h2>
@@ -27,7 +23,6 @@ const ErrorBoundary = ({ children }) => {
       </div>
     );
   }
-  // Normally, just render children
   return children;
 };
 
