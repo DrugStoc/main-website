@@ -69,7 +69,7 @@ export const CoreValueSection = () => (
         </div>
       </div>
       <div className="core__values-image">
-        <img src="/images/landing/image-3.png" alt="a nurse in blue smiling" />
+        <img src="https://res.cloudinary.com/bizstak/image/upload/v1684238899/Image-3_dweyhx.png" alt="a nurse in blue smiling" />
       </div>
     </div>
   </CoreValues>

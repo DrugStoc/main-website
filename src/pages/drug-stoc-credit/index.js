@@ -40,7 +40,7 @@ const DrugStocCredit = () => {
             </div>
             <div className="col-lg-5">
               <img
-                src="/images/stoc-credit/banner.png"
+                src="https://res.cloudinary.com/bizstak/image/upload/v1684243495/banner_llxztw.png"
                 alt="Phone Spinning"
                 loading="eager"
                 className="w-100 d-lg-block d-none"
@@ -48,7 +48,7 @@ const DrugStocCredit = () => {
             </div>
           </div>
           <img
-            src="/images/landing/banner-dots.png"
+            src="https://res.cloudinary.com/bizstak/image/upload/v1684239802/banner-dots_stl7x6.png"
             alt="Banner dots"
             aria-hidden="true"
             className="header__banner-dots-right d-lg-block d-none"

@@ -34,7 +34,7 @@ const Partnerships = () => {
             </div>
           </div>
           <img
-            src="/images/landing/banner-dots.png"
+            src="https://res.cloudinary.com/bizstak/image/upload/v1684239802/banner-dots_stl7x6.png"
             alt="Banner dots"
             aria-hidden="true"
             className="header__banner-dots-right d-lg-block d-none"

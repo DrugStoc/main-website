@@ -4,12 +4,12 @@ const AppCard = () => {
   return (
     <BackdropWrapper>
       <img
-        src="/images/landing/download/backdrop1.png"
+        src="https://res.cloudinary.com/bizstak/image/upload/v1684244211/backdrop1_rv1tv9.png"
         alt="static ripple background"
         className="backdrop d-lg-block d-none"
       />
       <img
-        src="/images/landing/download/backdrop2.png"
+        src="https://res.cloudinary.com/bizstak/image/upload/v1684244250/backdrop2_ohofvj.png"
         alt="static ripple background"
         className="backdrop2 d-lg-block d-none"
       />
@@ -19,7 +19,7 @@ const AppCard = () => {
             <MobileBanner>
               <img
                 data-aos="fade-down"
-                src="/images/landing/download/banner.png"
+                src="https://res.cloudinary.com/bizstak/image/upload/v1684243495/banner_llxztw.png"
                 alt="drugstoc e-commerce mobile app"
               />
             </MobileBanner>
@@ -43,7 +43,7 @@ const AppCard = () => {
                     data-aos="zoom-out-up"
                   >
                     <img
-                      src="/images/landing/download/google-play-alt.svg"
+                      src="https://res.cloudinary.com/bizstak/image/upload/v1684244266/google-play-alt_urfsrl.svg"
                       alt="google play store icon"
                       className="logo"
                     />
@@ -55,7 +55,7 @@ const AppCard = () => {
                     data-aos="zoom-out-up"
                   >
                     <img
-                      src="/images/landing/download/app-store-alt.svg"
+                      src="https://res.cloudinary.com/bizstak/image/upload/v1684244274/app-store-alt_sc7dml.svg"
                       alt="app store icon"
                       className="logo"
                     />
@@ -66,7 +66,7 @@ const AppCard = () => {
           </div>
           <img
             data-aos="fade-left"
-            src="/images/landing/download/banner.png"
+            src="https://res.cloudinary.com/bizstak/image/upload/v1684243495/banner_llxztw.png"
             alt="a mobile view of DrugStoc app"
             className="banner d-lg-block d-none"
           />

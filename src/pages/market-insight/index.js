@@ -28,7 +28,7 @@ const MarketInsight = () => {
             </div>
           </div>
           <img
-            src="/images/landing/banner-dots.png"
+            src="https://res.cloudinary.com/bizstak/image/upload/v1684239802/banner-dots_stl7x6.png"
             alt="Banner dots"
             aria-hidden="true"
             className="header__banner-dots-right d-lg-block d-none"
@@ -112,12 +112,11 @@ const MarketInsight = () => {
             </div>
             <div className="col-lg-6">
               <img
-                src="/images/landing/image-4.png"
+                src="https://res.cloudinary.com/bizstak/image/upload/v1684242904/Image-4_qxvjml.png"
                 style={{ borderRadius: '20px' }}
                 alt=" Forward thinking solutions"
                 className="d-lg-block d-none w-100"
               />
-              {/* src="/images/landing/image-4.png" */}
 
             </div>
           </div>

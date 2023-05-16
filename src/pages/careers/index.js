@@ -32,7 +32,7 @@ const Careers = () => {
           />
         </div>
         <img
-          src="/images/landing/banner-dots.png"
+          src="https://res.cloudinary.com/bizstak/image/upload/v1684239802/banner-dots_stl7x6.png"
           alt="Banner dots"
           aria-hidden="true"
           className="header__banner-dots-right d-lg-block d-none"
@@ -55,7 +55,7 @@ const Careers = () => {
           <Link href="#open-positions" passHref>
             <button className="btn btn-drug-stoc m-auto d-block">APPLY</button>
           </Link>
-          <img src="/images/landing/image-5.png" alt="group photo for drugstoc" className="banner" />
+          <img src="https://res.cloudinary.com/bizstak/image/upload/v1684242847/Image-5_hmnvh4.png" alt="group photo for drugstoc" className="banner" />
         </div>
       </TeamSection>
       {/* <CoreValueSection /> */}

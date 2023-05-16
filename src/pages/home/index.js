@@ -54,7 +54,7 @@ const Home = () => {
 
       <Header>
         <img
-          src="/images/landing/banner-dots.png"
+          src="https://res.cloudinary.com/bizstak/image/upload/v1684239802/banner-dots_stl7x6.png"
           alt="Banner dots"
           aria-hidden="true"
           className="header__banner-dots-left"
@@ -89,7 +89,7 @@ const Home = () => {
                   data-aos="zoom-out-up"
                 >
                   <img
-                    src="/images/landing/download/google-play-alt.svg"
+                    src="https://res.cloudinary.com/bizstak/image/upload/v1684244266/google-play-alt_urfsrl.svg"
                     alt="google play"
                     className="logo"
                   />
@@ -101,7 +101,7 @@ const Home = () => {
                   data-aos="zoom-out-up"
                 >
                   <img
-                    src="/images/landing/download/app-store-alt.svg"
+                    src="https://res.cloudinary.com/bizstak/image/upload/v1684244274/app-store-alt_sc7dml.svg"
                     alt="app store"
                     className="logo"
                   />
@@ -129,7 +129,7 @@ const Home = () => {
           </div>
           <div className="banner d-lg-block d-none">
             <img
-              src="/images/landing/banner.png"
+              src="https://res.cloudinary.com/bizstak/image/upload/v1684239587/banner_uhxkbs.png"
               alt="A Doctor Holding a Paper"
               layout="intrinsic"
               // data-aos="fade-left"
@@ -139,7 +139,7 @@ const Home = () => {
           </div>
         </div>
         <img
-          src="/images/landing/banner-dots.png"
+          src="https://res.cloudinary.com/bizstak/image/upload/v1684239802/banner-dots_stl7x6.png"
           alt="Banner dots"
           aria-hidden="true"
           loading="lazy"
@@ -177,7 +177,7 @@ const Home = () => {
             <div className="col-lg-7">
               <Image
                 layout="responsive"
-                src="/images/landing/Image-1.png"
+                src="https://res.cloudinary.com/bizstak/image/upload/v1684242950/Image-1_ceo26i.png"
                 alt=" Forward thinking solutions"
                 className="d-block mb-3 mb-lg-0"
                 width="670"
@@ -261,7 +261,7 @@ const Home = () => {
               <Image
                 layout="responsive"
                 data-aos="zoom-in-up"
-                src="/images/landing/Image-2.png"
+                src="https://res.cloudinary.com/bizstak/image/upload/v1684240567/Image-2_mjbhwx.png"
                 alt=" Forward thinking solutions"
                 className="mb-3 mb-lg-0"
                 width="670"
@@ -278,7 +278,7 @@ const Home = () => {
               <Image
                 layout="responsive"
                 data-aos="zoom-in"
-                src="/images/landing/personalized/personalized-2.png"
+                src="https://res.cloudinary.com/bizstak/image/upload/v1684246458/personalized-2_nkuo1b.png"
                 alt=" Forward thinking solutions"
                 className="d-block mb-3 mb-lg-0"
                 width="670"
@@ -507,7 +507,7 @@ const Home = () => {
                 rel="noopener noreferrer"
               >
                 <img
-                  src="/images/landing/articles/image-52.svg"
+                  src="https://res.cloudinary.com/bizstak/image/upload/v1684245720/image-52_dlrkan.svg"
                   alt="bbc logo"
                 />
               </a>
@@ -519,7 +519,7 @@ const Home = () => {
                 rel="noopener noreferrer"
               >
                 <img
-                  src="/images/landing/articles/image-54.svg"
+                  src="https://res.cloudinary.com/bizstak/image/upload/v1684245774/image-54_t6odtu.svg"
                   alt="financial times logo"
                 />
               </a>
@@ -531,7 +531,7 @@ const Home = () => {
                 rel="noopener noreferrer"
               >
                 <img
-                  src="/images/landing/articles/image-55.svg"
+                  src="https://res.cloudinary.com/bizstak/image/upload/v1684245813/image-55_ijdog6.svg"
                   alt="techcabal logo"
                 />
               </a>
@@ -543,7 +543,7 @@ const Home = () => {
                 rel="noopener noreferrer"
               >
                 <img
-                  src="/images/landing/articles/image-56.svg"
+                  src="https://res.cloudinary.com/bizstak/image/upload/v1684245845/image-56_ihph0v.svg"
                   alt="ventures logo"
                 />
               </a>
@@ -554,7 +554,7 @@ const Home = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src="/images/landing/articles/tc.png" alt="tc logo" />
+                <img src="https://res.cloudinary.com/bizstak/image/upload/v1684245931/tc_xbqnst.png" alt="tc logo" />
               </a>
             </div>
             <div className="col-lg-3 col-6 mb-3 mt-3 mb-lg-0">
@@ -564,7 +564,7 @@ const Home = () => {
                 rel="noopener noreferrer"
               >
                 <img
-                  src="/images/landing/articles/yahoo-finance.svg"
+                  src="https://res.cloudinary.com/bizstak/image/upload/v1684246129/yahoo-finance_wcticl.png"
                   alt="yahoo finance logo"
                 />
               </a>
@@ -576,7 +576,7 @@ const Home = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src="/images/landing/articles/CNBC.svg" alt="cnbc logo" />
+                <img src="https://res.cloudinary.com/bizstak/image/upload/v1684246198/CNBC_knvorv.svg" alt="cnbc logo" />
               </a>
             </div>
 
@@ -588,7 +588,7 @@ const Home = () => {
               >
                 <Image
                   layout="responsive"
-                  src="/images/landing/articles/logo_arise.png"
+                  src="https://res.cloudinary.com/bizstak/image/upload/v1684246084/logo_arise_suylqx.png"
                   alt="arise news logo"
                   width="auto"
                   height="auto"
@@ -604,7 +604,7 @@ const Home = () => {
               >
                 <Image
                   layout="responsive"
-                  src="/images/landing/articles/business_day.png"
+                  src="https://res.cloudinary.com/bizstak/image/upload/v1684246256/business_day_frt3xb.png"
                   alt="buiness day logo"
                   width="auto"
                   height="auto"
@@ -619,7 +619,7 @@ const Home = () => {
               >
                 <Image
                   layout="responsive"
-                  src="/images/landing/articles/nairametrics.jpeg"
+                  src="https://res.cloudinary.com/bizstak/image/upload/v1684246009/nairametrics_jnwc2l.jpg"
                   alt="nairametrics logo"
                   width="auto"
                   height="auto"
