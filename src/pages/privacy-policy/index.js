@@ -234,7 +234,14 @@ export default function TermsAndConditions() {
                   <p>
                     {' '}
                     If you have questions regarding this Privacy Policy, please
-                    contact us by sending an e-mail to info@drugstoc.com Please
+                    contact us by sending an e-mail to <a
+                  href="mailto:info@drugstoc.com"
+                  aria-label="Navigate To Google maps"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  info@drugStoc.com
+                </a> Please
                     include “Privacy Policy” in the subject line of your
                     inquiry.{' '}
                   </p>

@@ -41,7 +41,14 @@ export default function termsAndConditions() {
                             </li>
                         </ol>
                         <h6>Notices </h6>
-                        <p> Unless otherwise expressly stated in these terms and conditions, all notices from you to us must be in writing and sent to our office address or to info@drugstoc.com and all notices from us to you will be displayed on our website from time to time. </p>
+                        <p> Unless otherwise expressly stated in these terms and conditions, all notices from you to us must be in writing and sent to our office address or to <a
+                  href="mailto:info@drugstoc.com"
+                  aria-label="Navigate To Google maps"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  info@drugStoc.com
+                </a> and all notices from us to you will be displayed on our website from time to time. </p>
                         <h6>Invalidity </h6>
                         <p>If any part of these terms and conditions is unenforceable, the enforceability of any other part of these conditions will not be affected. </p>
                         <h6>Privacy</h6>
