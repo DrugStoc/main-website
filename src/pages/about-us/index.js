@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import styled from 'styled-components';
-
 import AppCard from 'components/app-card';
 import { teams, investors } from './data';
 import { CoreValueSection } from '../../components/components/core-values';
@@ -27,7 +26,7 @@ const AboutUs = () => {
 
               <p className="throphy">
                 <img
-                  src="images/about-us/throphy.svg"
+                  src="https://res.cloudinary.com/bizstak/image/upload/v1684247462/throphy_kpv7fo.svg"
                   alt="nhea logo"
                   width="30"
                   className="mr-2"
