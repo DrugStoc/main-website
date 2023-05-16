@@ -112,7 +112,7 @@ const Home = () => {
                 <StackedAvatar width="100" />{' '}
                 <div className="ml-2">
                   <img
-                    src="/images/landing/stars.svg"
+                    src="https://res.cloudinary.com/bizstak/image/upload/v1684247082/stars_g4klpd.svg"
                     width="90"
                     alt="stacked avatar pictures of doctors"
                   />
@@ -452,7 +452,7 @@ const Home = () => {
             <div className="col-lg-3 mb-3 mb-lg-0" data-aos="fade-up">
               <h4>
                 <img
-                  src="/images/landing/impact/9m.svg"
+                  src="https://res.cloudinary.com/bizstak/image/upload/v1684246902/9m_erunee.svg"
                   alt="drugs in a bottle icon"
                 />{' '}
                 9M+
@@ -466,7 +466,7 @@ const Home = () => {
             <div className="col-lg-3 mb-3 mb-lg-0" data-aos="fade-up">
               <h4>
                 <img
-                  src="/images/landing/impact/3k.svg"
+                  src="https://res.cloudinary.com/bizstak/image/upload/v1684246932/3k_a0j7dy.svg"
                   alt="patient pulse while receiving treatment icon"
                 />{' '}
                 3000+
@@ -477,7 +477,7 @@ const Home = () => {
             <div className="col-lg-3 mb-3 mb-lg-0" data-aos="fade-up">
               <h4>
                 <img
-                  src="/images/landing/impact/70k.svg"
+                  src="https://res.cloudinary.com/bizstak/image/upload/v1684247016/70k_blyh94.svg"
                   alt="first aid kit box/bag icon"
                 />{' '}
                 7000+
@@ -487,7 +487,7 @@ const Home = () => {
 
             <div className="col-lg-3 mb-3 mb-lg-0" data-aos="fade-up">
               <h4>
-                <img src="/images/landing/impact/20m.svg" alt="hospital icon" />{' '}
+                <img src="https://res.cloudinary.com/bizstak/image/upload/v1684246962/20m_w2zejk.svg" alt="hospital icon" />{' '}
                 20M+
               </h4>
               <h5>Patients protected from counterfeit products to date</h5>
