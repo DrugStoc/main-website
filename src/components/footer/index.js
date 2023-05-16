@@ -2,8 +2,19 @@ import styled from 'styled-components';
 import Link from 'next/link';
 
 const Footer = () => {
+  const date = new Date();
+  const year = date.getFullYear()
   return (
     <FooterWrapper role="contentinfo">
+      <style jsx>
+        {
+          `
+            h5 {
+              font-weight: 600
+            }
+          `
+        }
+      </style>
       <div className="container">
         <div className="row" role="row">
           <div className="col-6 col-md">
@@ -144,16 +155,6 @@ const Footer = () => {
             <ul className="list-unstyled quick-links">
               <li>
                 <a
-                  href="mailto:info@drugstoc.com"
-                  aria-label="Navigate To Google maps"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  info@drugStoc.com
-                </a>
-              </li>
-              <li>
-                <a
                   href="tel:+234(0)1 7005571"
                   aria-label="Navigate To Google maps"
                   target="_blank"
@@ -162,13 +163,23 @@ const Footer = () => {
                   +234(0)1 7005571
                 </a>
               </li>
+              <li>
+                <a
+                  href="mailto:info@drugstoc.com"
+                  aria-label="Navigate To Google maps"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src="https://res.cloudinary.com/bizstak/image/upload/v1684263069/email_oe5zjc.png" alt="email envelop icon" width={45} height={45} />
+                </a>
+              </li>
             </ul>
           </div>
         </div>
         <hr />
         <div className="row" role="row">
           <div className="col-12 col-lg-3">
-            <p className="text-left">© 2021 DrugStoc. All rights reserved</p>
+            <p className="text-left">© {year} DrugStoc. All rights reserved</p>
           </div>
           <div className="col-12 col-lg"></div>
           <div className="col-12 col-lg-2">
