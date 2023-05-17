@@ -65,7 +65,7 @@ class MyApp extends App {
                 url: 'https://res.cloudinary.com/bizstak/image/upload/v1684325968/DrugStoc_tvdmyy.png',
                 width: 1200,
                 height: 630,
-                alt: 'Default DrugStoc social media thumbnail at 1200 x 600 dimension (a female doctor writing on board the text "Empowering healthcare providers across africa")',
+                alt: 'DrugStoc default social media thumbnail (Open Graph) at 1200 x 630 dimension for the drugstoc page showing text "DrugStoc" on a blue background.',
               },
             ],
             description:
@@ -106,7 +106,7 @@ class MyApp extends App {
               url: 'https://res.cloudinary.com/bizstak/image/upload/v1684325536/DrugStoc_oopy0g.png',
               width: 1200,
               height: 675,
-              alt: 'DrugStoc social media thumbnail (twitter Card) at 1200 x 675 dimension for the drugstoc pay page showing text "DrugStoc Pay" on a blue background.',
+              alt: 'DrugStoc default social media thumbnail (twitter Card) at 1200 x 675 dimension for the drugstoc page showing text "DrugStoc" on a blue background.',
             },
           }}
           mobileAlternate={{
