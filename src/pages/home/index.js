@@ -707,7 +707,7 @@ const Header = styled.header`
   .message__section {
     margin-top: 2.3rem;
     p {
-      font-size: calc(var(--font-accent) + 1px);
+      font-size: calc(var(--font-accent) + 4px);
     }
   }
   p {
