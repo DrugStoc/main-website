@@ -62,7 +62,7 @@ class MyApp extends App {
             siteName: 'DrugStoc',
             images: [
               {
-                url: 'https://res.cloudinary.com/bizstak/image/upload/v1683018234/drugstoc-facebook-home_y8q8sw.jpg',
+                url: 'https://res.cloudinary.com/bizstak/image/upload/v1684325968/DrugStoc_tvdmyy.png',
                 width: 1200,
                 height: 630,
                 alt: 'Default DrugStoc social media thumbnail at 1200 x 600 dimension (a female doctor writing on board the text "Empowering healthcare providers across africa")',
@@ -102,6 +102,12 @@ class MyApp extends App {
             handle: '@DrugStocHQ',
             site: '@Drugstoc',
             cardType: 'summary_large_image',
+            image: {
+              url: 'https://res.cloudinary.com/bizstak/image/upload/v1684325536/DrugStoc_oopy0g.png',
+              width: 1200,
+              height: 675,
+              alt: 'DrugStoc social media thumbnail (twitter Card) at 1200 x 675 dimension for the drugstoc pay page showing text "DrugStoc Pay" on a blue background.',
+            },
           }}
           mobileAlternate={{
             media: 'only screen and (max-width: 640px)',
