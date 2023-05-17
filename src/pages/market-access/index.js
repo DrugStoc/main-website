@@ -2,12 +2,12 @@ import styled from 'styled-components';
 import AppCard from 'components/app-card';
 import { BenefitSection } from 'pages/careers';
 import { Header } from 'pages/procure-direct';
-
-
+import MarketAccessMetadata from 'components/meta/marketAccess';
 
 const MarketAccess = () => {
   return (
     <div>
+      <MarketAccessMetadata />
       <Header>
         <div className="container">
           <div className="row align-items-center">

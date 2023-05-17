@@ -36,7 +36,7 @@ const AboutMetadata = () => {
               alt: 'DrugStoc social media thumbnail (facebook open graph) at 1200 x 630 dimension showing text "the leading pharmacy partner for healthcare providers in africa".',
             },
           ],
-          siteName: 'Drugstoc',
+          siteName: 'Drugstoc About Us',
         }}
         twitter={{
           url: 'https://drugstoc.com/about',

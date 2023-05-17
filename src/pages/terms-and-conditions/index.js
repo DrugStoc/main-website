@@ -1,8 +1,10 @@
+import TermsAndConditions from 'pages/privacy-policy';
 import styled from 'styled-components'
 
 export default function termsAndConditions() {
     return (
         <>
+        <TermsAndConditions />
             <Container>
                 <div className="header">
                     <div className="container">

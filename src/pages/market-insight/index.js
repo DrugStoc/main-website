@@ -1,10 +1,12 @@
 import styled from 'styled-components';
 import AppCard from 'components/app-card';
 import { Header } from 'pages/procure-direct';
+import RXInsightMetadata from 'components/meta/rxInsight';
 
 const MarketInsight = () => {
   return (
     <div>
+      <RXInsightMetadata />
       <Header>
         <div className="container">
           <div className="row align-items-center">

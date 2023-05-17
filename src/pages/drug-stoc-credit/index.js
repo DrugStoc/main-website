@@ -1,10 +1,12 @@
 import styled from 'styled-components';
 import AppCard from 'components/app-card';
 import { Header } from 'pages/procure-direct';
+import PayMetadata from 'components/meta/Pay';
 
 const DrugStocCredit = () => {
   return (
     <div>
+      <PayMetadata />
       <Header>
         <div className="container">
           <div className="row align-items-center justify-content-between">

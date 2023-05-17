@@ -41,9 +41,10 @@ const HomeMetadata = () => {
               alt: 'DrugStoc social media thumbnail (facebook open graph) at 1200 x 630 dimension for the home page showing female doctor and the text "empowering healthcare providers across africa".',
             },
           ],
-          siteName: 'Drugstoc',
+          siteName: 'Drugstoc Home',
         }}
         twitter={{
+          url: 'https://drugstoc.com/',
           title:
             'Anti-Counterfeit Supply Chain for Healthcare Providers | DrugStoc Home',
           image: {

@@ -2,6 +2,7 @@ import { useState } from 'react';
 import styled from 'styled-components';
 import { toast } from 'react-toastify';
 import axios from 'axios';
+import ContactMetadata from 'components/meta/contact';
 
 const Contact = () => {
 
@@ -55,6 +56,7 @@ const Contact = () => {
   }
   return (
     <div>
+      <ContactMetadata />
       <Header>
         <div className="header">
           <div className="container">

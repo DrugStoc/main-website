@@ -12,7 +12,6 @@ export default function TermsAndConditions() {
               <u>THE PRIVACY POLICY FOR DRUGSTOC EHUB LIMITED</u>
             </h1>
             <div>
-              {/* one  */}
               <ol>
                 <li>
                   <h2 style={{ fontSize: '16px', fontWeight: 'bold' }}>

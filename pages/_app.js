@@ -30,7 +30,7 @@ const structuredData = {
 class MyApp extends App {
   render() {
     const { Component, pageProps } = this.props;
-    const FACEBOOK_APP_ID = process.env.FACEBOOK_APP_ID || 932119468028545;
+    const FACEBOOK_APP_ID = process.env.FACEBOOK_APP_ID;
     return (
       <>
         <DefaultSeo

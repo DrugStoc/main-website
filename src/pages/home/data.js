@@ -128,22 +128,6 @@ export const providers = [
 ];
 
 export const clients = [
-  // {
-  //   name: 'Ageless Pharmacy',
-  //   role: '',
-  //   message:
-  //     '“It\'s been fantastic, products added to cart dissapears if you exit for more than an hour.“',
-  //   image:
-  //     'https://images.pexels.com/photos/4407897/pexels-photo-4407897.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
-  // },
-  // {
-  //   name: 'Salawat Pharmacy',
-  //   role: '',
-  //   message:
-  //     '“Nice experience so far.“',
-  //   image:
-  //     'https://images.pexels.com/photos/2661255/pexels-photo-2661255.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
-  // },
   {
     name: 'New Standard Pharmacy',
     role: '',
@@ -160,37 +144,16 @@ export const clients = [
     image:
       'https://images.pexels.com/photos/2661255/pexels-photo-2661255.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
   },
-  // {
-  //   name: 'Salawat Pharmacy',
-  //   role: '',
-  //   message:
-  //     '“It\'s okay,and easy to use.“',
-  //   image:
-  //     'https://images.pexels.com/photos/2661255/pexels-photo-2661255.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
-  // },
   {
     name: 'Honey Health Pharmarcy',
     role: '',
     message: '" Well, for now, I think it\'s still the best wholesale App I  have come across with a friendly stock price.App is Easy to use,It also covers a wider range of available products." '
   },
-  // {
-  //   name: 'Clich Pharmacy',
-  //   role: '',
-  //   message:
-  //     '“The app is fantastic.“',
-  //   image:
-  //     'https://images.pexels.com/photos/2661255/pexels-photo-2661255.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
-  // },
   {
     name: 'Lade Hospital',
     role: '',
     message: '"I enjoy the prompt delivery and the competitive pricing."'
   },
-  // {
-  //   name: 'Agape Link Pharmacy',
-  //   message: '"The updated version of the app is an improved version of the previous version and more user friendly.t gives fair idea of items in stock."'
-  // }
-
 ];
 
 

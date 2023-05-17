@@ -1,8 +1,10 @@
+import PrivacyMetadata from 'components/meta/privacy';
 import styled from 'styled-components';
 
 export default function returnPolicy() {
   return (
     <>
+    <PrivacyMetadata />
       <Container>
         <div className="header">
           <div className="container">

@@ -24,7 +24,7 @@ const PartnershipMetadata = () => {
               alt: 'DrugStoc social media thumbnail (facebook open graph) at 1200 x 630 dimension for the partnerships page showing text "we are transforming pharmaceutical procurement and healthcare practice in africa"',
             },
           ],
-          siteName: 'Drugstoc',
+          siteName: 'Drugstoc Partnerships',
         }}
         twitter={{
           url: 'https://drugstoc.com/partnerships',

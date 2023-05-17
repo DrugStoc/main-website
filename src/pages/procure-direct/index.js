@@ -8,6 +8,7 @@ import { FAQ } from './data';
 const ProcureDirect = () => {
   return (
     <div>
+      <ProcureDirect />
       <Header>
         <div className="container">
           <div className="row align-items-center">
