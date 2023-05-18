@@ -4,8 +4,8 @@ import Image from 'next/image';
 import { useEffect, useState, useRef } from 'react';
 import { Carousel } from 'react-bootstrap';
 import styled from 'styled-components';
-// import { Transition } from 'react-transition-group';
-import { /* client, */ partners, personalized, providers } from './data';
+import { Transition } from 'react-transition-group';
+import { clients, partners, personalized, providers } from './data';
 import StackedAvatar from '../../../public/images/landing/stacked-avatar.svg';
 import ISO from '../../../public/images/landing/iso.svg';
 import AOS from 'aos';
@@ -398,7 +398,7 @@ const Home = () => {
             Our clients praise us for our great service and on-time delivery
           </h6>
 
-          {/* <div>
+          <div>
             <Carousel
               indicators={false}
               nextIcon={
@@ -443,7 +443,7 @@ const Home = () => {
                 </Carousel.Item>
               ))}
             </Carousel>
-          </div> */}
+          </div>
         </div>
       </ClientsSection>
       <ImpactSection>
