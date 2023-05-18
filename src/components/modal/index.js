@@ -47,7 +47,8 @@ const Modal = () => {
   const subscribeToNewsletter = async () => {
     try {
       const response = await axios.post(
-        'https://newsletter-mailchimp-production.up.railway.app/subscribe',
+        // 'https://newsletter-mailchimp-production.up.railway.app/subscribe',
+        'https://newsletter-production-00b2.up.railway.app/user',
         {
           email,
           firstName,
@@ -154,6 +155,7 @@ const Modal = () => {
           )}
           {message && <p className={styles.success}>{message}</p>}
           {err && <p className={styles.error}>{err}</p>}
+          <p style={{fontSize: 10, position: 'absolute', top: 50, right: '5%', fontWeight: 500}}>All fields are required</p>
         </ReactModal>
       )}
     </>
