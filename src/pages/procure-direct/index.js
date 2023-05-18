@@ -1,8 +1,5 @@
-import { useContext } from 'react';
 import styled from 'styled-components';
 import AppCard from 'components/app-card';
-import { Accordion, AccordionContext } from 'react-bootstrap';
-import { useAccordionToggle } from 'react-bootstrap/AccordionToggle';
 import { FAQ } from './data';
 import { FAQSection } from './FAQSection';
 
