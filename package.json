@@ -13,6 +13,7 @@
     "node": "16.20.0"
   },
   "dependencies": {
+    "@types/styled-components": "^5.1.26",
     "aimscroll": "^1.0.3",
     "aos": "^2.3.4",
     "axios": "^0.24.0",

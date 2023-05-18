@@ -47,7 +47,7 @@ const MarketInsight = () => {
           <div className="row align-items-center justify-content-between">
             <div className="col-lg-6">
               <img
-                src="/images/market-insight/section-1.png"
+                src="https://res.cloudinary.com/bizstak/image/upload/v1684432599/section-1_enpv7k.png"
                 alt=" Forward thinking solutions"
                 className="d-lg-block d-none w-100"
               />

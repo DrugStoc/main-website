@@ -27,7 +27,7 @@ const MarketAccess = () => {
             </div>
             <div className="col-lg-5">
               <img
-                src="/images/market-access/banner.png"
+                src="https://res.cloudinary.com/bizstak/image/upload/v1684432327/market-access_sigt8p.png"
                 alt="Woman Smiling"
                 loading="eager"
                 className="w-100 d-lg-block d-none"
@@ -51,7 +51,7 @@ const MarketAccess = () => {
           <div className="row align-items-center justify-content-between mt-4">
             <div className="col-lg-6">
               <img
-                src="/images/market-access/section-2.png"
+                src="https://res.cloudinary.com/bizstak/image/upload/v1684432433/section-2_chabbw.png"
                 alt=" Forward thinking solutions"
                 className="d-lg-block d-none w-100"
               />

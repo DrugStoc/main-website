@@ -106,7 +106,7 @@ const DrugStocCredit = () => {
           </div>
           <div className="col-lg-4" style={{ marginLeft: "160px" }} >
             <img
-                src="/images/stoc-credit/credit.png"
+                src="https://res.cloudinary.com/bizstak/image/upload/v1684432164/credit_ajbcq2.png"
                 alt="drugstoc mobile ecommerce app ui"
             />
             </div>

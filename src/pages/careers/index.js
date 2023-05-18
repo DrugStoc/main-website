@@ -25,7 +25,7 @@ const Careers = () => {
             </div>
           </div>
           <img
-            src="/images/careers/banner.png"
+            src="https://res.cloudinary.com/bizstak/image/upload/v1684431969/banner_jiwfet.png"
             alt="Picture of the author"
             loading="eager"
             className="banner d-lg-block d-none"
