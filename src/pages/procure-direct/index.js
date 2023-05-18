@@ -36,7 +36,7 @@ const ProcureDirect = () => {
             </div>
             <div className="col-lg-5">
               <img
-                src="/images/procure-direct/banner.png"
+                src="https://res.cloudinary.com/bizstak/image/upload/v1684435030/banner_2_e8iq3h.png"
                 alt="Phone Spinning"
                 loading="eager"
                 className="w-100 d-lg-block d-none banner"
