@@ -78,7 +78,7 @@ const ProcureDirect = () => {
           <div className="row align-items-center justify-content-between">
             <div className="col-lg-5 order-2 order-lg-1">
               <h3>
-                7000+ Products , <br /> 24/7 Delivery Services
+                7000+ Products, <br /> 24/7 Delivery Services
               </h3>
               <p>
                 {/* Join the DrugStoc family and get access to over 7000+ products in the palm of your hand. We deliver within 24 hours all orders purchased on our platform within Lagos. All our products are long-dated to help you manage your expiry. */}
