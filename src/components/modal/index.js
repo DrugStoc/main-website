@@ -12,7 +12,7 @@ const Modal = () => {
   const [message, setMessage] = useState('');
   const [subscribed, setSubscribed] = useState(false);
   const [err, setErr] = useState('');
-  const [showThanksModal, setShowThanksModal] = useState(false); // New state variable
+  const [showThanksModal, setShowThanksModal] = useState(false);
 
   const handleScroll = () => {
     const scrollPosition = window.scrollY;
@@ -60,7 +60,7 @@ const Modal = () => {
       await new Promise((resolve) => setTimeout(resolve, 3000));
       localStorage.setItem('subscribed', true);
       setSubscribed(true);
-      setShowThanksModal(true); // Show the thanks modal
+      setShowThanksModal(true); 
     } catch (error) {
       error.message === 'Server Error'
         ? setErr('Internal server error, try again later')
@@ -162,7 +162,7 @@ const Modal = () => {
         </ReactModal>
       )}
 
-      {subscribed && showThanksModal && ( // Show the thanks modal when subscribed and showThanksModal is true
+      {subscribed && showThanksModal && (
         <ReactModal
           isOpen={true}
           contentLabel="Thanks for subscribing Modal"
