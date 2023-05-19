@@ -2,99 +2,6 @@ import styled from 'styled-components';
 import Image from 'next/image';
 
 const personalized = () => {
-  const PersonalizedExtened = styled.section`
-    margin-top: 3rem;
-
-    @media (max-width: 992px) {
-      margin-top: 2rem;
-      br {
-        display: none;
-      }
-    }
-
-    img {
-      width: 100%;
-      object-fit: contain;
-      @media (max-width: 992px) {
-        height: 300px;
-        object-position: left;
-      }
-    }
-    h5 {
-      font-style: normal;
-      font-weight: normal;
-      font-size: 16px;
-      line-height: 24px;
-      /* identical to box height, or 100% */
-      text-align: center;
-      margin-bottom: 1rem;
-      color: var(--primary-blue);
-    }
-    h3 {
-      font-style: normal;
-      font-weight: 600;
-      font-size: calc(var(--font-h2) + 3px);
-      line-height: 1.4;
-      font-family: var(--font-primary);
-      text-align: center;
-      color: var(--text-black);
-      margin-bottom: 3.5rem;
-    }
-
-    p {
-      font-style: normal;
-      font-weight: normal;
-      font-size: calc(var(--font-p) + 2px);
-      line-height: 1.7;
-      /* or 32px */
-
-      color: var(--text-black);
-    }
-
-    h4 {
-      font-style: normal;
-      font-weight: 600;
-      font-size: calc(var(--font-h2) + 1px);
-      line-height: 1.4;
-      font-family: var(--font-primary);
-      color: var(--text-black);
-      margin-bottom: 2rem;
-    }
-
-    ul {
-      white-space: nowrap;
-      @media (max-width: 992px) {
-        white-space: unset;
-      }
-      list-style-position: inside;
-      list-style-image: url("data:image/svg+xml,%0A%3Csvg width='30' height='30' viewBox='0 0 38 38' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='19' cy='19' r='19' fill='%23F5F9F9'/%3E%3Cpath d='M15.2949 23.59L19.8749 19L15.2949 14.41L16.7049 13L22.7049 19L16.7049 25L15.2949 23.59Z' fill='%232C4DA7' stroke='%232C4DA7' stroke-width='2'/%3E%3C/svg%3E%0A");
-      li {
-        margin-top: 0.8rem;
-      }
-      p {
-        display: inline-block;
-        margin-left: 0.37rem;
-        vertical-align: middle;
-      }
-    }
-  `;
-
-  const SmartPaymentSection = styled(PersonalizedExtened)`
-    background: #f5f9f9;
-    padding: 2rem 0;
-    @media (max-width: 992px) {
-      padding: 2rem 0;
-    }
-    ul {
-      list-style-image: url("data:image/svg+xml,%0A%3Csvg width='30' height='30' viewBox='0 0 38 38' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='19' cy='19' r='19' fill='white'/%3E%3Cpath d='M15.2949 23.59L19.8749 19L15.2949 14.41L16.7049 13L22.7049 19L16.7049 25L15.2949 23.59Z' fill='%232C4DA7' stroke='%232C4DA7' stroke-width='2'/%3E%3C/svg%3E%0A");
-    }
-    img {
-      width: 95%;
-      object-fit: contain;
-      margin-left: auto;
-      display: block;
-    }
-  `;
   return (
     <>
       <PersonalizedExtened>
@@ -255,3 +162,97 @@ const personalized = () => {
 };
 
 export default personalized;
+
+const PersonalizedExtened = styled.section`
+    margin-top: 3rem;
+
+    @media (max-width: 992px) {
+      margin-top: 2rem;
+      br {
+        display: none;
+      }
+    }
+
+    img {
+      width: 100%;
+      object-fit: contain;
+      @media (max-width: 992px) {
+        height: 300px;
+        object-position: left;
+      }
+    }
+    h5 {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 24px;
+      /* identical to box height, or 100% */
+      text-align: center;
+      margin-bottom: 1rem;
+      color: var(--primary-blue);
+    }
+    h3 {
+      font-style: normal;
+      font-weight: 600;
+      font-size: calc(var(--font-h2) + 3px);
+      line-height: 1.4;
+      font-family: var(--font-primary);
+      text-align: center;
+      color: var(--text-black);
+      margin-bottom: 3.5rem;
+    }
+
+    p {
+      font-style: normal;
+      font-weight: normal;
+      font-size: calc(var(--font-p) + 2px);
+      line-height: 1.7;
+      /* or 32px */
+
+      color: var(--text-black);
+    }
+
+    h4 {
+      font-style: normal;
+      font-weight: 600;
+      font-size: calc(var(--font-h2) + 1px);
+      line-height: 1.4;
+      font-family: var(--font-primary);
+      color: var(--text-black);
+      margin-bottom: 2rem;
+    }
+
+    ul {
+      white-space: nowrap;
+      @media (max-width: 992px) {
+        white-space: unset;
+      }
+      list-style-position: inside;
+      list-style-image: url("data:image/svg+xml,%0A%3Csvg width='30' height='30' viewBox='0 0 38 38' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='19' cy='19' r='19' fill='%23F5F9F9'/%3E%3Cpath d='M15.2949 23.59L19.8749 19L15.2949 14.41L16.7049 13L22.7049 19L16.7049 25L15.2949 23.59Z' fill='%232C4DA7' stroke='%232C4DA7' stroke-width='2'/%3E%3C/svg%3E%0A");
+      li {
+        margin-top: 0.8rem;
+      }
+      p {
+        display: inline-block;
+        margin-left: 0.37rem;
+        vertical-align: middle;
+      }
+    }
+  `;
+
+  const SmartPaymentSection = styled(PersonalizedExtened)`
+    background: #f5f9f9;
+    padding: 2rem 0;
+    @media (max-width: 992px) {
+      padding: 2rem 0;
+    }
+    ul {
+      list-style-image: url("data:image/svg+xml,%0A%3Csvg width='30' height='30' viewBox='0 0 38 38' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='19' cy='19' r='19' fill='white'/%3E%3Cpath d='M15.2949 23.59L19.8749 19L15.2949 14.41L16.7049 13L22.7049 19L16.7049 25L15.2949 23.59Z' fill='%232C4DA7' stroke='%232C4DA7' stroke-width='2'/%3E%3C/svg%3E%0A");
+    }
+    img {
+      width: 95%;
+      object-fit: contain;
+      margin-left: auto;
+      display: block;
+    }
+  `;

@@ -31,166 +31,7 @@ const Providers = () => {
       </div>
     </div>
   );
-  const LinearSection = styled.div`
-    padding: 3rem 0;
 
-    /* border-radius: 40% 40% 0 0; */
-    margin-top: 5rem;
-
-    background-size: cover;
-    background-position: top center;
-    background: linear-gradient(
-      319.35deg,
-      #f5eade -10.45%,
-      rgba(255, 255, 255, 0.5) 91.81%
-    );
-    @media (max-width: 992px) {
-      margin-top: 4rem;
-      padding: 3rem 0;
-
-      br {
-        display: none;
-      }
-    }
-  `;
-
-  const PersonalizedSolutionSection = styled.section`
-    .carousel-control-prev {
-      top: 100%;
-      height: 70px;
-      left: 47%;
-      transform: translate(-50%, 0);
-    }
-    .carousel-control-next {
-      top: 100%;
-      height: 70px;
-      left: 53%;
-      transform: translate(-50%, 0);
-    }
-    h4 {
-      margin-top: 20px;
-    }
-
-    margin-top: 2rem;
-    margin-bottom: 4rem;
-    @media (max-width: 992px) {
-      br {
-        display: none;
-      }
-    }
-
-    h5 {
-      font-style: normal;
-      font-weight: normal;
-      font-size: 16px;
-      line-height: 24px;
-      /* identical to box height, or 100% */
-      text-align: center;
-      margin-bottom: 1rem;
-      color: var(--primary-blue);
-    }
-    h3 {
-      font-style: normal;
-      font-weight: 600;
-      font-size: calc(var(--font-h2) + 3px);
-      line-height: 1.4;
-      font-family: var(--font-primary);
-      text-align: center;
-      color: var(--text-black);
-      margin-bottom: 5.5rem;
-    }
-
-    .card {
-      background: #ffffff;
-      border: 0.979261px solid #fafafa;
-      box-shadow: 0px 3.91704px 3.91704px rgba(0, 0, 0, 0.25);
-      border-radius: 4.89631px;
-      margin-bottom: 1rem;
-      min-height: 300px;
-      @media (max-width: 992px) {
-        margin-bottom: 1.8rem;
-        min-height: 300px;
-      }
-
-      h4 {
-        font-style: normal;
-        font-weight: 600;
-        font-family: var(--font-primary);
-        font-size: calc(var(--font-h4) + 2px);
-        line-height: 1.5;
-        color: var(--text-black);
-        margin-bottom: 0.8rem;
-      }
-
-      p {
-        font-style: normal;
-        font-weight: normal;
-        font-size: calc(var(--font-p) + 1px);
-        line-height: 1.6;
-        /* or 32px */
-
-        color: var(--text-black);
-      }
-      a {
-        font-weight: 600;
-        font-size: calc(var(--font-p) + 1px);
-        color: var(--text-black);
-        img {
-          width: 8px;
-        }
-      }
-      img:not(.caret) {
-        width: 100px;
-        bottom: 0%;
-        height: 100px;
-        margin-bottom: 1rem;
-        margin-top: 1.5rem;
-        object-fit: contain;
-      }
-    }
-  `;
-
-  const ProvidersSection = styled.section`
-    margin-top: 7rem;
-    text-align: center;
-    h3 {
-      font-style: normal;
-      font-weight: 600;
-      font-size: calc(var(--font-h2) - 1px);
-      line-height: 1.4;
-      text-align: center;
-      font-family: var(--font-primary);
-      color: var(--text-black);
-      margin-bottom: 2rem;
-    }
-
-    h5 {
-      font-style: normal;
-      font-weight: normal;
-      font-size: calc(var(--font-p) + 1px);
-      line-height: 1.7;
-      /* or 32px */
-      margin-bottom: 2.6rem;
-
-      color: var(--text-black);
-    }
-
-    img {
-      filter: drop-shadow(1px 3px 3px #0000001c);
-      margin-top: 2.5rem;
-      width: 89px;
-      @media (max-width: 992px) {
-        width: 65px;
-      }
-    }
-
-    .btn-drug-stoc {
-      margin-top: 3rem;
-      text-transform: uppercase;
-      padding: 12px 50px;
-      font-size: 13px;
-    }
-  `;
 
   return (
     <LinearSection>
@@ -266,3 +107,156 @@ const Providers = () => {
 };
 
 export default Providers;
+
+const LinearSection = styled.div`
+    padding: 3rem 0;
+    margin-top: 5rem;
+    background-size: cover;
+    background-position: top center;
+    background: linear-gradient(
+      319.35deg,
+      #f5eade -10.45%,
+      rgba(255, 255, 255, 0.5) 91.81%
+    );
+    @media (max-width: 992px) {
+      margin-top: 4rem;
+      padding: 3rem 0;
+
+      br {
+        display: none;
+      }
+    }
+  `;
+
+  const PersonalizedSolutionSection = styled.section`
+    .carousel-control-prev {
+      top: 100%;
+      height: 70px;
+      left: 47%;
+      transform: translate(-50%, 0);
+    }
+    .carousel-control-next {
+      top: 100%;
+      height: 70px;
+      left: 53%;
+      transform: translate(-50%, 0);
+    }
+    h4 {
+      margin-top: 20px;
+    }
+
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    @media (max-width: 992px) {
+      br {
+        display: none;
+      }
+    }
+
+    h5 {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 24px;
+      text-align: center;
+      margin-bottom: 1rem;
+      color: var(--primary-blue);
+    }
+    h3 {
+      font-style: normal;
+      font-weight: 600;
+      font-size: calc(var(--font-h2) + 3px);
+      line-height: 1.4;
+      font-family: var(--font-primary);
+      text-align: center;
+      color: var(--text-black);
+      margin-bottom: 5.5rem;
+    }
+
+    .card {
+      background: #ffffff;
+      border: 0.979261px solid #fafafa;
+      box-shadow: 0px 3.91704px 3.91704px rgba(0, 0, 0, 0.25);
+      border-radius: 4.89631px;
+      margin-bottom: 1rem;
+      min-height: 300px;
+      @media (max-width: 992px) {
+        margin-bottom: 1.8rem;
+        min-height: 300px;
+      }
+
+      h4 {
+        font-style: normal;
+        font-weight: 600;
+        font-family: var(--font-primary);
+        font-size: calc(var(--font-h4) + 2px);
+        line-height: 1.5;
+        color: var(--text-black);
+        margin-bottom: 0.8rem;
+      }
+
+      p {
+        font-style: normal;
+        font-weight: normal;
+        font-size: calc(var(--font-p) + 1px);
+        line-height: 1.6;
+        color: var(--text-black);
+      }
+      a {
+        font-weight: 600;
+        font-size: calc(var(--font-p) + 1px);
+        color: var(--text-black);
+        img {
+          width: 8px;
+        }
+      }
+      img:not(.caret) {
+        width: 100px;
+        bottom: 0%;
+        height: 100px;
+        margin-bottom: 1rem;
+        margin-top: 1.5rem;
+        object-fit: contain;
+      }
+    }
+  `;
+
+  const ProvidersSection = styled.section`
+    margin-top: 7rem;
+    text-align: center;
+    h3 {
+      font-style: normal;
+      font-weight: 600;
+      font-size: calc(var(--font-h2) - 1px);
+      line-height: 1.4;
+      text-align: center;
+      font-family: var(--font-primary);
+      color: var(--text-black);
+      margin-bottom: 2rem;
+    }
+
+    h5 {
+      font-style: normal;
+      font-weight: normal;
+      font-size: calc(var(--font-p) + 1px);
+      line-height: 1.7;
+      margin-bottom: 2.6rem;
+      color: var(--text-black);
+    }
+
+    img {
+      filter: drop-shadow(1px 3px 3px #0000001c);
+      margin-top: 2.5rem;
+      width: 89px;
+      @media (max-width: 992px) {
+        width: 65px;
+      }
+    }
+
+    .btn-drug-stoc {
+      margin-top: 3rem;
+      text-transform: uppercase;
+      padding: 12px 50px;
+      font-size: 13px;
+    }
+  `;

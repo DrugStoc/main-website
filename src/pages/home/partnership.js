@@ -2,7 +2,35 @@ import styled from 'styled-components';
 import { partners } from './data';
 
 const Partnership = () => {
-  const PartnerShipSection = styled.section`
+  return (
+    <PartnerShipSection>
+      <div className="container">
+        <div className="row align-items-center">
+          <div className="col-md-10 m-auto">
+            <h4 className="text-center " data-aos="fade-up">
+              Trusted by Global Brands
+            </h4>
+            <div className="row align-items-center">
+              {partners.map((pt, i) => (
+                <div className="col-lg col-4 mb-3 mb-lg-0" key={i}>
+                  <img src={pt.src} alt={pt.alt} />
+                </div>
+              ))}
+            </div>
+            <p style={{ paddingTop: '2rem', textAlign: 'center' }}>
+              We work with more than 400 Pharmaceutical Manufacturers to deliver
+              anti-counterfeit medication to the last mile.
+            </p>
+          </div>
+        </div>
+      </div>
+    </PartnerShipSection>
+  );
+};
+
+export default Partnership;
+
+const PartnerShipSection = styled.section`
     background: rgba(241, 240, 239, 0.5);
     padding: 4rem 0;
 
@@ -31,30 +59,3 @@ const Partnership = () => {
       }
     }
   `;
-  return (
-    <PartnerShipSection>
-      <div className="container">
-        <div className="row align-items-center">
-          <div className="col-md-10 m-auto">
-            <h4 className="text-center " data-aos="fade-up">
-              Trusted by Global Brands
-            </h4>
-            <div className="row align-items-center">
-              {partners.map((pt, i) => (
-                <div className="col-lg col-4 mb-3 mb-lg-0" key={i}>
-                  <img src={pt.src} alt={pt.alt} />
-                </div>
-              ))}
-            </div>
-            <p style={{ paddingTop: '2rem', textAlign: 'center' }}>
-              We work with more than 400 Pharmaceutical Manufacturers to deliver
-              anti-counterfeit medication to the last mile.
-            </p>
-          </div>
-        </div>
-      </div>
-    </PartnerShipSection>
-  );
-};
-
-export default Partnership;

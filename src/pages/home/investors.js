@@ -2,37 +2,6 @@ import Image from 'next/image';
 import styled from 'styled-components';
 
 const investors = () => {
-  const ArticleSection = styled.section`
-    margin-top: 7rem;
-    margin-bottom: 6rem;
-    @media (max-width: 992px) {
-      margin-top: 4rem;
-      br {
-        display: none;
-      }
-    }
-
-    h3 {
-      font-style: normal;
-      font-weight: 600;
-      font-size: calc(var(--font-h2) - 1px);
-      line-height: 1.4;
-      text-align: center;
-      font-family: var(--font-primary);
-
-      color: var(--text-black);
-      margin-bottom: 2rem;
-    }
-    img {
-      width: 100%;
-      display: block;
-      object-fit: contain;
-      height: 100px;
-      @media (max-width: 992px) {
-        height: 60px;
-      }
-    }
-  `;
   return (
     <ArticleSection>
       <div className="container">
@@ -177,3 +146,35 @@ const investors = () => {
 };
 
 export default investors;
+
+const ArticleSection = styled.section`
+    margin-top: 7rem;
+    margin-bottom: 6rem;
+    @media (max-width: 992px) {
+      margin-top: 4rem;
+      br {
+        display: none;
+      }
+    }
+
+    h3 {
+      font-style: normal;
+      font-weight: 600;
+      font-size: calc(var(--font-h2) - 1px);
+      line-height: 1.4;
+      text-align: center;
+      font-family: var(--font-primary);
+
+      color: var(--text-black);
+      margin-bottom: 2rem;
+    }
+    img {
+      width: 100%;
+      display: block;
+      object-fit: contain;
+      height: 100px;
+      @media (max-width: 992px) {
+        height: 60px;
+      }
+    }
+  `;
