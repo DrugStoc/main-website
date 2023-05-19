@@ -48,7 +48,7 @@ const Modal = () => {
     try {
       const response = await axios.post(
         // 'https://newsletter-mailchimp-production.up.railway.app/subscribe',
-        'https://newsletter-production-00b2.up.railway.app/user',
+        'https://drugstoc-main-subscription-production.up.railway.app/user',
         {
           email,
           firstName,

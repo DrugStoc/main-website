@@ -6,7 +6,6 @@ import styled from 'styled-components';
 
 const testimonial = () => {
   const transitionRef = useRef(null);
-
   return (
     <ClientsSection>
       <div className="container">
@@ -14,7 +13,6 @@ const testimonial = () => {
         <h6>
           Our clients praise us for our great service and on-time delivery
         </h6>
-
         <div>
           <Carousel
             indicators={false}

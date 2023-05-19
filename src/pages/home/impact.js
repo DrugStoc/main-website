@@ -131,14 +131,11 @@ const ImpactSection = styled.section`
       font-weight: normal;
       font-size: calc(var(--font-p) + 1px);
       line-height: 1.7;
-      /* or 32px */
-
       text-align: center;
       color: var(--text-black);
     }
     img {
       height: 48px;
-      /* margin: auto; */
       display: block;
       margin-right: 0.7rem;
       margin-bottom: 1rem;
