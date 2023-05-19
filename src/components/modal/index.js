@@ -160,7 +160,6 @@ const Modal = () => {
           </p>
         </ReactModal>
       )}
-
       {subscribed && showThanksModal && (
         <ReactModal
           isOpen={true}
@@ -174,10 +173,17 @@ const Modal = () => {
               alignItems: 'center',
               justifyContent: 'center',
               height: 254.359,
+              position: 'relative',
+              zIndex: 1,
             }}
           >
             Thanks for subscribing!
           </h2>
+          <img
+            src="https://res.cloudinary.com/bizstak/image/upload/v1684534630/e993d191d03335fd09a1987db3f8d39a_smrtw8.gif"
+            width="100%"
+            height="100%"
+          />
         </ReactModal>
       )}
     </>
