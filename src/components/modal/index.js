@@ -47,7 +47,6 @@ const Modal = () => {
   const subscribeToNewsletter = async () => {
     try {
       const response = await axios.post(
-        // 'https://newsletter-mailchimp-production.up.railway.app/subscribe',
         'https://drugstoc-main-subscription-production.up.railway.app/user',
         {
           email,
@@ -56,31 +55,6 @@ const Modal = () => {
         }
       );
       setMessage(response.data.message);
-      // const API_KEY =
-      //   process.env.MAILCHIMP_API_KEY || 'fe919ff690e500f009af7bc7dd19d561-us7';
-      // const AUDIENCE_ID = process.env.MAILCHIMP_AUDIENCE_ID || '074d11784c';
-      // const DATA_CENTER = process.env.DATA_CENTER || 'us7';
-      // const data = {
-      //   email_address: email,
-      //   status: 'subscribed',
-      //   merge_fields: {
-      //     FNAME: firstName,
-      //     LNAME: lastName,
-      //     // PHONE: phone,
-      //   },
-      // };
-      // const config = {
-      //   headers: {
-      //     'Content-Type': 'application/json',
-      //     Authorization: `apikey ${API_KEY}`,
-      //   },
-      // };
-      // const mailchimpResponse = await axios.post(
-      //   `https://${DATA_CENTER}.api.mailchimp.com/3.0/lists/${AUDIENCE_ID}/members`,
-      //   data,
-      //   config
-      // );
-
       setMessage('Subscribed to newsletter successfully');
       await new Promise((resolve) => setTimeout(resolve, 3000));
       localStorage.setItem('subscribed', true);
