@@ -56,11 +56,10 @@ const Modal = () => {
         }
       );
       setMessage(response.data.message);
-      setMessage('Subscribed to newsletter successfully');
-      await new Promise((resolve) => setTimeout(resolve, 3000));
+      await new Promise(resolve => setTimeout(resolve, 3000));
       localStorage.setItem('subscribed', true);
       setSubscribed(true);
-      setShowThanksModal(true); 
+      setShowThanksModal(true);
     } catch (error) {
       error.message === 'Server Error'
         ? setErr('Internal server error, try again later')
@@ -86,7 +85,7 @@ const Modal = () => {
     }
   }, [showThanksModal]);
 
-  const handleSubmit = (e) => {
+  const handleSubmit = e => {
     e.preventDefault();
     subscribeToNewsletter();
   };
@@ -118,7 +117,7 @@ const Modal = () => {
                 placeholder="Enter Email"
                 value={email}
                 autoComplete="Off"
-                onChange={(e) => setEmail(e.target.value)}
+                onChange={e => setEmail(e.target.value)}
                 required
               />
 
@@ -129,7 +128,7 @@ const Modal = () => {
                 placeholder="Enter First Name"
                 value={firstName}
                 autoComplete="Off"
-                onChange={(e) => setFirstName(e.target.value)}
+                onChange={e => setFirstName(e.target.value)}
                 required
               />
 
@@ -140,7 +139,7 @@ const Modal = () => {
                 placeholder="Enter Last Name"
                 value={lastName}
                 autoComplete="Off"
-                onChange={(e) => setLastName(e.target.value)}
+                onChange={e => setLastName(e.target.value)}
                 required
               />
               <button type="submit">Subscribe</button>
@@ -169,7 +168,16 @@ const Modal = () => {
           className={styles.modal}
           overlayClassName={styles.overlay}
         >
-          <h2>Thanks for subscribing!</h2>
+          <h2
+            style={{
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              height: 254.359,
+            }}
+          >
+            Thanks for subscribing!
+          </h2>
         </ReactModal>
       )}
     </>
