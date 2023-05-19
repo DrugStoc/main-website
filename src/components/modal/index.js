@@ -12,6 +12,7 @@ const Modal = () => {
   const [message, setMessage] = useState('');
   const [subscribed, setSubscribed] = useState(false);
   const [err, setErr] = useState('');
+  const [showThanksModal, setShowThanksModal] = useState(false); // New state variable
 
   const handleScroll = () => {
     const scrollPosition = window.scrollY;
@@ -59,6 +60,7 @@ const Modal = () => {
       await new Promise((resolve) => setTimeout(resolve, 3000));
       localStorage.setItem('subscribed', true);
       setSubscribed(true);
+      setShowThanksModal(true); // Show the thanks modal
     } catch (error) {
       error.message === 'Server Error'
         ? setErr('Internal server error, try again later')
@@ -73,11 +75,22 @@ const Modal = () => {
     }
   }, []);
 
-  const handleSubmit = e => {
+  useEffect(() => {
+    if (showThanksModal) {
+      const timer = setTimeout(() => {
+        setShowThanksModal(false);
+      }, 3000);
+      return () => {
+        clearTimeout(timer);
+      };
+    }
+  }, [showThanksModal]);
+
+  const handleSubmit = (e) => {
     e.preventDefault();
     subscribeToNewsletter();
   };
-  
+
   return (
     <>
       {subscribed === false && (
@@ -105,7 +118,7 @@ const Modal = () => {
                 placeholder="Enter Email"
                 value={email}
                 autoComplete="Off"
-                onChange={e => setEmail(e.target.value)}
+                onChange={(e) => setEmail(e.target.value)}
                 required
               />
 
@@ -116,7 +129,7 @@ const Modal = () => {
                 placeholder="Enter First Name"
                 value={firstName}
                 autoComplete="Off"
-                onChange={e => setFirstName(e.target.value)}
+                onChange={(e) => setFirstName(e.target.value)}
                 required
               />
 
@@ -127,7 +140,7 @@ const Modal = () => {
                 placeholder="Enter Last Name"
                 value={lastName}
                 autoComplete="Off"
-                onChange={e => setLastName(e.target.value)}
+                onChange={(e) => setLastName(e.target.value)}
                 required
               />
               <button type="submit">Subscribe</button>
@@ -135,9 +148,28 @@ const Modal = () => {
           )}
           {message && <p className={styles.success}>{message}</p>}
           {err && <p className={styles.error}>{err}</p>}
-          <p style={{ fontSize: 10, position: 'absolute', top: 50, right: '5%', fontWeight: 500 }}>
+          <p
+            style={{
+              fontSize: 10,
+              position: 'absolute',
+              top: 50,
+              right: '5%',
+              fontWeight: 500,
+            }}
+          >
             All fields are required
           </p>
+        </ReactModal>
+      )}
+
+      {subscribed && showThanksModal && ( // Show the thanks modal when subscribed and showThanksModal is true
+        <ReactModal
+          isOpen={true}
+          contentLabel="Thanks for subscribing Modal"
+          className={styles.modal}
+          overlayClassName={styles.overlay}
+        >
+          <h2>Thanks for subscribing!</h2>
         </ReactModal>
       )}
     </>
