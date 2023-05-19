@@ -12,7 +12,6 @@ const Modal = () => {
   const [message, setMessage] = useState('');
   const [subscribed, setSubscribed] = useState(false);
   const [err, setErr] = useState('');
-  const [showThanksModal, setShowThanksModal] = useState(false);
 
   const handleScroll = () => {
     const scrollPosition = window.scrollY;
@@ -78,22 +77,10 @@ const Modal = () => {
     e.preventDefault();
     subscribeToNewsletter();
   };
-
-  useEffect(() => {
-    if (subscribed) {
-      const timer = setTimeout(() => {
-        setShowThanksModal(true);
-      }, 3000);
-
-      return () => {
-        clearTimeout(timer);
-      };
-    }
-  }, [subscribed]);
-
+  
   return (
     <>
-      {!subscribed && (
+      {subscribed === false && (
         <ReactModal
           isOpen={showModal}
           onRequestClose={() => setShowModal(false)}
@@ -151,17 +138,6 @@ const Modal = () => {
           <p style={{ fontSize: 10, position: 'absolute', top: 50, right: '5%', fontWeight: 500 }}>
             All fields are required
           </p>
-        </ReactModal>
-      )}
-
-      {subscribed && showThanksModal === false && (
-        <ReactModal
-          isOpen={true}
-          contentLabel="Thanks for subscribing Modal"
-          className={styles.modal}
-          overlayClassName={styles.overlay}
-        >
-          <h2>Thanks for subscribing!</h2>
         </ReactModal>
       )}
     </>
