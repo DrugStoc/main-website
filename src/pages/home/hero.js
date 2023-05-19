@@ -3,6 +3,8 @@ import ISO from '../../../public/images/landing/iso.svg';
 import { useEffect, useState } from 'react';
 import AOS from 'aos';
 import styled from 'styled-components';
+import 'aos/dist/aos.css';
+
 
 const hero = () => {
   const [currentWord, setCurrentWord] = useState({
@@ -33,7 +35,107 @@ const hero = () => {
     return () => clearInterval(interval);
   }, []);
 
-  const Header = styled.header`
+  return (
+    <Header>
+      <img
+        src="https://res.cloudinary.com/bizstak/image/upload/v1684239802/banner-dots_stl7x6.png"
+        alt="Banner dots"
+        aria-hidden="true"
+        className="header__banner-dots-left"
+      />
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-5">
+            <h1 data-aos="zoom-out-up">
+              Empowering <br />
+              {currentWord.word.split('<br />').map((word, index) => (
+                <span
+                  key={index}
+                  className={`animated ${
+                    index === 1 ? 'fadeInUp' : 'fadeInDown'
+                  }`}
+                >
+                  {word}
+                </span>
+              ))}
+              <br />
+              Toward a Healthier Africa.
+            </h1>
+            <p data-aos="zoom-out-up">
+              Anti-Counterfeit Supply Chain for Healthcare Providers in Emerging
+              Economies
+            </p>
+            <div className="show-download-now">
+              <a
+                href="https://play.google.com/store/apps/details?id=com.drugstoc.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-aos="zoom-out-up"
+              >
+                <img
+                  src="https://res.cloudinary.com/bizstak/image/upload/v1684244266/google-play-alt_urfsrl.svg"
+                  alt="google play"
+                  className="logo"
+                />
+              </a>
+              <a
+                href="https://apps.apple.com/ng/app/drugstoc-mobile/id1467205425"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-aos="zoom-out-up"
+              >
+                <img
+                  src="https://res.cloudinary.com/bizstak/image/upload/v1684244274/app-store-alt_sc7dml.svg"
+                  alt="app store"
+                  className="logo"
+                />
+              </a>
+            </div>
+
+            <div className="d-flex  message__section">
+              <StackedAvatar width="100" />{' '}
+              <div className="ml-2">
+                <img
+                  src="https://res.cloudinary.com/bizstak/image/upload/v1684247082/stars_g4klpd.svg"
+                  width="90"
+                  alt="stacked avatar pictures of doctors"
+                />
+                <p>Highly Rated by 3000+ Healthcare Providers</p>
+              </div>
+            </div>
+
+            <ISO
+              className="iso-section"
+              aria-hidden="true"
+              data-aos="zoom-out-up"
+            />
+          </div>
+        </div>
+        <div className="banner d-lg-block d-none">
+          <img
+            src="https://res.cloudinary.com/bizstak/image/upload/v1684239587/banner_uhxkbs.png"
+            alt="A Doctor Holding a Paper"
+            layout="intrinsic"
+            // data-aos="fade-left"
+            // data-aos-offset="0"
+            style={{ width: '95%' }}
+          />
+        </div>
+      </div>
+      <img
+        src="https://res.cloudinary.com/bizstak/image/upload/v1684239802/banner-dots_stl7x6.png"
+        alt="Banner dots"
+        aria-hidden="true"
+        loading="lazy"
+        className="header__banner-dots-right d-lg-block d-none"
+      />
+    </Header>
+  );
+};
+
+export default hero;
+
+const Header = styled.header`
     height: 730px;
     display: flex;
     align-items: center;
@@ -138,102 +240,3 @@ const hero = () => {
       }
     }
   `;
-  return (
-    <Header>
-      <img
-        src="https://res.cloudinary.com/bizstak/image/upload/v1684239802/banner-dots_stl7x6.png"
-        alt="Banner dots"
-        aria-hidden="true"
-        className="header__banner-dots-left"
-      />
-      <div className="container">
-        <div className="row">
-          <div className="col-lg-5">
-            <h1 data-aos="zoom-out-up">
-              Empowering <br />
-              {currentWord.word.split('<br />').map((word, index) => (
-                <span
-                  key={index}
-                  className={`animated ${
-                    index === 1 ? 'fadeInUp' : 'fadeInDown'
-                  }`}
-                >
-                  {word}
-                </span>
-              ))}
-              <br />
-              Toward a Healthier Africa.
-            </h1>
-            <p data-aos="zoom-out-up">
-              Anti-Counterfeit Supply Chain for Healthcare Providers in Emerging
-              Economies
-            </p>
-            <div className="show-download-now">
-              <a
-                href="https://play.google.com/store/apps/details?id=com.drugstoc.app"
-                target="_blank"
-                rel="noopener noreferrer"
-                data-aos="zoom-out-up"
-              >
-                <img
-                  src="https://res.cloudinary.com/bizstak/image/upload/v1684244266/google-play-alt_urfsrl.svg"
-                  alt="google play"
-                  className="logo"
-                />
-              </a>
-              <a
-                href="https://apps.apple.com/ng/app/drugstoc-mobile/id1467205425"
-                target="_blank"
-                rel="noopener noreferrer"
-                data-aos="zoom-out-up"
-              >
-                <img
-                  src="https://res.cloudinary.com/bizstak/image/upload/v1684244274/app-store-alt_sc7dml.svg"
-                  alt="app store"
-                  className="logo"
-                />
-              </a>
-            </div>
-
-            <div className="d-flex  message__section">
-              <StackedAvatar width="100" />{' '}
-              <div className="ml-2">
-                <img
-                  src="https://res.cloudinary.com/bizstak/image/upload/v1684247082/stars_g4klpd.svg"
-                  width="90"
-                  alt="stacked avatar pictures of doctors"
-                />
-                <p>Highly Rated by 3000+ Healthcare Providers</p>
-              </div>
-            </div>
-
-            <ISO
-              className="iso-section"
-              aria-hidden="true"
-              data-aos="zoom-out-up"
-            />
-          </div>
-        </div>
-        <div className="banner d-lg-block d-none">
-          <img
-            src="https://res.cloudinary.com/bizstak/image/upload/v1684239587/banner_uhxkbs.png"
-            alt="A Doctor Holding a Paper"
-            layout="intrinsic"
-            // data-aos="fade-left"
-            // data-aos-offset="0"
-            style={{ width: '95%' }}
-          />
-        </div>
-      </div>
-      <img
-        src="https://res.cloudinary.com/bizstak/image/upload/v1684239802/banner-dots_stl7x6.png"
-        alt="Banner dots"
-        aria-hidden="true"
-        loading="lazy"
-        className="header__banner-dots-right d-lg-block d-none"
-      />
-    </Header>
-  );
-};
-
-export default hero;
