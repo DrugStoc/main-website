@@ -3,8 +3,6 @@ import ISO from '../../../public/images/landing/iso.svg';
 import { useEffect, useState } from 'react';
 import AOS from 'aos';
 import styled from 'styled-components';
-import 'aos/dist/aos.css';
-
 
 const hero = () => {
   const [currentWord, setCurrentWord] = useState({
