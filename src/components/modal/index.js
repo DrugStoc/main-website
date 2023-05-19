@@ -15,7 +15,7 @@ const Modal = () => {
 
   const handleScroll = () => {
     const scrollPosition = window.scrollY;
-    if (scrollPosition >= 500 && scrollPosition < 800 && !subscribed) {
+    if (scrollPosition >= 500 && scrollPosition < 800) {
       setShowModal(true);
     } else {
       setShowModal(false);
@@ -56,48 +56,54 @@ const Modal = () => {
         }
       );
       setMessage(response.data.message);
-      const API_KEY =
-        process.env.MAILCHIMP_API_KEY || 'fe919ff690e500f009af7bc7dd19d561-us7';
-      const AUDIENCE_ID = process.env.MAILCHIMP_AUDIENCE_ID || '074d11784c';
-      const DATA_CENTER = process.env.DATA_CENTER || 'us7';
-
-      const data = {
-        email_address: email,
-        status: 'subscribed',
-        merge_fields: {
-          FNAME: firstName,
-          LNAME: lastName,
-          // PHONE: phone,
-        },
-      };
-
-      const config = {
-        headers: {
-          'Content-Type': 'application/json',
-          Authorization: `apikey ${API_KEY}`,
-        },
-      };
-
-      const mailchimpResponse = await axios.post(
-        `https://${DATA_CENTER}.api.mailchimp.com/3.0/lists/${AUDIENCE_ID}/members`,
-        data,
-        config
-      );
+      // const API_KEY =
+      //   process.env.MAILCHIMP_API_KEY || 'fe919ff690e500f009af7bc7dd19d561-us7';
+      // const AUDIENCE_ID = process.env.MAILCHIMP_AUDIENCE_ID || '074d11784c';
+      // const DATA_CENTER = process.env.DATA_CENTER || 'us7';
+      // const data = {
+      //   email_address: email,
+      //   status: 'subscribed',
+      //   merge_fields: {
+      //     FNAME: firstName,
+      //     LNAME: lastName,
+      //     // PHONE: phone,
+      //   },
+      // };
+      // const config = {
+      //   headers: {
+      //     'Content-Type': 'application/json',
+      //     Authorization: `apikey ${API_KEY}`,
+      //   },
+      // };
+      // const mailchimpResponse = await axios.post(
+      //   `https://${DATA_CENTER}.api.mailchimp.com/3.0/lists/${AUDIENCE_ID}/members`,
+      //   data,
+      //   config
+      // );
 
       setMessage('Subscribed to newsletter successfully');
+      await new Promise((resolve) => setTimeout(resolve, 3000));
       localStorage.setItem('subscribed', true);
       setSubscribed(true);
     } catch (error) {
-      error.message === 'Network Error'
-        ? setErr('')
-        : setErr(`${error.message}`);
+      error.message === 'Server Error'
+        ? setErr('Internal server error, try again later')
+        : setErr('User already exists');
     }
   };
+
+  useEffect(() => {
+    const isSubscribed = localStorage.getItem('subscribed');
+    if (isSubscribed) {
+      setSubscribed(true);
+    }
+  }, []);
 
   const handleSubmit = e => {
     e.preventDefault();
     subscribeToNewsletter();
   };
+  
   return (
     <>
       {subscribed === false && (
@@ -155,7 +161,9 @@ const Modal = () => {
           )}
           {message && <p className={styles.success}>{message}</p>}
           {err && <p className={styles.error}>{err}</p>}
-          <p style={{fontSize: 10, position: 'absolute', top: 50, right: '5%', fontWeight: 500}}>All fields are required</p>
+          <p style={{ fontSize: 10, position: 'absolute', top: 50, right: '5%', fontWeight: 500 }}>
+            All fields are required
+          </p>
         </ReactModal>
       )}
     </>
