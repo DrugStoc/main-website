@@ -6,15 +6,6 @@ const Footer = () => {
   const year = date.getFullYear()
   return (
     <FooterWrapper role="contentinfo">
-      <style jsx>
-        {
-          `
-            h5 {
-              font-weight: 600
-            }
-          `
-        }
-      </style>
       <div className="container">
         <div className="row" role="row">
           <div className="col-6 col-md">
@@ -255,7 +246,7 @@ const FooterWrapper = styled.footer`
   }
 
   h5 {
-    font-weight: 500;
+    font-weight: 600;
     font-size: calc(var(--font-sm) + 2px);
     line-height: 22px;
     /* identical to box height, or 183% */
