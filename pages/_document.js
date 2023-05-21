@@ -29,11 +29,9 @@ export default class MyDocument extends Document {
 
   render() {
     const FACEBOOK_APP_ID = process.env.FACEBOOK_APP_ID;
-    const TIDIO_CHAT_CODE =
-      process.env.TIDIO_CHAT_CODE;
+    const TIDIO_CHAT_CODE = process.env.TIDIO_CHAT_CODE;
     const GA_TRACKING_ID = process.env.GA_TRACKING_ID;
-    const GOOGLE_SITE_VERIFICATION =
-      process.env.GOOGLE_SITE_VERIFICATION;
+    const GOOGLE_SITE_VERIFICATION = process.env.GOOGLE_SITE_VERIFICATION;
     return (
       <Html lang="en">
         <Head>
@@ -56,29 +54,19 @@ export default class MyDocument extends Document {
             as="font"
           />
           <link
-            rel="preload"
-            as="style"
-            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
-          />
-          <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
-          <link
             rel="stylesheet"
-            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
-            media="print"
-            onLoad="this.media='all'"
-          />
-          <link
-            rel="preload"
-            as="style"
-            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
           />
           <link
             rel="preload"
             href="https://widget-v4.tidiochat.com/fonts/mulish_SGhgqk3wotYKNnBQ.woff2"
             as="font"
             type="font/woff2"
-            crossOrigin={"anonymous"}
+            crossOrigin="anonymous"
+            media="print"
+            onLoad={() => {}}
           />
+
           <script async src={`https://code.tidio.co/${TIDIO_CHAT_CODE}.js`} />
           <script
             async
