@@ -166,7 +166,7 @@ const Footer = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img src="https://res.cloudinary.com/bizstak/image/upload/v1684263069/email_oe5zjc.png" alt="email envelop icon" width={45} height={45} />
+                  <img src="https://res.cloudinary.com/bizstak/image/upload/v1684263069/email_oe5zjc.png" alt="email envelop icon" width={45} height={45} title='Contact Email' />
                 </a>
               </li>
             </ul>
