@@ -96,7 +96,7 @@ const Footer = () => {
               </li>
               <li>
                 <a href="https://app.drugstoc.com/" target='_blank'>
-                  <a aria-label="Navigate To RXInsights page">Shop on Web</a>
+                  Shop on Web
                 </a>
               </li>
             </ul>
