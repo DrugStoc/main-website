@@ -233,9 +233,9 @@ const NavbarLayout = () => {
 
               <Dropdown>
                 <Dropdown.Toggle className="toggle_blue">
-                  <a className="nav-link nav-button nav-button-outline">
+                  <span className="nav-link nav-button nav-button-outline">
                     Contact Sales
-                  </a>
+                  </span>
                 </Dropdown.Toggle>
 
                 <Dropdown.Menu>
