@@ -7,7 +7,7 @@ const Accordion = () => {
     {
       question: 'What is DrugStoc Pay?',
       answer:
-        'Ans: Drugstoc pay is a digital wallet system, as well as a payment solution that facilitates stock financing for health Institutions and practitioners. It offers a flexible payment option such as pay in bits.',
+        'Drugstoc pay is a digital wallet system, as well as a payment solution that facilitates stock financing for health Institutions and practitioners. It offers a flexible payment option such as pay in bits.',
       isOpen: false,
     },
     {
