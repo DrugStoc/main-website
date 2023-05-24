@@ -46,3 +46,15 @@
     padding: 10px;
   }
   
+
+  @media(max-width: 830px) {
+    .accordion {
+        width: 90%;
+    }
+  }
+
+  @media(max-width: 468px) {
+    .accordion {
+        width: 95%;
+    }
+  }
