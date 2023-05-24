@@ -85,7 +85,9 @@ const Accordion = () => {
   };
 
   return (
-    <div id="faq" href="#faq" className={accordionStyles.accordion}>
+    <>
+    <div  id="faq" href="#faq" style={{height: 50, visibility: 'hidden'}}>Section</div>
+    <div className={accordionStyles.accordion}>
       <h2>FAQs (Frequently Asked Questions)</h2>
       {accordions.map((accordion, index) => (
         <div key={index} className={accordionStyles.accordionItem}>
@@ -104,6 +106,7 @@ const Accordion = () => {
         </div>
       ))}
     </div>
+    </>
   );
 };
 
