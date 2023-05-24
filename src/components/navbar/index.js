@@ -295,6 +295,7 @@ const NavbarWrapper = styled(Navbar)`
   }
   padding: 1rem !important;
   background: transparent;
+  height: 85px;
   @media (max-width: 992px) {
     padding: 6px 1rem !important;
   }
