@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import accordionStyles from '../../../public/accordion.module.css';
-import Link from 'next/link';
 
 const Accordion = () => {
   const [accordions, setAccordions] = useState([
