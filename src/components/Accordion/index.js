@@ -82,7 +82,7 @@ const Accordion = () => {
           <div className={accordionStyles.accordionHeader} onClick={() => toggleAccordion(index)}>
             <h3>{accordion.question}</h3>
             <button>
-              {accordion.isOpen ? '-' : '+'}
+              <span style={{fontSize: 24}}>{accordion.isOpen ? '-' : '+'}</span>
             </button>
           </div>
           {accordion.isOpen && <p>{accordion.answer}</p>}
