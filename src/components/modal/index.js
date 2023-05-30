@@ -48,8 +48,9 @@ const Modal = () => {
   const subscribeToNewsletter = async () => {
     try {
       const response = await axios.post(
-      //'https://drugstoc-main-subscription-production.up.railway.app/user',
-        'https://newsletter-mailchimp-production.up.railway.app/subscribe',
+        //'https://drugstoc-main-subscription-production.up.railway.app/user',
+        // 'https://newsletter-mailchimp-production.up.railway.app/subscribe',
+        'https://drugstoc-newsletter-mailchimp.onrender.com/subscribe',
         {
           email,
           firstName,
@@ -108,7 +109,7 @@ const Modal = () => {
               onClick={() => setShowModal(false)}
             />
           </div>
-          <h2 style={{fontFamily: 'Poppins'}}>Subscribe to our Newsletter</h2>
+          <h2 style={{ fontFamily: 'Poppins' }}>Subscribe to our Newsletter</h2>
           {!subscribed && (
             <form onSubmit={handleSubmit}>
               <input
@@ -143,7 +144,9 @@ const Modal = () => {
                 onChange={e => setLastName(e.target.value)}
                 required
               />
-              <button type="submit" style={{fontFamily: 'Poppins'}}>Subscribe</button>
+              <button type="submit" style={{ fontFamily: 'Poppins' }}>
+                Subscribe
+              </button>
             </form>
           )}
           {message && <p className={styles.success}>{message}</p>}
@@ -155,7 +158,7 @@ const Modal = () => {
               top: 50,
               right: '5%',
               fontWeight: 600,
-              fontFamily: 'Poppins'
+              fontFamily: 'Poppins',
             }}
           >
             All fields are required
