@@ -1,7 +1,9 @@
+import React, { useEffect, useState } from 'react';
 import ReactModal from 'react-modal';
-import { useEffect, useState } from 'react';
 import axios from 'axios';
 import styles from '../../../public/modal.module.css';
+import LoadingButton from 'components/LoadingButton';
+
 ReactModal.setAppElement('#__next');
 
 const Modal = () => {
@@ -12,26 +14,25 @@ const Modal = () => {
   const [message, setMessage] = useState('');
   const [subscribed, setSubscribed] = useState(false);
   const [err, setErr] = useState('');
+  const [isLoading, setIsLoading] = useState(false);
   const [showThanksModal, setShowThanksModal] = useState(false);
 
-  const handleScroll = () => {
-    const scrollPosition = window.scrollY;
-    if (scrollPosition >= 500 && scrollPosition < 800) {
-      setShowModal(true);
-    } else {
-      setShowModal(false);
-    }
-  };
-
   useEffect(() => {
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY;
+      setShowModal(scrollPosition >= 500 && scrollPosition < 800);
+    };
+
     window.addEventListener('scroll', handleScroll);
-    const isSubscribed = localStorage.getItem('subscribed');
-    if (isSubscribed) {
-      setSubscribed(true);
-    }
+
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
+  }, []);
+
+  useEffect(() => {
+    const isSubscribed = localStorage.getItem('subscribed');
+    setSubscribed(Boolean(isSubscribed));
   }, []);
 
   useEffect(() => {
@@ -45,11 +46,21 @@ const Modal = () => {
     };
   }, [message, err]);
 
+  useEffect(() => {
+    if (showThanksModal) {
+      const timer = setTimeout(() => {
+        setShowThanksModal(false);
+      }, 3000);
+      return () => {
+        clearTimeout(timer);
+      };
+    }
+  }, [showThanksModal]);
+
   const subscribeToNewsletter = async () => {
+    setIsLoading(true);
     try {
       const response = await axios.post(
-        //'https://drugstoc-main-subscription-production.up.railway.app/user',
-        // 'https://newsletter-mailchimp-production.up.railway.app/subscribe',
         'https://drugstoc-newsletter-mailchimp.onrender.com/subscribe',
         {
           email,
@@ -63,29 +74,14 @@ const Modal = () => {
       setSubscribed(true);
       setShowThanksModal(true);
     } catch (error) {
-      error.message === 'Server Error'
-        ? setErr('Internal server error, try again later')
-        : setErr('User already exists');
+      const errorMessage =
+        error.message === 'Server Error'
+          ? 'Internal server error, try again later'
+          : 'User already exists';
+      setErr(errorMessage);
     }
+    setIsLoading(false);
   };
-
-  useEffect(() => {
-    const isSubscribed = localStorage.getItem('subscribed');
-    if (isSubscribed) {
-      setSubscribed(true);
-    }
-  }, []);
-
-  useEffect(() => {
-    if (showThanksModal) {
-      const timer = setTimeout(() => {
-        setShowThanksModal(false);
-      }, 3000);
-      return () => {
-        clearTimeout(timer);
-      };
-    }
-  }, [showThanksModal]);
 
   const handleSubmit = e => {
     e.preventDefault();
@@ -94,7 +90,7 @@ const Modal = () => {
 
   return (
     <>
-      {subscribed === false && (
+      {!subscribed && (
         <ReactModal
           isOpen={showModal}
           onRequestClose={() => setShowModal(false)}
@@ -103,11 +99,12 @@ const Modal = () => {
           overlayClassName={styles.overlay}
         >
           <div style={{ position: 'relative' }}>
-            <img
+            {/* <img
               src="https://res.cloudinary.com/bizstak/image/upload/v1683510743/cancel-icon_kpxodz.svg"
               width={25}
               onClick={() => setShowModal(false)}
-            />
+              alt="Close"
+            /> */}
           </div>
           <h2 style={{ fontFamily: 'Poppins' }}>Subscribe to our Newsletter</h2>
           {!subscribed && (
@@ -118,7 +115,7 @@ const Modal = () => {
                 name="email"
                 placeholder="Enter Email"
                 value={email}
-                autoComplete="Off"
+                autoComplete="off"
                 onChange={e => setEmail(e.target.value)}
                 required
               />
@@ -129,7 +126,7 @@ const Modal = () => {
                 name="firstName"
                 placeholder="Enter First Name"
                 value={firstName}
-                autoComplete="Off"
+                autoComplete="off"
                 onChange={e => setFirstName(e.target.value)}
                 required
               />
@@ -140,12 +137,21 @@ const Modal = () => {
                 name="lastName"
                 placeholder="Enter Last Name"
                 value={lastName}
-                autoComplete="Off"
+                autoComplete="off"
                 onChange={e => setLastName(e.target.value)}
                 required
               />
-              <button type="submit" style={{ fontFamily: 'Poppins' }}>
-                Subscribe
+              <button
+                type={isLoading ? 'button' : 'submit'}
+                style={{
+                  fontFamily: 'Poppins',
+                  height: '36.782px',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                }}
+              >
+                {isLoading ? <LoadingButton /> : 'Subscribe'}
               </button>
             </form>
           )}
@@ -188,6 +194,7 @@ const Modal = () => {
             src="https://res.cloudinary.com/bizstak/image/upload/v1684534630/e993d191d03335fd09a1987db3f8d39a_smrtw8.gif"
             width="100%"
             height="100%"
+            alt="Thank you"
           />
         </ReactModal>
       )}
