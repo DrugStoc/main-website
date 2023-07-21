@@ -88,9 +88,26 @@ const Modal = () => {
     subscribeToNewsletter();
   };
 
+  const closeModal = () => {
+    const now = new Date();
+    const oneMonthFromNow = new Date(now.getTime() + 30 * 24 * 60 * 60 * 1000);
+    localStorage.setItem('close', oneMonthFromNow.toISOString());
+    setShowModal(false);
+  };
+
+  const removedModal = typeof localStorage !== 'undefined' ? localStorage.getItem('close') : null;
+
+  if (removedModal) {
+    const removeDate = new Date(removedModal);
+    if (removeDate <= new Date()) {
+      localStorage.removeItem('close');
+      removedModal = false;
+    }
+  }
+
   return (
     <>
-      {!subscribed && (
+      {!subscribed && !removedModal && (
         <ReactModal
           isOpen={showModal}
           onRequestClose={() => setShowModal(false)}
@@ -99,12 +116,12 @@ const Modal = () => {
           overlayClassName={styles.overlay}
         >
           <div style={{ position: 'relative' }}>
-            {/* <img
+            <img
               src="https://res.cloudinary.com/bizstak/image/upload/v1683510743/cancel-icon_kpxodz.svg"
               width={25}
-              onClick={() => setShowModal(false)}
+              onClick={closeModal}
               alt="Close"
-            /> */}
+            />
           </div>
           <h2 style={{ fontFamily: 'Poppins' }}>Subscribe to our Newsletter</h2>
           {!subscribed && (
