@@ -3,6 +3,7 @@ import ReactModal from 'react-modal';
 import axios from 'axios';
 import styles from '../../../public/modal.module.css';
 import LoadingButton from 'components/LoadingButton';
+import Image from 'next/image';
 
 ReactModal.setAppElement('#__next');
 
@@ -207,7 +208,7 @@ const Modal = () => {
           >
             Thanks for subscribing!
           </h2>
-          <img
+          <Image
             src="https://res.cloudinary.com/bizstak/image/upload/v1684534630/e993d191d03335fd09a1987db3f8d39a_smrtw8.gif"
             width="100%"
             height="100%"
