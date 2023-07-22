@@ -158,7 +158,6 @@ const AboutUs = () => {
                   href={team.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  referrerPolicy="no-referrer"
                 >
                   <button className="team__card">
                     {team.image}
