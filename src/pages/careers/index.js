@@ -156,7 +156,7 @@ const Careers = () => {
                 <tr key={job.name}>
                   <td>
                     <Link href="/jobpage">
-                      <a target="_blank" rel="noopener">
+                      <a target="_blank" rel="noopener noreferrer">
                         {job.name}
                       </a>
                     </Link>
@@ -170,7 +170,7 @@ const Careers = () => {
                   <td>
                     {' '}
                     <Link target="_blank" href="/jobpage">
-                      <a target="_blank" rel="noopener">
+                      <a target="_blank" rel="noopener noreferrer">
                         <button className="btn btn-drug-stoc m-auto d-block">
                           VIEW{' '}
                         </button>
