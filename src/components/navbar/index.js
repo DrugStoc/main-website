@@ -182,45 +182,50 @@ const NavbarLayout = () => {
                     <div className="card-body right-card">
                       <h4>BY CLIENT CATEGORY</h4>
 
-                      <Link target="_blank" href="/procure-direct">
-                        <a href="/procure-direct" className="nav-link_">
+                      <Link href="/procure-direct">
+                        <a rel="noreferrer" className="nav-link_">
                           Chain Pharmacies
                         </a>
                       </Link>
 
 
-                      <Link target="_blank" href="/procure-direct">
-                        <a href="/procure-direct" className="nav-link_">
+                      <Link href="/procure-direct">
+                        <a rel="noreferrer" className="nav-link_">
                           Community Pharmacies
                         </a>
                       </Link>
 
-                      <Link target="_blank" href="/procure-direct">
-                        <a href="/procure-direct" className="nav-link_">
+                      <Link href="/procure-direct">
+                        <a rel="noreferrer" className="nav-link_">
                           Retail Pharmacies
                         </a>
                       </Link>
 
-                      <Link target="_blank" href="/procure-direct">
-                        <a href="/procure-direct" className="nav-link_">
+                      <Link href="/procure-direct">
+                        <a rel="noreferrer" className="nav-link_">
                           For Hospitals & Clinics
                         </a>
                       </Link>
 
-                      <Link target="_blank" href="/procure-direct">
-                        <a href="/procure-direct" className="nav-link_">
+                      <Link href="/procure-direct">
+                        <a rel="noreferrer" className="nav-link_">
                           For Licensed Medical Professionals
                         </a>
                       </Link>
 
+                      <Link href="/partnerships">
+                        <a rel="noreferrer" className="nav-link_">
+                          For HMOs
+                        </a>
+                      </Link>
 
-                      <a href="/partnerships" className="nav-link_">
-                        For HMOs
-                      </a>
 
-                      <a href="/partnerships" className="nav-link_">
-                        For Government Facilities
-                      </a>
+                      <Link href="/partnerships">
+                        <a rel="noreferrer" className="nav-link_">
+                          For Government Facilities
+                        </a>
+                      </Link>
+
                     </div>
                   </div>
                 </div>

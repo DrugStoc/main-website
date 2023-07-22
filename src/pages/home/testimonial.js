@@ -4,7 +4,7 @@ import { clients } from './data';
 import { useRef } from 'react';
 import styled from 'styled-components';
 
-const testimonial = () => {
+const Testimonial = () => {
   const transitionRef = useRef(null);
   return (
     <ClientsSection>
@@ -64,7 +64,7 @@ const testimonial = () => {
   );
 };
 
-export default testimonial;
+export default Testimonial;
 
 const ClientsSection = styled.section`
     margin-top: 5rem;

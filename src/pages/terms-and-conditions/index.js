@@ -4,7 +4,7 @@ import styled from 'styled-components'
 export default function termsAndConditions() {
     return (
         <>
-        <TermsAndConditions />
+            <TermsAndConditions />
             <Container>
                 <div className="header">
                     <div className="container">
@@ -44,13 +44,13 @@ export default function termsAndConditions() {
                         </ol>
                         <h6>Notices </h6>
                         <p> Unless otherwise expressly stated in these terms and conditions, all notices from you to us must be in writing and sent to our office address or to <a
-                  href="mailto:info@drugstoc.com"
-                  aria-label="Navigate To Google maps"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  info@drugStoc.com
-                </a> and all notices from us to you will be displayed on our website from time to time. </p>
+                            href="mailto:info@drugstoc.com"
+                            aria-label="Navigate To Google maps"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            info@drugStoc.com
+                        </a> and all notices from us to you will be displayed on our website from time to time. </p>
                         <h6>Invalidity </h6>
                         <p>If any part of these terms and conditions is unenforceable, the enforceability of any other part of these conditions will not be affected. </p>
                         <h6>Privacy</h6>

@@ -155,7 +155,7 @@ const Careers = () => {
               {jobs.map(job => (
                 <tr key={job.name}>
                   <td>
-                    <Link target="_blank" href="/jobpage">
+                    <Link href="/jobpage">
                       <a target="_blank" rel="noopener">
                         {job.name}
                       </a>
