@@ -100,7 +100,7 @@ const AboutUs = () => {
                 thousands of Pharmacies, Retailers, Hospitals, Clinics and
                 Medical Practitioners across Nigeria.
               </p>
-              
+
             </div>
           </div>
         </div>
@@ -157,6 +157,7 @@ const AboutUs = () => {
                 <a
                   href={team.link}
                   target="_blank"
+                  rel="noopener"
                   referrerPolicy="no-referrer"
                 >
                   <button className="team__card">

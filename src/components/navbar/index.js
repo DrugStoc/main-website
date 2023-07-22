@@ -16,11 +16,11 @@ const NavbarLayout = () => {
   const style =
     userScrolledUp || isStaticBg
       ? {
-          borderBottom: '1px solid #ececec',
-          backdropFilter: 'saturate(3.5) blur(14px)',
-          background: '#fff',
-          boxShadow: '1px 0px 10px #00000008',
-        }
+        borderBottom: '1px solid #ececec',
+        backdropFilter: 'saturate(3.5) blur(14px)',
+        background: '#fff',
+        boxShadow: '1px 0px 10px #00000008',
+      }
       : {};
   return (
     <div>
@@ -182,25 +182,37 @@ const NavbarLayout = () => {
                     <div className="card-body right-card">
                       <h4>BY CLIENT CATEGORY</h4>
 
-                      <a href="/procure-direct" className="nav-link_">
-                        Chain Pharmacies
-                      </a>
+                      <Link target="_blank" href="/procure-direct">
+                        <a href="/procure-direct" className="nav-link_">
+                          Chain Pharmacies
+                        </a>
+                      </Link>
 
-                      <a href="/procure-direct" className="nav-link_">
-                        Community Pharmacies
-                      </a>
 
-                      <a href="/procure-direct" className="nav-link_">
-                        Retail Pharmacies
-                      </a>
+                      <Link target="_blank" href="/procure-direct">
+                        <a href="/procure-direct" className="nav-link_">
+                          Community Pharmacies
+                        </a>
+                      </Link>
 
-                      <a href="/procure-direct" className="nav-link_">
-                        For Hospitals & Clinics
-                      </a>
+                      <Link target="_blank" href="/procure-direct">
+                        <a href="/procure-direct" className="nav-link_">
+                          Retail Pharmacies
+                        </a>
+                      </Link>
 
-                      <a href="/procure-direct" className="nav-link_">
-                        For Licensed Medical Professionals
-                      </a>
+                      <Link target="_blank" href="/procure-direct">
+                        <a href="/procure-direct" className="nav-link_">
+                          For Hospitals & Clinics
+                        </a>
+                      </Link>
+
+                      <Link target="_blank" href="/procure-direct">
+                        <a href="/procure-direct" className="nav-link_">
+                          For Licensed Medical Professionals
+                        </a>
+                      </Link>
+
 
                       <a href="/partnerships" className="nav-link_">
                         For HMOs

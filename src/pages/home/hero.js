@@ -3,8 +3,9 @@ import ISO from '../../../public/images/landing/iso.svg';
 import { useEffect, useState } from 'react';
 import AOS from 'aos';
 import styled from 'styled-components';
+import Image from 'next/image';
 
-const hero = () => {
+const Hero = () => {
   const [currentWord, setCurrentWord] = useState({
     word: 'Pharmacies',
     currentIndex: 0,
@@ -49,9 +50,8 @@ const hero = () => {
               {currentWord.word.split('<br />').map((word, index) => (
                 <span
                   key={index}
-                  className={`animated ${
-                    index === 1 ? 'fadeInUp' : 'fadeInDown'
-                  }`}
+                  className={`animated ${index === 1 ? 'fadeInUp' : 'fadeInDown'
+                    }`}
                 >
                   {word}
                 </span>
@@ -110,10 +110,12 @@ const hero = () => {
           </div>
         </div>
         <div className="banner d-lg-block d-none">
-          <img
+          <Image
             src="https://res.cloudinary.com/bizstak/image/upload/v1684239587/banner_uhxkbs.png"
             alt="A Doctor Holding a Paper"
-            layout="intrinsic"
+            layout="responsive"
+            width="auto"
+            height="auto"
             // data-aos="fade-left"
             // data-aos-offset="0"
             style={{ width: '95%' }}
@@ -131,7 +133,7 @@ const hero = () => {
   );
 };
 
-export default hero;
+export default Hero;
 
 const Header = styled.header`
     height: 730px;

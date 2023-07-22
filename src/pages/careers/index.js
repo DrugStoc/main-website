@@ -155,9 +155,14 @@ const Careers = () => {
               {jobs.map(job => (
                 <tr key={job.name}>
                   <td>
-                    <a target="_blank" href="/jobpage">
+                    <Link target="_blank" href="/jobpage">
+                      <a target="_blank" rel="noopener">
+                        {job.name}
+                      </a>
+                    </Link>
+                    {/* <a target="_blank" rel='noopener' href="/jobpage">
                       {job.name}
-                    </a>
+                    </a> */}
                   </td>
                   <td>{job.role}</td>
                   <td>{job.type}</td>
@@ -165,7 +170,7 @@ const Careers = () => {
                   <td>
                     {' '}
                     <Link target="_blank" href="/jobpage">
-                      <a target="_blank">
+                      <a target="_blank" rel="noopener">
                         <button className="btn btn-drug-stoc m-auto d-block">
                           VIEW{' '}
                         </button>
