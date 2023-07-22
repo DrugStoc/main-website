@@ -157,7 +157,7 @@ const AboutUs = () => {
                 <a
                   href={team.link}
                   target="_blank"
-                  rel="noopener"
+                  rel="noopener noreferrer"
                   referrerPolicy="no-referrer"
                 >
                   <button className="team__card">
