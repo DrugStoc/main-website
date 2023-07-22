@@ -160,7 +160,7 @@ const Careers = () => {
                         {job.name}
                       </a>
                     </Link>
-                    {/* <a target="_blank" rel='noopener' href="/jobpage">
+                    {/* <a target="_blank" rel='noopener noreferrer' href="/jobpage">
                       {job.name}
                     </a> */}
                   </td>
