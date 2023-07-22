@@ -176,14 +176,7 @@ const Modal = () => {
           {message && <p className={styles.success}>{message}</p>}
           {err && <p className={styles.error}>{err}</p>}
           <p
-            style={{
-              fontSize: 10,
-              position: 'absolute',
-              top: 50,
-              right: '5%',
-              fontWeight: 600,
-              fontFamily: 'Poppins',
-            }}
+            className={styles.fields}
           >
             All fields are required
           </p>
