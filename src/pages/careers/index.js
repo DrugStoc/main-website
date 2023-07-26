@@ -1,11 +1,22 @@
 import Link from 'next/link';
 import styled from 'styled-components';
 import AppCard from 'components/app-card';
-import { Table } from 'react-bootstrap';
+import { Button, Table } from 'react-bootstrap';
 import { jobs } from './data';
 import CareerMetadata from 'components/meta/career';
+import { useRouter } from 'next/router';
 
 const Careers = () => {
+  const router = useRouter();
+
+  const handleButtonClick = (path) => {
+    router.push(path);
+  };
+
+  const handleMailClick = (path) => {
+    router.push(path)
+  }
+
   return (
     <div>
       <CareerMetadata />
@@ -102,7 +113,7 @@ const Careers = () => {
                   <img src="/images/careers/4.svg" alt="icon of a pie chart" />
                   <h4>Learning and development</h4>
                   <p>
-                    With the fast pace of our environment, you’re sure to
+                    With the fast pace of our environment, you're sure to
                     acquire new skills.
                   </p>
                 </div>
@@ -115,7 +126,7 @@ const Careers = () => {
                   <h4>Do what you love</h4>
                   <p>
                     Life is too short to work without purpose. Lets change
-                    Africa’s narrative together.
+                    Africa's narrative together.
                   </p>
                 </div>
               </div>
@@ -136,7 +147,7 @@ const Careers = () => {
         </div>
       </BenefitSection>
       <OpenPositions id="open-positions">
-        <div className="container" style={{ textAlign: 'center' }}>
+        <div className="container" style={{ textAlign: 'left', marginBottom: -100 }}>
           <h2 style={{ marginBottom: '50px' }}>
             {' '}
             Available Vacancies <br />{' '}
@@ -145,21 +156,23 @@ const Careers = () => {
           <Table striped responsive>
             <thead>
               <tr>
-                <th></th>
-                <th></th>
-                <th></th>
-                <th></th>
+                <th>Job Position</th>
+                <th>Role</th>
+                <th>Type</th>
+                <th>Location</th>
+                <th className='text-center'><Button variant="outline-primary" onClick={() => handleButtonClick('/jobs')}>View</Button></th>
+                <th className='text-center'><Button variant="outline-primary" href="mailto:careers@drugstoc.com">Apply</Button></th>
               </tr>
             </thead>
             <tbody>
               {jobs.map(job => (
                 <tr key={job.name}>
-                  <td>
-                    <Link href="/jobpage">
-                      <a target="_blank" rel="noopener noreferrer">
-                        {job.name}
-                      </a>
-                    </Link>
+                  <td style={{ fontWeight: 600 }}>
+                    {/* <Link href="/jobpage">
+                      <a target="_blank" rel="noopener noreferrer"> */}
+                    {job.name}
+                    {/* </a>
+                    </Link> */}
                     {/* <a target="_blank" rel='noopener noreferrer' href="/jobpage">
                       {job.name}
                     </a> */}
@@ -169,7 +182,7 @@ const Careers = () => {
                   <td>{job.location}</td>
                   <td>
                     {' '}
-                    <Link target="_blank" href="/jobpage">
+                    <Link href={job.link}>
                       <a target="_blank" rel="noopener noreferrer">
                         <button className="btn btn-drug-stoc m-auto d-block">
                           VIEW{' '}
@@ -179,7 +192,7 @@ const Careers = () => {
                   </td>
                   <td>
                     {' '}
-                    <Link href="mailto:careers@drugstoc.com">
+                    <Link href={`mailto:careers@drugstoc.com?subject=${encodeURIComponent(job.subjectText)}`}>
                       <button className="btn btn-drug-stoc m-auto d-block">
                         APPLY
                       </button>
@@ -190,9 +203,9 @@ const Careers = () => {
             </tbody>
           </Table>
         </div>
-      </OpenPositions>
+      </OpenPositions >
       <AppCard />
-    </div>
+    </div >
   );
 };
 
