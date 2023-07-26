@@ -102,14 +102,6 @@ export default function executive() {
                             <li>A "change the world" mindset and a can-do attitude</li>
                         </ul>
 
-
-                        <h6>Bonus Points</h6>
-                        <ul>
-                            <li>Experience working in a Supply chain environment</li>
-                            <li>Proven working experience as a pharmaceutical procurement manager</li>
-                            <li>Knowledge of sourcing and procurement techniques as well as a dexterity in “reading” the market</li>
-                        </ul>
-
                     </div>
                 </div>
             </Container>
