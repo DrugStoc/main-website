@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export default function jobsqa() {
+export default function Jobsqa() {
     return (
         <>
             <Container>

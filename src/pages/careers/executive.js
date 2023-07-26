@@ -1,7 +1,7 @@
 import { useRouter } from 'next/router';
 import styled from 'styled-components';
 
-export default function qa() {
+export default function QA() {
     const { pathname } = useRouter()
 
     const Container = styled.div`
@@ -123,19 +123,3 @@ export default function qa() {
         </>
     );
 }
-
-const Container = styled.div`
-  margin: 150px 0;
-  h4 {
-    margin: 30px 0;
-  }
-  h6 {
-    margin-top: 30px;
-    font-size: 24px;
-    font-weight: bold;
-  }
-  li {
-    margin-top: 10px;
-    margin-left: 40px;
-  }
-`;

@@ -4,7 +4,7 @@ import Sales from './sales';
 import QA from './qa';
 import styled from 'styled-components'
 
-export default function job() {
+export default function Job() {
 	const h2Styles = {
 		textAlign: 'center',
 		marginTop: '50px'
