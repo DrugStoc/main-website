@@ -191,12 +191,9 @@ const Careers = () => {
                     </Link>
                   </td>
                   <td>
-                    {' '}
-                    <Link href={`mailto:careers@drugstoc.com?subject=${encodeURIComponent(job.subjectText)}`}>
-                      <button className="btn btn-drug-stoc m-auto d-block">
-                        APPLY
-                      </button>
-                    </Link>
+                    <Button onClick={() => handleMailClick(`mailto:careers@drugstoc.com?subject=${encodeURIComponent(job.subjectText)}`)} className="btn btn-drug-stoc m-auto d-block">
+                      APPLY
+                    </Button>
                   </td>
                 </tr>
               ))}

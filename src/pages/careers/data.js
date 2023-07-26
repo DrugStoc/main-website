@@ -1,13 +1,15 @@
 export const jobs = [
   {
+    id: 1,
     name: 'Sales Associate across Nigeria',
     role: 'Sales Associate',
     type: 'Full Time',
     location: 'Lagos',
     link: 'jobs/sales_associate.pdf',
-    subjectText: 'Job Application - Sales Associate',
+    subjectText: 'Job Application - Sales Associate across Nigeria',
   },
   {
+    id: 2,
     name: 'Procurement Associate',
     role: 'Procurement Associate',
     type: 'Full Time',
@@ -16,19 +18,21 @@ export const jobs = [
     subjectText: 'Job Application - Procurement Associate',
   },
   {
+    id: 3,
     name: 'Executive Assistant to the Executive Office',
     role: 'Executive Assistant',
     type: 'Full Time',
     location: 'Lagos',
     link: 'jobs/executive_assistance_to_the_ceo.pdf',
-    subjectText: 'Job Application - Procurement Associate',
+    subjectText: 'Job Application - Executive Assistant to the Executive Office',
   },
   {
+    id: 4,
     name: 'Quality Assurance Associate',
     role: 'Quality Assurance Associate',
     type: 'Full Time',
     location: 'Lagos',
     link: 'jobs/quality_assurance_associate.pdf',
-    subjectText: 'Job Application - Procurement Associate',
+    subjectText: 'Job Application - Quality Assurance Associate',
   },
 ];
