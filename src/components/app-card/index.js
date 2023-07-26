@@ -79,9 +79,11 @@ const AppCard = () => {
 const MobileBanner = styled.div`
   display: none;
   @media (max-width: 992px) {
-    display: none;
+    display: block;
     text-align: center;
     margin-top: -145.5%;
+    position: 'absolute;
+    z-index: -1
   }
   img {
     width: 100%;
