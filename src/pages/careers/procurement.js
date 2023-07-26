@@ -52,19 +52,10 @@ export default function procurement() {
                         </div>
                         <h6>Job Description</h6>
                         <p>
-                            {' '}
-                            DrugStoc is looking cfor a{' '}
-                            <strong>Passionate Quality Assurance Associate</strong> who wants
-                            to change the current status quo with healthcare in Sub Saharan
-                            Africa. S/he should have proven experience in procurement to help
-                            scale to its next stage of growth and expansion. Your central goal
-                            is to ensure stock optimization, as well as provide guidance on
-                            sourcing and procurement processes. Our procurement manager will
-                            be a supply chain expert who will specialize in implementing
-                            cost-effective purchases of pharmaceutical products, as required
-                            by the company. Ensuring quality control and adhering to the
-                            company's policies and procedures on supply chain management will
-                            be some of your main priorities when carrying out this role.
+                            DrugStoc is looking for a <strong>Passionate Procurement Associate</strong> who wants to change the
+                            current status quo with healthcare in Sub Saharan Africa. S/he should have proven
+                            experience in Quality Management System to help scale to its next stage of growth and
+                            expansion.
                         </p>
                         <h6>What You Get To Do</h6>
                         <ul>

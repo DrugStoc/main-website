@@ -1,7 +1,7 @@
 import { useRouter } from 'next/router';
-import styled from 'styled-components'
+import styled from 'styled-components';
 
-export default function executive() {
+export default function qa() {
     const { pathname } = useRouter()
 
     const Container = styled.div`
@@ -24,87 +24,118 @@ export default function executive() {
             <Container>
                 <div className="header">
                     <div className="container">
-                        <div style={{ display: pathname === '/jobpage' ? 'none' : undefined }}>
+                        {/* <div style={{ display: pathname === '/jobpage' ? 'none' : undefined }}>
                             <h1>Who are we?</h1>
-                            <p>DrugStoc is a tech-enabled pharmaceutical access and distribution platform that connects
-                                manufacturers of pharmaceutical products to health care providers in sub-Saharan Africa.
-                                Founded in 2016, DrugStoc is a major player in the pharmatech industry in Nigeria adopting
-                                advanced technologies in supply-chain management, inventory management, data analytics
-                                and trade financing to ensure anti-counterfeit medications reach the patients timely.
+                            <p>
+                                DrugStoc is a tech-enabled pharmaceutical access and distribution
+                                platform that connects manufacturers of pharmaceutical products to
+                                health care providers in sub-Saharan Africa. Founded in 2016, Our
+                                clients are hospitals, pharmacies, clinics, and nursing homes. We
+                                are an omnichannel platform that removes any barrier for Licensed
+                                health workers to find and purchase genuine medication at the
+                                right price for their patients.
                             </p>
-                            <h6> What You Can Look Forward To
-                            </h6>
+                            <h6> What You Can Look Forward To</h6>
                             <ul>
-                                <li>By 2025, DrugStoc’s goal is to become the largest last mile distributor of health
-                                    commodities in Nigeria. In an environment plagued with substandard and
-                                    counterfeit products, we prioritize quality by operating an end-to-end traceable
-                                    supply chain offering our clients visibility over their supply chain.
+                                <li>
+                                    By 2025, DrugStoc's goal is to become the largest last mile
+                                    distributor of health commodities in Nigeria. In an environment
+                                    plagued with substandard and counterfeit products, we prioritize
+                                    quality by operating an end-to-end traceable supply chain
+                                    offering our clients visibility over their supply chain.
                                 </li>
-                                <li>We focus on building strong, diverse teams built from different backgrounds,
-                                    experiences & identities.
+                                <li>
+                                    We focus on building strong, diverse teams built from different
+                                    backgrounds, experiences & identities.
                                 </li>
                             </ul>
-                        </div>
-                        <h6>Job Description</h6>
-                        <p> DrugStoc is looking for a <strong>Passionate Procurement Associate</strong> who wants to change the
-                            current status quo with healthcare in Sub Saharan Africa. S/he should have proven
-                            experience in Quality Management System to help scale to its next stage of growth and
-                            expansion.
+                        </div> */}
+                        <h6>Job Position: Executive Assistant to the Executive Office</h6>
+                        <p>
+                            Overview: We are seeking an experienced and detail-oriented Executive Assistant to support
+                            the daily operations of our Executive Office. The ideal candidate will have exceptional
+                            communication and organizational skills, the ability to multitask, and experience in managing
+                            executive calendars, travel, and other administrative tasks.
                         </p>
-                        <h6>What You Get To Do
-                        </h6>
+                        <p>What you benefit: Front seat to a fast paced and rapidly growing tech enabled pharmatech
+                            company focused on impacting lives of everyday Sub-Saharan Africans.</p>
+                        <h6>Responsibilities</h6>
                         <ul>
-                            <li>Evaluate vendor's quotation to ensure that they are in line with the technical and
-                                commercial specifications required.
+                            <li>
+                                Manage the Executive Office's daily calendar, including scheduling and prioritizing
+                                appointments, meetings, and events
                             </li>
-                            <li>Evaluate supplier performance based on set criterias</li>
-                            <li>Following up on purchase order delivery and supplier invoices</li>
-                            <li>Managing the replenishment of stocks.</li>
-                            <li>Assist with demand planning.</li>
-                            <li>Assist to perform all procurement and contracting activities.</li>
-                            <li>Develop supplier database and establish annual purchasing contracts for lower
-                                value, high value items</li>
-                            <li>Provide periodic reporting for management on purchasing, controls and processes.
+                            <li>
+                                Organize and coordinate travel arrangements for the Executive Office, including
+                                flight bookings, hotel accommodations, and ground transportation
                             </li>
-                            <li>Ensure compliance with all laid down processes.</li>
-                            <li>Ensure transparency, fairness, efficiency and accountability are evident in all
-                                dealings</li>
-                            <li>Ensure all procured products conform to health and safety established standards for
-                                the organization
+                            <li>
+                                Serve as a liaison between the Executive Office and other departments, external
+                                partners, and stakeholders
                             </li>
-                            <li>Monitor shelf life of products</li>
-                            <li>Any other duties as may be assigned from time to time</li>
+                            <li>
+                                Handle confidential and sensitive information with discretion and professionalism
+                            </li>
+                            <li>
+                                Prepare and edit correspondence, reports, and presentations for various complex
+                                ideas and prepare visual and written interpretations for business projects
+
+                            </li>
+                            <li>
+                                Take minutes of Management meetings
+                            </li>
+                            <li>
+                                Conduct research and provide analysis to support the Executive Office's decision-making process
+                            </li>
+                            <li>
+                                Manage communication with stakeholders front the CEO's offic
+                            </li>
+                            <li>
+                                Track progress of detailed project plans
+                            </li>
+                            <li>
+                                Plan and execute special projects and events, as may be needed
+                            </li>
+                            <li>
+                                Manage and maintain office supplies and equipment for the office of the Executive
+                            </li>
+                            <li>Assist with other administrative tasks, as needed</li>
                         </ul>
-                        <h6>What It Takes To Succeed</h6>
+                        <h6>Qualifications:</h6>
                         <ul>
-                            <li>Familiarity with sourcing and vendor management</li>
-                            <li>Interest in market dynamics along with business sense</li>
-                            <li>Enviable negotiation skills and relationship management skills</li>
-                            <li>Working experience of vendor management software
+                            <li>
+                                First class Bachelor's degree in Finance, Economics, or any related field
                             </li>
-                            <li>Ability to gather and analyze data and work with figures</li>
-                            <li>Solid judgment with ability to make good decisions</li>
-                            <li>Strong leadership capabilities</li>
-                            <li>First class or a minimum of second class degree in either Statistics, Mathematics,
-                                Economics, Chemistry, Physics, Pharmacy an added advantage</li>
-                            <li>2+ years of experience in Procurement or Supply Chain Management in the
-                                pharmaceutical, Retail & FMCG industry.
+                            <li>1+ year of experience as an Executive Assistant or an analyst</li>
+                            <li>Strong organizational and time-management skills, with the ability to prioritize tasks
+                                and manage multiple deadlines</li>
+                            <li>Excellent communication and interpersonal skills, with the ability to interact with
+                                individuals at all levels in the organization</li>
+                            <li>Proficient in Microsoft Office Suite (Word, Excel, PowerPoint, and Outlook)
                             </li>
-                            <li>Experience in the pharmaceutical sector is an added advantage</li>
-                            <li>A "change the world" mindset and a can-do attitude.</li>
+                            <li>Ability to handle confidential information with discretion and professionalism</li>
+                            <li>Demonstrated ability to work independently, take initiative, and exercise good
+                                judgment</li>
                         </ul>
-
-
-                        <h6>Bonus Points</h6>
-                        <ul>
-                            <li>Experience working in a Supply chain environment</li>
-                            <li>Proven working experience as a pharmaceutical procurement manager</li>
-                            <li>Knowledge of sourcing and procurement techniques as well as a dexterity in “reading” the market</li>
-                        </ul>
-
                     </div>
                 </div>
             </Container>
         </>
-    )
-};
+    );
+}
+
+const Container = styled.div`
+  margin: 150px 0;
+  h4 {
+    margin: 30px 0;
+  }
+  h6 {
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  li {
+    margin-top: 10px;
+    margin-left: 40px;
+  }
+`;
