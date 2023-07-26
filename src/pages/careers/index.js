@@ -147,7 +147,7 @@ const Careers = () => {
         </div>
       </BenefitSection>
       <OpenPositions id="open-positions">
-        <div className="container" style={{ textAlign: 'left', marginBottom: -100 }}>
+        <div className="container" style={{ textAlign: 'left', marginBottom: -100, backgroundColor: '#fff' }}>
           <h2 style={{ marginBottom: '50px' }}>
             {' '}
             Available Vacancies <br />{' '}

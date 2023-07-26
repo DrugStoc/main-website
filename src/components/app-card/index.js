@@ -82,8 +82,9 @@ const MobileBanner = styled.div`
     display: block;
     text-align: center;
     margin-top: -145.5%;
-    position: 'absolute;
-    z-index: -1
+    z-index: -10;
+    position: relative;
+    z-index: -10000;
   }
   img {
     width: 100%;
