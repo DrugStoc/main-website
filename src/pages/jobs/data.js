@@ -25,7 +25,7 @@ const jobs = [
         role: 'Quality Assurance',
         type: 'Full Time',
         location: 'Lagos',
-        pdfLink: '../../../jobs/quality_assurance_associate.pdf',
+        pdfLink: '../../../jobs/quality_assurance_associate',
     },
 ];
 

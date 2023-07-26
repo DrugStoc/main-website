@@ -160,7 +160,7 @@ const Careers = () => {
                 <th>Role</th>
                 <th>Type</th>
                 <th>Location</th>
-                <th className='text-center'><Button variant="outline-primary" onClick={() => handleButtonClick('/jobs')}>View</Button></th>
+                <th className='text-center'><Button variant="outline-primary" onClick={() => handleButtonClick('/jobpage')}>View</Button></th>
                 <th className='text-center'><Button variant="outline-primary" href="mailto:careers@drugstoc.com">Apply</Button></th>
               </tr>
             </thead>

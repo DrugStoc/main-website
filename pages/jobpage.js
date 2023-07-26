@@ -4,7 +4,7 @@ import Layout from 'components/layout';
 export default function jobpage() {
     return (
         <Layout title="Job">
-            <Job/>
+            <Job />
         </Layout>
     );
 }

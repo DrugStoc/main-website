@@ -5,7 +5,7 @@ export const jobs = [
     role: 'Sales Associate',
     type: 'Full Time',
     location: 'Lagos',
-    link: 'jobs/sales_associate.pdf',
+    link: 'sales',
     subjectText: 'Job Application - Sales Associate across Nigeria',
   },
   {
@@ -14,7 +14,7 @@ export const jobs = [
     role: 'Procurement Associate',
     type: 'Full Time',
     location: 'Lagos',
-    link: 'jobs/procurement_associate.pdf',
+    link: 'procurement',
     subjectText: 'Job Application - Procurement Associate',
   },
   {
@@ -23,7 +23,7 @@ export const jobs = [
     role: 'Executive Assistant',
     type: 'Full Time',
     location: 'Lagos',
-    link: 'jobs/executive_assistance_to_the_ceo.pdf',
+    link: 'executive',
     subjectText: 'Job Application - Executive Assistant to the Executive Office',
   },
   {
@@ -32,7 +32,7 @@ export const jobs = [
     role: 'Quality Assurance Associate',
     type: 'Full Time',
     location: 'Lagos',
-    link: 'jobs/quality_assurance_associate.pdf',
+    link: 'qa',
     subjectText: 'Job Application - Quality Assurance Associate',
   },
 ];
