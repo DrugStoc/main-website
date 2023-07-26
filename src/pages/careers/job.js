@@ -6,12 +6,13 @@ import styled from 'styled-components'
 
 export default function job() {
 	const h2Styles = {
-		textAlign: 'center'
+		textAlign: 'center',
+		marginTop: '50px'
 	}
 	return (
 		<>
 			<Container>
-				<h2 style={h2Styles}>Sales Associate across Nigeria</h2>
+				<h2 style={{ ...h2Styles, marginTop: -50 }}>Sales Associate across Nigeria</h2>
 				<Sales />
 
 				<h2 style={h2Styles}>Procurement Associate</h2>
