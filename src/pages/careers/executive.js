@@ -1,8 +1,6 @@
-import { useRouter } from 'next/router';
 import styled from 'styled-components';
 
 export default function QA() {
-    const { pathname } = useRouter()
     return (
         <>
             <Container>
