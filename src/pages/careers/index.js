@@ -153,7 +153,7 @@ const Careers = () => {
             Available Vacancies <br />{' '}
           </h2>
 
-          <Table striped responsive>
+          <Table striped responsive style={{ position: 'relative', zIndex: 1000 }}>
             <thead>
               <tr>
                 <th>Job Position</th>
