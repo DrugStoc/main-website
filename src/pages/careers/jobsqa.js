@@ -1,6 +1,9 @@
+import { useRouter } from 'next/router';
 import styled from 'styled-components'
 
 export default function Jobsqa() {
+    const router = useRouter();
+    const pathname = router.pathname
     return (
         <>
             <Container>
