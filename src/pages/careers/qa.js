@@ -6,7 +6,7 @@ export default function Executive() {
             <Container>
                 <div className="header">
                     <div className="container">
-                        <div style={{ display: pathname === '/jobpage' ? 'none' : undefined }}>
+                        <div>
                             <h1>Who are we?</h1>
                             <p>DrugStoc is a tech-enabled pharmaceutical access and distribution platform that connects
                                 manufacturers of pharmaceutical products to health care providers in sub-Saharan Africa.
