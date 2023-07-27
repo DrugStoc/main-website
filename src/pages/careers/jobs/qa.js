@@ -1,7 +1,7 @@
 import { useRouter } from 'next/router';
 import styled from 'styled-components'
 
-export default function Executive() {
+export default function QA() {
     const { pathname } = useRouter()
 
     const Container = styled.div`
