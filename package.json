@@ -9,9 +9,6 @@
     "lint": "next lint",
     "generate-sitemap": "next-sitemap"
   },
-  "engines": {
-    "node": "18.x"
-  },
   "dependencies": {
     "@types/styled-components": "^5.1.26",
     "aimscroll": "^1.0.3",
