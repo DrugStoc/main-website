@@ -3,22 +3,6 @@ import styled from 'styled-components';
 
 export default function QA() {
     const { pathname } = useRouter()
-
-    const Container = styled.div`
-    margin: ${pathname === '/jobpage' ? '10px auto' : '150px 0'};
-    h4 {
-      margin: 30px 0;
-    }
-    h6 {
-      margin-top: 30px;
-      font-size: 24px;
-      font-weight: bold;
-    }
-    li {
-      margin-top: 10px;
-      margin-left: 40px;
-    }
-  `;
     return (
         <>
             <Container>
@@ -123,3 +107,19 @@ export default function QA() {
         </>
     );
 }
+
+const Container = styled.div`
+    margin: 150px 0;
+    h4 {
+      margin: 30px 0;
+    }
+    h6 {
+      margin-top: 30px;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    li {
+      margin-top: 10px;
+      margin-left: 40px;
+    }
+  `;
