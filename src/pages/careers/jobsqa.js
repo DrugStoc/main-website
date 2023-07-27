@@ -1,15 +1,12 @@
-import { useRouter } from 'next/router';
 import styled from 'styled-components'
 
 export default function Jobsqa() {
-    const router = useRouter();
-    const pathname = router.pathname
     return (
         <>
             <Container>
                 <div className="header">
                     <div className="container">
-                        <div style={{ display: pathname === '/jobpage' ? 'none' : undefined }}>
+                        <div>
                             <h1>Who are we?</h1>
                             <p>DrugStoc is a tech-enabled pharmaceutical access and distribution platform that connects manufacturers of pharmaceutical products to health care providers in sub-Saharan Africa. Founded in 2016, Our clients are hospitals, pharmacies, clinics, and nursing homes. We are an omnichannel platform that removes any barrier for Licensed health workers to find and purchase genuine medication at the right price for their patients.
                             </p>

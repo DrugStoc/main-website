@@ -1,16 +1,13 @@
-import { useRouter } from 'next/router';
 import styled from 'styled-components';
 
 export default function Procurement() {
-    const router = useRouter();
-    const pathname = router.pathname
 
     return (
         <>
             <Container>
                 <div className="header">
                     <div className="container">
-                        <div style={{ display: pathname === '/jobpage' ? 'none' : undefined }}>
+                        <div>
                             <h1>Who are we?</h1>
                             <p>
                                 DrugStoc is a tech-enabled pharmaceutical access and distribution
