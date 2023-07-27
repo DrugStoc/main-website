@@ -17,6 +17,10 @@ const Careers = () => {
     router.push(path)
   }
 
+  const handleApplyButtonClick = () => {
+    window.location.href = 'mailto:careers@drugstoc.com';
+  };
+
   return (
     <div>
       <CareerMetadata />
@@ -161,7 +165,7 @@ const Careers = () => {
                 <th>Type</th>
                 <th>Location</th>
                 <th className='text-center'><Button variant="outline-primary" onClick={() => handleButtonClick('/jobpage')}>View</Button></th>
-                <th className='text-center'><Button variant="outline-primary" href="mailto:careers@drugstoc.com">Apply</Button></th>
+                <th className='text-center'><Button variant="outline-primary" onClick={handleApplyButtonClick}>Apply</Button></th>
               </tr>
             </thead>
             <tbody>
