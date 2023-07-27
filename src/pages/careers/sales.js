@@ -1,12 +1,30 @@
+import { useRouter } from 'next/router';
 import styled from 'styled-components'
 
 export default function Sales() {
+    const { pathname } = useRouter()
+
+    const Container = styled.div`
+    margin: ${pathname === '/jobpage' ? '10px auto' : '150px 0'};
+    h4 {
+      margin: 30px 0;
+    }
+    h6 {
+      margin-top: 30px;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    li {
+      margin-top: 10px;
+      margin-left: 40px;
+    }
+  `;
     return (
         <>
             <Container>
                 <div className="header">
                     <div className="container">
-                        <div>
+                        <div style={{ display: pathname === '/jobpage' ? 'none' : undefined }}>
                             <h1>Who are we?</h1>
                             <p>DrugStoc is a tech-enabled pharmaceutical access and distribution platform that connects manufacturers of pharmaceutical products to health care providers in sub-Saharan Africa. Founded in 2016, Our clients are hospitals, pharmacies, clinics, and nursing homes. We are an omnichannel platform that removes any barrier for Licensed health workers to find and purchase genuine medication at the right price for their patients.
                             </p>
