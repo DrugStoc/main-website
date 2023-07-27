@@ -1,4 +1,4 @@
-import Job from 'pages/careers/job';
+import Job from 'pages/careers/jobs/job';
 import Layout from 'components/layout';
 
 export default function jobpage() {

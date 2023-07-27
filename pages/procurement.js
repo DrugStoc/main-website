@@ -1,4 +1,4 @@
-import Job from 'pages/careers/procurement';
+import Job from 'pages/careers/jobs/procurement';
 import Layout from 'components/layout';
 
 export default function Procurement() {

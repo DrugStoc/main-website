@@ -1,4 +1,4 @@
-import Job from 'pages/careers/sales';
+import Job from 'pages/careers/jobs/sales';
 import Layout from 'components/layout';
 
 export default function Sales() {

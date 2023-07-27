@@ -1,4 +1,4 @@
-import Job from 'pages/careers/jobsqa';
+import Job from 'pages/careers/jobs/jobsqa';
 import Layout from 'components/layout';
 
 export default function Jobsqa() {
