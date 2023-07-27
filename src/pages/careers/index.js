@@ -9,6 +9,10 @@ import { useRouter } from 'next/router';
 const Careers = () => {
   const router = useRouter();
 
+  const handleButtonClick = (path) => {
+    router.push(path);
+  };
+
   const handleMailClick = (path) => {
     router.push(path)
   }
@@ -156,7 +160,7 @@ const Careers = () => {
                 <th>Role</th>
                 <th>Type</th>
                 <th>Location</th>
-                <th className='text-center'><Button variant="outline-primary" href="/jobpage">View</Button></th>
+                <th className='text-center'><Button variant="outline-primary" onClick={() => handleButtonClick('/jobpage')}>View</Button></th>
                 <th className='text-center'><Button variant="outline-primary" href="mailto:careers@drugstoc.com">Apply</Button></th>
               </tr>
             </thead>
