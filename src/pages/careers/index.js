@@ -54,7 +54,7 @@ const Careers = () => {
         />
       </Header>
       <TeamSection>
-        <div className="container" id="together">
+        <div className="container" id="explore">
           <h2 className="blue">
             Together we will solve some <br />
             of the biggest challenges <br />
@@ -68,7 +68,7 @@ const Careers = () => {
           </h5>
 
           <Link href="https://forms.office.com/r/BNnHbdwigv" passHref>
-            <div id="explore">
+            <div id="_explore">
               <button className="btn btn-drug-stoc m-auto d-block">
                 APPLY
               </button>
