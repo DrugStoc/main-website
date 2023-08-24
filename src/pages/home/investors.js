@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import styled from 'styled-components';
+// import ariseNewLogo from '../../components/Image/arise_news_logo.png'
 
 const investors = () => {
   return (
@@ -99,8 +100,8 @@ const investors = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Image
-                layout="responsive"
+              <img
+                // layout="responsive"
                 src="https://res.cloudinary.com/bizstak/image/upload/v1684246084/logo_arise_suylqx.png"
                 alt="arise news logo"
                 width="auto"
@@ -115,8 +116,8 @@ const investors = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Image
-                layout="responsive"
+              <img
+                // layout="responsive"
                 src="https://res.cloudinary.com/bizstak/image/upload/v1684246256/business_day_frt3xb.png"
                 alt="buiness day logo"
                 width="auto"
@@ -130,8 +131,8 @@ const investors = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Image
-                layout="responsive"
+              <img
+                // layout="responsive"
                 src="https://res.cloudinary.com/bizstak/image/upload/v1684246009/nairametrics_jnwc2l.jpg"
                 alt="nairametrics logo"
                 width="auto"

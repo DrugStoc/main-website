@@ -110,10 +110,10 @@ const Hero = () => {
           </div>
         </div>
         <div className="banner d-lg-block d-none">
-          <Image
+          <img
             src="https://res.cloudinary.com/bizstak/image/upload/v1684239587/banner_uhxkbs.png"
             alt="A Doctor Holding a Paper"
-            layout="responsive"
+            // layout="responsive"
             width="auto"
             height="auto"
             // data-aos="fade-left"
