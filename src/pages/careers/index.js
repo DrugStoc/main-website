@@ -9,13 +9,13 @@ import { useRouter } from 'next/router';
 const Careers = () => {
   const router = useRouter();
 
-  const handleButtonClick = (path) => {
+  const handleButtonClick = path => {
     router.push(path);
   };
 
-  const handleMailClick = (path) => {
-    router.push(path)
-  }
+  const handleMailClick = path => {
+    router.push(path);
+  };
 
   const handleApplyButtonClick = () => {
     window.location.href = 'mailto:careers@drugstoc.com';
@@ -29,7 +29,7 @@ const Careers = () => {
           <div className="row">
             <div className="col-lg-7">
               <h1>
-                Let your ideas be heard, let us actuate Africa’s <br />
+                Let your ideas be heard, let us actuate Africa's <br />
                 potential together
               </h1>
               <p>
@@ -54,7 +54,7 @@ const Careers = () => {
         />
       </Header>
       <TeamSection>
-        <div className="container">
+        <div className="container" id="together">
           <h2 className="blue">
             Together we will solve some <br />
             of the biggest challenges <br />
@@ -67,105 +67,64 @@ const Careers = () => {
             us.
           </h5>
 
-          <Link href="#open-positions" passHref>
-            <button className="btn btn-drug-stoc m-auto d-block">APPLY</button>
+          <Link href="https://forms.office.com/r/BNnHbdwigv" passHref>
+            <div id="apply-embed">
+              <button className="btn btn-drug-stoc m-auto d-block">
+                APPLY
+              </button>
+            </div>
+            {/* <button className="btn btn-drug-stoc m-auto d-block">APPLY</button> */}
           </Link>
-          <img src="https://res.cloudinary.com/bizstak/image/upload/v1684242847/Image-5_hmnvh4.png" alt="group photo for drugstoc" className="banner" />
+          <img
+            src="https://res.cloudinary.com/bizstak/image/upload/v1684242847/Image-5_hmnvh4.png"
+            alt="group photo for drugstoc"
+            className="banner"
+          />
         </div>
       </TeamSection>
-      {/* <CoreValueSection /> */}
-      <BenefitSection>
-        <div className="container">
-          <h2>Benefits of working with us</h2>
-          <div className="row">
-            <div className="col-md-6 col-lg-4">
-              <div className="card">
-                <div className="card-body">
-                  <img src="/images/careers/1.svg" alt="icon of a hand raising or suspending a heart in pulse" />
-                  <h4>Health insurance</h4>
-                  <p>
-                    Our comprehensive medical insurance covers you and your
-                    family
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-6 col-lg-4">
-              <div className="card">
-                <div className="card-body">
-                  <img src="/images/careers/2.svg" alt="icon of an aircraft taking off" />
-                  <h4>Traction and scale</h4>
-                  <p>
-                    Your opportunity to impact products, connect with customers,
-                    and help us scale is massive.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-6 col-lg-4">
-              <div className="card">
-                <div className="card-body">
-                  <img src="/images/careers/3.svg" alt="icon of an open wallet" />
-                  <h4>Young Family Friendly </h4>
-                  <p>We offer flexible working hours for new parents.</p>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-6 col-lg-4">
-              <div className="card">
-                <div className="card-body">
-                  <img src="/images/careers/4.svg" alt="icon of a pie chart" />
-                  <h4>Learning and development</h4>
-                  <p>
-                    With the fast pace of our environment, you're sure to
-                    acquire new skills.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-6 col-lg-4">
-              <div className="card">
-                <div className="card-body">
-                  <img src="/images/careers/5.svg" alt="icon of a hand raising or suspending two hearts" />
-                  <h4>Do what you love</h4>
-                  <p>
-                    Life is too short to work without purpose. Lets change
-                    Africa's narrative together.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-6 col-lg-4">
-              <div className="card">
-                <div className="card-body">
-                  <img src="/images/careers/6.svg" alt="icon of people in group" />
-                  <h4>Smart collegues</h4>
-                  <p>
-                    Challenge yourself by exchanging ideas with the brightest
-                    minds in Africa.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </BenefitSection>
+
       <OpenPositions id="open-positions">
-        <div className="container" style={{ textAlign: 'left', marginBottom: -100, backgroundColor: '#fff' }}>
+        <div
+          className="container"
+          style={{
+            textAlign: 'left',
+            marginBottom: 0,
+            backgroundColor: '#fff',
+            marginTop: -160,
+          }}
+        >
           <h2 style={{ marginBottom: '50px' }}>
             {' '}
             Available Vacancies <br />{' '}
           </h2>
 
-          <Table striped responsive style={{ position: 'relative', zIndex: 1000 }}>
+          <Table
+            striped
+            responsive
+            style={{ position: 'relative', zIndex: 1000 }}
+          >
             <thead>
               <tr>
                 <th>Job Position</th>
                 <th>Role</th>
                 <th>Type</th>
                 <th>Location</th>
-                <th className='text-center'><Button variant="outline-primary" onClick={() => handleButtonClick('/jobpage')}>View</Button></th>
-                <th className='text-center'><Button variant="outline-primary" onClick={handleApplyButtonClick}>Apply</Button></th>
+                <th className="text-center">
+                  <Button
+                    variant="outline-primary"
+                    onClick={() => handleButtonClick('/jobpage')}
+                  >
+                    View
+                  </Button>
+                </th>
+                <th className="text-center">
+                  <Button
+                    variant="outline-primary"
+                    onClick={handleApplyButtonClick}
+                  >
+                    Apply
+                  </Button>
+                </th>
               </tr>
             </thead>
             <tbody>
@@ -195,7 +154,16 @@ const Careers = () => {
                     </Link>
                   </td>
                   <td>
-                    <Button onClick={() => handleMailClick(`mailto:careers@drugstoc.com?subject=${encodeURIComponent(job.subjectText)}`)} className="btn btn-drug-stoc m-auto d-block">
+                    <Button
+                      onClick={() =>
+                        handleMailClick(
+                          `mailto:careers@drugstoc.com?subject=${encodeURIComponent(
+                            job.subjectText
+                          )}`
+                        )
+                      }
+                      className="btn btn-drug-stoc m-auto d-block"
+                    >
                       APPLY
                     </Button>
                   </td>
@@ -204,9 +172,110 @@ const Careers = () => {
             </tbody>
           </Table>
         </div>
-      </OpenPositions >
+      </OpenPositions>
+      {/* <CoreValueSection /> */}
+      <BenefitSection>
+        <div className="container">
+          <h2>Benefits of working with us</h2>
+          <div className="row">
+            <div className="col-md-6 col-lg-4">
+              <div className="card">
+                <div className="card-body">
+                  <img
+                    src="/images/careers/1.svg"
+                    alt="icon of a hand raising or suspending a heart in pulse"
+                  />
+                  <h4>Health insurance</h4>
+                  <p>
+                    Our comprehensive medical insurance covers you and your
+                    family
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-6 col-lg-4">
+              <div className="card">
+                <div className="card-body">
+                  <img
+                    src="/images/careers/2.svg"
+                    alt="icon of an aircraft taking off"
+                  />
+                  <h4>Traction and scale</h4>
+                  <p>
+                    Your opportunity to impact products, connect with customers,
+                    and help us scale is massive.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-6 col-lg-4">
+              <div className="card">
+                <div className="card-body">
+                  <img
+                    src="/images/careers/3.svg"
+                    alt="icon of an open wallet"
+                  />
+                  <h4>Young Family Friendly </h4>
+                  <p>We offer flexible working hours for new parents.</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-6 col-lg-4">
+              <div className="card">
+                <div className="card-body">
+                  <img src="/images/careers/4.svg" alt="icon of a pie chart" />
+                  <h4>Learning and development</h4>
+                  <p>
+                    With the fast pace of our environment, you're sure to
+                    acquire new skills.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-6 col-lg-4">
+              <div className="card">
+                <div className="card-body">
+                  <img
+                    src="/images/careers/5.svg"
+                    alt="icon of a hand raising or suspending two hearts"
+                  />
+                  <h4>Do what you love</h4>
+                  <p>
+                    Life is too short to work without purpose. Lets change
+                    Africa's narrative together.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-6 col-lg-4">
+              <div className="card">
+                <div className="card-body">
+                  <img
+                    src="/images/careers/6.svg"
+                    alt="icon of people in group"
+                  />
+                  <h4>Smart collegues</h4>
+                  <p>
+                    Challenge yourself by exchanging ideas with the brightest
+                    minds in Africa.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </BenefitSection>
+
+      <Button
+        style={{ position: 'relative', top: 50 }}
+        onClick={() => handleButtonClick('/jobpage')}
+        className="btn btn-drug-stoc m-auto d-block"
+      >
+        Check out Available Vacancies
+      </Button>
+
       <AppCard />
-    </div >
+    </div>
   );
 };
 
