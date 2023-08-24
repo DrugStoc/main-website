@@ -68,7 +68,7 @@ const Careers = () => {
           </h5>
 
           <Link href="https://forms.office.com/r/BNnHbdwigv" passHref>
-            <div id="apply-embed">
+            <div id="explore">
               <button className="btn btn-drug-stoc m-auto d-block">
                 APPLY
               </button>
