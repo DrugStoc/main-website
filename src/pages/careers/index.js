@@ -67,14 +67,16 @@ const Careers = () => {
             us.
           </h5>
 
-          <Link href="https://forms.office.com/r/BNnHbdwigv" passHref>
-            <div id="_explore">
+          <div id="_explore">
+          <a href="https://forms.office.com/r/BNnHbdwigv" target="_blank" rel="noopener noreferrer">
+            
               <button className="btn btn-drug-stoc m-auto d-block">
                 APPLY
               </button>
-            </div>
             {/* <button className="btn btn-drug-stoc m-auto d-block">APPLY</button> */}
-          </Link>
+          </a>
+          </div>
+
           <img
             src="https://res.cloudinary.com/bizstak/image/upload/v1684242847/Image-5_hmnvh4.png"
             alt="group photo for drugstoc"
