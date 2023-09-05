@@ -123,10 +123,6 @@ const MarketAccess = () => {
                 <div className="card-body">
                   <img src="/images/careers/rapid-test.svg" alt="injection icon" />
                   <h4>Rapid Diagnostic Tests</h4>
-                  {/* <p>
-                    With the fast pace of our environment, you’re sure to
-                    acquire new skills.
-                  </p> */}
                 </div>
               </div>
             </div>
@@ -157,7 +153,7 @@ const MarketAccess = () => {
 
       <div style={{ textAlign: 'center', marginTop: '40px' }}>
         <a href="mailto:marketaccess@drugstoc.com">
-          Send us a Email <img src="/images/arrow.svg" width="30" style={{ marginLeft: '10px' }} />
+          Send us a Email <img src="/images/arrow.svg" width="30" style={{ marginLeft: '10px' }} alt='email' />
         </a>
       </div>
 
