@@ -88,8 +88,8 @@ const Careers = () => {
         </div>
       </TeamSection>
 
-      {/* <OpenPositions id="open-positions"> */}
-        {/* <div
+      <OpenPositions id="open-positions">
+        <div
           className="container"
           style={{
             textAlign: 'left',
@@ -97,8 +97,8 @@ const Careers = () => {
             backgroundColor: '#fff',
             marginTop: -160,
           }}
-        > */}
-          {/* <h2 style={{ marginBottom: '50px' }}>
+        >
+          <h2 style={{ marginBottom: '50px' }}>
             {' '}
             Available Vacancies <br />{' '}
           </h2>
@@ -135,11 +135,7 @@ const Careers = () => {
             <tbody>
               {jobs.map(job => (
                 <tr key={job.name}>
-                  <td style={{ fontWeight: 600 }}>
-                    
-                    {job.name}
-                    
-                  </td>
+                  <td style={{ fontWeight: 600 }}>{job.name}</td>
                   <td>{job.role}</td>
                   <td>{job.type}</td>
                   <td>{job.location}</td>
@@ -170,9 +166,9 @@ const Careers = () => {
                 </tr>
               ))}
             </tbody>
-          </Table> */}
-        {/* </div> */}
-      {/* </OpenPositions> */}
+          </Table>
+        </div>
+      </OpenPositions>
       <BenefitSection>
         <div className="container">
           <h2>Benefits of working with us</h2>

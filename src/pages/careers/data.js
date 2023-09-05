@@ -24,7 +24,8 @@ export const jobs = [
     type: 'Full Time',
     location: 'Lagos',
     link: 'executive',
-    subjectText: 'Job Application - Executive Assistant to the Executive Office',
+    subjectText:
+      'Job Application - Executive Assistant to the Executive Office',
   },
   {
     id: 4,
@@ -34,5 +35,23 @@ export const jobs = [
     location: 'Lagos',
     link: 'qa',
     subjectText: 'Job Application - Quality Assurance Associate',
+  },
+  {
+    id: 5,
+    name: 'Flutter Mobile App Developer',
+    role: 'Flutter Mobile App Developer',
+    type: 'Full Time',
+    location: 'Lagos',
+    link: 'flutter',
+    subjectText: 'Job Application - Flutter Mobile App Developer',
+  },
+  {
+    id: 6,
+    name: 'React/Next Developer',
+    role: 'React/Next Front-end Developer',
+    type: 'Full Time',
+    location: 'Lagos',
+    link: 'react',
+    subjectText: 'Job Application - React/Next Front-end Developer',
   },
 ];

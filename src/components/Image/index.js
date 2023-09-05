@@ -42,6 +42,7 @@ export default class Image extends Component {
             className={`${this.props.className} `}
             style={overlayStyles}
             src={overlaySrc}
+            alt=''
           />
         )}
       </>
