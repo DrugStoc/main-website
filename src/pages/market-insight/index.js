@@ -126,7 +126,7 @@ const MarketInsight = () => {
       </MarketInsightSection>
       <div style={{ textAlign: 'center', marginTop: '40px' }}>
         <a href="mailto:rx-insights@drugstoc.com" style={{ marginLeft: 'auto', marginRight: 'auto', }}>
-          Send an Email <img src="/images/arrow.svg" width="30" style={{ marginLeft: '10px' }} />
+          Send an Email <img src="/images/arrow.svg" width="30" style={{ marginLeft: '10px' }} alt='arrow icon' />
         </a>
       </div>
       

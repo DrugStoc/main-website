@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/alt-text */
+
 import styled from 'styled-components';
 import AppCard from 'components/app-card';
 import { BenefitSection } from 'pages/careers';
@@ -19,16 +21,16 @@ const MarketAccess = () => {
               </h1>
 
               <p>
-                We use data driven insights and a new-age hybrid distribution model to  <br />
-                create access for your products to the people who need it the most.{' '}
-                <br />
-
+                We use data driven insights and a new-age hybrid distribution
+                model to <br />
+                create access for your products to the people who need it the
+                most. <br />
               </p>
             </div>
             <div className="col-lg-5">
               <img
                 src="https://res.cloudinary.com/bizstak/image/upload/v1684432327/market-access_sigt8p.png"
-                alt="Woman Smiling"
+                alt="Market Access Image"
                 loading="eager"
                 className="w-100 d-lg-block d-none"
               />
@@ -51,14 +53,16 @@ const MarketAccess = () => {
           <div className="row align-items-center justify-content-between mt-4">
             <div className="col-lg-6">
               <img
-                src="https://res.cloudinary.com/bizstak/image/upload/v1684432433/section-2_chabbw.png"
-                alt=" Forward thinking solutions"
-                className="d-lg-block d-none w-100"
+                src="https://res.cloudinary.com/bizstak/image/upload/v1684239802/banner-dots_stl7x6.png"
+                alt="Banner Dots"
+                aria-hidden="true"
+                className="header__banner-dots-right d-lg-block d-none"
               />
             </div>
             <div className="col-lg-5">
               <p>
-                We provide end-to-end services to ensure that you have a reliable market access partner. These services include:
+                We provide end-to-end services to ensure that you have a
+                reliable market access partner. These services include:
               </p>
               <ul className="row">
                 <li className="col-lg-6 ">
@@ -68,20 +72,34 @@ const MarketAccess = () => {
                   <p>Registration Services</p>
                 </li>
                 <li className="col-lg-6 ">
-                  <p>Data Driven Pricing <br />and Demand Data</p>
+                  <p>
+                    Data Driven Pricing <br />
+                    and Demand Data
+                  </p>
                 </li>
                 <li className="col-lg-6 ">
-                  <p>Track and Trace your <br /> Products Live</p>
+                  <p>
+                    Track and Trace your <br /> Products Live
+                  </p>
                 </li>
                 <li className="col-lg-6 ">
-                  <p>Distribution and <br />Warehousing</p>
+                  <p>
+                    Distribution and <br />
+                    Warehousing
+                  </p>
                 </li>
                 <li className="col-lg-6 ">
-                  <p> Marketing and Merchandising <br /> Services</p>
+                  <p>
+                    {' '}
+                    Marketing and Merchandising <br /> Services
+                  </p>
                 </li>
               </ul>
               <p>
-                Open up a new frontier with a reliable partner that prioritises quality and waste reduction. Solidify your presence within a growing market with immense potential. Let's get the conversation started.
+                Open up a new frontier with a reliable partner that prioritises
+                quality and waste reduction. Solidify your presence within a
+                growing market with immense potential. Let's get the
+                conversation started.
               </p>
             </div>
           </div>
@@ -90,12 +108,18 @@ const MarketAccess = () => {
       <AccessBlurbSection>
         <div className="container">
           <h2>Your medical products, simply delivered</h2>
-          <p style={{ textAlign: 'center', marginBottom: '50px' }}> We specialise in: </p>
+          <p style={{ textAlign: 'center', marginBottom: '50px' }}>
+            {' '}
+            We specialise in:{' '}
+          </p>
           <div className="row">
             <div className="col-md-6 col-lg-4">
               <div className="card">
                 <div className="card-body">
-                  <img src="/images/careers/pharmacy-products.svg" alt="drugs icon" />
+                  <img
+                    src="/images/careers/pharmacy-products.svg"
+                    alt="drugs icon"
+                  />
                   <h4>Pharmacy Products</h4>
                 </div>
               </div>
@@ -103,25 +127,32 @@ const MarketAccess = () => {
             <div className="col-md-6 col-lg-4">
               <div className="card">
                 <div className="card-body">
-                  <img src="/images/careers/small-device.svg" alt="splitted drugs icon" />
+                  <img
+                    src="/images/careers/small-device.svg"
+                    alt="splitted drugs icon"
+                  />
                   <h4>Small Medical Devices</h4>
-
                 </div>
               </div>
             </div>
             <div className="col-md-6 col-lg-4">
               <div className="card">
                 <div className="card-body">
-                  <img src="/images/careers/medical-consumables.svg" alt="Stethoscope icon" />
+                  <img
+                    src="/images/careers/medical-consumables.svg"
+                    alt="Stethoscope icon"
+                  />
                   <h4>Medical Consumables</h4>
-
                 </div>
               </div>
             </div>
             <div className="col-md-6 col-lg-4">
               <div className="card">
                 <div className="card-body">
-                  <img src="/images/careers/rapid-test.svg" alt="injection icon" />
+                  <img
+                    src="/images/careers/rapid-test.svg"
+                    alt="injection icon"
+                  />
                   <h4>Rapid Diagnostic Tests</h4>
                 </div>
               </div>
@@ -129,7 +160,10 @@ const MarketAccess = () => {
             <div className="col-md-6 col-lg-4">
               <div className="card">
                 <div className="card-body">
-                  <img src="/images/careers/career-5.svg" alt="nose mask icon" />
+                  <img
+                    src="/images/careers/career-5.svg"
+                    alt="nose mask icon"
+                  />
                   <h4>Cold Chain Products </h4>
                   {/* <p>
                     Life is too short to work on things you don’t love. Join us
@@ -141,19 +175,27 @@ const MarketAccess = () => {
             <div className="col-md-6 col-lg-4">
               <div className="card">
                 <div className="card-body">
-                  <img src="/images/careers/specialty-item.svg" alt="a pin with two wings" />
+                  <img
+                    src="/images/careers/specialty-item.svg"
+                    alt="a pin with two wings"
+                  />
                   <h4>Specialty Items in Tertiary Care</h4>
                 </div>
               </div>
             </div>
           </div>
         </div>
-
       </AccessBlurbSection>
 
       <div style={{ textAlign: 'center', marginTop: '40px' }}>
         <a href="mailto:marketaccess@drugstoc.com">
-          Send us a Email <img src="/images/arrow.svg" width="30" style={{ marginLeft: '10px' }} alt='email' />
+          Send us a Email{' '}
+          <img
+            src="/images/arrow.svg"
+            width="30"
+            style={{ marginLeft: '10px' }}
+            alt="email icon"
+          />
         </a>
       </div>
 
@@ -252,10 +294,10 @@ const AccessBlurbSection = styled(BenefitSection)`
   @media (max-width: 992px) {
     margin-top: 4rem;
   }
-  h2{
+  h2 {
     color: #000;
     margin: 50px;
-    text-align: center ;
+    text-align: center;
   }
 `;
 
