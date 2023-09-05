@@ -1,5 +1,3 @@
-/* eslint-disable jsx-a11y/alt-text */
-
 import styled from 'styled-components';
 import AppCard from 'components/app-card';
 import { BenefitSection } from 'pages/careers';
