@@ -17,11 +17,11 @@ const Partnerships = () => {
               <h1>We partner with mission driven organizations </h1>
 
               <p>
-                To build an inclusive supply chain in healthcare, DrugStoc understands the need to
-                work
-                <br /> and collaborate with mission driven organisations with a similar vision to increase access to
-
-                affordable and genuine medications in emerging Economies.
+                To build an inclusive supply chain in healthcare, DrugStoc
+                understands the need to work
+                <br /> and collaborate with mission driven organisations with a
+                similar vision to increase access to affordable and genuine
+                medications in emerging Economies.
               </p>
             </div>
             <div className="col-lg-5">
@@ -47,11 +47,10 @@ const Partnerships = () => {
           <div className="container">
             <div className="row align-items-center justify-content-center m-auto">
               <div className="col-lg-10 text-center">
-                <h4>Some of our Global Pharmamaceutical Partners</h4>
+                <h4>Some of our Global Pharmaceutical Partners</h4>
                 <p className="mb-5">
-                  We work with more than 400 Pharmacetical companies to deliver
-                  anti <br />
-                  countefeit drugs to last mile pateints
+                  We work with more than 400 Pharmaceutical companies to deliver
+                  anti-countefeit drugs to last mile patients
                 </p>
                 <div className="row align-items-center">
                   {partners.map(pt => (
@@ -77,7 +76,6 @@ const Partnerships = () => {
             </h5>
 
             <div className="row align-items-center">
-             
               {investors.map(investor => (
                 <div className="col-lg-3 col-md-4 col-6" key={investor.src}>
                   <div className="investor__card">
@@ -86,14 +84,16 @@ const Partnerships = () => {
                 </div>
               ))}
             </div>
-
           </div>
         </ProvidersSection>
       </ScrollAnimation>
       <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut" duration={0.8}>
         <GetInTouch>
           <div className="d-block d-lg-flex flex-wrap justify-content-center">
-            <img src="https://res.cloudinary.com/bizstak/image/upload/v1684432815/section-2_1_tg0fcz.png" alt="a contact support person at her office at DrugStoc wearing a black nose mask" />
+            <img
+              src="https://res.cloudinary.com/bizstak/image/upload/v1684432815/section-2_1_tg0fcz.png"
+              alt="a contact support person at her office at DrugStoc wearing a black nose mask"
+            />
             <div className="content">
               <div>
                 <h4>Get in touch</h4>
