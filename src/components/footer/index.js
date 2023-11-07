@@ -1,9 +1,10 @@
 import styled from 'styled-components';
 import Link from 'next/link';
+import NavLink from 'components/nav-link';
 
 const Footer = () => {
   const date = new Date();
-  const year = date.getFullYear()
+  const year = date.getFullYear();
   return (
     <FooterWrapper role="contentinfo">
       <div className="container">
@@ -48,6 +49,11 @@ const Footer = () => {
                   <a aria-label="Navigate To Pro">Privacy</a>
                 </Link>
               </li>
+              <li>
+                <Link href="https://blog.drugstoc.com">
+                  <a aria-label="Navigate To blog">Blog</a>
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -86,7 +92,11 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <a href="https://app.drugstoc.com/" target='_blank' rel='noreferrer'>
+                <a
+                  href="https://app.drugstoc.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Shop on Web
                 </a>
               </li>
@@ -167,7 +177,13 @@ const Footer = () => {
                   rel="noopener noreferrer"
                   style={{ display: 'flex', width: 115 }}
                 >
-                  <img src="https://res.cloudinary.com/bizstak/image/upload/v1684263069/email_oe5zjc.png" alt="email envelop icon" width={45} height={45} title='Contact Email' />
+                  <img
+                    src="https://res.cloudinary.com/bizstak/image/upload/v1684263069/email_oe5zjc.png"
+                    alt="email envelop icon"
+                    width={45}
+                    height={45}
+                    title="Contact Email"
+                  />
                   <span>Contact Email</span>
                 </a>
               </li>
@@ -220,7 +236,12 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img width={34} height={34} src="/images/social/youtube.svg" alt="youtube icon" />
+                <img
+                  width={34}
+                  height={34}
+                  src="/images/social/youtube.svg"
+                  alt="youtube icon"
+                />
               </a>
             </div>
           </div>

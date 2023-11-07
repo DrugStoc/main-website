@@ -16,11 +16,11 @@ const NavbarLayout = () => {
   const style =
     userScrolledUp || isStaticBg
       ? {
-        borderBottom: '1px solid #ececec',
-        backdropFilter: 'saturate(3.5) blur(14px)',
-        background: '#fff',
-        boxShadow: '1px 0px 10px #00000008',
-      }
+          borderBottom: '1px solid #ececec',
+          backdropFilter: 'saturate(3.5) blur(14px)',
+          background: '#fff',
+          boxShadow: '1px 0px 10px #00000008',
+        }
       : {};
   return (
     <div>
@@ -188,7 +188,6 @@ const NavbarLayout = () => {
                         </a>
                       </Link>
 
-
                       <Link href="/procure-direct">
                         <a rel="noreferrer" className="nav-link_">
                           Community Pharmacies
@@ -219,13 +218,11 @@ const NavbarLayout = () => {
                         </a>
                       </Link>
 
-
                       <Link href="/partnerships">
                         <a rel="noreferrer" className="nav-link_">
                           For Government Facilities
                         </a>
                       </Link>
-
                     </div>
                   </div>
                 </div>
@@ -236,6 +233,13 @@ const NavbarLayout = () => {
               </NavLink>
               <NavLink activeClassName="active" href="/careers">
                 <a className="nav-link">Careers</a>
+              </NavLink>
+
+              <NavLink
+                activeClassName="active"
+                href="https://blog.drugstoc.com"
+              >
+                <a className="nav-link">Blog</a>
               </NavLink>
             </Nav>
             <Nav className="ml-auto">
