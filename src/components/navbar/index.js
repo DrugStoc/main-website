@@ -36,7 +36,12 @@ const NavbarLayout = () => {
         <Container fluid>
           <Link href="/">
             <a className="navbar-brand">
-              <img src="/drug.svg" alt="drugstoc logo" />
+              <img
+                src="https://app.drugstoc.com/static/media/logo.9ae7f9ae7a465a103859.png"
+                width={100}
+                height={20}
+                alt="drugstoc logo"
+              />
             </a>
           </Link>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
