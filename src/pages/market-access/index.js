@@ -51,7 +51,7 @@ const MarketAccess = () => {
           <div className="row align-items-center justify-content-between mt-4">
             <div className="col-lg-6">
               <img
-                src="https://res.cloudinary.com/bizstak/image/upload/v1684239802/banner-dots_stl7x6.png"
+                src="https://res.cloudinary.com/bizstak/image/upload/v1684432433/section-2_chabbw.png"
                 alt="Banner Dots"
                 aria-hidden="true"
                 className="header__banner-dots-right d-lg-block d-none"
