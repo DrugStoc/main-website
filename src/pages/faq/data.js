@@ -26,7 +26,7 @@ const data = {
         'Meet our experienced and friendly team. We are passionate about providing top...',
     },
   ],
-  cartManagement: [
+  "cart Management": [
     {
       id: 5,
       title:
@@ -51,7 +51,7 @@ const data = {
       description: 'Meet our experienced and friendly team. We are passionate about providing top...',
     },
   ],
-  checkout: [
+  "checkout/payment methods": [
     {
       id: 9,
       title:
