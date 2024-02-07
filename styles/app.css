@@ -26,12 +26,6 @@
   --font-accent: 0.75rem;
 }
 
-::-moz-selection {
-  background: var(--primary-blue);
-  color: var(--white);
-  /* WebKit/Blink Browsers */
-}
-
 ::selection {
   background: var(--primary-blue);
   color: var(--white);
@@ -179,6 +173,161 @@ a:hover {
   cursor: pointer;
 }
 
+.faqHero {
+  height: 236px;
+  background-color: #0b1532;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #f9f9fb;
+  gap: 5px;
+  margin-top: 85px;
+}
+
+.faqSearch {
+  position: relative;
+  top: -27px;
+}
+
+.faqSearch input {
+  border: 1px solid #acbdec;
+  border-radius: 4px;
+  width: 60%;
+  display: block;
+  margin-inline: auto;
+  height: 56px;
+  text-indent: 40px;
+  outline: none;
+  box-shadow: 0 0 16px 0 rgba(38, 71, 166, 0.1019607843);
+}
+
+.faqSearch img {
+  position: absolute;
+  left: calc(20% + 13px);
+  top: 20px;
+}
+
+.faqVideoSection {
+  overflow-x: auto;
+}
+
+.faqVideoSection::-webkit-scrollbar {
+  display: none;
+}
+
+.faqVideos {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  width: 1118px;
+  margin-inline: auto;
+  flex-wrap: nowrap;
+}
+
+.faqVideos div {
+  height: 180px;
+  width: 30%;
+  background-color: #4c70d6;
+  border-radius: 8px;
+}
+
+.faqVideos div {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 40px;
+}
+
+.faqVideos div:nth-child(1) {
+  background-image: url("https://res.cloudinary.com/bizstak/image/upload/v1707302212/firstWalkthrough_fylxuy.png");
+  position: relative;
+}
+
+.faqVideos div:nth-child(1)::before {
+  position: absolute;
+  content: "Walkthrough Video";
+  top: -30px;
+  color: #1f1e2a;
+}
+
+.faqVideos div:nth-child(2) {
+  background-image: url("https://res.cloudinary.com/bizstak/image/upload/v1707302380/secondWalkthrough_jd9hyu.png");
+}
+
+.faqVideos div:nth-child(3) {
+  background-image: url("https://res.cloudinary.com/bizstak/image/upload/v1707302451/lastWalkthrough_fauexm.png");
+}
+
+.faqVideos img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.majorFAQ {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin-inline: auto;
+  color: #1f1e2a;
+}
+
+.faqHeading {
+  font-size: 24px;
+  margin-top: 60px;
+  margin-bottom: -20px;
+}
+
+.accordionSection {
+  border-bottom: 1px solid #e8e7ee;
+}
+
+.sectionTitle {
+  font-size: 12px;
+  color: #514f6d;
+  margin-top: 40px;
+}
+
+.accordionTitle {
+  margin-block: 10px;
+}
+
+.accordion-content {
+  display: flex;
+  align-items: center;
+  min-height: 30px;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.accordion-text {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.buttonContact {
+  background-color: #128c7e;
+  height: 40px;
+  border-radius: 40px;
+  border: 1px solid #128c7e;
+  color: #f9f9fb;
+  padding: 10px;
+}
+
+.contactInfo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 40px;
+  padding: 20px 30px;
+  width: 60%;
+  margin-inline: auto;
+  border: 1px solid #f9f9fb;
+}
+
 @media (max-width: 992px) {
   br {
     display: none;
@@ -227,8 +376,9 @@ body {
 }
 
 .banner.d-lg-block {
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
   width: 100%;
   text-align: right;
-}/*# sourceMappingURL=app.css.map */
+}
+
+/*# sourceMappingURL=app.css.map */
