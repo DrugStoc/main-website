@@ -169,8 +169,6 @@ const data = {
       altDescription2: 'Wallet: This method allows you to pay for the items in your cart using the funds in your POS wallet',
       altDescription3: 'Drug Stoc Credit: This method allows you to check out without instant payment (Pay Later) by using the Credit assigned to you by Drug Stoc.'
     },
-  ],
-  others: [
     {
       id: 19,
       title: 'How do I check my Wallet balance and the credit assigned to me by Drug Stoc?',
@@ -198,6 +196,9 @@ const data = {
       altDescription3: null,
     },
   ],
+  // others: [
+    
+  // ],
 };
 
 export default data;
