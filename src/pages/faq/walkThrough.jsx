@@ -7,9 +7,9 @@ const walkThrough = () => {
     window.open('https://youtu.be/4H5SjBwS8vg', '_blank');
   };
 
-  const handleThirdVideoClick = () => {
-    window.open('https://youtu.be/B3zTzsruSvo', '_blank');
-  };
+  // const handleThirdVideoClick = () => {
+  //   window.open('https://youtu.be/B3zTzsruSvo', '_blank');
+  // };
 
   return (
     <div className="faqVideoSection">
