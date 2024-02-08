@@ -21,16 +21,10 @@ const walkThrough = () => {
           />
         </div>
         <div onClick={handleSecondVideoClick}>
-          <a
-            href="https://youtu.be/4H5SjBwS8vg"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img
-              src="https://res.cloudinary.com/bizstak/image/upload/v1707303604/iconContainer_b7i1pe.png"
-              alt=""
-            />
-          </a>
+          <img
+            src="https://res.cloudinary.com/bizstak/image/upload/v1707303604/iconContainer_b7i1pe.png"
+            alt=""
+          />
         </div>
         <div>
           <img
