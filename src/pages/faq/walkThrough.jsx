@@ -4,7 +4,7 @@ const walkThrough = () => {
   };
 
   const handleSecondVideoClick = () => {
-    window.open('https://youtu.be/4H5SjBwS8vg', '_blank');
+    window.open('https://www.youtube.com/2gau4ZUMz_E', '_blank');
   };
 
   // const handleThirdVideoClick = () => {
