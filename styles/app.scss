@@ -382,3 +382,13 @@ body {
   width: 100%;
   text-align: right;
 }
+
+
+@media (max-width: 992px) {
+  .faqSearch input {
+    width: 85%;
+  }
+  .faqSearch img {
+    left: calc(7.5% + 13px);
+  }
+}
