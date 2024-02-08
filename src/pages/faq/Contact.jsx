@@ -1,7 +1,4 @@
-import { useRouter } from 'next/router';
-
 const Contact = () => {
-  const router = useRouter();
   const handleContactClick = () => {
     window.open(
       'https://api.whatsapp.com/send/?phone=2348036879999&text&type=phone_number&app_absent=0',

@@ -6,7 +6,7 @@ const data = {
       description:
         'The Drug Stoc application is accessible via different platforms;',
       altDescription1:
-        'Mobile App: To access the application, search for “Drug Store” on the app store on your smartphone (Play Store or App Store) ',
+        'Mobile App: To access the application, search for "Drug Store" on the app store on your smartphone (Play Store or App Store) ',
       altDescription2:
         'Web App: To access the web app on your laptop or phone, visit the app.drugstoc.com or visit our website at drugstoc.com and click on Shop on Web. ',
       altDescription3: null
@@ -41,17 +41,6 @@ const data = {
     },
     {
       id: 5,
-      title: 'I cannot remember my password. How do I retrieve it?',
-      description:
-        'You can use the "Forgot Password" option on the login page to reset your password if you can\'t remember the old password.',
-      altDescription1: null,
-      altDescription2: null,
-      altDescription3: null,
-    },
-  ],
-  'cart Management': [
-    {
-      id: 6,
       title:
         'As a Pharmacist, Doctor, or Health Practitioner can I also order on Drug Stoc?',
       description:
@@ -61,9 +50,22 @@ const data = {
       altDescription3: null,
     },
     {
+      id: 6,
+      title: 'I cannot remember my password. How do I retrieve it?',
+      description:
+        'You can use the "Forgot Password" option on the login page to reset your password if you can\'t remember the old password.',
+      altDescription1: null,
+      altDescription2: null,
+      altDescription3: null,
+    },
+  ],
+  'checkout/cart management': [
+    {
       id: 7,
-      title: 'What are the requirements for registering?',
-      description: 'No?',
+      title:
+        'Are there any hidden charges on checkout?',
+      description:
+        'No',
       altDescription1: null,
       altDescription2: null,
       altDescription3: null,
@@ -86,8 +88,6 @@ const data = {
       altDescription2: null,
       altDescription3: null,
     },
-  ],
-  'checkout/payment methods': [
     {
       id: 10,
       title: 'What is Express shipping?',
@@ -158,6 +158,8 @@ const data = {
       altDescription2: null,
       altDescription3: null,
     },
+  ],
+  'payment/drugstoc pay': [
     {
       id: 18,
       title: 'What are the Payment methods for checkout?',
