@@ -12,6 +12,9 @@ function AccordionList({ data }) {
               key={item.id}
               title={item.title}
               description={item.description}
+              altDescription1={item.altDescription1}
+              altDescription2={item.altDescription2}
+              altDescription3={item.altDescription3}
             />
           ))}
         </div>

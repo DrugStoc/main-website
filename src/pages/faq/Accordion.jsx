@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-function Accordion({ title, description }) {
+function Accordion({ title, description, altDescription1, altDescription2, altDescription3 }) {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleAccordion = () => {
@@ -31,7 +31,18 @@ function Accordion({ title, description }) {
               )}
             </span>
           </div>
-          {isOpen && <p className="accordion-text">{description}</p>}
+          {isOpen && (
+            <>
+              <p>
+                <p className="accordion-text">{description}</p>
+              </p>
+              <ul style={{marginLeft: '2rem'}}>
+                {altDescription1 === null ? null : <li>{altDescription1}</li>}
+                {altDescription2 === null ? null : <li>{altDescription2}</li>}
+                {altDescription3 === null ? null : <li>{altDescription3}</li>}
+              </ul>
+            </>
+          )}
         </div>
       </div>
     </>
