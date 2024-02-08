@@ -1,12 +1,12 @@
 import Hero from "./hero";
-import FrequencyQA from './faq'
+import FrequentlyAQ from './faq'
 import Contact from "./Contact";
 
 const FAQ = () => {
   return (
     <div>
       <Hero />
-      <FrequencyQA />
+      <FrequentlyAQ />
       <Contact />
     </div>
   );
