@@ -392,3 +392,17 @@ body {
     left: calc(7.5% + 13px);
   }
 }
+
+@media (max-width: 480px) {
+  .contactInfo {
+    width: 100%;
+    border: none;
+    background-color: #f9f9fb;
+  }
+  .buttonContact {
+    width: 100%;
+  }
+  .majorFAQ {
+    width: 85%;
+  }
+}
