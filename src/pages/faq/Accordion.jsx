@@ -32,7 +32,7 @@ function Accordion({
     altDescription1,
     altDescription2,
     altDescription3,
-  ].some(text => text && text.toLowerCase().includes('play store'));
+  ].some(text => text && text.toLowerCase().includes('web app'));
 
   return (
     <>
