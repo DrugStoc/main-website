@@ -2,11 +2,11 @@ const data = {
   onboading: [
     {
       id: 1,
-      title: 'How do I access the Drug Stoc Ecommerce platform',
+      title: 'How do I access the DrugStoc Ecommerce platform',
       description:
-        'The Drug Stoc application is accessible via different platforms;',
+        'The DrugStoc application is accessible via different platforms;',
       altDescription1:
-        'Mobile App: To access the application, search for "Drug Store" on the app store on your smartphone (Play Store or App Store) ',
+        'Mobile App: To access the application, search for "DrugStore" on the app store on your smartphone (Play Store or App Store) ',
       altDescription2:
         'Web App: To access the web app on your laptop or phone, visit the app.drugstoc.com or visit our website at drugstoc.com and click on Shop on Web. ',
       altDescription3: null
@@ -42,7 +42,7 @@ const data = {
     {
       id: 5,
       title:
-        'As a Pharmacist, Doctor, or Health Practitioner can I also order on Drug Stoc?',
+        'As a Pharmacist, Doctor, or Health Practitioner can I also order on DrugStoc?',
       description:
         'Yes, you can. Search for any item using our effective search bar and get the exact search result you are looking for. (Make sure you choose the appropriate designation on sign up to benefit from specialized promotions and discounts for specific groups)',
       altDescription1: null,
@@ -167,11 +167,11 @@ const data = {
         'To check out on the app, you have 3 options which include;',
       altDescription1: 'Pay with Card: This method is for instant payment using your atm card or bank transfer to the account number provided to the interface.',
       altDescription2: 'Wallet: This method allows you to pay for the items in your cart using the funds in your POS wallet',
-      altDescription3: 'Drug Stoc Credit: This method allows you to check out without instant payment (Pay Later) by using the Credit assigned to you by Drug Stoc.'
+      altDescription3: 'DrugStoc Credit: This method allows you to check out without instant payment (Pay Later) by using the Credit assigned to you by DrugStoc.'
     },
     {
       id: 19,
-      title: 'How do I check my Wallet balance and the credit assigned to me by Drug Stoc?',
+      title: 'How do I check my Wallet balance and the credit assigned to me by DrugStoc?',
       description:
         'To view your credit limit, click on DS Pay on the menu option, enter your pin and you will be taken to the page where you can see your wallet balance and credit limit.',
       altDescription1: null,
@@ -189,16 +189,13 @@ const data = {
     },
     {
       id: 21,
-      title: 'Why do I get Insufficient Fund error during checkout with Drug Stoc Credit?',
+      title: 'Why do I get Insufficient Fund error during checkout with DrugStoc Credit?',
       description: 'The app will only show this error if the total value of your cart is more than the assigned credit. To resolve this, kindly contact customer service (via WhatsApp or call) to request an update to credit limit. ',
       altDescription1: null,
       altDescription2: null,
       altDescription3: null,
     },
   ],
-  // others: [
-    
-  // ],
 };
 
 export default data;
