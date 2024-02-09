@@ -6,7 +6,7 @@ const data = {
       description:
         'The DrugStoc application is accessible via different platforms;',
       altDescription1:
-        'Mobile App: To access the application, search for "DrugStore" on the app store on your smartphone (Play Store or App Store) ',
+        'Mobile App: To access the application, search for "DrugStoc" on the app store on your smartphone (Play Store or App Store) ',
       altDescription2:
         'Web App: To access the web app on your laptop or phone, visit the app.drugstoc.com or visit our website at drugstoc.com and click on Shop on Web. ',
       altDescription3: null
