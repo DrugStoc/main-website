@@ -223,6 +223,7 @@ a:hover {
   width: 1118px;
   margin-inline: auto;
   flex-wrap: nowrap;
+  cursor: pointer;
 }
 
 .faqVideos div {
@@ -230,9 +231,6 @@ a:hover {
   width: 30%;
   background-color: #4c70d6;
   border-radius: 8px;
-}
-
-.faqVideos div {
   position: relative;
   background-size: cover;
   background-position: center;
@@ -247,7 +245,7 @@ a:hover {
 
 .faqVideos div:nth-child(1)::before {
   position: absolute;
-  content: "Walkthrough Video";
+  content: "Walkthrough Videos";
   top: -30px;
   color: #1f1e2a;
 }
@@ -270,7 +268,7 @@ a:hover {
 .majorFAQ {
   display: flex;
   flex-direction: column;
-  width: 60%;
+  width: 55%;
   margin-inline: auto;
   color: #1f1e2a;
 }
@@ -314,7 +312,7 @@ a:hover {
   border-radius: 40px;
   border: 1px solid #128c7e;
   color: #f9f9fb;
-  padding: 10px;
+  padding: 10px 15px;
 }
 
 .contactInfo {
@@ -323,11 +321,244 @@ a:hover {
   flex-direction: column;
   margin-top: 40px;
   padding: 20px 30px;
-  width: 60%;
+  width: 55%;
   margin-inline: auto;
   border: 1px solid #f9f9fb;
 }
 
+.learningHero {
+  margin-top: 86px;
+  height: 496px;
+  position: relative;
+  border-top: 1px solid #ececec;
+  overflow: hidden;
+}
+
+.learningHeroImg {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-image: url("https://res.cloudinary.com/bizstak/image/upload/v1726915643/learning_pattern_vjbplu.png");
+  background-position: center;
+  background-size: cover;
+  height: 496px;
+  width: 100%;
+}
+
+.learningHeroSectionContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-inline: 40px;
+  margin-top: 50px;
+}
+
+.learningHeroSectionText {
+  width: 50%;
+}
+
+.learningHeroSectionText h2 {
+  font-size: 43px;
+  font-weight: 600;
+}
+
+.learningHeroSectionText p {
+  color: #757575;
+  margin-block: 30px;
+}
+
+.learningHeroFirstForeImg {
+  position: relative;
+  height: 454px;
+}
+
+.learningHeroForeimg {
+  position: relative;
+  margin-right: 100px;
+}
+
+.learningHeroForeimgSecondImage {
+  position: absolute;
+  left: -45px;
+  top: -38px;
+  width: 265px;
+}
+
+.learningHeroForeimgSecondImage,
+.learningHeroFirstForeImg {
+  z-index: 2;
+}
+
+.learningHeroFirstButton {
+  display: flex;
+  gap: 10px;
+}
+
+.learningHeroFirstButton button:first-child {
+  background-color: #4c70d6;
+  color: #fff;
+}
+
+.learningHeroFirstButton button:last-child {
+  background-color: transparent;
+  color: #4c70d6;
+  font-weight: 600;
+}
+
+.learningHeroFirstButton button {
+  padding: 14px 26px;
+  border: 1px solid #4c70d6;
+  border-radius: 4px;
+}
+
+button {
+  outline: none;
+}
+
+.learningHeroCard {
+  background-color: #fff;
+  border-radius: 15px;
+  border: 1px solid #fff;
+  min-width: 278px;
+  min-height: 134px;
+  position: absolute;
+  z-index: 10000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.learningHeroCard h4 {
+  font-size: 18px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.learningHeroCardProfiles {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+}
+
+.learningHeroProfileListCard {
+  left: -220px;
+  z-index: 1;
+  top: 130px;
+}
+
+.learningHeroTestimonialCard {
+  top: 300px;
+  left: -130px;
+}
+
+.learningHeroUsers {
+  top: 180px;
+  left: 200px;
+  padding: 30px;
+}
+
+.learningHeroUsersCount {
+  color: #5ebd75;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.learningHeroUsers p:last-child {
+  color: #757575;
+  font-size: 14px;
+}
+
+.learningHeroTestimonialCard p {
+  color: #757575;
+  width: 250px;
+  padding: 10px;
+  font-size: 14px;
+  margin-top: 60px;
+}
+
+.learningHeroTestimonialCardInfo1 h5 {
+  position: relative;
+  font-size: 18px;
+  font-weight: 600;
+  left: 70px;
+  top: -20px;
+}
+
+.learningHeroTestimonialCardInfo1 span {
+  font-size: 14px;
+  color: #757575;
+  font-weight: 400;
+}
+
+.learningHeroTestimonialCard img {
+  position: relative;
+  top: 70px;
+}
+
+.learningHeroCardProfiles img {
+  position: absolute;
+  border: 2px solid #5ebd75;
+  border-radius: 50%;
+}
+
+.learningHeroCardProfiles img:nth-child(2) {
+  left: 20px;
+}
+
+.learningHeroCardProfiles img:nth-child(3) {
+  left: 58px;
+  z-index: 2;
+}
+
+.learningHeroCardProfiles img:nth-child(4) {
+  left: 95px;
+  z-index: 3;
+}
+
+.learningHeroCardProfiles img:nth-child(5) {
+  left: 130px;
+  z-index: 5;
+}
+
+.learningHeroCardProfiles img:nth-child(6) {
+  left: 170px;
+  z-index: 6;
+}
+
+.learningHeroCardProfiles img:nth-child(7) {
+  left: 210px;
+  z-index: 7;
+}
+
+.learningHeroTrophy {
+  position: absolute;
+  bottom: 250px;
+  right: 150px;
+  z-index: 10;
+}
+
+.learningHeroTrophy img {
+  width: 200px;
+}
+
+@media (max-width: 1433px) {
+  .learningHeroForeImg,
+  .learningHeroTrophy {
+    display: none;
+  }
+  .learningHeroSectionContent {
+    justify-content: center;
+  }
+  .learningHeroSectionText {
+    width: 85%;
+  }
+  .learningHeroSectionText h2 {
+    font-size: 30px;
+  }
+}
 @media (max-width: 992px) {
   br {
     display: none;
@@ -379,6 +610,39 @@ body {
   object-fit: contain;
   width: 100%;
   text-align: right;
+}
+
+@media (max-width: 992px) {
+  .faqSearch input {
+    width: 85%;
+  }
+  .faqSearch img {
+    left: calc(7.5% + 13px);
+  }
+}
+@media (max-width: 614px) {
+  .contactInfo {
+    width: 100%;
+    border: none;
+    border-top: 1px solid #e8e7ee;
+    background-color: #f9f9fb;
+  }
+  .buttonContact {
+    width: 100%;
+  }
+  .majorFAQ {
+    width: 85%;
+  }
+}
+@media (max-width: 550px) {
+  .learningHeroSectionText {
+    width: 95%;
+  }
+}
+@media (max-width: 400px) {
+  .learningHeroSectionText {
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */
