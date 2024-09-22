@@ -246,6 +246,9 @@ const NavbarLayout = () => {
               >
                 <a className="nav-link">Blog</a>
               </NavLink>
+              <NavLink activeClassName="active" href="/learning">
+                <a className="nav-link">Learning</a>
+              </NavLink>
             </Nav>
             <Nav className="ml-auto">
               <Nav.Link
