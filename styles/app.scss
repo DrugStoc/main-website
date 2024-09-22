@@ -554,6 +554,52 @@ button {
   width: 200px;
 }
 
+.whyDrugStoc {
+  margin-inline: auto;
+  background-color: #fffdfd;
+}
+
+.whyDrugStocSection {
+  width: 95%;
+  margin-top: 80px;
+  margin-bottom: 60px;
+  margin-inline: auto;
+}
+
+.whyDrugStocSection h2 {
+  margin-bottom: 40px;
+}
+
+.learningCourses {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4rem 4rem;
+}
+
+.learningCourses h4 {
+  font-size: 18px;
+}
+
+.learningCoursesCard {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 15px;
+}
+
+.learningCoursesCardIcon img {
+  border: 1px solid #eff9f2;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  padding: 10px;
+  background-color: #eff9f2;
+}
+
+.learningCoursesCard h4 {
+  margin-block: 25px;
+}
+
 @media (max-width: 1433px) {
   .learningHeroForeImg,
   .learningHeroTrophy {
@@ -567,6 +613,12 @@ button {
   }
   .learningHeroSectionText h2 {
     font-size: 30px;
+  }
+}
+
+@media (max-width: 1191px) {
+  .learningCourses {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -623,6 +675,12 @@ body {
   }
   .faqSearch img {
     left: calc(7.5% + 13px);
+  }
+}
+
+@media (max-width: 630px) {
+  .learningCourses {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 
