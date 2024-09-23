@@ -544,19 +544,27 @@ button {
   width: 200px;
 }
 
-.whyDrugStoc {
+.whyDrugStoc,
+.learningMostPopularVideos {
   margin-inline: auto;
   background-color: #fffdfd;
 }
 
-.whyDrugStocSection {
+.learningMostPopularVideos {
+  background-color: #f9f9fc;
+  padding-bottom: 100px;
+}
+
+.whyDrugStocSection,
+.learningMostPopularVideosSection {
   width: 95%;
-  margin-top: 80px;
+  padding-top: 80px;
   margin-bottom: 60px;
   margin-inline: auto;
 }
 
-.whyDrugStocSection h2 {
+.whyDrugStocSection h2,
+.learningMostPopularVideosSection h2 {
   margin-bottom: 40px;
 }
 
@@ -590,6 +598,56 @@ button {
   margin-block: 25px;
 }
 
+.learningMostPopularVideoCards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 4rem 4rem;
+}
+
+.learningMostPopularVideoCard {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.learningMostPopularVideoCard button {
+  display: block;
+  width: 100%;
+  background-color: #4c70d6;
+  border: 1px solid #4c70d6;
+  color: #fff;
+  border-radius: 52px;
+  padding-block: 10px;
+}
+
+.learningMostPopularVideoCardTitle {
+  display: flex;
+  gap: 10px;
+}
+
+.learningMostPopularVideoCardTitle p {
+  font-size: 14px;
+  color: #5ebd75;
+}
+
+.learningMostPopularVideoCardTitle img {
+  width: 20px;
+  height: 20px;
+  margin-top: 12px;
+}
+
+.learningMostPopularVideoCard h2 {
+  font-size: 18px;
+  position: relative;
+  top: 10px;
+}
+
+.learningMostPopularVideoCardDate {
+  font-size: 14px;
+  color: #7f8490;
+}
+
 @media (max-width: 1433px) {
   .learningHeroForeImg,
   .learningHeroTrophy {
@@ -605,8 +663,18 @@ button {
     font-size: 30px;
   }
 }
+@media (max-width: 1410px) {
+  .learningMostPopularVideoCards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
 @media (max-width: 1191px) {
   .learningCourses {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 1027px) {
+  .learningMostPopularVideoCards {
     grid-template-columns: repeat(2, 1fr);
   }
 }
@@ -669,6 +737,11 @@ body {
   }
   .faqSearch img {
     left: calc(7.5% + 13px);
+  }
+}
+@media (max-width: 656px) {
+  .learningMostPopularVideoCards {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 @media (max-width: 630px) {
