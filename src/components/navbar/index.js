@@ -20,6 +20,7 @@ const NavbarLayout = () => {
           backdropFilter: 'saturate(3.5) blur(14px)',
           background: '#fff',
           boxShadow: '1px 0px 10px #00000008',
+          zIndex: '100000',
         }
       : {};
   return (
