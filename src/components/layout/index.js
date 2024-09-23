@@ -1,54 +1,31 @@
 import { createContext, useEffect, useState } from 'react';
-import PropTypes from 'prop-types';
-import { withRouter } from 'next/router';
 import AOS from 'aos';
 import SkipToMain from 'components/a11y/skip-to-main';
 import Footer from 'components/footer';
 import Navbar from 'components/navbar';
 
-const propTypes = {
-  children: PropTypes.oneOfType([PropTypes.node, PropTypes.element]),
-  title: PropTypes.string,
-  theme: PropTypes.string,
-  noFooter: PropTypes.bool,
-  noNav: PropTypes.bool,
-  seo: PropTypes.object,
-};
-
 export const ThemeContext = createContext();
 
-const Layout = ({
-  children,
-  noFooter = false,
-  noNav = false,
-}) => {
-  const loadTheme = () => localStorage.getItem('EZE_THEME', theme);
+const Layout = ({ children, noFooter = false, noNav = false }) => {
   const [theme, setTheme] = useState('dark');
   const [loaded, setLoaded] = useState(false);
+
+  const loadTheme = () => localStorage.getItem('EZE_THEME');
+
   useEffect(() => {
     setLoaded(true);
+    AOS.init({ duration: 300 });
+    const savedTheme = loadTheme();
+    if (savedTheme) setTheme(savedTheme);
   }, []);
+
   const toggleTheme = mode => {
     setTheme(mode);
     localStorage.setItem('EZE_THEME', mode);
   };
 
-  useEffect(() => {
-    AOS.init({
-      duration: 300,
-    });
-    loadTheme() && setTheme(loadTheme());
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
-
   return (
-    <ThemeContext.Provider
-      value={{
-        toggleTheme,
-        theme,
-      }}
-    >
-      {/* <SEO title={title} canonical={canonical} /> */}
+    <ThemeContext.Provider value={{ toggleTheme, theme }}>
       <SkipToMain content="main-content" />
       <div>
         {!noNav && <Navbar theme={theme} />}
@@ -74,6 +51,4 @@ const Layout = ({
   );
 };
 
-Layout.propTypes = propTypes;
-
-export default withRouter(Layout);
+export default Layout;
