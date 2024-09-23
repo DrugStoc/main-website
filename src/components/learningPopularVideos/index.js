@@ -1,14 +1,10 @@
-const LearningPopularVideos = () => {
+const LearningPopularVideos = (text, characters) => {
   function truncateText(text, maxLength) {
     if (text.length > maxLength) {
       return text.slice(0, maxLength) + '...';
     }
     return text;
   }
-
-  const text = 'Strategies for Business Resilience in an Inflated Economy';
-  const truncatedText = truncateText(text, 30);
-  console.log(truncatedText);
 
   return (
     <div className="learningMostPopularVideos">
