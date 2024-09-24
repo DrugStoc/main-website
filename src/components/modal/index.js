@@ -3,7 +3,6 @@ import ReactModal from 'react-modal';
 import axios from 'axios';
 import styles from '../../../public/modal.module.css';
 import LoadingButton from 'components/LoadingButton';
-import Image from 'next/image';
 
 ReactModal.setAppElement('#__next');
 
@@ -96,7 +95,8 @@ const Modal = () => {
     setShowModal(false);
   };
 
-  const removedModal = typeof localStorage !== 'undefined' ? localStorage.getItem('close') : null;
+  const removedModal =
+    typeof localStorage !== 'undefined' ? localStorage.getItem('close') : null;
 
   if (removedModal) {
     const removeDate = new Date(removedModal);
@@ -175,11 +175,7 @@ const Modal = () => {
           )}
           {message && <p className={styles.success}>{message}</p>}
           {err && <p className={styles.error}>{err}</p>}
-          <p
-            className={styles.fields}
-          >
-            All fields are required
-          </p>
+          <p className={styles.fields}>All fields are required</p>
         </ReactModal>
       )}
       {subscribed && showThanksModal && (
