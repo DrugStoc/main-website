@@ -3,7 +3,7 @@ import LearningVideo from 'pages/learning/videos/[id]';
 
 export default function LearningVideoPage() {
   return (
-    <Layout title="LearningVideo">
+    <Layout title="Learning Video">
       <LearningVideo />
     </Layout>
   );

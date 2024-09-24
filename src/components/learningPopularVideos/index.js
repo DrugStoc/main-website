@@ -1,31 +1,5 @@
 import { useRouter } from 'next/router';
-
-const popularVideos = [
-  {
-    id: 1,
-    title: 'Strategies for Business Resilience in an Inflated Economy',
-    videoTitle: 'Harnessing Data for Decision Making',
-    date: 'May 25, 2023 at 10:00 AM',
-  },
-  {
-    id: 2,
-    title: 'Strategies for Business Resilience in an Inflated Economy',
-    videoTitle: 'Harnessing Data for Decision Making',
-    date: 'May 25, 2023 at 10:00 AM',
-  },
-  {
-    id: 3,
-    title: 'Strategies for Business Resilience in an Inflated Economy',
-    videoTitle: 'Harnessing Data for Decision Making',
-    date: 'May 25, 2023 at 10:00 AM',
-  },
-  {
-    id: 4,
-    title: 'Strategies for Business Resilience in an Inflated Economy',
-    videoTitle: 'Harnessing Data for Decision Making',
-    date: 'May 25, 2023 at 10:00 AM',
-  },
-];
+import { useEffect, useState } from 'react';
 
 const truncateText = (text, maxLength) => {
   if (text.length > maxLength) {
@@ -35,6 +9,18 @@ const truncateText = (text, maxLength) => {
 };
 
 const LearningPopularVideos = () => {
+  const [videos, setVideos] = useState([]);
+
+  useEffect(() => {
+    const fetchVideos = async () => {
+      const response = await fetch('/api/videos');
+      const data = await response.json();
+      setVideos(data);
+    };
+
+    fetchVideos();
+  }, []);
+
   const router = useRouter();
 
   const handleViewClick = id => {
@@ -46,8 +32,8 @@ const LearningPopularVideos = () => {
       <div className="learningMostPopularVideosSection">
         <h2>Most popular videos</h2>
         <section className="learningMostPopularVideoCards">
-          {popularVideos.map((video, index) => (
-            <div className="learningMostPopularVideoCard" key={index}>
+          {videos.map(video => (
+            <div className="learningMostPopularVideoCard" key={video.id}>
               <div className="learningMostPopularVideoCardTitle">
                 <img
                   src="https://res.cloudinary.com/bizstak/image/upload/v1727050721/video_y5jcce.svg"
