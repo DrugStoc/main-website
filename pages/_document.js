@@ -5,13 +5,13 @@ export default class MyDocument extends Document {
   static async getInitialProps(ctx) {
     const sheet = new ServerStyleSheet();
     const originalRenderPage = ctx.renderPage;
-  
+
     try {
       ctx.renderPage = () =>
         originalRenderPage({
           enhanceApp: App => props => sheet.collectStyles(<App {...props} />),
         });
-  
+
       const initialProps = await Document.getInitialProps(ctx);
       return {
         ...initialProps,
@@ -26,13 +26,15 @@ export default class MyDocument extends Document {
       sheet.seal();
     }
   }
-  
 
   render() {
-    const FACEBOOK_APP_ID = process.env.FACEBOOK_APP_ID;
-    const TIDIO_CHAT_CODE = process.env.TIDIO_CHAT_CODE;
-    const GA_TRACKING_ID = process.env.GA_TRACKING_ID;
-    const GOOGLE_SITE_VERIFICATION = process.env.GOOGLE_SITE_VERIFICATION;
+    const FACEBOOK_APP_ID = process.env.FACEBOOK_APP_ID || 932119468028545;
+    const TIDIO_CHAT_CODE =
+      process.env.TIDIO_CHAT_CODE || 'ogocxh3zcgb4cdykhwgct7zwamm62w9e';
+    const GA_TRACKING_ID = process.env.GA_TRACKING_ID || 'G-ZNB75VJZBK';
+    const GOOGLE_SITE_VERIFICATION =
+      process.env.GOOGLE_SITE_VERIFICATION ||
+      'YxcXtu0Zz5s25clei5L1g6OQV_bZnLCSpAZhQILtpSk';
     return (
       <Html lang="en">
         <Head>
@@ -68,7 +70,7 @@ export default class MyDocument extends Document {
             onLoad={() => {}}
           />
 
-          <script async src={`https://code.tidio.co/${TIDIO_CHAT_CODE}.js`} />
+          <script async src={`//code.tidio.co/${TIDIO_CHAT_CODE}.js`} />
           <script
             async
             src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
