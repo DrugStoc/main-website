@@ -18,8 +18,8 @@ const LearningPopularVideos = () => {
 
   const router = useRouter();
 
-  const handleViewClick = id => {
-    router.push(`/learning/videos/popular/${id}`);
+  const handleViewClick = (slug, id) => {
+    router.push(`/learning/videos/popular/${slug}/${id}`);
   };
 
   return (
@@ -34,7 +34,9 @@ const LearningPopularVideos = () => {
                   src="https://res.cloudinary.com/bizstak/image/upload/v1727050721/video_y5jcce.svg"
                   alt="video icon"
                 />
-                <Link href={`/learning/videos/popular/${video.id}`}>
+                <Link
+                  href={`/learning/videos/popular/${video.slug}/${video.id}`}
+                >
                   <a
                     aria-label={`Navigate to popular video with id of ${video.id}`}
                   >
