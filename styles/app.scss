@@ -428,6 +428,14 @@ a {
   gap: 10px;
 }
 
+.learningVideoFlexColumn p {
+  color: #000;
+}
+
+.learningVideoFlexColumn p:hover {
+  color: #4c70d6;
+}
+
 .learningVideoBadgeFlexRow {
   display: flex;
   justify-content: space-between;
@@ -914,6 +922,10 @@ body {
   .learningVideoBadgeFlexRow div {
     width: 100%;
     margin-block: 5px;
+  }
+  .learningVideoInput,
+  .learningVideoScope {
+    width: 100%;
   }
 }
 
