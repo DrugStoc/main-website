@@ -326,7 +326,8 @@ a:hover {
   border: 1px solid #f9f9fb;
 }
 
-.learningHero {
+.learningHero,
+.learningVideo {
   margin-top: 86px;
   height: 496px;
   position: relative;
@@ -334,7 +335,8 @@ a:hover {
   overflow: hidden;
 }
 
-.learningHeroImg {
+.learningHeroImg,
+.learnVideoHeroImg {
   position: absolute;
   content: "";
   top: 0;
@@ -345,6 +347,104 @@ a:hover {
   background-size: cover;
   height: 496px;
   width: 100%;
+}
+
+.learnVideoHeroImg,
+.learningVideo {
+  height: 200px;
+}
+
+.learnVideoHeroImg h1 {
+  margin-inline: auto;
+  width: 95%;
+}
+
+.learningVideoMain {
+  width: 95%;
+  margin-inline: auto;
+  margin-top: 50px;
+}
+
+.learnVideoHeroImg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.learningVideoMB {
+  margin-bottom: 100px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4rem;
+  margin-top: 40px;
+  margin-inline: auto;
+}
+
+.learningVideoFlexRow {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  gap: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  border-radius: 15px;
+  flex-wrap: wrap;
+}
+
+.learningVideoBadgeFlexRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-block: 5px;
+}
+
+.learningVideoFlexRowImg img {
+  width: 320px;
+}
+
+.learningVideoFlexColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.learningVideoBadgeFlexRow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.learningVideoRelative {
+  position: relative;
+}
+
+.learningVideoScope {
+  position: absolute;
+}
+
+.learningVideoBadgeFlexRow div {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  background: #f9f9fc;
+  color: #5ebd75;
+  padding: 5px 10px;
+  border-radius: 4px;
+  min-width: 123px;
+}
+
+.learningVideoExplore {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+}
+
+.learningVideoExplore button {
+  background-color: transparent;
+  border: none;
+  color: #4c70d6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .learningHeroSectionContent {
@@ -413,7 +513,27 @@ a:hover {
   border-radius: 4px;
 }
 
-button {
+.learningVideoInput,
+.learningVideoScope {
+  width: 60%;
+}
+
+.learningVideoRelative img {
+  width: 24px;
+  height: 24px;
+}
+
+.learningVideoInput {
+  display: block;
+  margin-block: 75px;
+  height: 50px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  padding: 15px;
+}
+
+button,
+input {
   outline: none;
 }
 
@@ -647,6 +767,16 @@ button {
   color: #7f8490;
 }
 
+@media (min-width: 1270px) and (max-width: 1541px) {
+  .learningVideoMB {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 1541px) {
+  .learningVideoFlexRow {
+    width: min-content;
+  }
+}
 @media (max-width: 1433px) {
   .learningHeroForeImg,
   .learningHeroTrophy {
@@ -738,9 +868,21 @@ body {
     left: calc(7.5% + 13px);
   }
 }
+@media (max-width: 850px) {
+  .learningVideoFlexRowImg img {
+    width: 240px;
+  }
+}
 @media (max-width: 656px) {
   .learningMostPopularVideoCards {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .learningVideoMB {
+    grid-template-columns: repeat(1, 1fr);
+    width: max-content;
+  }
+  .learningVideoBadgeFlexRow div {
+    width: 100%;
   }
 }
 @media (max-width: 630px) {
