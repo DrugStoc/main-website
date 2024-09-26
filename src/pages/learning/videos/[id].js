@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
 import truncateText from 'utils/truncateText';
@@ -63,11 +64,25 @@ const LearningVideo = () => {
           {featured?.map(webinar => (
             <div key={webinar.id} className="learningVideoFlexRow">
               <div className="learningVideoFlexRowImg">
-                <img src={webinar.imgSrc} />
+                <Link href={`/learning/features/${webinar.id}`}>
+                  <a
+                    aria-label={`Navigate to featured detail page with id of ${webinar.id}`}
+                  >
+                    <img src={webinar.imgSrc} />
+                  </a>
+                </Link>
               </div>
               <div className="learningVideoFlexColumn">
                 <div>
-                  <p title={webinar.title}>{truncateText(webinar.title, 67)}</p>
+                  <Link href={`/learning/features/${webinar.id}`}>
+                    <a
+                      aria-label={`Navigate to featured detail page with id of ${webinar.id}`}
+                    >
+                      <p title={webinar.title}>
+                        {truncateText(webinar.title, 67)}
+                      </p>
+                    </a>
+                  </Link>
                   <div className="learningVideoBadgeFlexRow">
                     <div>
                       <img
