@@ -1,12 +1,6 @@
 import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
-
-const truncateText = (text, maxLength) => {
-  if (text.length > maxLength) {
-    return text.slice(0, maxLength) + '...';
-  }
-  return text;
-};
+import truncateText from 'utils/truncateText';
 
 const LearningPopularVideos = () => {
   const [videos, setVideos] = useState([]);
