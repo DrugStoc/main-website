@@ -25,6 +25,10 @@ const LearningVideo = () => {
     }
   }, [router.isReady, id]);
 
+  const handleViewClick = id => {
+    router.push(`/learning/features/${id}`);
+  };
+
   if (loading) return <div>Loading...</div>;
   if (!video) return <div>Video not found</div>;
 
@@ -56,14 +60,14 @@ const LearningVideo = () => {
           <h3>Featured Webinars</h3>
         </div>
         <div className="learningVideoMB">
-          {featured?.map((webinar, index) => (
-            <div key={index} className="learningVideoFlexRow">
+          {featured?.map(webinar => (
+            <div key={webinar.id} className="learningVideoFlexRow">
               <div className="learningVideoFlexRowImg">
                 <img src={webinar.imgSrc} />
               </div>
               <div className="learningVideoFlexColumn">
                 <div>
-                  <p>{truncateText(webinar.title, 67)}</p>
+                  <p title={webinar.title}>{truncateText(webinar.title, 67)}</p>
                   <div className="learningVideoBadgeFlexRow">
                     <div>
                       <img
@@ -89,7 +93,7 @@ const LearningVideo = () => {
                   </div>
                 </div>
                 <div className="learningVideoExplore">
-                  <button>
+                  <button onClick={() => handleViewClick(webinar.id)}>
                     <span>Explore</span>
                     <img
                       src="https://res.cloudinary.com/bizstak/image/upload/v1727297928/arrow_forward_phbdsv.svg"
