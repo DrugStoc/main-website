@@ -1,8 +1,19 @@
 export default function handler(req, res) {
+  const slugify = text => {
+    return text
+      .toString()
+      .toLowerCase()
+      .trim()
+      .replace(/[^a-z0-9]+/g, '-');
+  };
+
   const videos = [
     {
       id: 1,
       title: 'Strategies for Business Resilience in an Inflated Economy',
+      slug: slugify(
+        'Strategies for Business Resilience in an Inflated Economy'
+      ),
       videoTitle: 'Harnessing Data for Decision Making',
       date: 'May 25, 2023 at 10:00 AM',
       featured: [
@@ -11,6 +22,9 @@ export default function handler(req, res) {
           imgSrc:
             'https://res.cloudinary.com/bizstak/image/upload/v1727287875/Speaker1_e0ogqn.png',
           title: 'Strategies for Business Resilience in an Inflated Economy',
+          slug: slugify(
+            'Strategies for Business Resilience in an Inflated Economy'
+          ),
           videosCount: '5 videos',
           articlesCount: '3 articles',
           duration: '8 hours',
@@ -20,6 +34,7 @@ export default function handler(req, res) {
           imgSrc:
             'https://res.cloudinary.com/bizstak/image/upload/v1727295780/speaker2_b3iccw.png',
           title: 'Leading Trends in Pharmacy Inventory Management',
+          slug: slugify('Leading Trends in Pharmacy Inventory Management'),
           videosCount: '5 videos',
           articlesCount: '3 articles',
           duration: '8 hours',
@@ -29,6 +44,7 @@ export default function handler(req, res) {
           imgSrc:
             'https://res.cloudinary.com/bizstak/image/upload/v1727295858/speaker3_umpkxb.png',
           title: 'Advancing Financial Literacy in Healthcare Business',
+          slug: slugify('Advancing Financial Literacy in Healthcare Business'),
           videosCount: '5 videos',
           articlesCount: '3 articles',
           duration: '8 hours',
@@ -38,6 +54,9 @@ export default function handler(req, res) {
     {
       id: 2,
       title: 'Strategies for Business Resilience in an Inflated Economy',
+      slug: slugify(
+        'Strategies for Business Resilience in an Inflated Economy'
+      ),
       videoTitle: 'Harnessing Data for Decision Making',
       featured: [
         {
@@ -45,6 +64,9 @@ export default function handler(req, res) {
           imgSrc:
             'https://res.cloudinary.com/bizstak/image/upload/v1727287875/Speaker1_e0ogqn.png',
           title: 'Strategies for Business Resilience in an Inflated Economy',
+          slug: slugify(
+            'Strategies for Business Resilience in an Inflated Economy'
+          ),
           videosCount: '5 videos',
           articlesCount: '3 articles',
           duration: '8 hours',
@@ -54,6 +76,7 @@ export default function handler(req, res) {
           imgSrc:
             'https://res.cloudinary.com/bizstak/image/upload/v1727295780/speaker2_b3iccw.png',
           title: 'Leading Trends in Pharmacy Inventory Management',
+          slug: slugify('Leading Trends in Pharmacy Inventory Management'),
           videosCount: '5 videos',
           articlesCount: '3 articles',
           duration: '8 hours',
@@ -63,6 +86,7 @@ export default function handler(req, res) {
           imgSrc:
             'https://res.cloudinary.com/bizstak/image/upload/v1727295858/speaker3_umpkxb.png',
           title: 'Advancing Financial Literacy in Healthcare Business',
+          slug: slugify('Advancing Financial Literacy in Healthcare Business'),
           videosCount: '5 videos',
           articlesCount: '3 articles',
           duration: '8 hours',
@@ -73,6 +97,9 @@ export default function handler(req, res) {
     {
       id: 3,
       title: 'Strategies for Business Resilience in an Inflated Economy',
+      slug: slugify(
+        'Strategies for Business Resilience in an Inflated Economy'
+      ),
       videoTitle: 'Harnessing Data for Decision Making',
       featured: [
         {
@@ -80,6 +107,9 @@ export default function handler(req, res) {
           imgSrc:
             'https://res.cloudinary.com/bizstak/image/upload/v1727287875/Speaker1_e0ogqn.png',
           title: 'Strategies for Business Resilience in an Inflated Economy',
+          slug: slugify(
+            'Strategies for Business Resilience in an Inflated Economy'
+          ),
           videosCount: '5 videos',
           articlesCount: '3 articles',
           duration: '8 hours',
@@ -89,6 +119,7 @@ export default function handler(req, res) {
           imgSrc:
             'https://res.cloudinary.com/bizstak/image/upload/v1727295780/speaker2_b3iccw.png',
           title: 'Leading Trends in Pharmacy Inventory Management',
+          slug: slugify('Leading Trends in Pharmacy Inventory Management'),
           videosCount: '5 videos',
           articlesCount: '3 articles',
           duration: '8 hours',
@@ -98,6 +129,7 @@ export default function handler(req, res) {
           imgSrc:
             'https://res.cloudinary.com/bizstak/image/upload/v1727295858/speaker3_umpkxb.png',
           title: 'Advancing Financial Literacy in Healthcare Business',
+          slug: slugify('Advancing Financial Literacy in Healthcare Business'),
           videosCount: '5 videos',
           articlesCount: '3 articles',
           duration: '8 hours',
@@ -108,6 +140,9 @@ export default function handler(req, res) {
     {
       id: 4,
       title: 'Strategies for Business Resilience in an Inflated Economy',
+      slug: slugify(
+        'Strategies for Business Resilience in an Inflated Economy'
+      ),
       videoTitle: 'Harnessing Data for Decision Making',
       featured: [
         {
@@ -115,6 +150,9 @@ export default function handler(req, res) {
           imgSrc:
             'https://res.cloudinary.com/bizstak/image/upload/v1727287875/Speaker1_e0ogqn.png',
           title: 'Strategies for Business Resilience in an Inflated Economy',
+          slug: slugify(
+            'Strategies for Business Resilience in an Inflated Economy'
+          ),
           videosCount: '5 videos',
           articlesCount: '3 articles',
           duration: '8 hours',
@@ -124,6 +162,7 @@ export default function handler(req, res) {
           imgSrc:
             'https://res.cloudinary.com/bizstak/image/upload/v1727295780/speaker2_b3iccw.png',
           title: 'Leading Trends in Pharmacy Inventory Management',
+          slug: slugify('Leading Trends in Pharmacy Inventory Management'),
           videosCount: '5 videos',
           articlesCount: '3 articles',
           duration: '8 hours',
@@ -133,6 +172,7 @@ export default function handler(req, res) {
           imgSrc:
             'https://res.cloudinary.com/bizstak/image/upload/v1727295858/speaker3_umpkxb.png',
           title: 'Advancing Financial Literacy in Healthcare Business',
+          slug: slugify('Advancing Financial Literacy in Healthcare Business'),
           videosCount: '5 videos',
           articlesCount: '3 articles',
           duration: '8 hours',
