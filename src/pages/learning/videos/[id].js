@@ -2,33 +2,6 @@ import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
 import truncateText from 'utils/truncateText';
 
-const featuredWebinars = [
-  {
-    imgSrc:
-      'https://res.cloudinary.com/bizstak/image/upload/v1727287875/Speaker1_e0ogqn.png',
-    title: 'Strategies for Business Resilience in an Inflated Economy',
-    videosCount: '5 videos',
-    articlesCount: '3 articles',
-    duration: '8 hours',
-  },
-  {
-    imgSrc:
-      'https://res.cloudinary.com/bizstak/image/upload/v1727295780/speaker2_b3iccw.png',
-    title: 'Leading Trends in Pharmacy Inventory Management',
-    videosCount: '5 videos',
-    articlesCount: '3 articles',
-    duration: '8 hours',
-  },
-  {
-    imgSrc:
-      'https://res.cloudinary.com/bizstak/image/upload/v1727295858/speaker3_umpkxb.png',
-    title: 'Advancing Financial Literacy in Healthcare Business',
-    videosCount: '5 videos',
-    articlesCount: '3 articles',
-    duration: '8 hours',
-  },
-];
-
 const LearningVideo = () => {
   const router = useRouter();
   const { id } = router.query;
@@ -54,6 +27,8 @@ const LearningVideo = () => {
 
   if (loading) return <div>Loading...</div>;
   if (!video) return <div>Video not found</div>;
+
+  const { featured } = video;
 
   return (
     <div>
@@ -81,7 +56,7 @@ const LearningVideo = () => {
           <h3>Featured Webinars</h3>
         </div>
         <div className="learningVideoMB">
-          {featuredWebinars.map((webinar, index) => (
+          {featured?.map((webinar, index) => (
             <div key={index} className="learningVideoFlexRow">
               <div className="learningVideoFlexRowImg">
                 <img src={webinar.imgSrc} />
