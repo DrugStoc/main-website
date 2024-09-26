@@ -26,8 +26,8 @@ const LearningVideo = () => {
     }
   }, [router.isReady, id]);
 
-  const handleViewClick = id => {
-    router.push(`/learning/videos/features/${id}`);
+  const handleViewClick = (slug, id) => {
+    router.push(`/learning/videos/features/${slug}/${id}`);
   };
 
   if (loading) return <div>Loading...</div>;
@@ -64,7 +64,9 @@ const LearningVideo = () => {
           {featured?.map(webinar => (
             <div key={webinar.id} className="learningVideoFlexRow">
               <div className="learningVideoFlexRowImg">
-                <Link href={`/learning/videos/features/${webinar.id}`}>
+                <Link
+                  href={`/learning/videos/features/${webinar.slug}/${webinar.id}`}
+                >
                   <a
                     aria-label={`Navigate to featured detail page with id of ${webinar.id}`}
                   >
@@ -74,7 +76,9 @@ const LearningVideo = () => {
               </div>
               <div className="learningVideoFlexColumn">
                 <div>
-                  <Link href={`/learning/videos/features/${webinar.id}`}>
+                  <Link
+                    href={`/learning/videos/features/${webinar.slug}/${webinar.id}`}
+                  >
                     <a
                       aria-label={`Navigate to featured detail page with id of ${webinar.id}`}
                     >
@@ -108,7 +112,9 @@ const LearningVideo = () => {
                   </div>
                 </div>
                 <div className="learningVideoExplore">
-                  <button onClick={() => handleViewClick(webinar.id)}>
+                  <button
+                    onClick={() => handleViewClick(webinar.slug, webinar.id)}
+                  >
                     <span>Explore</span>
                     <img
                       src="https://res.cloudinary.com/bizstak/image/upload/v1727297928/arrow_forward_phbdsv.svg"
