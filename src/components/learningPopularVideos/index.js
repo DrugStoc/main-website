@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
 import truncateText from 'utils/truncateText';
@@ -33,7 +34,13 @@ const LearningPopularVideos = () => {
                   src="https://res.cloudinary.com/bizstak/image/upload/v1727050721/video_y5jcce.svg"
                   alt="video icon"
                 />
-                <p title={video.title}>{truncateText(video.title, 67)}</p>
+                <Link href={`/learning/videos/${video.id}`}>
+                  <a
+                    aria-label={`Navigate to popular video with id of ${video.id}`}
+                  >
+                    <p title={video.title}>{truncateText(video.title, 67)}</p>
+                  </a>
+                </Link>
               </div>
               <h2>{truncateText(video.videoTitle, 35)}</h2>
               <p className="learningMostPopularVideoCardDate">{video.date}</p>
