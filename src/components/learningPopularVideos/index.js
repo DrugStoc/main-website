@@ -46,7 +46,9 @@ const LearningPopularVideos = () => {
               </div>
               <h2>{truncateText(video.videoTitle, 35)}</h2>
               <p className="learningMostPopularVideoCardDate">{video.date}</p>
-              <button onClick={() => handleViewClick(video.id)}>View</button>
+              <button onClick={() => handleViewClick(video.slug, video.id)}>
+                View
+              </button>
             </div>
           ))}
         </section>
