@@ -5,10 +5,26 @@ import { useRouter } from 'next/router';
 
 import NavLink from 'components/nav-link';
 import useScroll from 'utils/use-scroll';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 const NavbarLayout = () => {
   const router = useRouter();
+  const [isLearningRoute, setIsLearningRoute] = useState(false);
+
+  useEffect(() => {
+    let isMounted = true;
+
+    if (router.isReady) {
+      const currentPath = router.asPath;
+      if (isMounted) {
+        setIsLearningRoute(currentPath.includes('/learning'));
+      }
+    }
+
+    return () => {
+      isMounted = false;
+    };
+  }, [router.isReady, router.asPath]);
 
   const isStaticBg = ['/about', '/careers'].includes(router.pathname);
   const [userScrolledUp] = useScroll(10);
@@ -248,7 +264,11 @@ const NavbarLayout = () => {
                 <a className="nav-link">Blog</a>
               </NavLink>
               <NavLink activeClassName="active" href="/learning">
-                <a className="nav-link">Learning</a>
+                <a className="nav-link">
+                  <span style={{ color: isLearningRoute ? '#4c70d6' : '' }}>
+                    Learning
+                  </span>
+                </a>
               </NavLink>
             </Nav>
             <Nav className="ml-auto">
