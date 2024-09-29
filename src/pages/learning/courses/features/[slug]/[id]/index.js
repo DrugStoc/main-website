@@ -13,7 +13,6 @@ const LearningVideoPage = () => {
       const fetchVideoData = async () => {
         const response = await fetch(`/api/learning/courses/${id}`);
         const data = await response.json();
-        console.log(data);
         setVideoData(data);
       };
 
