@@ -1,5 +1,5 @@
 import Layout from 'components/layout';
-import LearningVideo from 'pages/learning/videos/popular/[slug]/[id]';
+import LearningVideo from 'pages/learning/courses/popular/[slug]/[id]';
 
 export default function LearningVideoPage() {
   return (
