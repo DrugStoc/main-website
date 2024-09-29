@@ -139,13 +139,15 @@ const CommentSection = () => {
 
         .comment-avatar {
           margin-right: 10px;
-        }
-
-        .avatar-placeholder {
+          overflow: hidden;
           width: 40px;
           height: 40px;
           background-color: #ccc;
           border-radius: 50%;
+        }
+
+        .avatar-placeholder {
+          width: 100%;
         }
 
         .comment-content {
