@@ -19,6 +19,10 @@ const LearningVideoPage = () => {
     }
   }, [router.isReady, id]);
 
+  const handleBack = () => {
+    router.back();
+  };
+
   if (!articlesData) {
     return <div>Loading...</div>;
   }
@@ -39,7 +43,21 @@ const LearningVideoPage = () => {
   return (
     <div className="learningMostPopularVideos" style={{ marginTop: 86 }}>
       <div className="learningMostPopularVideosSection">
-        <h2>{articlesData.articleTitle || ''}</h2>
+        <div
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            gap: 10,
+            cursor: 'pointer',
+          }}
+        >
+          <img
+            style={{ position: 'relative', top: -20 }}
+            src="https://res.cloudinary.com/bizstak/image/upload/v1727647527/arrowBack_bf0waq.svg"
+            onClick={handleBack}
+          />
+          <h2>{articlesData.articleTitle || ''}</h2>
+        </div>
         <section
           className="learningMostPopularVideoCards"
           style={{
