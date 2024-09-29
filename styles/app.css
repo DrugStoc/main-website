@@ -749,6 +749,20 @@ input {
   gap: 4rem 4rem;
 }
 
+.learningViewButton {
+  background-color: #4c70d6;
+  color: #fff;
+  display: block;
+  text-align: center;
+  border: 1px solid #4c70d6;
+  border-radius: 52px;
+  padding-block: 5px;
+}
+
+.learningViewButton:hover {
+  color: #fff;
+}
+
 .learningMostPopularVideoCard {
   background-color: #fff;
   padding: 20px;
