@@ -36,9 +36,9 @@ const LearningVideoPage = () => {
   ].sort((a, b) => a.id.localeCompare(b.id));
 
   return (
-    <div className="learningMostPopularVideos" style={{ marginTop: 30 }}>
+    <div className="learningMostPopularVideos" style={{ marginTop: 86 }}>
       <div className="learningMostPopularVideosSection">
-        <h2>{videoData.videos[0]?.title || 'Learning Videos'}</h2>
+        <h2>{videoData.videos[0]?.title || 'Learning Feature Courses'}</h2>
         <section className="learningMostPopularVideoCards">
           {allCards.map(item => (
             <div className="learningMostPopularVideoCard" key={item.id}>
@@ -54,8 +54,8 @@ const LearningVideoPage = () => {
                 <Link
                   href={
                     item.videoTitle
-                      ? `/learning/videos/${item.slug}/${item.id}`
-                      : `/learning/articles/${item.slug}/${item.id}`
+                      ? `/learning/courses/videos/${item.slug}/${item.id}`
+                      : `/learning/courses/articles/${item.slug}/${item.id}`
                   }
                 >
                   <a
@@ -75,8 +75,8 @@ const LearningVideoPage = () => {
               <Link
                 href={
                   item.videoTitle
-                    ? `/learning/videos/${item.slug}/${item.id}`
-                    : `/learning/articles/${item.slug}/${item.id}`
+                    ? `/learning/courses/videos/${item.slug}/${item.id}`
+                    : `/learning/courses/articles/${item.slug}/${item.id}`
                 }
               >
                 <a
