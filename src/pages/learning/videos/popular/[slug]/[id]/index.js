@@ -13,7 +13,7 @@ const LearningVideo = () => {
     if (router.isReady && id) {
       const fetchVideo = async () => {
         try {
-          const response = await fetch(`/api/videos/${id}`);
+          const response = await fetch(`/api/learning/${id}`);
           const data = await response.json();
           setVideo(data);
           setLoading(false);
@@ -93,14 +93,14 @@ const LearningVideo = () => {
                         src="https://res.cloudinary.com/bizstak/image/upload/v1727050721/video_y5jcce.svg"
                         alt="video icon"
                       />
-                      <span>{webinar.videosCount}</span>
+                      <span>{webinar.videos.length} videos</span>
                     </div>
                     <div>
                       <img
                         src="https://res.cloudinary.com/bizstak/image/upload/v1727288952/text_snippet_m3cs56.svg"
                         alt="script icon"
                       />
-                      <span>{webinar.articlesCount}</span>
+                      <span>{webinar.articles.length} articles</span>
                     </div>
                     <div>
                       <img
