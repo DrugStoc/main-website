@@ -27,7 +27,7 @@ const LearningVideo = () => {
   }, [router.isReady, id]);
 
   const handleViewClick = (slug, id) => {
-    router.push(`/learning/videos/features/${slug}/${id}`);
+    router.push(`/learning/courses/features/${slug}/${id}`);
   };
 
   if (loading) return <div>Loading...</div>;
@@ -65,7 +65,7 @@ const LearningVideo = () => {
             <div key={webinar.id} className="learningVideoFlexRow">
               <div className="learningVideoFlexRowImg">
                 <Link
-                  href={`/learning/videos/features/${webinar.slug}/${webinar.id}`}
+                  href={`/learning/courses/features/${webinar.slug}/${webinar.id}`}
                 >
                   <a
                     aria-label={`Navigate to featured detail page with id of ${webinar.id}`}
@@ -77,7 +77,7 @@ const LearningVideo = () => {
               <div className="learningVideoFlexColumn">
                 <div>
                   <Link
-                    href={`/learning/videos/features/${webinar.slug}/${webinar.id}`}
+                    href={`/learning/courses/features/${webinar.slug}/${webinar.id}`}
                   >
                     <a
                       aria-label={`Navigate to featured detail page with id of ${webinar.id}`}

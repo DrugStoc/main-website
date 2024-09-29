@@ -19,7 +19,7 @@ const LearningPopularVideos = () => {
   const router = useRouter();
 
   const handleViewClick = (slug, id) => {
-    router.push(`/learning/videos/popular/${slug}/${id}`);
+    router.push(`/learning/courses/popular/${slug}/${id}`);
   };
 
   return (
@@ -35,7 +35,7 @@ const LearningPopularVideos = () => {
                   alt="video icon"
                 />
                 <Link
-                  href={`/learning/videos/popular/${video.slug}/${video.id}`}
+                  href={`/learning/courses/popular/${video.slug}/${video.id}`}
                 >
                   <a
                     aria-label={`Navigate to popular video with id of ${video.id}`}
