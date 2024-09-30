@@ -7,7 +7,7 @@ export default function handler(req, res) {
       .replace(/[^a-z0-9]+/g, '-');
   };
 
-  const videos = [
+  const courses = [
     {
       id: 'rqkd131c',
       imgSrc:
@@ -139,12 +139,11 @@ export default function handler(req, res) {
   ];
 
   const { id } = req.query;
-  console.log(id);
 
-  const video = videos.find(v => v.id === parseInt(id));
+  const course = courses.find(v => v.id === parseInt(id));
 
-  if (video) {
-    res.status(200).json(video);
+  if (course) {
+    res.status(200).json(course);
   } else {
     res.status(404).json({ error: 'Video not found' });
   }
