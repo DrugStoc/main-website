@@ -1,3 +1,4 @@
+import Loading from 'components/loading';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
@@ -21,7 +22,7 @@ const LearningVideoPage = () => {
   }, [router.isReady, id]);
 
   if (!videoData) {
-    return <div>Loading...</div>;
+    return <Loading />;
   }
 
   // const handleViewClick = (slug, id) => {
@@ -38,7 +39,9 @@ const LearningVideoPage = () => {
   return (
     <div className="learningMostPopularVideos" style={{ marginTop: 86 }}>
       <div className="learningMostPopularVideosSection">
-        <h2>{videoData.videos[0]?.title || 'Learning Feature Courses'}</h2>
+        <h2>
+          {videoData ? videoData.videos[0]?.title : 'Learning Feature Courses'}
+        </h2>
         <section className="learningMostPopularVideoCards">
           {allCards.map(item => (
             <div className="learningMostPopularVideoCard" key={item.id}>

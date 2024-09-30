@@ -1,6 +1,7 @@
 import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
 import CommentSection from '../../../../../../components/comment';
+import Loading from 'components/loading';
 
 const LearningVideoPage = () => {
   const router = useRouter();
@@ -24,7 +25,7 @@ const LearningVideoPage = () => {
   };
 
   if (!videoData) {
-    return <div>Loading...</div>;
+    return <Loading />;
   }
 
   return (

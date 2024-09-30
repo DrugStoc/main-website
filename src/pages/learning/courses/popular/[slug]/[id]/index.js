@@ -1,3 +1,4 @@
+import Loading from 'components/loading';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
@@ -30,7 +31,7 @@ const LearningVideo = () => {
     router.push(`/learning/courses/features/${slug}/${id}`);
   };
 
-  if (loading) return <div>Loading...</div>;
+  if (loading) return <Loading />;
   if (!video) return <div>Video not found</div>;
 
   const { featured } = video;
