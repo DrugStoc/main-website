@@ -82,6 +82,7 @@ const CommentSection = () => {
                   style={{
                     borderRight: '1px solid #77808B',
                     borderRadius: 0,
+                    outline: 'none',
                   }}
                 >
                   Reply

@@ -4,7 +4,7 @@ import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
 import truncateText from 'utils/truncateText';
 
-const LearningVideoPage = () => {
+const LearningCourseFeaturePage = () => {
   const router = useRouter();
   const { id } = router.query;
   const [videoData, setVideoData] = useState(null);
@@ -99,4 +99,4 @@ const LearningVideoPage = () => {
   );
 };
 
-export default LearningVideoPage;
+export default LearningCourseFeaturePage;

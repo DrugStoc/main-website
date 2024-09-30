@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import CommentSection from '../../../../../../components/comment';
 import Loading from 'components/loading';
 
-const LearningVideoPage = () => {
+const LearningCourseVideoPage = () => {
   const router = useRouter();
   const { id } = router.query;
   const [videoData, setVideoData] = useState(null);
@@ -67,4 +67,4 @@ const LearningVideoPage = () => {
   );
 };
 
-export default LearningVideoPage;
+export default LearningCourseVideoPage;

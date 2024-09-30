@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import CommentSection from '../../../../../../components/comment';
 import Loading from 'components/loading';
 
-const LearningVideoPage = () => {
+const LearningCourseArticlePage = () => {
   const router = useRouter();
   const { id } = router.query;
   const [articlesData, setArticlesData] = useState(null);
@@ -88,4 +88,4 @@ const LearningVideoPage = () => {
   );
 };
 
-export default LearningVideoPage;
+export default LearningCourseArticlePage;

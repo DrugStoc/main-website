@@ -4,7 +4,7 @@ import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
 import truncateText from 'utils/truncateText';
 
-const LearningVideo = () => {
+const LearningCoursePopularVideo = () => {
   const router = useRouter();
   const { id } = router.query;
   const [video, setVideo] = useState(null);
@@ -133,4 +133,4 @@ const LearningVideo = () => {
   );
 };
 
-export default LearningVideo;
+export default LearningCoursePopularVideo;
