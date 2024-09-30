@@ -40,6 +40,16 @@ const CommentSection = () => {
     setComments(updatedComments);
   };
 
+  const handleDislike = id => {
+    const updatedComments = comments.map(comment => {
+      if (comment.id === id) {
+        return { ...comment, likes: comment.likes > 0 ? comment.likes - 1 : 0 };
+      }
+      return comment;
+    });
+    setComments(updatedComments);
+  };
+
   return (
     <div className="comment-section">
       <h3>Comments</h3>
@@ -83,12 +93,14 @@ const CommentSection = () => {
                     width={20}
                     height={20}
                     style={{ cursor: 'pointer' }}
+                    onClick={() => handleLike(comment.id)}
                   />
                   <img
                     src="https://res.cloudinary.com/bizstak/image/upload/v1727642020/dislike_htprna.svg"
                     width={20}
                     height={20}
                     style={{ cursor: 'pointer' }}
+                    onClick={() => handleDislike(comment.id)}
                   />
                 </div>
               </div>
