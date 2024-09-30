@@ -115,6 +115,7 @@ const CommentSection = () => {
           border: 1px solid #ccc;
           margin-bottom: 10px;
           resize: none;
+          outline: none;
         }
 
         button {
