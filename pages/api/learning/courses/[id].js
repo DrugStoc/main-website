@@ -139,6 +139,31 @@ export default function handler(req, res) {
       id: 'dsnc930m',
       videos: [
         {
+          id: 'ewew3d2',
+          title: 'Strategies for Business Resilience in an Inflated Economy',
+          slug: slugify(
+            'Strategies for Business Resilience in an Inflated Economy'
+          ),
+          videoTitle: 'Harnessing Data for Decision Making',
+          date: 'May 25, 2023 at 10:00 AM',
+        },
+      ],
+      articles: [
+        {
+          id: 've2rf54',
+          title: 'Strategies for Business Resilience in an Inflated Economy',
+          slug: slugify(
+            'Strategies for Business Resilience in an Inflated Economy'
+          ),
+          videoTitle: 'Harnessing Data for Decision Making',
+          date: 'May 25, 2023 at 10:00 AM',
+        },
+      ],
+    },
+    {
+      id: '8dns8nff',
+      videos: [
+        {
           id: 'fvr4rh',
           title: 'Strategies for Business Resilience in an Inflated Economy',
           slug: slugify(
