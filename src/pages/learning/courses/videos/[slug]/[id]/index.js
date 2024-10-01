@@ -54,7 +54,7 @@ const LearningCourseVideoPage = () => {
             background: '#f0f0f0',
           }}
         >
-          <video height="500" controls style={{ width: '100%' }}>
+          <video height={720} controls style={{ width: '100%' }}>
             <source src={videoData.videoUrl} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
