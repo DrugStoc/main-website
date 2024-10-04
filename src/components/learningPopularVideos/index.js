@@ -1,3 +1,5 @@
+import AuthModal from 'components/modal/Auth';
+import { useAuth } from 'context/AuthContext';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
@@ -5,7 +7,7 @@ import truncateText from 'utils/truncateText';
 
 const LearningPopularVideos = () => {
   const [videos, setVideos] = useState([]);
-
+  const { token, setIsModalOpen, isModalOpen } = useAuth();
   useEffect(() => {
     const fetchVideos = async () => {
       const response = await fetch('/api/videos');
@@ -19,11 +21,21 @@ const LearningPopularVideos = () => {
   const router = useRouter();
 
   const handleViewClick = (slug, id) => {
-    router.push(`/learning/courses/popular/${slug}/${id}`);
+    if (token) {
+      router.push(`/learning/courses/popular/${slug}/${id}`);
+    } else {
+      setIsModalOpen(true);
+    }
+  };
+  const closeModal = () => {
+    setIsModalOpen(false);
   };
 
   return (
     <div className="learningMostPopularVideos">
+      {!isModalOpen ? null : (
+        <AuthModal isOpen={isModalOpen} onClose={closeModal} />
+      )}
       <div className="learningMostPopularVideosSection">
         <h2>Most popular videos</h2>
         <section className="learningMostPopularVideoCards">
