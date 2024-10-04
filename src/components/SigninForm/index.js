@@ -9,7 +9,6 @@ const SignInForm = () => {
   const [loading, setLoading] = useState(false);
   const [message, setMessage] = useState('');
   const { login } = useAuth();
-  const [isToken, setIsToken] = useState(false);
 
   const handleSubmit = async e => {
     e.preventDefault();
