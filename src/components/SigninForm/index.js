@@ -2,7 +2,7 @@ import { useAuth } from 'context/AuthContext';
 import React, { useState } from 'react';
 import { loginUser } from 'services/login';
 
-const SignUpForm = () => {
+const SignInForm = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState(null);
@@ -23,19 +23,21 @@ const SignUpForm = () => {
 
     try {
       const res = await loginUser(userData);
-      setMessage('Login Successful');
-      setTimeout(() => {
-        setMessage(null);
-      }, 3000);
-      login(res);
-      setIsToken(true);
-      localStorage.setItem(isToken, true);
+      if (res.token) {
+        login(res);
+        localStorage.setItem('authToken', res.token);
+        setMessage('Login Successful');
+        setTimeout(() => {
+          setMessage(null);
+        }, 3000);
+      } else {
+        setError('Invalid token received.');
+      }
     } catch (err) {
       setError('Login failed. Please try again.');
       setTimeout(() => {
         setError(null);
       }, 3000);
-      localStorage.setItem(isToken, false);
     } finally {
       setLoading(false);
     }
@@ -151,4 +153,4 @@ const styles = {
   },
 };
 
-export default SignUpForm;
+export default SignInForm;

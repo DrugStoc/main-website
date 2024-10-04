@@ -72,7 +72,7 @@ const SignUpForm = () => {
         required
       />
       <input
-        type="phone"
+        type="tel"
         placeholder="Phone Number"
         style={styles.input}
         value={phone}
@@ -89,7 +89,7 @@ const SignUpForm = () => {
       />
       {error && <p style={styles.errorText}>{error}</p>}
       {message && <p style={styles.successText}>{message}</p>}
-      <button type="submit" style={styles.submitButton}>
+      <button type="submit" style={styles.submitButton} disabled={loading}>
         {loading ? 'Registering...' : 'Sign up'}
       </button>
     </form>
