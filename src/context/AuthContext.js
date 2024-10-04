@@ -17,10 +17,14 @@ export const AuthProvider = ({ children }) => {
   }, []);
 
   const login = data => {
-    setToken(data.token);
-    setUser(data.user);
-    localStorage.setItem('authToken', data.token);
-    setIsModalOpen(false);
+    if (data && data.token) {
+      setToken(data.token);
+      setUser(data.user);
+      localStorage.setItem('authToken', data.token);
+      setIsModalOpen(false);
+    } else {
+      setIsModalOpen(true);
+    }
   };
 
   const logout = () => {
