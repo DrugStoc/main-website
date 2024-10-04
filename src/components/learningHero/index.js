@@ -3,7 +3,7 @@ import LearningHeroCards from 'components/learningCard';
 const LearningHero = () => {
   return (
     <>
-      <div className="learningHero">
+      <div className="learningHero" style={{ position: 'relative' }}>
         <div className="learningHeroImg">
           <div className="learningHeroSectionContent">
             <div className="learningHeroSectionText">
