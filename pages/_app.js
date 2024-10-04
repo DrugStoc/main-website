@@ -4,6 +4,7 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { DefaultSeo } from 'next-seo';
 import '../styles/index.scss';
+import { AuthProvider } from 'context/AuthContext';
 const propTypes = {
   Component: PropTypes.oneOfType([
     PropTypes.element,
@@ -158,7 +159,9 @@ class MyApp extends App {
           <link rel="manifest" href="/site.webmanifest" />
           <meta name="theme-color" content="#ffffff" />
         </DefaultSeo>
-        <Component {...pageProps} />
+        <AuthProvider>
+          <Component {...pageProps} />
+        </AuthProvider>
         <ToastContainer />
       </>
     );
