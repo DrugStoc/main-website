@@ -44,7 +44,7 @@ const SignInForm = () => {
 
   return (
     <form style={styles.form} onSubmit={handleSubmit}>
-      <h2 style={styles.signin}>Sign up</h2>
+      <h2 style={styles.signin}>Sign in</h2>
       <button style={styles.authButton}>
         Log in with Drugstoc Credentials
       </button>
