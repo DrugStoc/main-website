@@ -5,8 +5,14 @@ import { useState } from 'react';
 const AuthModal = ({ isOpen, onClose }) => {
   const [isSignUp, setIsSignUp] = useState(true);
 
+  const handleOverlayClick = e => {
+    if (e.target === e.currentTarget) {
+      onClose();
+    }
+  };
+
   return !isOpen ? null : (
-    <div style={styles.overlay}>
+    <div style={styles.overlay} onClick={handleOverlayClick}>
       <div style={styles.modal}>
         <button onClick={onClose} style={styles.closeButton}>
           <span style={styles.cancel}>&times;</span>
@@ -24,7 +30,7 @@ const AuthModal = ({ isOpen, onClose }) => {
                 : styles.inactiveTab
             }
           >
-            Sign up
+            Sign in
           </button>
           <button
             onClick={() => setIsSignUp(false)}
@@ -38,11 +44,11 @@ const AuthModal = ({ isOpen, onClose }) => {
                 : styles.inactiveTab
             }
           >
-            Sign in
+            Sign up
           </button>
         </div>
 
-        {isSignUp ? <SignUpForm /> : <SignInForm />}
+        {isSignUp ? <SignInForm /> : <SignUpForm />}
       </div>
     </div>
   );
