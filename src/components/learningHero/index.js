@@ -1,8 +1,31 @@
 import LearningHeroCards from 'components/learningCard';
+import AuthModal from 'components/modal/Auth';
+import { useAuth } from 'context/AuthContext';
+import { useRouter } from 'next/router';
 
 const LearningHero = () => {
+  const router = useRouter();
+  const { token, setIsModalOpen, isModalOpen } = useAuth();
+  const navigateToBookmark = () => {
+    router.push('#most-popular-videos');
+  };
+  const handleViewClick = () => {
+    if (token) {
+      router.push(
+        `/learning/courses/popular/strategies-for-business-resilience-in-an-inflated-economy/1`
+      );
+    } else {
+      setIsModalOpen(true);
+    }
+  };
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
   return (
     <>
+      {!isModalOpen ? null : (
+        <AuthModal isOpen={isModalOpen} onClose={closeModal} />
+      )}
       <div className="learningHero" style={{ position: 'relative' }}>
         <div className="learningHeroImg">
           <div className="learningHeroSectionContent">
@@ -17,8 +40,8 @@ const LearningHero = () => {
                 you to learn at your own pace anytime, anywhere.
               </p>
               <div className="learningHeroFirstButton">
-                <button>Get Started</button>
-                <button>Log in</button>
+                <button onClick={navigateToBookmark}>Get Started</button>
+                <button onClick={handleViewClick}>Log in</button>
               </div>
             </div>
             <div className="learningHeroForeImg">
