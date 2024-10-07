@@ -36,8 +36,11 @@ const LearningPopularVideos = () => {
       {!isModalOpen ? null : (
         <AuthModal isOpen={isModalOpen} onClose={closeModal} />
       )}
-      <div className="learningMostPopularVideosSection">
-        <h2 id="most-popular-videos">Most popular videos</h2>
+      <div
+        id="most-popular-videos"
+        className="learningMostPopularVideosSection"
+      >
+        <h2>Most popular videos</h2>
         <section className="learningMostPopularVideoCards">
           {videos.map(video => (
             <div className="learningMostPopularVideoCard" key={video.id}>
