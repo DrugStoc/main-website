@@ -14,9 +14,9 @@ const AuthModal = ({ isOpen, onClose }) => {
   return !isOpen ? null : (
     <div style={styles.overlay} onClick={handleOverlayClick}>
       <div style={styles.modal}>
-        <button onClick={onClose} style={styles.closeButton}>
+        {/* <button onClick={onClose} style={styles.closeButton}>
           <span style={styles.cancel}>&times;</span>
-        </button>
+        </button> */}
         <div style={styles.toggleButtons}>
           <button
             onClick={() => setIsSignUp(true)}
