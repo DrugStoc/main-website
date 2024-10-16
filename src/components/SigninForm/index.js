@@ -1,6 +1,7 @@
 import { useAuth } from 'context/AuthContext';
 import React, { useState } from 'react';
 import { loginUser } from 'services/login';
+import { handleGoogleCallback } from 'utils/OAuthCallback';
 
 const SignInForm = () => {
   const [email, setEmail] = useState('');
@@ -42,18 +43,24 @@ const SignInForm = () => {
     }
   };
 
+  const handleClickButton = () => {
+    handleGoogleCallback();
+  };
+
   return (
     <form style={styles.form} onSubmit={handleSubmit}>
       <h2 style={styles.signin}>Sign in</h2>
-      <button style={styles.authButton}>
+      {/* <button style={styles.authButton}>
         Log in with Drugstoc Credentials
       </button>
-      <button style={styles.googleButton}>Sign up with Google</button>
+      <button style={styles.googleButton} onClick={handleClickButton}>
+        Sign up with Google
+      </button>
 
       <div style={styles.orDivider}>
         <span style={styles.or}>OR</span>
         <div style={styles.divider}></div>
-      </div>
+      </div> */}
 
       <input
         type="email"
