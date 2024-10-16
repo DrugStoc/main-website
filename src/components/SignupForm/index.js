@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { registerUser } from 'services/register/auth';
+import { handleGoogleCallback } from 'utils/OAuthCallback';
 
 const SignUpForm = () => {
   const [firstName, setFirstName] = useState('');
@@ -10,6 +11,10 @@ const SignUpForm = () => {
   const [error, setError] = useState(null);
   const [loading, setLoading] = useState(false);
   const [message, setMessage] = useState('');
+
+  const handleClickButton = () => {
+    handleGoogleCallback();
+  };
 
   const handleSubmit = async e => {
     e.preventDefault();
@@ -39,14 +44,16 @@ const SignUpForm = () => {
   return (
     <form style={styles.form} onSubmit={handleSubmit}>
       <h2 style={styles.signin}>Sign up</h2>
-      <button style={styles.authButton}>
+      {/* <button style={styles.authButton}>
         Log in with Drugstoc Credentials
       </button>
-      <button style={styles.googleButton}>Sign up with Google</button>
+      <button style={styles.googleButton} onClick={handleClickButton}>
+        Sign up with Google
+      </button>
       <div style={styles.orDivider}>
         <span style={styles.or}>OR</span>
         <div style={styles.divider}></div>
-      </div>
+      </div> */}
       <input
         type="text"
         placeholder="First name"
