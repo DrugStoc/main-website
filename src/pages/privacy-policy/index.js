@@ -8,287 +8,209 @@ export default function TermsAndConditions() {
       <Container>
         <div className="header">
           <div className="container">
-            <h1 style={{ fontSize: '28px' }}>
-              <u>THE PRIVACY POLICY FOR DRUGSTOC EHUB LIMITED</u>
-            </h1>
-            <div>
-              <ol>
-                <li>
-                  <h2 style={{ fontSize: '16px', fontWeight: 'bold' }}>
-                    HOW WE COLLECT YOUR PERSONAL DATA
-                  </h2>
-                  We collect your personal data when you:
-                  <ol type="a">
-                    <li>send us an email</li>
-                    <li>send us a job application</li>
-                    <li>call at our online or physical office</li>
-                    <li>
-                      respond to our social media messages, posts or attend our
-                      webinars
-                    </li>
-                    <li>
-                      require us to make payments to you whether under an
-                      employment contract, independent contract etc.
-                    </li>
-                    <li>
-                      when you volunteer your personal data to us for any
-                      specific reason(s).
-                    </li>
-                  </ol>
-                </li>
+            <Container>
+              <div className="privacy-notice">
+                <h1>PRIVACY NOTICE OF DRUGSTOC EHUB LIMITED</h1>
 
-                {/* two */}
-                <li>
-                  <h2 style={{ fontSize: '16px', fontWeight: 'bold' }}>
-                    OUR LAWFUL BASES FOR PROCESSING YOUR PERSONAL DATA
-                  </h2>
-                  Processing of personal data means anything that is done with
-                  your personal data such as deletion, erasure, disclosure,
-                  profiling, download, transfer, modification, etc.
-                  <ol type="a">
-                    <li>
-                      {' '}
-                      In accordance with the Nigerian data protection regulation
-                      2019 (NDPR) we process your personal data for the
-                      following purposes:
-                      <p> Contractual basis </p>
-                      <p>
-                        We may process your personal data in furtherance of any
-                        contract between us or between you and a third party for
-                        which you have mandated us to so process. This includes
-                        employment contracts, service level agreements, etc.{' '}
-                      </p>
-                    </li>
-                    <li>
-                      {' '}
-                      Legal Obligation
-                      <p>
-                        {' '}
-                        Where we have a legal obligation to process your
-                        personal data, such as tax processing, pension
-                        remittance, etc.{' '}
-                      </p>
-                    </li>
-                    <li>
-                      Consent
-                      <p>
-                        {' '}
-                        We shall process your personal data upon your consent.
-                        By accessing this website, you consent to our necessary
-                        cookies for enhanced user experience. You may opt out by
-                        clicking on the opt-out button below. Also, you hereby
-                        consent to receiving periodic adverts of our products.
-                        You may opt out by clicking “unsubscribe”.{' '}
-                      </p>
-                    </li>
-                    <li>
-                      {' '}
-                      Performance of a task in the interest of the public.{' '}
-                    </li>
-                  </ol>
-                </li>
+                <h2 style={{ fontSize: 24, fontWeight: 'bold' }}>
+                  INTRODUCTION
+                </h2>
+                <p>
+                  <strong>1.1</strong> Drugstoc Ehub Limited is a tech-based
+                  pharmaceutical distribution Company incorporated under the
+                  Laws of the Federal Republic of Nigeria.
+                </p>
+                <p>
+                  <strong>1.2</strong> References in this notice to "we", "us"
+                  or "Drugstoc" are references to Drugstoc Ehub Limited.
+                </p>
+                <p>
+                  <strong>1.3</strong> Reference in this Notice to "personal
+                  data" means any information that identifies, or could
+                  reasonably be used to identify, a living individual, either on
+                  its own or together with other information.
+                </p>
 
-                {/* three */}
-                <li>
-                  <h2 style={{ fontSize: '16px', fontWeight: 'bold' }}>
-                    HOW LONG WE KEEP YOUR DATA{' '}
-                  </h2>
-                  Unless we explain otherwise to you, we will hold your personal
-                  information based on the following criteria:
-                  <ol type="a">
-                    <li>
-                      {' '}
-                      For as long as we have reasonable business needs, such as
-                      managing our relationship with you and managing our
-                      operations;{' '}
-                    </li>
+                <h2 style={{ fontSize: 24, fontWeight: 'bold' }}>
+                  WHAT INFORMATION WE COLLECT ABOUT YOU
+                </h2>
+                <ul style={{ marginLeft: 15 }}>
+                  <li>
+                    Basic information such as name, date of birth, employer,
+                    title, relationship affiliations with a person or
+                    organization.
+                  </li>
+                  <li>
+                    Contact information such as physical address, email address,
+                    fax, and phone number(s).
+                  </li>
+                  <li>
+                    Background information provided by you or collected by us as
+                    part of our recruitment or contract employee onboarding
+                    processes.
+                  </li>
+                  <li>
+                    Confidential information provided to us by or on behalf of
+                    our clients or generated by us in the course of providing
+                    our products/services.
+                  </li>
+                  <li>
+                    Details relating to your visits to our offices or work
+                    sites.
+                  </li>
+                  <li>
+                    Any other information relating to you which you may provide
+                    to us.
+                  </li>
+                </ul>
 
-                    <li>
-                      {' '}
-                      For as long as we provide goods and/or services to you and
-                      then for as long as someone could bring a claim against
-                      us; and/or{' '}
-                    </li>
+                <h2 style={{ fontSize: 24, fontWeight: 'bold' }}>
+                  HOW WE PROTECT YOUR PERSONAL INFORMATION
+                </h2>
+                <p>
+                  <strong>3.1</strong> We are committed to protecting your
+                  personal information and implementing appropriate technical
+                  and organizational security measures to protect it against any
+                  unauthorized or unlawful processing and against any accidental
+                  loss, destruction, or damage.
+                </p>
+                <p>
+                  <strong>3.2</strong> Our IT security practices are contained
+                  in our Information Security Policy.
+                </p>
 
-                    <li>
-                      {' '}
-                      Retention periods in line with legal and regulatory
-                      requirements or guidance.{' '}
-                    </li>
-                  </ol>
-                </li>
+                <h2 style={{ fontSize: 24, fontWeight: 'bold' }}>
+                  HOW WE USE YOUR PERSONAL DATA
+                </h2>
+                <p>
+                  Whether we obtain your personal data directly from you or from
+                  a third party, we will only use your personal data in
+                  connection with our professional activities, legitimate
+                  interests (including the fulfillment of our contractual or
+                  legal/regulatory obligations). These "Authorized Uses"
+                  include:
+                </p>
+                <ul style={{ marginLeft: 15 }}>
+                  <li>Providing our professional services to our clients.</li>
+                  <li>
+                    Managing our business relationship with our service
+                    providers and/or vendors.
+                  </li>
+                  <li>
+                    Acting in compliance with our legal obligations or pursuant
+                    to a valid court order.
+                  </li>
+                  <li>
+                    In furtherance of or to protect the vital interest of the
+                    data subject.
+                  </li>
+                  <li>
+                    Processing your requests/information further to your consent
+                    during your visit to our offices and online platforms.
+                  </li>
+                  <li>
+                    Legitimate interests pursued by the Company or by a third
+                    party to whom the data is disclosed.
+                  </li>
+                </ul>
 
-                {/* four */}
-                <li>
-                  <h2 style={{ fontSize: '16px', fontWeight: 'bold' }}>
-                    {' '}
-                    YOUR DATA RIGHTS{' '}
-                  </h2>
-                  Kindly note that you have the following rights:
-                  <ol type="a">
-                    <li>
-                      {' '}
-                      Right to rectification:
-                      <p>
-                        You can request us to rectify your personal data in our
-                        possession such as your name, phone number, etc.
-                        However, we will require a valid means of identification
-                        to validate your identity.{' '}
-                      </p>
-                      <p>
-                        {' '}
-                        Also, we will require rectification evidence. For
-                        instance, where you intend to change your name or age,
-                        we will require a change of name/age affidavit.{' '}
-                      </p>
-                    </li>
+                <h2 style={{ fontSize: 24, fontWeight: 'bold' }}>
+                  HOW YOUR PERSONAL DATA IS OBTAINED
+                </h2>
+                <ul style={{ marginLeft: 15 }}>
+                  <li>
+                    In the course of our recruitment or employee onboarding
+                    processes.
+                  </li>
+                  <li>
+                    Further to an employment, service, or any other contractual
+                    obligation we have with you.
+                  </li>
+                  <li>
+                    When you email us, contact us via our website, or subscribe
+                    to our services.
+                  </li>
+                  <li>When you physically visit any of our premises.</li>
+                  <li>When you attend any of our event(s).</li>
+                  <li>
+                    When you volunteer your personal data to us for any specific
+                    reason(s).
+                  </li>
+                </ul>
 
-                    <li>
-                      {' '}
-                      Right of Access
-                      <p>
-                        {' '}
-                        You can request to know what information we hold on you.
-                        Such request can be made to our office. Your identity
-                        will need to be verified before access. We shall
-                        typically respond to your data subject access request
-                        (DSAR) within 30 days. However, where your DSAR is
-                        repetitive or requires us to dig into our archives, we
-                        reserve the discretion to charge a fair fee.{' '}
-                      </p>
-                    </li>
+                <h2 style={{ fontSize: 24, fontWeight: 'bold' }}>
+                  SHARING YOUR PERSONAL DATA
+                </h2>
+                <p>
+                  Your personal data may be shared with our related entities and
+                  affiliates. Where we share your personal data with third
+                  parties, we will do this in accordance with the Nigerian Data
+                  Protection Act, 2023 (NDPA) and NDPR observing appropriate
+                  safeguards.
+                </p>
 
-                    <li>
-                      {' '}
-                      Right to Portability:
-                      <p>
-                        {' '}
-                        You can request us to transfer your personal data to
-                        another entity/person. In response to any portability
-                        request, we will collate your personal data in a
-                        readable format and send them to you via email.{' '}
-                      </p>
-                    </li>
+                <h2 style={{ fontSize: 24, fontWeight: 'bold' }}>MARKETING</h2>
+                <p>
+                  We may send you information about our products, services, and
+                  special offers which may be of interest to you. You can
+                  unsubscribe at any time by contacting us at{' '}
+                  <a href="mailto:info@drugstoc.com">info@drugstoc.com</a>.
+                </p>
 
-                    <li>
-                      {' '}
-                      Right to be forgotten:
-                      <p>
-                        {' '}
-                        You have a right to request the deletion of your
-                        personal data in our possession. However, same is
-                        subject to our retention schedule. We shall diligently
-                        honor this request, however, you also understand that
-                        your personal data may be backed up on remote servers
-                        nonetheless.{' '}
-                      </p>
-                    </li>
+                <h2 style={{ fontSize: 24, fontWeight: 'bold' }}>
+                  RETAINING YOUR PERSONAL DATA
+                </h2>
+                <p>
+                  We will delete your personal data when it is no longer
+                  required for the Authorized Uses, subject to our retention
+                  policy.
+                </p>
 
-                    <li>
-                      {' '}
-                      Right to restrict processing
-                      <p>
-                        {' '}
-                        You may, by written notice to us, restrict our
-                        processing of your personal data. However, such
-                        restriction will not affect any processing validly done
-                        prior. Also, any obligation contingent on the processing
-                        will be discharged by the restriction.{' '}
-                      </p>
-                    </li>
+                <h2 style={{ fontSize: 24, fontWeight: 'bold' }}>
+                  YOUR RIGHTS AS A DATA SUBJECT
+                </h2>
+                <ul style={{ marginLeft: 15 }}>
+                  <li>
+                    Right of access &mdash; You can request a copy of the
+                    information we hold about you.
+                  </li>
+                  <li>
+                    Right of rectification &mdash; You can correct inaccurate or
+                    incomplete data.
+                  </li>
+                  <li>
+                    Right to be forgotten &mdash; You can ask for your data to
+                    be erased.
+                  </li>
+                  <li>
+                    Right of portability &mdash; You can transfer your data to
+                    another organization.
+                  </li>
+                  <li>
+                    Right to object &mdash; You can object to certain types of
+                    processing.
+                  </li>
+                </ul>
 
-                    <li>
-                      {' '}
-                      Right to lay a compliant before the National Information
-                      Technology Agency (NITDA).
-                      <p>
-                        You have a right to lay a complaint to our data
-                        protection officer or to the NITDA.{' '}
-                      </p>
-                    </li>
-                    <li>Right to withdraw consent. </li>
-                  </ol>
-                </li>
+                <h2 style={{ fontSize: 24, fontWeight: 'bold' }}>CONTACT US</h2>
+                <p>
+                  <strong>Data Protection Officer:</strong> Cynthiamary Unaka
+                </p>
+                <p>
+                  Email:{' '}
+                  <a href="mailto:info@drugstoc.com">info@drugstoc.com</a>
+                </p>
+                <p>Telephone: 08036879999</p>
 
-                {/* five */}
-                <li>
-                  {' '}
-                  <h2 style={{ fontSize: '16px', fontWeight: 'bold' }}>
-                    {' '}
-                    WHO WE SHARE YOUR PERSONAL INFORMATION WITH{' '}
-                  </h2>
-                  <p>
-                    {' '}
-                    We share your personal data with our affiliates, subsidiary
-                    companies, and trusted third parties we work with to serve
-                    you better. We shall ensure the adherence to this policy and
-                    NDPR to the best of our ability.{' '}
-                  </p>
-                </li>
-                <li>
-                  {' '}
-                  <h2 style={{ fontSize: '16px', fontWeight: 'bold' }}>
-                    QUESTIONS REGARDING THIS PRIVACY POLICY{' '}
-                  </h2>
-                  <p>
-                    {' '}
-                    If you have questions regarding this Privacy Policy, please
-                    contact us by sending an e-mail to <a
-                  href="mailto:info@drugstoc.com"
-                  aria-label="Navigate To Google maps"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  info@drugStoc.com
-                </a> Please
-                    include “Privacy Policy” in the subject line of your
-                    inquiry.{' '}
-                  </p>
-                </li>
-
-                <li>
-                  {' '}
-                  <h2 style={{ fontSize: '16px', fontWeight: 'bold' }}>
-                    MISCELLANEOUS{' '}
-                  </h2>
-                  <p>
-                    {' '}
-                    We shall collect and treat your personal data in line with
-                    the NDPR. By accessing this website or our eCommerce
-                    platform, you consent to the NDPR regardless of your
-                    country.{' '}
-                  </p>
-                </li>
-
-                <li>
-                  {' '}
-                  <h2 style={{ fontSize: '16px', fontWeight: 'bold' }}>
-                    REVISION TO THIS PRIVACY POLICY{' '}
-                  </h2>
-                  <p>
-                    Drugstoc reserves the right and prerogative to change or
-                    modify this Privacy Policy at any time, with or without
-                    advance notice in order to reflect changes in the law and/or
-                    our privacy practices. Such changes will be effective
-                    immediately after posting, whether dated or not. We
-                    encourage you to check this notice whenever you visit our
-                    website - www.drugstoc.com, applications, premises. to
-                    ensure that you are happy and comfortable with any changes.{' '}
-                  </p>
-                </li>
-
-                <li>
-                  {' '}
-                  <h2 style={{ fontSize: '16px', fontWeight: 'bold' }}>
-                    COMMENCEMENT{' '}
-                  </h2>
-                  <p>
-                    This privacy policy is effective from the 1st day of January
-                    2021.{' '}
-                  </p>
-                </li>
-              </ol>
-            </div>
+                <h2 style={{ fontSize: 24, fontWeight: 'bold' }}>
+                  REVISION TO THIS PRIVACY NOTICE
+                </h2>
+                <p>
+                  Drugstoc reserves the right to modify this Privacy Notice at
+                  any time.
+                </p>
+              </div>
+            </Container>
           </div>
         </div>
       </Container>
