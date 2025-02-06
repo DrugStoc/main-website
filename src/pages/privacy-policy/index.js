@@ -12,9 +12,7 @@ export default function TermsAndConditions() {
               <div className="privacy-notice">
                 <h1>PRIVACY NOTICE OF DRUGSTOC EHUB LIMITED</h1>
 
-                <h2 style={{ fontSize: 24, fontWeight: 'bold' }}>
-                  INTRODUCTION
-                </h2>
+                <h2>INTRODUCTION</h2>
                 <p>
                   <strong>1.1</strong> Drugstoc Ehub Limited is a tech-based
                   pharmaceutical distribution Company incorporated under the
@@ -31,9 +29,10 @@ export default function TermsAndConditions() {
                   its own or together with other information.
                 </p>
 
-                <h2 style={{ fontSize: 24, fontWeight: 'bold' }}>
-                  WHAT INFORMATION WE COLLECT ABOUT YOU
-                </h2>
+                <h2>WHAT INFORMATION WE COLLECT ABOUT YOU</h2>
+                <p>
+                  The personal data that we collect and process may include:
+                </p>
                 <ul style={{ marginLeft: 15 }}>
                   <li>
                     Basic information such as name, date of birth, employer,
@@ -64,9 +63,7 @@ export default function TermsAndConditions() {
                   </li>
                 </ul>
 
-                <h2 style={{ fontSize: 24, fontWeight: 'bold' }}>
-                  HOW WE PROTECT YOUR PERSONAL INFORMATION
-                </h2>
+                <h2>HOW WE PROTECT YOUR PERSONAL INFORMATION</h2>
                 <p>
                   <strong>3.1</strong> We are committed to protecting your
                   personal information and implementing appropriate technical
@@ -79,9 +76,7 @@ export default function TermsAndConditions() {
                   in our Information Security Policy.
                 </p>
 
-                <h2 style={{ fontSize: 24, fontWeight: 'bold' }}>
-                  HOW WE USE YOUR PERSONAL DATA
-                </h2>
+                <h2>HOW WE USE YOUR PERSONAL DATA</h2>
                 <p>
                   Whether we obtain your personal data directly from you or from
                   a third party, we will only use your personal data in
@@ -114,9 +109,8 @@ export default function TermsAndConditions() {
                   </li>
                 </ul>
 
-                <h2 style={{ fontSize: 24, fontWeight: 'bold' }}>
-                  HOW YOUR PERSONAL DATA IS OBTAINED
-                </h2>
+                <h2>HOW YOUR PERSONAL DATA IS OBTAINED</h2>
+                <p>We often obtain and process your personal data:</p>
                 <ul style={{ marginLeft: 15 }}>
                   <li>
                     In the course of our recruitment or employee onboarding
@@ -138,76 +132,262 @@ export default function TermsAndConditions() {
                   </li>
                 </ul>
 
-                <h2 style={{ fontSize: 24, fontWeight: 'bold' }}>
-                  SHARING YOUR PERSONAL DATA
-                </h2>
+                <h2>SHARING YOUR PERSONAL DATA</h2>
                 <p>
                   Your personal data may be shared with our related entities and
-                  affiliates. Where we share your personal data with third
-                  parties, we will do this in accordance with the Nigerian Data
-                  Protection Act, 2023 (NDPA) and NDPR observing appropriate
-                  safeguards.
+                  affiliates. Our related entities and affiliates ensure a
+                  corresponding level of data protection. Where we share your
+                  personal data with third parties, we will do this in
+                  accordance with the Nigerian Data Protection Act, 2023 (NDPA)
+                  and NDPR observing appropriate safeguards.
                 </p>
 
-                <h2 style={{ fontSize: 24, fontWeight: 'bold' }}>MARKETING</h2>
+                <h2>MARKETING</h2>
                 <p>
-                  We may send you information about our products, services, and
-                  special offers which may be of interest to you. You can
-                  unsubscribe at any time by contacting us at{' '}
-                  <a href="mailto:info@drugstoc.com">info@drugstoc.com</a>.
+                  We would like to send you information about our products,
+                  services and special offers which may be of interest to you.
+                  Where we have your consent or it is in our legitimate
+                  interests to do so, we may do this by post, email, telephone,
+                  text message (SMS) or call. We will only ask whether you would
+                  like us to send you marketing messages when you tick the
+                  relevant boxes. If you have previously agreed to being
+                  contacted in this way, you can unsubscribe at any time by
+                  contacting us at{' '}
+                  <a href="mailto:info@drugstoc.com">info@drugstoc.com</a> or by
+                  using the unsubscribe link in the emails.
                 </p>
 
-                <h2 style={{ fontSize: 24, fontWeight: 'bold' }}>
-                  RETAINING YOUR PERSONAL DATA
-                </h2>
+                <h2>RETAINING YOUR PERSONAL DATA</h2>
                 <p>
-                  We will delete your personal data when it is no longer
-                  required for the Authorized Uses, subject to our retention
-                  policy.
+                  We will delete your personal data as you say so, or when it is
+                  no longer reasonably required for the Authorized Uses (subject
+                  to our retention policy) or when you withdraw your consent
+                  (whichever is applicable), provided that we are not legally
+                  required or otherwise authorized to continue to hold such
+                  data. The withdrawal of consent shall not affect the
+                  lawfulness of data processing that occurred before the
+                  withdrawal of the consent. We may retain your personal data
+                  for an additional period to the extent that deletion would
+                  require us to overwrite our automated disaster recovery backup
+                  systems or to the extent we deem it necessary to assert or
+                  defend legal claims or in pursuance of any regulatory,
+                  accounting or reporting requirement.
                 </p>
 
-                <h2 style={{ fontSize: 24, fontWeight: 'bold' }}>
-                  YOUR RIGHTS AS A DATA SUBJECT
-                </h2>
+                <h2>YOUR RIGHTS AS A DATA SUBJECT</h2>
+                <p>
+                  At any point while we are in possession of or processing your
+                  personal data, you, the data subject, have the following
+                  rights:
+                </p>
                 <ul style={{ marginLeft: 15 }}>
                   <li>
-                    Right of access &mdash; You can request a copy of the
-                    information we hold about you.
+                    <strong>Right of access</strong> &mdash; You can request a
+                    copy of the information we hold about you.
                   </li>
                   <li>
-                    Right of rectification &mdash; You can correct inaccurate or
-                    incomplete data.
+                    <strong>Right of rectification</strong> &mdash; You can
+                    correct inaccurate or incomplete data.
                   </li>
                   <li>
-                    Right to be forgotten &mdash; You can ask for your data to
-                    be erased.
+                    <strong>Right to be forgotten</strong> &mdash; You can ask
+                    for your data to be erased.
                   </li>
                   <li>
-                    Right of portability &mdash; You can transfer your data to
-                    another organization.
+                    <strong>Right of portability</strong> &mdash; You can
+                    transfer your data to another organization.
                   </li>
                   <li>
-                    Right to object &mdash; You can object to certain types of
-                    processing.
+                    <strong>Right to object</strong> &mdash; You have the right
+                    to object to certain types of processing such as direct
+                    marketing.
+                  </li>
+                  <li>
+                    <strong>
+                      Right to object to automated processing, including
+                      profiling
+                    </strong>
+                    &mdash; You also have the right to be subject to the legal
+                    effects of automated processing or profiling.
+                  </li>
+                  <li>
+                    <strong>Right to judicial review</strong> &mdash; In the
+                    event that Drugstoc refused your request under rights of
+                    access, we will provide you with a reason for the refusal.
+                    You also have a right to make a complaint to the Nigeria
+                    Data Protection Commission ("NDPC").
                   </li>
                 </ul>
 
-                <h2 style={{ fontSize: 24, fontWeight: 'bold' }}>CONTACT US</h2>
+                <h2>WHAT CONSTITUTES CONSENT OF A DATA SUBJECT?</h2>
+                <p>
+                  Consent of a data subject to this Privacy Notice is construed
+                  accordingly:
+                </p>
+                <ul>
+                  <li>
+                    <strong>Visitors</strong>: When you visit our website or
+                    online platforms and volunteer your personal information;
+                    when you physically visit any of our premises or when you
+                    voluntarily attend any of our recorded webinars or events.
+                  </li>
+                  <li>
+                    <strong>Client</strong>: When you engage our services and/or
+                    sign a service level agreement with us in that regard,
+                    subsequent to the disclosure of personal information.
+                  </li>
+                  <li>
+                    <strong>Vendor/Supplier</strong>: When you approach/engage
+                    us for the supply or provision of goods/services.
+                  </li>
+                  <li>
+                    <strong>Job Applicant</strong>: When you send your
+                    application/CV in the response to our advertised job offers
+                    or a cold email.
+                  </li>
+                </ul>
+                <h2>
+                  CAN I FIND OUT THE PERSONAL DATA THAT DRUGSTOC HOLDS ABOUT ME?
+                </h2>
+                <p>
+                  Drugstoc at your request can confirm what information we hold
+                  about you and how it is processed. If Drugstoc does hold
+                  personal data about you, you can request the following
+                  information:
+                </p>
+                <ul>
+                  <li>
+                    Contact details of the Data Protection Officer, where
+                    applicable;
+                  </li>
+                  <li>
+                    The purpose of the processing as well as the legal basis for
+                    processing;
+                  </li>
+                  <li>
+                    If the processing is based on the legitimate interest of
+                    Drugstoc or a third party, information about those
+                    interests;
+                  </li>
+                  <li>
+                    The categories of personal data collected, stored, and
+                    processed;
+                  </li>
+                  <li>
+                    Recipient(s) or categories of recipients that the data
+                    is/will be disclosed to;
+                  </li>
+                  <li>
+                    If we intend to transfer the personal data to a third party
+                    or international organisation, information about how we
+                    ensure this is done securely. We will ensure the recipient
+                    is in a country on NDPC's Adequacy list. Where the recipient
+                    is in a country outside NDPC's adequacy list, we shall
+                    ensure the execution of the requisite Data Transfer
+                    Agreement (DTA) imposing obligations no less than the
+                    NDPA/NDPR on the recipient of the personal data.
+                  </li>
+                  <li>How long the data will be stored;</li>
+                  <li>
+                    Details of your rights to correct, erase, restrict or object
+                    to such processing;
+                  </li>
+                  <li>
+                    Information about your right to withdraw consent at any
+                    time;
+                  </li>
+                  <li>
+                    How to lodge a complaint with the supervisory authority
+                    (NDPC);
+                  </li>
+                  <li>
+                    Whether the provision of personal data is a statutory or
+                    contractual requirement, or a requirement necessary to enter
+                    into a contract, as well as whether you are obliged to
+                    provide the personal data and the possible consequences of
+                    failing to provide such data;
+                  </li>
+                  <li>
+                    The source of personal data if it was not collected directly
+                    from you;
+                  </li>
+                  <li>
+                    Any details and information of automated decision making,
+                    such as profiling, and any meaningful information about the
+                    logic involved, as well as the significance and expected
+                    consequences of such processing.
+                  </li>
+                </ul>
+
+                <h2>WHAT FORMS OF ID WILL I NEED TO PROVIDE FOR A DSAR?</h2>
+                <p>
+                  Drugstoc accepts the following forms of ID (but not limited
+                  to) when information on your personal data is requested:
+                </p>
+                <ul>
+                  <li>Passport</li>
+                  <li>Driver's license</li>
+                  <li>National Identity Card</li>
+                  <li>Permanent Voters Card</li>
+                </ul>
+
+                <h2>DISPUTE RESOLUTION</h2>
+                <p>
+                  If you have any complaints regarding our compliance with this
+                  Privacy Notice, please contact our Data Protection Officer. We
+                  will investigate and attempt to resolve complaints and
+                  disputes regarding the use and disclosure of personal
+                  information within thirty (30) business days in accordance
+                  with this Privacy Notice and in accordance with applicable law
+                  and regulation in Nigeria.
+                </p>
+
+                <h2>COMPLIANCE WITH THE REGULATORS</h2>
+                <p>
+                  This Privacy Notice is in line with the provisions of Nigeria
+                  Data Protection Regulation, Act, 2023 (“NDPA). Nigeria Data
+                  Protection Regulation, 2019 (Regulation). This Regulation
+                  describes how data controllers including Drugstoc collects,
+                  handles and stores personal information and it applies
+                  regardless of whether data is stored electronically, on paper
+                  or on other materials.
+                </p>
+                <h2>CONTACT US</h2>
+                <p>
+                  If you have any questions or suggestions regarding our Privacy
+                  Notice, please contact our Data Protection Officer.
+                </p>
                 <p>
                   <strong>Data Protection Officer:</strong> Cynthiamary Unaka
                 </p>
                 <p>
-                  Email:{' '}
+                  <strong>Email</strong>:{' '}
                   <a href="mailto:info@drugstoc.com">info@drugstoc.com</a>
                 </p>
-                <p>Telephone: 08036879999</p>
-
-                <h2 style={{ fontSize: 24, fontWeight: 'bold' }}>
-                  REVISION TO THIS PRIVACY NOTICE
-                </h2>
                 <p>
-                  Drugstoc reserves the right to modify this Privacy Notice at
-                  any time.
+                  <strong>Telephone</strong>: 08036879999
+                </p>
+                <h2>CAVEAT ON WEBSITE LINKS</h2>
+                <p>
+                  Our website may contain links to other websites. Save and
+                  except as otherwise expressly stated by us, any link to
+                  another website is not covered by our privacy notice. We
+                  strongly advise that you should satisfy yourself with the
+                  details of any privacy notice provided on other websites or
+                  links.
+                </p>
+
+                <h2>REVISION TO THIS PRIVACY NOTICE</h2>
+                <p>
+                  Drugstoc reserves the right and prerogative to change or
+                  modify this Privacy Notice at any time, with or without
+                  advance notice in order to reflect changes in the law and/or
+                  our privacy practices. Such changes will be effective
+                  immediately after posting, whether dated or not. We encourage
+                  you to check this notice whenever you visit our website
+                  &mdash; <a href="https://drugstoc.com">www.drugstoc.com</a>,
+                  applications, premises. to ensure that you are happy and
+                  comfortable with any changes.
                 </p>
               </div>
             </Container>
@@ -220,9 +400,11 @@ export default function TermsAndConditions() {
 
 const Container = styled.div`
   margin: 150px 0;
-  h3 {
-    text-align: center;
+  h2 {
+    fontsize: 24px;
+    fontweight: bold;
   }
+
   h4 {
     margin: 30px 0;
   }
@@ -235,7 +417,7 @@ const Container = styled.div`
     margin-bottom: 20px;
   }
   li {
-    margin-top: 40px;
+    margin-top: 20px;
   }
   h6 {
     font-weight: bold;
