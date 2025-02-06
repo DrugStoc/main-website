@@ -19,14 +19,16 @@ export default function TermsAndConditions() {
                   Laws of the Federal Republic of Nigeria.
                 </p>
                 <p>
-                  <strong>1.2</strong> References in this notice to "we", "us"
-                  or "Drugstoc" are references to Drugstoc Ehub Limited.
+                  <strong>1.2</strong> References in this notice to
+                  &quot;we&quot;, &quot;us&quot; or &quot;Drugstoc&quot; are
+                  references to Drugstoc Ehub Limited.
                 </p>
                 <p>
-                  <strong>1.3</strong> Reference in this Notice to "personal
-                  data" means any information that identifies, or could
-                  reasonably be used to identify, a living individual, either on
-                  its own or together with other information.
+                  <strong>1.3</strong> Reference in this Notice to
+                  &quot;personal data&quot; means any information that
+                  identifies, or could reasonably be used to identify, a living
+                  individual, either on its own or together with other
+                  information.
                 </p>
 
                 <h2>WHAT INFORMATION WE COLLECT ABOUT YOU</h2>
@@ -82,8 +84,8 @@ export default function TermsAndConditions() {
                   a third party, we will only use your personal data in
                   connection with our professional activities, legitimate
                   interests (including the fulfillment of our contractual or
-                  legal/regulatory obligations). These "Authorized Uses"
-                  include:
+                  legal/regulatory obligations). These &quot;Authorized
+                  Uses&quot; include:
                 </p>
                 <ul style={{ marginLeft: 15 }}>
                   <li>Providing our professional services to our clients.</li>
@@ -215,7 +217,7 @@ export default function TermsAndConditions() {
                     event that Drugstoc refused your request under rights of
                     access, we will provide you with a reason for the refusal.
                     You also have a right to make a complaint to the Nigeria
-                    Data Protection Commission ("NDPC").
+                    Data Protection Commission (&quot;NDPC&quot;).
                   </li>
                 </ul>
 
