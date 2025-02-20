@@ -71,7 +71,7 @@ const LearningCoursePopularVideo = () => {
                   <a
                     aria-label={`Navigate to featured detail page with id of ${webinar.id}`}
                   >
-                    <img src={webinar.imgSrc} />
+                    <img src={webinar.imgSrc} alt="" />
                   </a>
                 </Link>
               </div>
@@ -121,6 +121,7 @@ const LearningCoursePopularVideo = () => {
                       src="https://res.cloudinary.com/bizstak/image/upload/v1727297928/arrow_forward_phbdsv.svg"
                       width={24}
                       height={24}
+                      alt=""
                     />
                   </button>
                 </div>

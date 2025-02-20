@@ -56,6 +56,7 @@ const LearningCourseArticlePage = () => {
             style={{ position: 'relative', top: -20 }}
             src="https://res.cloudinary.com/bizstak/image/upload/v1727647527/arrowBack_bf0waq.svg"
             onClick={handleBack}
+            alt=""
           />
           <h2>{articlesData.articleTitle || ''}</h2>
         </div>
@@ -71,6 +72,7 @@ const LearningCourseArticlePage = () => {
             src={articlesData.imageUrl}
             height={500}
             style={{ objectFit: 'cover', width: '100%' }}
+            alt=""
           />
         </section>
 

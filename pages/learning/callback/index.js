@@ -14,6 +14,7 @@ const GooglePage = () => {
     if (router.pathname === '/learning/callback' && code) {
       handleAccessToken();
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [code, googleUserInfo, router.pathname]);
 
   const handleAccessToken = async () => {
