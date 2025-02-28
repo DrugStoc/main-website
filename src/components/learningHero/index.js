@@ -49,11 +49,13 @@ const LearningHero = () => {
                 <img
                   className="learningHeroForeimgSecondImage"
                   src="https://res.cloudinary.com/bizstak/image/upload/v1726924915/jet_s10zxq.png"
+                  alt=""
                 />
                 <img
                   className="learningHeroFirstForeImg"
                   src="https://res.cloudinary.com/bizstak/image/upload/v1726923823/smilingDocWoman_nmkqrb.png"
                   width="95%"
+                  alt=""
                 />
                 <LearningHeroCards className="learningHeroProfileListCard">
                   <div>
@@ -62,31 +64,37 @@ const LearningHero = () => {
                       src="https://bit.ly/dan-abramov"
                       width={48}
                       height={48}
+                      alt=""
                     />
                     <img
                       src="https://bit.ly/kent-c-dodds"
                       width={48}
                       height={48}
+                      alt=""
                     />
                     <img
                       src="https://bit.ly/ryan-florence"
                       width={48}
                       height={48}
+                      alt=""
                     />
                     <img
                       src="https://bit.ly/prosper-baba"
                       width={48}
                       height={48}
+                      alt=""
                     />
                     <img
                       src="https://bit.ly/code-beast"
                       width={48}
                       height={48}
+                      alt=""
                     />
                     <img
                       src="https://bit.ly/sage-adebayo"
                       width={48}
                       height={48}
+                      alt=""
                     />
                   </div>
                 </LearningHeroCards>
@@ -97,7 +105,10 @@ const LearningHero = () => {
                         "Drugstoc Learning has been very useful for me in my
                         pharmacy practice"
                       </p>
-                      <img src="https://res.cloudinary.com/bizstak/image/upload/v1726952337/pharmarticalWoman_qknrle.png" />
+                      <img
+                        src="https://res.cloudinary.com/bizstak/image/upload/v1726952337/pharmarticalWoman_qknrle.png"
+                        alt=""
+                      />
                     </div>
                     <div className="learningHeroTestimonialCardInfo1">
                       <h5>
@@ -121,7 +132,10 @@ const LearningHero = () => {
         </div>
       </div>
       <div className="learningHeroTrophy">
-        <img src="https://res.cloudinary.com/bizstak/image/upload/v1726958830/trophy_bewll1.png" />
+        <img
+          src="https://res.cloudinary.com/bizstak/image/upload/v1726958830/trophy_bewll1.png"
+          alt=""
+        />
       </div>
     </>
   );

@@ -95,6 +95,7 @@ const CommentSection = () => {
                     height={20}
                     style={{ cursor: 'pointer' }}
                     onClick={() => handleLike(comment.id)}
+                    alt=""
                   />
                   <img
                     src="https://res.cloudinary.com/bizstak/image/upload/v1727642020/dislike_htprna.svg"
@@ -102,6 +103,7 @@ const CommentSection = () => {
                     height={20}
                     style={{ cursor: 'pointer' }}
                     onClick={() => handleDislike(comment.id)}
+                    alt=""
                   />
                 </div>
               </div>
@@ -109,7 +111,7 @@ const CommentSection = () => {
           </div>
         ))}
       </div>
-      <style jsx>{`
+      <style>{`
         .comment-section {
           width: 100%;
           margin: 0 auto;

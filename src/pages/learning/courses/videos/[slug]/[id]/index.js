@@ -43,6 +43,7 @@ const LearningCourseVideoPage = () => {
             style={{ position: 'relative', top: -20 }}
             src="https://res.cloudinary.com/bizstak/image/upload/v1727647527/arrowBack_bf0waq.svg"
             onClick={handleBack}
+            alt=""
           />
           <h2>{videoData.videoTitle || ''}</h2>
         </div>

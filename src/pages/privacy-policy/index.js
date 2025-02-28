@@ -12,28 +12,32 @@ export default function TermsAndConditions() {
               <div className="privacy-notice">
                 <h1>PRIVACY NOTICE OF DRUGSTOC EHUB LIMITED</h1>
 
-                <h2>INTRODUCTION</h2>
+                <h2 className="h2Heading">INTRODUCTION</h2>
                 <p>
                   <strong>1.1</strong> Drugstoc Ehub Limited is a tech-based
                   pharmaceutical distribution Company incorporated under the
                   Laws of the Federal Republic of Nigeria.
                 </p>
                 <p>
-                  <strong>1.2</strong> References in this notice to "we", "us"
-                  or "Drugstoc" are references to Drugstoc Ehub Limited.
+                  <strong>1.2</strong> References in this notice to
+                  &quot;we&quot;, &quot;us&quot; or &quot;Drugstoc&quot; are
+                  references to Drugstoc Ehub Limited.
                 </p>
                 <p>
-                  <strong>1.3</strong> Reference in this Notice to "personal
-                  data" means any information that identifies, or could
-                  reasonably be used to identify, a living individual, either on
-                  its own or together with other information.
+                  <strong>1.3</strong> Reference in this Notice to
+                  &quot;personal data&quot; means any information that
+                  identifies, or could reasonably be used to identify, a living
+                  individual, either on its own or together with other
+                  information.
                 </p>
 
-                <h2>WHAT INFORMATION WE COLLECT ABOUT YOU</h2>
+                <h2 className="h2Heading">
+                  WHAT INFORMATION WE COLLECT ABOUT YOU
+                </h2>
                 <p>
                   The personal data that we collect and process may include:
                 </p>
-                <ul style={{ marginLeft: 15 }}>
+                <ul className="ulMarginLeft">
                   <li>
                     Basic information such as name, date of birth, employer,
                     title, relationship affiliations with a person or
@@ -63,7 +67,9 @@ export default function TermsAndConditions() {
                   </li>
                 </ul>
 
-                <h2>HOW WE PROTECT YOUR PERSONAL INFORMATION</h2>
+                <h2 className="h2Heading">
+                  HOW WE PROTECT YOUR PERSONAL INFORMATION
+                </h2>
                 <p>
                   <strong>3.1</strong> We are committed to protecting your
                   personal information and implementing appropriate technical
@@ -76,16 +82,16 @@ export default function TermsAndConditions() {
                   in our Information Security Policy.
                 </p>
 
-                <h2>HOW WE USE YOUR PERSONAL DATA</h2>
+                <h2 className="h2Heading">HOW WE USE YOUR PERSONAL DATA</h2>
                 <p>
                   Whether we obtain your personal data directly from you or from
                   a third party, we will only use your personal data in
                   connection with our professional activities, legitimate
                   interests (including the fulfillment of our contractual or
-                  legal/regulatory obligations). These "Authorized Uses"
-                  include:
+                  legal/regulatory obligations). These &quot;Authorized
+                  Uses&quot; include:
                 </p>
-                <ul style={{ marginLeft: 15 }}>
+                <ul className="ulMarginLeft">
                   <li>Providing our professional services to our clients.</li>
                   <li>
                     Managing our business relationship with our service
@@ -109,9 +115,11 @@ export default function TermsAndConditions() {
                   </li>
                 </ul>
 
-                <h2>HOW YOUR PERSONAL DATA IS OBTAINED</h2>
+                <h2 className="h2Heading">
+                  HOW YOUR PERSONAL DATA IS OBTAINED
+                </h2>
                 <p>We often obtain and process your personal data:</p>
-                <ul style={{ marginLeft: 15 }}>
+                <ul className="ulMarginLeft">
                   <li>
                     In the course of our recruitment or employee onboarding
                     processes.
@@ -132,7 +140,7 @@ export default function TermsAndConditions() {
                   </li>
                 </ul>
 
-                <h2>SHARING YOUR PERSONAL DATA</h2>
+                <h2 className="h2Heading">SHARING YOUR PERSONAL DATA</h2>
                 <p>
                   Your personal data may be shared with our related entities and
                   affiliates. Our related entities and affiliates ensure a
@@ -142,7 +150,7 @@ export default function TermsAndConditions() {
                   and NDPR observing appropriate safeguards.
                 </p>
 
-                <h2>MARKETING</h2>
+                <h2 className="h2Heading">MARKETING</h2>
                 <p>
                   We would like to send you information about our products,
                   services and special offers which may be of interest to you.
@@ -157,7 +165,7 @@ export default function TermsAndConditions() {
                   using the unsubscribe link in the emails.
                 </p>
 
-                <h2>RETAINING YOUR PERSONAL DATA</h2>
+                <h2 className="h2Heading">RETAINING YOUR PERSONAL DATA</h2>
                 <p>
                   We will delete your personal data as you say so, or when it is
                   no longer reasonably required for the Authorized Uses (subject
@@ -174,13 +182,13 @@ export default function TermsAndConditions() {
                   accounting or reporting requirement.
                 </p>
 
-                <h2>YOUR RIGHTS AS A DATA SUBJECT</h2>
+                <h2 className="h2Heading">YOUR RIGHTS AS A DATA SUBJECT</h2>
                 <p>
                   At any point while we are in possession of or processing your
                   personal data, you, the data subject, have the following
                   rights:
                 </p>
-                <ul style={{ marginLeft: 15 }}>
+                <ul className="ulMarginLeft">
                   <li>
                     <strong>Right of access</strong> &mdash; You can request a
                     copy of the information we hold about you.
@@ -215,16 +223,18 @@ export default function TermsAndConditions() {
                     event that Drugstoc refused your request under rights of
                     access, we will provide you with a reason for the refusal.
                     You also have a right to make a complaint to the Nigeria
-                    Data Protection Commission ("NDPC").
+                    Data Protection Commission (&quot;NDPC&quot;).
                   </li>
                 </ul>
 
-                <h2>WHAT CONSTITUTES CONSENT OF A DATA SUBJECT?</h2>
+                <h2 className="h2Heading">
+                  WHAT CONSTITUTES CONSENT OF A DATA SUBJECT?
+                </h2>
                 <p>
                   Consent of a data subject to this Privacy Notice is construed
                   accordingly:
                 </p>
-                <ul>
+                <ul className="ulMarginLeft">
                   <li>
                     <strong>Visitors</strong>: When you visit our website or
                     online platforms and volunteer your personal information;
@@ -246,7 +256,7 @@ export default function TermsAndConditions() {
                     or a cold email.
                   </li>
                 </ul>
-                <h2>
+                <h2 className="h2Heading">
                   CAN I FIND OUT THE PERSONAL DATA THAT DRUGSTOC HOLDS ABOUT ME?
                 </h2>
                 <p>
@@ -255,7 +265,7 @@ export default function TermsAndConditions() {
                   personal data about you, you can request the following
                   information:
                 </p>
-                <ul>
+                <ul className="ulMarginLeft">
                   <li>
                     Contact details of the Data Protection Officer, where
                     applicable;
@@ -319,19 +329,21 @@ export default function TermsAndConditions() {
                   </li>
                 </ul>
 
-                <h2>WHAT FORMS OF ID WILL I NEED TO PROVIDE FOR A DSAR?</h2>
+                <h2 className="h2Heading">
+                  WHAT FORMS OF ID WILL I NEED TO PROVIDE FOR A DSAR?
+                </h2>
                 <p>
                   Drugstoc accepts the following forms of ID (but not limited
                   to) when information on your personal data is requested:
                 </p>
-                <ul>
+                <ul className="ulMarginLeft">
                   <li>Passport</li>
                   <li>Driver's license</li>
                   <li>National Identity Card</li>
                   <li>Permanent Voters Card</li>
                 </ul>
 
-                <h2>DISPUTE RESOLUTION</h2>
+                <h2 className="h2Heading">DISPUTE RESOLUTION</h2>
                 <p>
                   If you have any complaints regarding our compliance with this
                   Privacy Notice, please contact our Data Protection Officer. We
@@ -342,7 +354,7 @@ export default function TermsAndConditions() {
                   and regulation in Nigeria.
                 </p>
 
-                <h2>COMPLIANCE WITH THE REGULATORS</h2>
+                <h2 className="h2Heading">COMPLIANCE WITH THE REGULATORS</h2>
                 <p>
                   This Privacy Notice is in line with the provisions of Nigeria
                   Data Protection Regulation, Act, 2023 (“NDPA). Nigeria Data
@@ -352,7 +364,7 @@ export default function TermsAndConditions() {
                   regardless of whether data is stored electronically, on paper
                   or on other materials.
                 </p>
-                <h2>CONTACT US</h2>
+                <h2 className="h2Heading">CONTACT US</h2>
                 <p>
                   If you have any questions or suggestions regarding our Privacy
                   Notice, please contact our Data Protection Officer.
@@ -367,7 +379,7 @@ export default function TermsAndConditions() {
                 <p>
                   <strong>Telephone</strong>: 08036879999
                 </p>
-                <h2>CAVEAT ON WEBSITE LINKS</h2>
+                <h2 className="h2Heading">CAVEAT ON WEBSITE LINKS</h2>
                 <p>
                   Our website may contain links to other websites. Save and
                   except as otherwise expressly stated by us, any link to
@@ -377,7 +389,7 @@ export default function TermsAndConditions() {
                   links.
                 </p>
 
-                <h2>REVISION TO THIS PRIVACY NOTICE</h2>
+                <h2 className="h2Heading">REVISION TO THIS PRIVACY NOTICE</h2>
                 <p>
                   Drugstoc reserves the right and prerogative to change or
                   modify this Privacy Notice at any time, with or without
