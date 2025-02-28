@@ -10,7 +10,7 @@
     "generate-sitemap": "next-sitemap"
   },
   "engines": {
-    "node": "16.20.0"
+    "node": "18.18.0"
   },
   "dependencies": {
     "@types/styled-components": "^5.1.26",
