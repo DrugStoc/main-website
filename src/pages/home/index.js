@@ -21,8 +21,8 @@ const Home = () => {
       <Testimonial />
       <Impact />
       <AppCard />
-      <QRCode />
       <Investors />
+      <QRCode />
     </div>
   );
 };
