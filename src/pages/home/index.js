@@ -7,6 +7,7 @@ import Providers from './providers';
 import Testimonial from './testimonial';
 import Impact from './impact';
 import Investors from './investors';
+import QRCode from './qrCode';
 import Hero from './hero';
 
 const Home = () => {
@@ -20,6 +21,7 @@ const Home = () => {
       <Testimonial />
       <Impact />
       <AppCard />
+      <QRCode />
       <Investors />
     </div>
   );
