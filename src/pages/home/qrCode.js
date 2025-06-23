@@ -11,8 +11,15 @@ const QRCode = () => {
                         2024</h1>
                 </div>
                 <div className="containerQRImage">
-                    <img src='https://res.cloudinary.com/bizstak/image/upload/v1742522004/Drugstoc/yhceuauxb0elrppmwshc.png' style={{ height: 192 }} />
-                    <img src='https://res.cloudinary.com/bizstak/image/upload/v1742522003/Drugstoc/kqfvg3bpuliqfipjbfop.png' />
+                    <img 
+                        src="/images/landing/qrcode.png"
+                        //src='https://res.cloudinary.com/bizstak/image/upload/v1742522004/Drugstoc/yhceuauxb0elrppmwshc.png' 
+                        style={{ height: 192 }} />
+                    <img 
+                        src="/images/landing/ndpr.png"
+                        style={{ height: 140}}
+                    //src='https://res.cloudinary.com/bizstak/image/upload/v1742522003/Drugstoc/kqfvg3bpuliqfipjbfop.png' 
+                    />
                 </div>
             </div>
         </QRSection>

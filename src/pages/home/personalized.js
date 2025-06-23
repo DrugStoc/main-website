@@ -13,7 +13,8 @@ const personalized = () => {
             <div className="col-lg-7">
               <Image
                 layout="responsive"
-                src="https://res.cloudinary.com/bizstak/image/upload/v1684242950/Image-1_ceo26i.png"
+                src="/images/landing/fwdthinksol1.png"
+                //src="https://res.cloudinary.com/bizstak/image/upload/v1684242950/Image-1_ceo26i.png"
                 alt=" Forward thinking solutions"
                 className="d-block mb-3 mb-lg-0"
                 width="670"
@@ -97,7 +98,8 @@ const personalized = () => {
               <Image
                 layout="responsive"
                 data-aos="zoom-in-up"
-                src="https://res.cloudinary.com/bizstak/image/upload/v1684240567/Image-2_mjbhwx.png"
+                src="/images/landing/smtpay.png"
+                //src="https://res.cloudinary.com/bizstak/image/upload/v1684240567/Image-2_mjbhwx.png"
                 alt=" Forward thinking solutions"
                 className="mb-3 mb-lg-0"
                 width="670"
@@ -114,7 +116,8 @@ const personalized = () => {
               <Image
                 layout="responsive"
                 data-aos="zoom-in"
-                src="https://res.cloudinary.com/bizstak/image/upload/v1684246458/personalized-2_nkuo1b.png"
+                src="/images/landing/expserv.png"
+                //src="https://res.cloudinary.com/bizstak/image/upload/v1684246458/personalized-2_nkuo1b.png"
                 alt=" Forward thinking solutions"
                 className="d-block mb-3 mb-lg-0"
                 width="670"

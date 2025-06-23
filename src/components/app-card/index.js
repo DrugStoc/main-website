@@ -4,12 +4,14 @@ const AppCard = () => {
   return (
     <BackdropWrapper>
       <img
-        src="https://res.cloudinary.com/bizstak/image/upload/v1684244211/backdrop1_rv1tv9.png"
+        src='/images/landing/Ellipse1.png'
+        //src="https://res.cloudinary.com/bizstak/image/upload/v1684244211/backdrop1_rv1tv9.png"
         alt="static ripple background"
         className="backdrop d-lg-block d-none"
       />
       <img
-        src="https://res.cloudinary.com/bizstak/image/upload/v1684244250/backdrop2_ohofvj.png"
+        src='/images/landing/Ellipse.png'
+        //src="https://res.cloudinary.com/bizstak/image/upload/v1684244250/backdrop2_ohofvj.png"
         alt="static ripple background"
         className="backdrop2 d-lg-block d-none"
       />
@@ -19,13 +21,14 @@ const AppCard = () => {
             <MobileBanner>
               <img
                 data-aos="fade-down"
-                src="https://res.cloudinary.com/bizstak/image/upload/v1684243495/banner_llxztw.png"
+                src="/images/landing/ds_mobile_view.png"
+                //src="https://res.cloudinary.com/bizstak/image/upload/v1684243495/banner_llxztw.png"
                 alt="drugstoc e-commerce mobile app"
               />
             </MobileBanner>
 
             <div className="row">
-              <div className="col-md-6">
+              <div className="">
                 <h3 data-aos="fade-down">
                   Download DrugStoc App
                   <br /> on your Phone
@@ -43,7 +46,8 @@ const AppCard = () => {
                     data-aos="zoom-out-up"
                   >
                     <img
-                      src="https://res.cloudinary.com/bizstak/image/upload/v1684244266/google-play-alt_urfsrl.svg"
+                      src='/images/landing/get_play_store.png'
+                      //src="https://res.cloudinary.com/bizstak/image/upload/v1684244266/google-play-alt_urfsrl.svg"
                       alt="google play store icon"
                       className="logo"
                     />
@@ -55,7 +59,8 @@ const AppCard = () => {
                     data-aos="zoom-out-up"
                   >
                     <img
-                      src="https://res.cloudinary.com/bizstak/image/upload/v1684244274/app-store-alt_sc7dml.svg"
+                      src='/images/landing/get_app_store.png'
+                      //src="https://res.cloudinary.com/bizstak/image/upload/v1684244274/app-store-alt_sc7dml.svg"
                       alt="app store icon"
                       className="logo"
                     />
@@ -66,7 +71,8 @@ const AppCard = () => {
           </div>
           <img
             data-aos="fade-left"
-            src="https://res.cloudinary.com/bizstak/image/upload/v1684243495/banner_llxztw.png"
+            src="/images/landing/ds_mobile_view.png"
+            //src="https://res.cloudinary.com/bizstak/image/upload/v1684243495/banner_llxztw.png"
             alt="a mobile view of DrugStoc app"
             className="banner d-lg-block d-none"
           />
@@ -81,10 +87,9 @@ const MobileBanner = styled.div`
   @media (max-width: 992px) {
     display: block;
     text-align: center;
-    margin-top: -145.5%;
-    z-index: -10;
+ 
     position: relative;
-    z-index: -10000;
+
   }
   img {
     width: 100%;
@@ -94,7 +99,7 @@ const MobileBanner = styled.div`
 const DownloadAppSection = styled.section`
   margin-top: 6rem;
   //background: var(--primary-blue);
-  padding: 6rem 3rem;
+  padding: 3rem 3rem 0 3rem;
   position: relative;
   display: flex;
   align-items: center;
@@ -119,7 +124,6 @@ const DownloadAppSection = styled.section`
 
   img.banner {
     width: 414px;
-    position: absolute;
     bottom: 0;
     right: 3%;
   }

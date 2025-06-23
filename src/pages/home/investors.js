@@ -15,7 +15,8 @@ const investors = () => {
               rel="noopener noreferrer"
             >
               <img
-                src="https://res.cloudinary.com/bizstak/image/upload/v1684245720/image-52_dlrkan.svg"
+                src='/images/landing/asseenon/bbc.png'
+                //src="https://res.cloudinary.com/bizstak/image/upload/v1684245720/image-52_dlrkan.svg"
                 alt="bbc logo"
               />
             </a>
@@ -27,7 +28,8 @@ const investors = () => {
               rel="noopener noreferrer"
             >
               <img
-                src="https://res.cloudinary.com/bizstak/image/upload/v1684245774/image-54_t6odtu.svg"
+                src='/images/landing/asseenon/fintimes.png'
+                //src="https://res.cloudinary.com/bizstak/image/upload/v1684245774/image-54_t6odtu.svg"
                 alt="financial times logo"
               />
             </a>
@@ -39,7 +41,8 @@ const investors = () => {
               rel="noopener noreferrer"
             >
               <img
-                src="https://res.cloudinary.com/bizstak/image/upload/v1684245813/image-55_ijdog6.svg"
+                src='/images/landing/asseenon/techcabal.png'
+                //src="https://res.cloudinary.com/bizstak/image/upload/v1684245813/image-55_ijdog6.svg"
                 alt="techcabal logo"
               />
             </a>
@@ -51,7 +54,8 @@ const investors = () => {
               rel="noopener noreferrer"
             >
               <img
-                src="https://res.cloudinary.com/bizstak/image/upload/v1684245845/image-56_ihph0v.svg"
+                src='/images/landing/asseenon/ventures.png'
+                //src="https://res.cloudinary.com/bizstak/image/upload/v1684245845/image-56_ihph0v.svg"
                 alt="ventures logo"
               />
             </a>
@@ -63,7 +67,8 @@ const investors = () => {
               rel="noopener noreferrer"
             >
               <img
-                src="https://res.cloudinary.com/bizstak/image/upload/v1684245931/tc_xbqnst.png"
+                src='/images/landing/asseenon/techcrunch_logo.png'
+                //src="https://res.cloudinary.com/bizstak/image/upload/v1684245931/tc_xbqnst.png"
                 alt="tc logo"
               />
             </a>
@@ -75,7 +80,8 @@ const investors = () => {
               rel="noopener noreferrer"
             >
               <img
-                src="https://res.cloudinary.com/bizstak/image/upload/v1684246129/yahoo-finance_wcticl.png"
+                src='/images/landing/asseenon/yahoo_logo.jpg'
+                //src="https://res.cloudinary.com/bizstak/image/upload/v1684246129/yahoo-finance_wcticl.png"
                 alt="yahoo finance logo"
               />
             </a>
@@ -88,7 +94,8 @@ const investors = () => {
               rel="noopener noreferrer"
             >
               <img
-                src="https://res.cloudinary.com/bizstak/image/upload/v1684246198/CNBC_knvorv.svg"
+                src='/images/landing/asseenon/cnbc_logo.png'
+                //src="https://res.cloudinary.com/bizstak/image/upload/v1684246198/CNBC_knvorv.svg"
                 alt="cnbc logo"
               />
             </a>
@@ -102,7 +109,8 @@ const investors = () => {
             >
               <img
                 // layout="responsive"
-                src="https://res.cloudinary.com/bizstak/image/upload/v1684246084/logo_arise_suylqx.png"
+                src='/images/landing/asseenon/arise_logo.png'
+                //src="https://res.cloudinary.com/bizstak/image/upload/v1684246084/logo_arise_suylqx.png"
                 alt="arise news logo"
                 width="auto"
                 height="auto"
@@ -118,7 +126,8 @@ const investors = () => {
             >
               <img
                 // layout="responsive"
-                src="https://res.cloudinary.com/bizstak/image/upload/v1684246256/business_day_frt3xb.png"
+                src='/images/landing/asseenon/bd_logo.png'
+                //src="https://res.cloudinary.com/bizstak/image/upload/v1684246256/business_day_frt3xb.png"
                 alt="buiness day logo"
                 width="auto"
                 height="auto"
@@ -133,7 +142,8 @@ const investors = () => {
             >
               <img
                 // layout="responsive"
-                src="https://res.cloudinary.com/bizstak/image/upload/v1684246009/nairametrics_jnwc2l.jpg"
+                src='/images/landing/asseenon/nairametrics_logo.png'
+                //src="https://res.cloudinary.com/bizstak/image/upload/v1684246009/nairametrics_jnwc2l.jpg"
                 alt="nairametrics logo"
                 width="auto"
                 height="auto"
