@@ -48,12 +48,14 @@ const LearningHero = () => {
               <div className="learningHeroForeimg">
                 <img
                   className="learningHeroForeimgSecondImage"
-                  src="https://res.cloudinary.com/bizstak/image/upload/v1726924915/jet_s10zxq.png"
+                  src="/images/learning/learninghero1.png"
+                  //src="https://res.cloudinary.com/bizstak/image/upload/v1726924915/jet_s10zxq.png"
                   alt=""
                 />
                 <img
                   className="learningHeroFirstForeImg"
-                  src="https://res.cloudinary.com/bizstak/image/upload/v1726923823/smilingDocWoman_nmkqrb.png"
+                  src="/images/learning/learninghero2.png"
+                  //src="https://res.cloudinary.com/bizstak/image/upload/v1726923823/smilingDocWoman_nmkqrb.png"
                   width="95%"
                   alt=""
                 />
@@ -85,7 +87,8 @@ const LearningHero = () => {
                       alt=""
                     />
                     <img
-                      src="https://bit.ly/code-beast"
+                      src="/images/learning/learningava2.png"
+                      //src="https://bit.ly/code-beast"
                       width={48}
                       height={48}
                       alt=""
@@ -106,7 +109,8 @@ const LearningHero = () => {
                         pharmacy practice"
                       </p>
                       <img
-                        src="https://res.cloudinary.com/bizstak/image/upload/v1726952337/pharmarticalWoman_qknrle.png"
+                        src="/images/learning/learningava1.png"
+                        //src="https://res.cloudinary.com/bizstak/image/upload/v1726952337/pharmarticalWoman_qknrle.png"
                         alt=""
                       />
                     </div>

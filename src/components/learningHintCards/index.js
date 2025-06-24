@@ -1,30 +1,35 @@
 const learningCourses = [
   {
-    icon: 'https://res.cloudinary.com/bizstak/image/upload/v1727045870/library_books_tkdfsb.svg',
+    //icon: 'https://res.cloudinary.com/bizstak/image/upload/v1727045870/library_books_tkdfsb.svg',
+    icon:"/images/learning/ico1.png",
     title: 'Comprehensive Course Library:',
     description:
       'Offer a diverse range of courses covering various medical specialties, from primary care to advanced procedures.',
   },
   {
-    icon: 'https://res.cloudinary.com/bizstak/image/upload/v1727045929/timeline_e3kr69.svg',
+    icon:"/images/learning/ico2.png",
+    //icon: 'https://res.cloudinary.com/bizstak/image/upload/v1727045929/timeline_e3kr69.svg',
     title: 'Flexible Learning:',
     description:
       'Allow healthcare providers to learn at their own pace with on-demand access to courses and materials.',
   },
   {
-    icon: 'https://res.cloudinary.com/bizstak/image/upload/v1727046016/person_tdqvgz.svg',
+    icon:"/images/learning/ico3.png",
+    //icon: 'https://res.cloudinary.com/bizstak/image/upload/v1727046016/person_tdqvgz.svg',
     title: 'Expert Instructors:',
     description:
       'Highlight experienced healthcare professionals as instructors, ensuring high-quality content.',
   },
   {
-    icon: 'https://res.cloudinary.com/bizstak/image/upload/v1727046075/grade_u9oglg.svg',
+    icon:"/images/learning/ico4.png",
+    //icon: 'https://res.cloudinary.com/bizstak/image/upload/v1727046075/grade_u9oglg.svg',
     title: 'Continuing Education Credits:',
     description:
       "Emphasize the platform's ability to help providers meet their continuing education requirements.",
   },
   {
-    icon: 'https://res.cloudinary.com/bizstak/image/upload/v1727046130/question_answer_m0l2yd.svg',
+    icon:"/images/learning/ico5.png",
+    //icon: 'https://res.cloudinary.com/bizstak/image/upload/v1727046130/question_answer_m0l2yd.svg',
     title: 'Interactive Learning:',
     description:
       'Showcase features like quizzes, simulations, and case studies to enhance engagement.',

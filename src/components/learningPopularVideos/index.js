@@ -46,7 +46,8 @@ const LearningPopularVideos = () => {
             <div className="learningMostPopularVideoCard" key={video.id}>
               <div className="learningMostPopularVideoCardTitle">
                 <img
-                  src="https://res.cloudinary.com/bizstak/image/upload/v1727050721/video_y5jcce.svg"
+                  src='/images/learning/ico6.png'
+                  //src="https://res.cloudinary.com/bizstak/image/upload/v1727050721/video_y5jcce.svg"
                   alt="video icon"
                 />
                 <Link
