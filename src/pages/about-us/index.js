@@ -26,7 +26,8 @@ const AboutUs = () => {
 
               <p className="throphy">
                 <img
-                  src="https://res.cloudinary.com/bizstak/image/upload/v1684247462/throphy_kpv7fo.svg"
+                  src='/images/about-us/icons/icon1.png'
+                  //src="https://res.cloudinary.com/bizstak/image/upload/v1684247462/throphy_kpv7fo.svg"
                   alt="nhea logo"
                   width="30"
                   className="mr-2"
@@ -36,14 +37,16 @@ const AboutUs = () => {
             </div>
           </div>
           <img
-            src="https://res.cloudinary.com/bizstak/image/upload/v1684235697/banner_i6jd4m.png"
+            src='/images/about-us/pictures/aboutpic1.png'
+            //src="https://res.cloudinary.com/bizstak/image/upload/v1684235697/banner_i6jd4m.png"
             alt="Picture of the author"
             loading="eager"
             className="banner d-lg-block d-none"
           />
         </div>
         <img
-          src="https://res.cloudinary.com/bizstak/image/upload/v1684237749/banner-dots_ccbxwa.png"
+          src='/images/landing/dotvector1.png'
+          //src="https://res.cloudinary.com/bizstak/image/upload/v1684237749/banner-dots_ccbxwa.png"
           alt="Banner dots"
           aria-hidden="true"
           className="header__banner-dots-right d-lg-block d-none"
@@ -56,7 +59,10 @@ const AboutUs = () => {
               <div className="card mb-5 mb-lg-0" style={{ height: '330px' }}>
                 <div className="card-body">
                   <h4>Our Mission</h4>
-                  <img src="https://res.cloudinary.com/bizstak/image/upload/v1684236043/rocket_nys2bq.png" alt="aircraft icon" />
+                  <img 
+                   src='/images/about-us/icons/icon2.png'
+                  //src="https://res.cloudinary.com/bizstak/image/upload/v1684236043/rocket_nys2bq.png" alt="aircraft icon" 
+                  />
                   <p>
                     To Empower Healthcare Providers for a Healthier Africa
                     <br />
@@ -68,7 +74,10 @@ const AboutUs = () => {
               <div className="card" style={{ height: '330px' }}>
                 <div className="card-body">
                   <h4>Our Vision</h4>
-                  <img src="https://res.cloudinary.com/bizstak/image/upload/v1684238287/vision_xjsbgx.png" alt="telescope icon" />
+                  <img 
+                   src='/images/about-us/icons/icon3.png'
+                  //src="https://res.cloudinary.com/bizstak/image/upload/v1684238287/vision_xjsbgx.png" alt="telescope icon" 
+                  />
                   <p>
                     To Revolutionise the Way Healthcare Providers Interface with
                     the Pharmaceutical Market
@@ -83,7 +92,10 @@ const AboutUs = () => {
         <div className="container">
           <div className="row what-we-do__intro justify-content-between align-items-center">
             <div className="col-lg-6 pr-lg-0 mb-4 mb-lg-0">
-              <img src="https://res.cloudinary.com/bizstak/image/upload/v1684238597/what-we-do_qrywoc.png" alt="What we do" />
+              <img 
+              src='/images/about-us/pictures/aboutpic2.png'
+              //src="https://res.cloudinary.com/bizstak/image/upload/v1684238597/what-we-do_qrywoc.png" alt="What we do" 
+              />
             </div>
 
             <div className="col-lg-5 pl-lg-0">

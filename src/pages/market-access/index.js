@@ -27,7 +27,8 @@ const MarketAccess = () => {
             </div>
             <div className="col-lg-5">
               <img
-                src="https://res.cloudinary.com/bizstak/image/upload/v1684432327/market-access_sigt8p.png"
+                src='/images/market-access/banner.png'
+                //src="https://res.cloudinary.com/bizstak/image/upload/v1684432327/market-access_sigt8p.png"
                 alt="Market Access Image"
                 loading="eager"
                 className="w-100 d-lg-block d-none"
@@ -35,7 +36,8 @@ const MarketAccess = () => {
             </div>
           </div>
           <img
-            src="https://res.cloudinary.com/bizstak/image/upload/v1684239802/banner-dots_stl7x6.png"
+            src='/images/landing/dotvector1.png'
+            //src="https://res.cloudinary.com/bizstak/image/upload/v1684239802/banner-dots_stl7x6.png"
             alt="Banner dots"
             aria-hidden="true"
             className="header__banner-dots-right d-lg-block d-none"
@@ -51,7 +53,8 @@ const MarketAccess = () => {
           <div className="row align-items-center justify-content-between mt-4">
             <div className="col-lg-6">
               <img
-                src="https://res.cloudinary.com/bizstak/image/upload/v1684432433/section-2_chabbw.png"
+                src='/images/market-access/section-2.png'
+                //src="https://res.cloudinary.com/bizstak/image/upload/v1684432433/section-2_chabbw.png"
                 alt="Banner Dots"
                 aria-hidden="true"
                 className="header__banner-dots-right d-lg-block d-none"

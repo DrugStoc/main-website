@@ -26,15 +26,17 @@ const Partnerships = () => {
             </div>
             <div className="col-lg-5">
               <img
-                src="https://res.cloudinary.com/bizstak/image/upload/v1684432694/banner_1_qi5elw.png"
-                alt="Woman Smiling"
+                src='/images/partnerships/banner.png'
+                //src="https://res.cloudinary.com/bizstak/image/upload/v1684432694/banner_1_qi5elw.png"
+                alt="hand shake illustratioln"
                 loading="eager"
                 className="w-100 d-lg-block d-none"
               />
             </div>
           </div>
           <img
-            src="https://res.cloudinary.com/bizstak/image/upload/v1684239802/banner-dots_stl7x6.png"
+            src='/images/landing/dotvector1.png'
+            //src="https://res.cloudinary.com/bizstak/image/upload/v1684239802/banner-dots_stl7x6.png"
             alt="Banner dots"
             aria-hidden="true"
             className="header__banner-dots-right d-lg-block d-none"
@@ -91,7 +93,8 @@ const Partnerships = () => {
         <GetInTouch>
           <div className="d-block d-lg-flex flex-wrap justify-content-center">
             <img
-              src="https://res.cloudinary.com/bizstak/image/upload/v1684432815/section-2_1_tg0fcz.png"
+            src='/images/partnerships/section-2.png'
+              //src="https://res.cloudinary.com/bizstak/image/upload/v1684432815/section-2_1_tg0fcz.png"
               alt="a contact support person at her office at DrugStoc wearing a black nose mask"
             />
             <div className="content">

@@ -42,7 +42,8 @@ const DrugStocCredit = () => {
             </div>
             <div className="col-lg-5">
               <img
-                src="https://res.cloudinary.com/bizstak/image/upload/v1684243495/banner_llxztw.png"
+                src='/images/stoc-credit/banner.png'
+                //src="https://res.cloudinary.com/bizstak/image/upload/v1684243495/banner_llxztw.png"
                 alt="Phone Spinning"
                 loading="eager"
                 className="w-100 d-lg-block d-none"
@@ -50,7 +51,9 @@ const DrugStocCredit = () => {
             </div>
           </div>
           <img
-            src="https://res.cloudinary.com/bizstak/image/upload/v1684239802/banner-dots_stl7x6.png"
+          
+            src='/images/landing/dotvector1.png'
+            //src="https://res.cloudinary.com/bizstak/image/upload/v1684239802/banner-dots_stl7x6.png"
             alt="Banner dots"
             aria-hidden="true"
             className="header__banner-dots-right d-lg-block d-none"
@@ -106,7 +109,8 @@ const DrugStocCredit = () => {
           </div>
           <div className="col-lg-4" style={{ marginLeft: "160px" }} >
             <img
-                src="https://res.cloudinary.com/bizstak/image/upload/v1684432164/credit_ajbcq2.png"
+                src='/images/stoc-credit/credit.png'
+                //src="https://res.cloudinary.com/bizstak/image/upload/v1684432164/credit_ajbcq2.png"
                 alt="drugstoc mobile ecommerce app ui"
             />
             </div>

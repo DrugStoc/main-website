@@ -40,14 +40,16 @@ const Careers = () => {
             </div>
           </div>
           <img
-            src="https://res.cloudinary.com/bizstak/image/upload/v1684431969/banner_jiwfet.png"
+            src='/images/careers/pictures/careerpagepic1.png'
+            //src="https://res.cloudinary.com/bizstak/image/upload/v1684431969/banner_jiwfet.png"
             alt="Picture of the author"
             loading="eager"
             className="banner d-lg-block d-none"
           />
         </div>
         <img
-          src="https://res.cloudinary.com/bizstak/image/upload/v1684239802/banner-dots_stl7x6.png"
+         src='/images/landing/dotvector1.png'
+          //src="https://res.cloudinary.com/bizstak/image/upload/v1684239802/banner-dots_stl7x6.png"
           alt="Banner dots"
           aria-hidden="true"
           className="header__banner-dots-right d-lg-block d-none"
@@ -81,7 +83,8 @@ const Careers = () => {
           </div>
 
           <img
-            src="https://res.cloudinary.com/bizstak/image/upload/v1684242847/Image-5_hmnvh4.png"
+          src='/images/careers/pictures/careerpagepic2.png'
+            //src="https://res.cloudinary.com/bizstak/image/upload/v1684242847/Image-5_hmnvh4.png"
             alt="group photo for drugstoc"
             className="banner"
           />
