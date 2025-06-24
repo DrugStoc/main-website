@@ -36,7 +36,9 @@ const ProcureDirect = () => {
             </div>
             <div className="col-lg-5">
               <img
-                src="https://res.cloudinary.com/bizstak/image/upload/v1684435030/banner_2_e8iq3h.png"
+               src='/images/procure-direct/pictures/pd1.png'
+               
+                //src="https://res.cloudinary.com/bizstak/image/upload/v1684435030/banner_2_e8iq3h.png"
                 alt="Phone Spinning"
                 loading="eager"
                 className="w-100 d-lg-block d-none banner"
@@ -44,7 +46,8 @@ const ProcureDirect = () => {
             </div>
           </div>
           <img
-            src="https://res.cloudinary.com/bizstak/image/upload/v1684239802/banner-dots_stl7x6.png"
+          src='/images/landing/dotvector1.png'
+            //src="https://res.cloudinary.com/bizstak/image/upload/v1684239802/banner-dots_stl7x6.png"
             alt="Banner dots"
             aria-hidden="true"
             className="header__banner-dots-right d-lg-block d-none"
@@ -56,7 +59,8 @@ const ProcureDirect = () => {
           <div className="row align-items-center justify-content-between">
             <div className="col-lg-5">
               <img
-                src="https://res.cloudinary.com/bizstak/image/upload/v1684434886/supply_e6qfeg.png"
+                 src='/images/procure-direct/pictures/pd2.png'
+                //src="https://res.cloudinary.com/bizstak/image/upload/v1684434886/supply_e6qfeg.png"
                 alt=" Forward thinking solutions"
                 className="mb-3 mb-lg-0"
               />
@@ -87,7 +91,8 @@ const ProcureDirect = () => {
             </div>{' '}
             <div className="col-lg-5 order-1 order-lg-2">
               <img
-                src="https://res.cloudinary.com/bizstak/image/upload/v1684434961/section-2_2_muzguo.png"
+                 src='/images/procure-direct/pictures/pd3.png'
+                //src="https://res.cloudinary.com/bizstak/image/upload/v1684434961/section-2_2_muzguo.png"
                 alt=" Forward thinking solutions"
                 className="d-block mb-3 mb-lg-0"
               />
@@ -100,7 +105,8 @@ const ProcureDirect = () => {
           <div className="row align-items-center justify-content-between">
             <div className="col-lg-5">
               <img
-                src="https://res.cloudinary.com/bizstak/image/upload/v1684434886/supply_e6qfeg.png"
+                src='/images/procure-direct/pictures/pd4.png'
+                //src="https://res.cloudinary.com/bizstak/image/upload/v1684434886/supply_e6qfeg.png"
                 alt=" Forward thinking solutions"
                 className="d-block mb-3 mb-lg-0"
               />

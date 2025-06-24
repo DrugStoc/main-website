@@ -69,7 +69,12 @@ export const CoreValueSection = () => (
         </div>
       </div>
       <div className="core__values-image">
-        <img src="https://res.cloudinary.com/bizstak/image/upload/v1684238899/Image-3_dweyhx.png" alt="a nurse in blue smiling" />
+        <img 
+        src='/images/about-us/pictures/aboutpic3.png'
+        //src="https://res.cloudinary.com/bizstak/image/upload/v1684238899/Image-3_dweyhx.png" 
+        alt="a nurse in blue smiling" 
+
+        />
       </div>
     </div>
   </CoreValues>
@@ -166,9 +171,9 @@ const CoreValues = styled.section`
       }
       img {
         width: 100%;
-        /* height: 100%; */
-        /* object-fit: cover; */
-        object-fit: contain;
+        height: 100%;
+        object-fit: cover;
+        object-position: bottom;
       }
     }
   }
