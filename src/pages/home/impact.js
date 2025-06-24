@@ -9,7 +9,8 @@ const impact = () => {
           <div className="col-lg-3 mb-3 mb-lg-0" data-aos="fade-up">
             <h4>
               <img
-                src="https://res.cloudinary.com/bizstak/image/upload/v1684246902/9m_erunee.svg"
+                src='/images/landing/ourimpact/imp1.png'
+                //src="https://res.cloudinary.com/bizstak/image/upload/v1684246902/9m_erunee.svg"
                 alt="drugs in a bottle icon"
               />{' '}
               22M+
@@ -23,7 +24,8 @@ const impact = () => {
           <div className="col-lg-3 mb-3 mb-lg-0" data-aos="fade-up">
             <h4>
               <img
-                src="https://res.cloudinary.com/bizstak/image/upload/v1684246932/3k_a0j7dy.svg"
+                src='/images/landing/ourimpact/imp2.png'
+                //src="https://res.cloudinary.com/bizstak/image/upload/v1684246932/3k_a0j7dy.svg"
                 alt="patient pulse while receiving treatment icon"
               />{' '}
               4000+
@@ -34,7 +36,8 @@ const impact = () => {
           <div className="col-lg-3 mb-3 mb-lg-0" data-aos="fade-up">
             <h4>
               <img
-                src="https://res.cloudinary.com/bizstak/image/upload/v1684247016/70k_blyh94.svg"
+                src='/images/landing/ourimpact/imp3.png'
+                //src="https://res.cloudinary.com/bizstak/image/upload/v1684247016/70k_blyh94.svg"
                 alt="first aid kit box/bag icon"
               />{' '}
               7000+
@@ -45,7 +48,8 @@ const impact = () => {
           <div className="col-lg-3 mb-3 mb-lg-0" data-aos="fade-up">
             <h4>
               <img
-                src="https://res.cloudinary.com/bizstak/image/upload/v1684246962/20m_w2zejk.svg"
+                src='/images/landing/ourimpact/imp4.png'
+                //src="https://res.cloudinary.com/bizstak/image/upload/v1684246962/20m_w2zejk.svg"
                 alt="hospital icon"
               />{' '}
               2M+

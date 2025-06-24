@@ -37,7 +37,8 @@ const Hero = () => {
   return (
     <Header>
       <img
-        src="https://res.cloudinary.com/bizstak/image/upload/v1684239802/banner-dots_stl7x6.png"
+        src='/images/landing/dotvector1.png'
+        //src="https://res.cloudinary.com/bizstak/image/upload/v1684239802/banner-dots_stl7x6.png"
         alt="Banner dots"
         aria-hidden="true"
         className="header__banner-dots-left"
@@ -70,11 +71,18 @@ const Hero = () => {
                 rel="noopener noreferrer"
                 data-aos="zoom-out-up"
               >
-                <img
+                {/* <img
+                  
                   src="https://res.cloudinary.com/bizstak/image/upload/v1684244266/google-play-alt_urfsrl.svg"
                   alt="google play"
                   className="logo"
-                />
+                /> */}
+                  <img
+                      src='/images/landing/get_play_store.png'
+                      //src="https://res.cloudinary.com/bizstak/image/upload/v1684244266/google-play-alt_urfsrl.svg"
+                      alt="google play store icon"
+                      className="logo"
+                    />
               </a>
               <a
                 href="https://apps.apple.com/ng/app/drugstoc-mobile/id1467205425"
@@ -82,11 +90,18 @@ const Hero = () => {
                 rel="noopener noreferrer"
                 data-aos="zoom-out-up"
               >
-                <img
+                {/* <img
                   src="https://res.cloudinary.com/bizstak/image/upload/v1684244274/app-store-alt_sc7dml.svg"
                   alt="app store"
                   className="logo"
-                />
+                  style={{height:"50%", width:"50%"}}
+                /> */}
+                <img
+                      src='/images/landing/get_app_store.png'
+                      //src="https://res.cloudinary.com/bizstak/image/upload/v1684244274/app-store-alt_sc7dml.svg"
+                      alt="app store icon"
+                      className="logo"
+                    />
               </a>
             </div>
 
@@ -94,7 +109,8 @@ const Hero = () => {
               <StackedAvatar width="100" />{' '}
               <div className="ml-2">
                 <img
-                  src="https://res.cloudinary.com/bizstak/image/upload/v1684247082/stars_g4klpd.svg"
+                  src='/images/landing/herostarrating.png'
+                  //src="https://res.cloudinary.com/bizstak/image/upload/v1684247082/stars_g4klpd.svg"
                   width="90"
                   alt="stacked avatar pictures of doctors"
                 />
@@ -111,7 +127,8 @@ const Hero = () => {
         </div>
         <div className="banner d-lg-block d-none">
           <img
-            src="https://res.cloudinary.com/bizstak/image/upload/v1684239587/banner_uhxkbs.png"
+            src='/images/landing/Heroimage.png'
+            // src="https://res.cloudinary.com/bizstak/image/upload/v1684239587/banner_uhxkbs.png"
             alt="A Doctor Holding a Paper"
             // layout="responsive"
             width="auto"
@@ -123,7 +140,8 @@ const Hero = () => {
         </div>
       </div>
       <img
-        src="https://res.cloudinary.com/bizstak/image/upload/v1684239802/banner-dots_stl7x6.png"
+        src='/images/landing/dotvector2.png'
+        //src="https://res.cloudinary.com/bizstak/image/upload/v1684239802/banner-dots_stl7x6.png"
         alt="Banner dots"
         aria-hidden="true"
         loading="lazy"
