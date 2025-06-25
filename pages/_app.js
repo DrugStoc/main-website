@@ -112,7 +112,7 @@ class MyApp extends App {
           }}
           mobileAlternate={{
             media: 'only screen and (max-width: 640px)',
-            href: 'https://m.drugstoc.com',
+            href: 'https://drugstoc.com',
           }}
         >
           <meta content="width=device-width, initial-scale=1" name="viewport" />
