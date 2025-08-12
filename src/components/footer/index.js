@@ -160,14 +160,8 @@ const Footer = () => {
             <h5>Contact Us</h5>
             <ul className="list-unstyled quick-links">
               <li>
-                <a
-                  href="tel:+234(0)1 7005571"
-                  aria-label="Navigate To Google maps"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  +234(0)1 7005571
-                </a>
+              <a href="https://wa.me/2348036879999" target="_blank"> +234(0)1 7005571</a>
+  
               </li>
               <li>
                 <a
