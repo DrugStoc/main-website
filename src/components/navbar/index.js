@@ -54,7 +54,7 @@ const NavbarLayout = () => {
           <Link href="/">
             <a className="navbar-brand">
               <img
-                src="https://app.drugstoc.com/static/media/logo.9ae7f9ae7a465a103859.png"
+                src="/DSLogo.png"
                 width={100}
                 height={20}
                 alt="drugstoc logo"
@@ -272,14 +272,50 @@ const NavbarLayout = () => {
               </NavLink>
             </Nav>
             <Nav className="ml-auto">
-              <Nav.Link
-                href="https://app.drugstoc.com"
-                target="_blank"
-                rel="nopener noreferrer"
-                className="nav-button"
-              >
-                SHOP ON WEB
-              </Nav.Link>
+            
+              <Dropdown>
+  <Dropdown.Toggle className="toggle_blue">
+    <span className="nav-link nav-button">SHOP ON WEB</span>
+  </Dropdown.Toggle>
+
+  <Dropdown.Menu className="qr-dropdown">
+    <div className="text-center p-3">
+      <h5>Scan to download our app</h5>
+      <a 
+        href="https://drugstoc.com/app-download" 
+        target="_blank" 
+        rel="noopener noreferrer"
+      >
+        <img 
+          src="/app-qr-code.png" 
+          alt="DrugStoc App QR Code" 
+          width="150" 
+          height="150"
+          className="my-2"
+        />
+      </a>
+      <p className="small text-muted mb-2">Scan with your phone camera</p>
+      <div className="d-flex justify-content-center gap-3">
+        <a 
+          href="https://play.google.com/store/apps/details?id=com.drugstoc.app" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="btn btn-sm btn-outline-primary"
+        >
+          Android
+        </a>
+        <a 
+          href="https://apps.apple.com/ng/app/drugstoc-mobile/id1467205425" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="btn btn-sm btn-outline-primary"
+        >
+          iOS
+        </a>
+      </div>
+    </div>
+  </Dropdown.Menu>
+</Dropdown>
 
               <Dropdown>
                 <Dropdown.Toggle className="toggle_blue">

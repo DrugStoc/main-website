@@ -1,5 +1,7 @@
+
 @charset "UTF-8";
  @import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css");
+ @import "tailwindcss";
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -10540,3 +10542,4 @@ body {
   width: 100%;
   text-align: right;
 }/*# sourceMappingURL=index.css.map */
+
