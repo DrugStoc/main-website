@@ -287,7 +287,7 @@ const NavbarLayout = () => {
         rel="noopener noreferrer"
       >
         <img 
-          src="/app-qr-code.png" 
+          src="/qrcode.png" 
           alt="DrugStoc App QR Code" 
           width="150" 
           height="150"
