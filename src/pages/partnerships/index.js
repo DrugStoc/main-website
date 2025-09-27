@@ -4,8 +4,21 @@ import ScrollAnimation from 'react-animate-on-scroll';
 import { partners } from 'pages/home/data';
 import { investors } from 'pages/about-us/data';
 import PartnershipMetadata from 'components/meta/partnership';
+import PartnerPills from 'components/PartnershipPills';
+import GoodPillSection from 'components/GoodPillSection';
+import { useState } from 'react';
+import { ArrowRight } from 'react-bootstrap-icons';
 
 const Partnerships = () => {
+  const [hovered, setHovered] = useState(null);
+
+  const options = [
+    'Pharmacy',
+    'HMO',
+    'Private Investor',
+    'Health Facility',
+    'Independent Agent',
+  ];
   return (
     <div>
       <PartnershipMetadata />
@@ -23,10 +36,11 @@ const Partnerships = () => {
                 similar vision to increase access to affordable and genuine
                 medications in emerging Economies.
               </p>
+              <PartnerPills />
             </div>
             <div className="col-lg-5">
               <img
-                src='/images/partnerships/banner.png'
+                src="/images/partnerships/banner.png"
                 //src="https://res.cloudinary.com/bizstak/image/upload/v1684432694/banner_1_qi5elw.png"
                 alt="hand shake illustratioln"
                 loading="eager"
@@ -35,7 +49,7 @@ const Partnerships = () => {
             </div>
           </div>
           <img
-            src='/images/landing/dotvector1.png'
+            src="/images/landing/dotvector1.png"
             //src="https://res.cloudinary.com/bizstak/image/upload/v1684239802/banner-dots_stl7x6.png"
             alt="Banner dots"
             aria-hidden="true"
@@ -45,7 +59,7 @@ const Partnerships = () => {
       </Header>
 
       <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut" duration={0.8}>
-        <PartnershipsSection theme="#fff">
+        {/* <PartnershipsSection theme="#fff">
           <div className="container">
             <div className="row align-items-center justify-content-center m-auto">
               <div className="col-lg-10 text-center">
@@ -64,7 +78,9 @@ const Partnerships = () => {
               </div>
             </div>
           </div>
-        </PartnershipsSection>
+        </PartnershipsSection> */}
+
+        <GoodPillSection />
       </ScrollAnimation>
 
       <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut" duration={0.6}>
@@ -93,20 +109,67 @@ const Partnerships = () => {
         <GetInTouch>
           <div className="d-block d-lg-flex flex-wrap justify-content-center">
             <img
-            src='/images/partnerships/section-2.png'
+              src="/images/partnerships/section-2.png"
               //src="https://res.cloudinary.com/bizstak/image/upload/v1684432815/section-2_1_tg0fcz.png"
               alt="a contact support person at her office at DrugStoc wearing a black nose mask"
             />
             <div className="content">
               <div>
-                <h4>Get in touch</h4>
+                <h4>With The GoodPill Project</h4>
+                <p>Pharmacies become frontline health managers</p>
                 <p>
-                  We welcome all enquiries from partners with <br /> a mutual
-                  mission.
+                  They can verify patient eligibility, manage affordable
+                  programs, and share insights that lead to better health
+                  policie
                 </p>
-                <Link href="/contact" passHref>
-                  <a className="btn btn-drug-stoc">Contact Us</a>
-                </Link>
+                <p
+                  className="text-muted fw-semibold mb-4"
+                  style={{ fontSize: '1.1rem' }}
+                >
+                  I want to <span className="text-success">partner</span> as a:
+                </p>
+
+                {/* Pills */}
+                <div className="d-flex flex-wrap gap-3" style={{ gap: 10 }}>
+                  {options.map(option => {
+                    const isHovered = hovered === option;
+
+                    return (
+                      <a
+                        key={option}
+                        href="#"
+                        className="d-flex align-items-center gap-2 px-4 py-2 rounded-pill border border-success fw-bold text-decoration-none small"
+                        style={{
+                          zIndex: 10,
+                          color: isHovered ? '#fff' : '#28a745',
+                          background: isHovered
+                            ? 'linear-gradient(90deg,#28a745,#20c997)'
+                            : 'transparent',
+                          boxShadow: isHovered
+                            ? '0 4px 10px rgba(0,0,0,0.15)'
+                            : 'none',
+                          transform: isHovered
+                            ? 'translateY(-3px) scale(1.05)'
+                            : 'none',
+                          transition: 'all 0.25s ease',
+                        }}
+                        onMouseEnter={() => setHovered(option)}
+                        onMouseLeave={() => setHovered(null)}
+                      >
+                        {option}
+                        <ArrowRight
+                          size={14}
+                          style={{
+                            transform: isHovered
+                              ? 'translateX(6px)'
+                              : 'translateX(2px)',
+                            transition: 'all 0.25s ease',
+                          }}
+                        />
+                      </a>
+                    );
+                  })}
+                </div>
               </div>
             </div>
           </div>
@@ -117,15 +180,16 @@ const Partnerships = () => {
 };
 
 const Header = styled.header`
-  height: 710px;
+  height: fit-content;
   display: flex;
   align-items: center;
   position: relative;
   background: #fff8f0;
+  padding: 8rem 0;
   @media (max-width: 992px) {
-    height: 600px;
+    height: fit-content;
     display: block;
-    padding: 8rem 0 0;
+    padding: 8rem 0;
   }
 
   h1 {
@@ -336,6 +400,9 @@ const ProvidersSection = styled.section`
 
 const GetInTouch = styled.section`
   height: 650px;
+  .content {
+    padding-right: 4rem !important;
+  }
   @media (max-width: 992px) {
     height: 100%;
     min-height: 500px;
@@ -343,6 +410,7 @@ const GetInTouch = styled.section`
     .content {
       height: 100%;
       width: 100%;
+      padding-right: 0rem !important;
       flex: 0 0 100% !important;
       max-width: 100% !important;
       > div {
