@@ -14,7 +14,7 @@ const GoodPillSection = () => {
   ];
 
   return (
-    <section className="position-relative" style={{ paddingTop: '5rem' }}>
+    <section className="position-relative" style={{ paddingTop: '7rem' }}>
       {/* Background watermark */}
       <div
         className="position-absolute top-0 start-0"
@@ -37,7 +37,7 @@ const GoodPillSection = () => {
         <div className="row align-items-center">
           {/* LEFT – Text & CTA */}
           <div className="col-lg-6 mb-5 mb-lg-0" style={{ gap: 10 }}>
-            <h2 className="fw-bold mb-5" style={{ fontSize: '2.25rem' }}>
+            <h2 className="fw-bold " style={{ fontSize: '2.25rem' }}>
               The{' '}
               <span
                 style={{
@@ -48,15 +48,14 @@ const GoodPillSection = () => {
               >
                 GoodPill Project
               </span>{' '}
-              is a digital health network
+              is
             </h2>
-
             <p className="text-muted lead">
-              that removes barriers to care, making genuine medicines easier to
-              reach for everyone, everywhere.
+              a digital health network that removes barriers to care, making
+              genuine medicines easier to reach for everyone, everywhere.
             </p>
 
-            <p className="fw-semibold text-dark mb-5">
+            <p className="text-muted lead mb-5">
               DrugStoc is changing the narrative of how medicines reach those
               who need them with The GoodPill Project.
             </p>
@@ -111,7 +110,12 @@ const GoodPillSection = () => {
                 return (
                   <a
                     key={option}
-                    href="#"
+                    target="_blank"
+                    href={
+                      index
+                        ? 'https://wa.link/4jcx5q'
+                        : 'https://thegoodpillproject.org/pharmacy-register'
+                    }
                     className="px-4 py-2 rounded-pill border border-success fw-bold text-decoration-none small"
                     style={{
                       color: isHovered || isHighlighted ? '#fff' : '#28a745',
