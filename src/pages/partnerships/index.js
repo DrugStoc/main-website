@@ -40,7 +40,7 @@ const Partnerships = () => {
             </div>
             <div className="col-lg-5">
               <img
-                src="/images/partnerships/banner.png"
+                src="/images/Goodpilll.svg"
                 //src="https://res.cloudinary.com/bizstak/image/upload/v1684432694/banner_1_qi5elw.png"
                 alt="hand shake illustratioln"
                 loading="eager"
@@ -109,14 +109,17 @@ const Partnerships = () => {
         <GetInTouch>
           <div className="d-block d-lg-flex flex-wrap justify-content-center">
             <img
-              src="/images/partnerships/section-2.png"
+              src="/images/partnership.jpg"
               //src="https://res.cloudinary.com/bizstak/image/upload/v1684432815/section-2_1_tg0fcz.png"
               alt="a contact support person at her office at DrugStoc wearing a black nose mask"
             />
             <div className="content">
               <div>
-                <h4>With The GoodPill Project</h4>
-                <p>Pharmacies become frontline health managers</p>
+                <h4>
+                  With The GoodPill Project Pharmacies become frontline health
+                  managers
+                </h4>
+
                 <p>
                   They can verify patient eligibility, manage affordable
                   programs, and share insights that lead to better health
@@ -131,13 +134,18 @@ const Partnerships = () => {
 
                 {/* Pills */}
                 <div className="d-flex flex-wrap gap-3" style={{ gap: 10 }}>
-                  {options.map(option => {
+                  {options.map((option, index) => {
                     const isHovered = hovered === option;
 
                     return (
                       <a
                         key={option}
-                        href="#"
+                        target="_blank"
+                        href={
+                          index
+                            ? 'https://wa.link/4jcx5q'
+                            : 'https://thegoodpillproject.org/pharmacy-register'
+                        }
                         className="d-flex align-items-center gap-2 px-4 py-2 rounded-pill border border-success fw-bold text-decoration-none small"
                         style={{
                           zIndex: 10,
