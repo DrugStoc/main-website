@@ -4,13 +4,13 @@ const AppCard = () => {
   return (
     <BackdropWrapper>
       <img
-        src='/images/landing/Ellipse1.png'
+        src="/images/landing/Ellipse1.png"
         //src="https://res.cloudinary.com/bizstak/image/upload/v1684244211/backdrop1_rv1tv9.png"
         alt="static ripple background"
         className="backdrop d-lg-block d-none"
       />
       <img
-        src='/images/landing/Ellipse.png'
+        src="/images/landing/Ellipse.png"
         //src="https://res.cloudinary.com/bizstak/image/upload/v1684244250/backdrop2_ohofvj.png"
         alt="static ripple background"
         className="backdrop2 d-lg-block d-none"
@@ -46,7 +46,7 @@ const AppCard = () => {
                     data-aos="zoom-out-up"
                   >
                     <img
-                      src='/images/landing/get_play_store.png'
+                      src="/images/landing/get_play_store.png"
                       //src="https://res.cloudinary.com/bizstak/image/upload/v1684244266/google-play-alt_urfsrl.svg"
                       alt="google play store icon"
                       className="logo"
@@ -59,7 +59,7 @@ const AppCard = () => {
                     data-aos="zoom-out-up"
                   >
                     <img
-                      src='/images/landing/get_app_store.png'
+                      src="/images/landing/get_app_store.png"
                       //src="https://res.cloudinary.com/bizstak/image/upload/v1684244274/app-store-alt_sc7dml.svg"
                       alt="app store icon"
                       className="logo"
@@ -87,9 +87,8 @@ const MobileBanner = styled.div`
   @media (max-width: 992px) {
     display: block;
     text-align: center;
- 
-    position: relative;
 
+    position: relative;
   }
   img {
     width: 100%;

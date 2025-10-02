@@ -111,6 +111,7 @@ const GoodPillSection = () => {
                   <a
                     key={option}
                     target="_blank"
+                    rel="noopener noreferrer"
                     href={
                       index
                         ? 'https://wa.link/4jcx5q'

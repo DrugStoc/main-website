@@ -1,29 +1,28 @@
-import { ImFacebook2 } from 'react-icons/im'
-import { AiOutlineLinkedin } from 'react-icons/ai'
-import { IoLogoInstagram } from 'react-icons/io'
+import { ImFacebook2 } from 'react-icons/im';
+import { AiOutlineLinkedin } from 'react-icons/ai';
+import { IoLogoInstagram } from 'react-icons/io';
 
-
-const size = 25
-const fill = 'white'
+const size = 25;
+const fill = 'white';
 export const teams = [
   {
     name: 'Facebook',
-    role: '',
+    role: ' ',
     link: 'https://web.facebook.com/profile.php?id=100021606439094',
-    image: <ImFacebook2 size={size} fill={fill} />
+    image: <ImFacebook2 size={size} fill={fill} />,
   },
   {
     name: 'Instagram',
     role: '',
     link: 'https://www.instagram.com/drugstoc/',
-    image: <IoLogoInstagram size={size} fill={fill} />
+    image: <IoLogoInstagram size={size} fill={fill} />,
   },
   {
     name: 'Linked In ',
     role: '',
     link: 'https://www.linkedin.com/company/drugstoc/',
-    image: <AiOutlineLinkedin size={size} fill={fill} />
-  }
+    image: <AiOutlineLinkedin size={size} fill={fill} />,
+  },
 ];
 
 export const investors = [
