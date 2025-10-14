@@ -123,7 +123,7 @@ const Partnerships = () => {
                 <p>
                   They can verify patient eligibility, manage affordable
                   programs, and share insights that lead to better health
-                  policie
+                  policies
                 </p>
                 <p
                   className="text-muted fw-semibold mb-4"
